@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "type": "Ravnina"
+    },
+    {
+        "id": 2,
+        "type": "Pobočje"
+    },
+    {
+        "id": 3,
+        "type": "Kotanja"
+    }
+]

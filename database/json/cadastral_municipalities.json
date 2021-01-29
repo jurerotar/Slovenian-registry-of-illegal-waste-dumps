@@ -1,0 +1,10794 @@
+[
+    {
+        "id": 1,
+        "name": "Hodoš"
+    },
+    {
+        "id": 2,
+        "name": "Suhi vrh"
+    },
+    {
+        "id": 3,
+        "name": "Dolenci"
+    },
+    {
+        "id": 4,
+        "name": "Budinci"
+    },
+    {
+        "id": 5,
+        "name": "Markovci"
+    },
+    {
+        "id": 6,
+        "name": "Čepinci"
+    },
+    {
+        "id": 7,
+        "name": "Lucova"
+    },
+    {
+        "id": 8,
+        "name": "Neradnovci"
+    },
+    {
+        "id": 9,
+        "name": "Martinje"
+    },
+    {
+        "id": 10,
+        "name": "Boreča"
+    },
+    {
+        "id": 11,
+        "name": "Ženavlje"
+    },
+    {
+        "id": 12,
+        "name": "Šulinci"
+    },
+    {
+        "id": 13,
+        "name": "Stanjevci"
+    },
+    {
+        "id": 14,
+        "name": "Gornji petrovci"
+    },
+    {
+        "id": 15,
+        "name": "Adrijanci"
+    },
+    {
+        "id": 16,
+        "name": "Peskovci"
+    },
+    {
+        "id": 17,
+        "name": "Šalovci"
+    },
+    {
+        "id": 18,
+        "name": "Krplivnik"
+    },
+    {
+        "id": 19,
+        "name": "Domanjševci"
+    },
+    {
+        "id": 20,
+        "name": "Križevci"
+    },
+    {
+        "id": 21,
+        "name": "Panovci"
+    },
+    {
+        "id": 22,
+        "name": "Kukeč"
+    },
+    {
+        "id": 23,
+        "name": "Trdkova"
+    },
+    {
+        "id": 24,
+        "name": "Matjaševci"
+    },
+    {
+        "id": 25,
+        "name": "Dolič"
+    },
+    {
+        "id": 26,
+        "name": "Kuzma"
+    },
+    {
+        "id": 27,
+        "name": "Gornji slaveči"
+    },
+    {
+        "id": 28,
+        "name": "Sotina"
+    },
+    {
+        "id": 29,
+        "name": "Serdica"
+    },
+    {
+        "id": 30,
+        "name": "Ocinje"
+    },
+    {
+        "id": 31,
+        "name": "Kramarovci"
+    },
+    {
+        "id": 32,
+        "name": "Nuskova"
+    },
+    {
+        "id": 33,
+        "name": "Rogašovci"
+    },
+    {
+        "id": 34,
+        "name": "Sveti jurij"
+    },
+    {
+        "id": 35,
+        "name": "Fikšinci"
+    },
+    {
+        "id": 36,
+        "name": "Večeslavci"
+    },
+    {
+        "id": 37,
+        "name": "Dolnji slaveči"
+    },
+    {
+        "id": 38,
+        "name": "Grad"
+    },
+    {
+        "id": 39,
+        "name": "Vidonci"
+    },
+    {
+        "id": 40,
+        "name": "Otovci"
+    },
+    {
+        "id": 41,
+        "name": "Mačkovci"
+    },
+    {
+        "id": 42,
+        "name": "Prosečka vas"
+    },
+    {
+        "id": 43,
+        "name": "Kovačevci"
+    },
+    {
+        "id": 44,
+        "name": "Poznanovci"
+    },
+    {
+        "id": 45,
+        "name": "Radovci"
+    },
+    {
+        "id": 46,
+        "name": "Kruplivnik"
+    },
+    {
+        "id": 47,
+        "name": "Motovilci"
+    },
+    {
+        "id": 48,
+        "name": "Pertoča"
+    },
+    {
+        "id": 49,
+        "name": "Ropoča"
+    },
+    {
+        "id": 50,
+        "name": "Gerlinci"
+    },
+    {
+        "id": 51,
+        "name": "Krašči"
+    },
+    {
+        "id": 52,
+        "name": "Vadarci"
+    },
+    {
+        "id": 53,
+        "name": "Bodonci"
+    },
+    {
+        "id": 54,
+        "name": "Pečarovci"
+    },
+    {
+        "id": 55,
+        "name": "Dankovci"
+    },
+    {
+        "id": 56,
+        "name": "Kuštanovci"
+    },
+    {
+        "id": 57,
+        "name": "Košarovci"
+    },
+    {
+        "id": 58,
+        "name": "Dolina"
+    },
+    {
+        "id": 59,
+        "name": "Moščanci"
+    },
+    {
+        "id": 60,
+        "name": "Vaneča"
+    },
+    {
+        "id": 61,
+        "name": "Šalamenci"
+    },
+    {
+        "id": 62,
+        "name": "Zenkovci"
+    },
+    {
+        "id": 64,
+        "name": "Beznovci"
+    },
+    {
+        "id": 65,
+        "name": "Topolovci"
+    },
+    {
+        "id": 66,
+        "name": "Domajinci"
+    },
+    {
+        "id": 67,
+        "name": "Gornji črnci"
+    },
+    {
+        "id": 68,
+        "name": "Korovci"
+    },
+    {
+        "id": 69,
+        "name": "Cankova"
+    },
+    {
+        "id": 70,
+        "name": "Skakovci"
+    },
+    {
+        "id": 71,
+        "name": "Strukovci"
+    },
+    {
+        "id": 72,
+        "name": "Puževci"
+    },
+    {
+        "id": 73,
+        "name": "Lemerje"
+    },
+    {
+        "id": 74,
+        "name": "Brezovci"
+    },
+    {
+        "id": 75,
+        "name": "Predanovci"
+    },
+    {
+        "id": 76,
+        "name": "Gorica"
+    },
+    {
+        "id": 77,
+        "name": "Puconci"
+    },
+    {
+        "id": 78,
+        "name": "Sebeborci"
+    },
+    {
+        "id": 79,
+        "name": "Bokrači"
+    },
+    {
+        "id": 80,
+        "name": "Krnci"
+    },
+    {
+        "id": 81,
+        "name": "Ivanovci"
+    },
+    {
+        "id": 82,
+        "name": "Kančevci"
+    },
+    {
+        "id": 83,
+        "name": "Lončarovci"
+    },
+    {
+        "id": 84,
+        "name": "Ratkovci"
+    },
+    {
+        "id": 85,
+        "name": "Berkovci"
+    },
+    {
+        "id": 86,
+        "name": "Ivanjševci"
+    },
+    {
+        "id": 87,
+        "name": "Središče"
+    },
+    {
+        "id": 88,
+        "name": "Prosenjakovci"
+    },
+    {
+        "id": 89,
+        "name": "Selo"
+    },
+    {
+        "id": 90,
+        "name": "Fokovci"
+    },
+    {
+        "id": 91,
+        "name": "Andrejci"
+    },
+    {
+        "id": 92,
+        "name": "Moravci"
+    },
+    {
+        "id": 93,
+        "name": "Tešanovci"
+    },
+    {
+        "id": 94,
+        "name": "Vučja gomila"
+    },
+    {
+        "id": 95,
+        "name": "Čikečka vas"
+    },
+    {
+        "id": 96,
+        "name": "Pordašinci"
+    },
+    {
+        "id": 97,
+        "name": "Motvarjevci"
+    },
+    {
+        "id": 98,
+        "name": "Bukovnica"
+    },
+    {
+        "id": 99,
+        "name": "Filovci"
+    },
+    {
+        "id": 100,
+        "name": "Bogojina"
+    },
+    {
+        "id": 101,
+        "name": "Ivanci"
+    },
+    {
+        "id": 102,
+        "name": "Mlajtinci"
+    },
+    {
+        "id": 103,
+        "name": "Lukačevci"
+    },
+    {
+        "id": 104,
+        "name": "Rakičan"
+    },
+    {
+        "id": 105,
+        "name": "Murska sobota"
+    },
+    {
+        "id": 106,
+        "name": "Noršinci"
+    },
+    {
+        "id": 107,
+        "name": "Martjanci"
+    },
+    {
+        "id": 108,
+        "name": "Nemčavci"
+    },
+    {
+        "id": 109,
+        "name": "Markišavci"
+    },
+    {
+        "id": 110,
+        "name": "Polana"
+    },
+    {
+        "id": 111,
+        "name": "Černelavci"
+    },
+    {
+        "id": 112,
+        "name": "Veščica"
+    },
+    {
+        "id": 113,
+        "name": "Kupšinci"
+    },
+    {
+        "id": 114,
+        "name": "Vanča vas"
+    },
+    {
+        "id": 115,
+        "name": "Rankovci"
+    },
+    {
+        "id": 116,
+        "name": "Borejci"
+    },
+    {
+        "id": 117,
+        "name": "Krajna"
+    },
+    {
+        "id": 118,
+        "name": "Gederovci"
+    },
+    {
+        "id": 119,
+        "name": "Sodišinci"
+    },
+    {
+        "id": 120,
+        "name": "Murski petrovci"
+    },
+    {
+        "id": 121,
+        "name": "Petanjci"
+    },
+    {
+        "id": 122,
+        "name": "Tišina"
+    },
+    {
+        "id": 123,
+        "name": "Tropovci"
+    },
+    {
+        "id": 124,
+        "name": "Gradišče"
+    },
+    {
+        "id": 125,
+        "name": "Murski črnci"
+    },
+    {
+        "id": 126,
+        "name": "Satahovci"
+    },
+    {
+        "id": 127,
+        "name": "Krog"
+    },
+    {
+        "id": 128,
+        "name": "Bakovci"
+    },
+    {
+        "id": 129,
+        "name": "Gančani"
+    },
+    {
+        "id": 130,
+        "name": "Lipa"
+    },
+    {
+        "id": 131,
+        "name": "Beltinci"
+    },
+    {
+        "id": 132,
+        "name": "Bratonci"
+    },
+    {
+        "id": 133,
+        "name": "Lipovci"
+    },
+    {
+        "id": 134,
+        "name": "Dokležovje"
+    },
+    {
+        "id": 135,
+        "name": "Ižakovci"
+    },
+    {
+        "id": 136,
+        "name": "Melinci"
+    },
+    {
+        "id": 137,
+        "name": "Odranci"
+    },
+    {
+        "id": 138,
+        "name": "Trnje v prekmurju"
+    },
+    {
+        "id": 139,
+        "name": "Žižki"
+    },
+    {
+        "id": 140,
+        "name": "Črenšovci"
+    },
+    {
+        "id": 141,
+        "name": "Gornja bistrica"
+    },
+    {
+        "id": 142,
+        "name": "Srednja bistrica"
+    },
+    {
+        "id": 143,
+        "name": "Dolnja bistrica"
+    },
+    {
+        "id": 144,
+        "name": "Kobilje"
+    },
+    {
+        "id": 145,
+        "name": "Žitkovci"
+    },
+    {
+        "id": 146,
+        "name": "Dobrovnik"
+    },
+    {
+        "id": 147,
+        "name": "Strehovci"
+    },
+    {
+        "id": 148,
+        "name": "Renkovci"
+    },
+    {
+        "id": 149,
+        "name": "Turnišče"
+    },
+    {
+        "id": 150,
+        "name": "Gomilica"
+    },
+    {
+        "id": 151,
+        "name": "Brezovica v prekmurju"
+    },
+    {
+        "id": 152,
+        "name": "Nedelica"
+    },
+    {
+        "id": 153,
+        "name": "Radmožanci"
+    },
+    {
+        "id": 154,
+        "name": "Kamovci"
+    },
+    {
+        "id": 155,
+        "name": "Genterovci"
+    },
+    {
+        "id": 156,
+        "name": "Mostje pri lendavi"
+    },
+    {
+        "id": 157,
+        "name": "Dolga vas pri lendavi"
+    },
+    {
+        "id": 158,
+        "name": "Banuta"
+    },
+    {
+        "id": 159,
+        "name": "Mala polana"
+    },
+    {
+        "id": 160,
+        "name": "Velika polana"
+    },
+    {
+        "id": 161,
+        "name": "Hotiza"
+    },
+    {
+        "id": 162,
+        "name": "Kapca"
+    },
+    {
+        "id": 163,
+        "name": "Kot pri muri"
+    },
+    {
+        "id": 164,
+        "name": "Gaberje"
+    },
+    {
+        "id": 165,
+        "name": "Lakoš"
+    },
+    {
+        "id": 166,
+        "name": "Lendava"
+    },
+    {
+        "id": 167,
+        "name": "Čentiba"
+    },
+    {
+        "id": 168,
+        "name": "Dolina pri lendavi"
+    },
+    {
+        "id": 169,
+        "name": "Petišovci"
+    },
+    {
+        "id": 170,
+        "name": "Pince"
+    },
+    {
+        "id": 171,
+        "name": "Vratji vrh"
+    },
+    {
+        "id": 172,
+        "name": "Vratja vas"
+    },
+    {
+        "id": 173,
+        "name": "Podgorje"
+    },
+    {
+        "id": 174,
+        "name": "Konjišče"
+    },
+    {
+        "id": 175,
+        "name": "Drobtinci"
+    },
+    {
+        "id": 176,
+        "name": "Grabe"
+    },
+    {
+        "id": 177,
+        "name": "Nasova"
+    },
+    {
+        "id": 178,
+        "name": "Žiberci"
+    },
+    {
+        "id": 179,
+        "name": "Žepovci"
+    },
+    {
+        "id": 180,
+        "name": "Črnci"
+    },
+    {
+        "id": 181,
+        "name": "Apače"
+    },
+    {
+        "id": 182,
+        "name": "Segovci"
+    },
+    {
+        "id": 183,
+        "name": "Lutverci"
+    },
+    {
+        "id": 184,
+        "name": "Gornja radgona"
+    },
+    {
+        "id": 186,
+        "name": "Mele"
+    },
+    {
+        "id": 187,
+        "name": "Črešnjevci"
+    },
+    {
+        "id": 188,
+        "name": "Police"
+    },
+    {
+        "id": 189,
+        "name": "Hercegovščak"
+    },
+    {
+        "id": 190,
+        "name": "Lomanoše"
+    },
+    {
+        "id": 191,
+        "name": "Plitvica"
+    },
+    {
+        "id": 192,
+        "name": "Plitvički vrh"
+    },
+    {
+        "id": 193,
+        "name": "Spodnja ščavnica"
+    },
+    {
+        "id": 194,
+        "name": "Lastomerci"
+    },
+    {
+        "id": 195,
+        "name": "Zbigovci"
+    },
+    {
+        "id": 196,
+        "name": "Orehovski vrh"
+    },
+    {
+        "id": 197,
+        "name": "Orehovci"
+    },
+    {
+        "id": 198,
+        "name": "Boračeva"
+    },
+    {
+        "id": 199,
+        "name": "Šratovci"
+    },
+    {
+        "id": 200,
+        "name": "Radenci"
+    },
+    {
+        "id": 201,
+        "name": "Rihtarovci"
+    },
+    {
+        "id": 202,
+        "name": "Kapelski vrh"
+    },
+    {
+        "id": 203,
+        "name": "Očeslavci"
+    },
+    {
+        "id": 204,
+        "name": "Janžev vrh"
+    },
+    {
+        "id": 205,
+        "name": "Stavešinci"
+    },
+    {
+        "id": 206,
+        "name": "Ivanjševci"
+    },
+    {
+        "id": 207,
+        "name": "Radvenci"
+    },
+    {
+        "id": 208,
+        "name": "Negova"
+    },
+    {
+        "id": 209,
+        "name": "Kunova"
+    },
+    {
+        "id": 210,
+        "name": "Gornji ivanjci"
+    },
+    {
+        "id": 211,
+        "name": "Spodnji ivanjci"
+    },
+    {
+        "id": 212,
+        "name": "Okoslavci"
+    },
+    {
+        "id": 213,
+        "name": "Dragotinci"
+    },
+    {
+        "id": 214,
+        "name": "Rožički vrh"
+    },
+    {
+        "id": 215,
+        "name": "Stanetinci"
+    },
+    {
+        "id": 216,
+        "name": "Hrašenski - rački vrh"
+    },
+    {
+        "id": 217,
+        "name": "Murščak"
+    },
+    {
+        "id": 218,
+        "name": "Hrastje-mota"
+    },
+    {
+        "id": 219,
+        "name": "Murski vrh"
+    },
+    {
+        "id": 220,
+        "name": "Selišči"
+    },
+    {
+        "id": 221,
+        "name": "Slaptinci"
+    },
+    {
+        "id": 222,
+        "name": "Jamna"
+    },
+    {
+        "id": 223,
+        "name": "Blaguš"
+    },
+    {
+        "id": 224,
+        "name": "Grabonoš"
+    },
+    {
+        "id": 225,
+        "name": "Kraljevci"
+    },
+    {
+        "id": 226,
+        "name": "Sovjak"
+    },
+    {
+        "id": 227,
+        "name": "Terbegovci"
+    },
+    {
+        "id": 228,
+        "name": "Galušak"
+    },
+    {
+        "id": 229,
+        "name": "Kokolajnščak"
+    },
+    {
+        "id": 230,
+        "name": "Vučja vas"
+    },
+    {
+        "id": 231,
+        "name": "Bučečovci"
+    },
+    {
+        "id": 232,
+        "name": "Stara nova vas"
+    },
+    {
+        "id": 233,
+        "name": "Bunčani"
+    },
+    {
+        "id": 234,
+        "name": "Veržej"
+    },
+    {
+        "id": 235,
+        "name": "Iljaševci"
+    },
+    {
+        "id": 236,
+        "name": "Križevci"
+    },
+    {
+        "id": 237,
+        "name": "Grlava"
+    },
+    {
+        "id": 238,
+        "name": "Krištanci"
+    },
+    {
+        "id": 239,
+        "name": "Krapje"
+    },
+    {
+        "id": 240,
+        "name": "Mota"
+    },
+    {
+        "id": 241,
+        "name": "Cven"
+    },
+    {
+        "id": 242,
+        "name": "Babinci"
+    },
+    {
+        "id": 243,
+        "name": "Noršinci"
+    },
+    {
+        "id": 244,
+        "name": "Lukavci"
+    },
+    {
+        "id": 245,
+        "name": "Ključarovci pri ljutomeru"
+    },
+    {
+        "id": 246,
+        "name": "Boreci"
+    },
+    {
+        "id": 247,
+        "name": "Logarovci"
+    },
+    {
+        "id": 248,
+        "name": "Precetinci"
+    },
+    {
+        "id": 249,
+        "name": "Kuršinci"
+    },
+    {
+        "id": 250,
+        "name": "Berkovci"
+    },
+    {
+        "id": 251,
+        "name": "Bolehnečici"
+    },
+    {
+        "id": 252,
+        "name": "Bučkovci"
+    },
+    {
+        "id": 253,
+        "name": "Drakovci"
+    },
+    {
+        "id": 254,
+        "name": "Moravci"
+    },
+    {
+        "id": 255,
+        "name": "Godemarci"
+    },
+    {
+        "id": 256,
+        "name": "Radoslavci"
+    },
+    {
+        "id": 257,
+        "name": "Branoslavci"
+    },
+    {
+        "id": 258,
+        "name": "Cezanjevci"
+    },
+    {
+        "id": 259,
+        "name": "Ljutomer"
+    },
+    {
+        "id": 260,
+        "name": "Kamenščak"
+    },
+    {
+        "id": 261,
+        "name": "Stara cesta"
+    },
+    {
+        "id": 262,
+        "name": "Desnjak"
+    },
+    {
+        "id": 263,
+        "name": "Mekotnjak"
+    },
+    {
+        "id": 264,
+        "name": "Radomerje"
+    },
+    {
+        "id": 265,
+        "name": "Gresovščak"
+    },
+    {
+        "id": 266,
+        "name": "Plešivica"
+    },
+    {
+        "id": 267,
+        "name": "Ilovci"
+    },
+    {
+        "id": 268,
+        "name": "Slamnjak"
+    },
+    {
+        "id": 269,
+        "name": "Rinčetova graba"
+    },
+    {
+        "id": 270,
+        "name": "Nunska graba"
+    },
+    {
+        "id": 271,
+        "name": "Presika"
+    },
+    {
+        "id": 272,
+        "name": "Stročja vas"
+    },
+    {
+        "id": 273,
+        "name": "Pristava"
+    },
+    {
+        "id": 274,
+        "name": "Globoka"
+    },
+    {
+        "id": 275,
+        "name": "Veščica"
+    },
+    {
+        "id": 276,
+        "name": "Razkrižje"
+    },
+    {
+        "id": 277,
+        "name": "Šafarsko"
+    },
+    {
+        "id": 278,
+        "name": "Gibina"
+    },
+    {
+        "id": 279,
+        "name": "Trnovci"
+    },
+    {
+        "id": 280,
+        "name": "Rucmanci"
+    },
+    {
+        "id": 281,
+        "name": "Rakovci"
+    },
+    {
+        "id": 282,
+        "name": "Savci"
+    },
+    {
+        "id": 283,
+        "name": "Tomaž"
+    },
+    {
+        "id": 284,
+        "name": "Mala vas"
+    },
+    {
+        "id": 285,
+        "name": "Bratonečice"
+    },
+    {
+        "id": 286,
+        "name": "Senik pri tomažu"
+    },
+    {
+        "id": 287,
+        "name": "Ključarovci pri ormožu"
+    },
+    {
+        "id": 288,
+        "name": "Koračice"
+    },
+    {
+        "id": 289,
+        "name": "Pršetinci"
+    },
+    {
+        "id": 290,
+        "name": "Lahonci"
+    },
+    {
+        "id": 291,
+        "name": "Žvab"
+    },
+    {
+        "id": 292,
+        "name": "Runeč"
+    },
+    {
+        "id": 293,
+        "name": "Stanovno"
+    },
+    {
+        "id": 294,
+        "name": "Ivanjkovci"
+    },
+    {
+        "id": 295,
+        "name": "Žerovinci"
+    },
+    {
+        "id": 296,
+        "name": "Cerovec stanka vraza"
+    },
+    {
+        "id": 297,
+        "name": "Veličane"
+    },
+    {
+        "id": 298,
+        "name": "Mihalovci"
+    },
+    {
+        "id": 299,
+        "name": "Mali brebrovnik"
+    },
+    {
+        "id": 300,
+        "name": "Veliki brebrovnik"
+    },
+    {
+        "id": 301,
+        "name": "Vinski vrh"
+    },
+    {
+        "id": 302,
+        "name": "Miklavž"
+    },
+    {
+        "id": 303,
+        "name": "Hermanci"
+    },
+    {
+        "id": 304,
+        "name": "Gomila"
+    },
+    {
+        "id": 305,
+        "name": "Kog"
+    },
+    {
+        "id": 306,
+        "name": "Vuzmetinci"
+    },
+    {
+        "id": 307,
+        "name": "Kajžar"
+    },
+    {
+        "id": 308,
+        "name": "Zasavci"
+    },
+    {
+        "id": 309,
+        "name": "Lačaves"
+    },
+    {
+        "id": 310,
+        "name": "Jastrebci"
+    },
+    {
+        "id": 311,
+        "name": "Vodranci"
+    },
+    {
+        "id": 312,
+        "name": "Vitan"
+    },
+    {
+        "id": 313,
+        "name": "Šalovci pri središču"
+    },
+    {
+        "id": 314,
+        "name": "Hum"
+    },
+    {
+        "id": 315,
+        "name": "Pavlovski vrh"
+    },
+    {
+        "id": 316,
+        "name": "Libanja"
+    },
+    {
+        "id": 317,
+        "name": "Pavlovci"
+    },
+    {
+        "id": 318,
+        "name": "Hardek"
+    },
+    {
+        "id": 319,
+        "name": "Litmerk"
+    },
+    {
+        "id": 320,
+        "name": "Lešnica pri ormožu"
+    },
+    {
+        "id": 321,
+        "name": "Šardinje"
+    },
+    {
+        "id": 322,
+        "name": "Vičanci"
+    },
+    {
+        "id": 323,
+        "name": "Senešci"
+    },
+    {
+        "id": 324,
+        "name": "Sodinci"
+    },
+    {
+        "id": 325,
+        "name": "Strjanci"
+    },
+    {
+        "id": 326,
+        "name": "Bresnica"
+    },
+    {
+        "id": 327,
+        "name": "Podgorci"
+    },
+    {
+        "id": 328,
+        "name": "Osluševci"
+    },
+    {
+        "id": 329,
+        "name": "Cvetkovci"
+    },
+    {
+        "id": 330,
+        "name": "Trgovišče"
+    },
+    {
+        "id": 331,
+        "name": "Velika nedelja"
+    },
+    {
+        "id": 332,
+        "name": "Ormož"
+    },
+    {
+        "id": 333,
+        "name": "Pušenci"
+    },
+    {
+        "id": 334,
+        "name": "Frankovci"
+    },
+    {
+        "id": 335,
+        "name": "Loperšice"
+    },
+    {
+        "id": 336,
+        "name": "Obrež"
+    },
+    {
+        "id": 337,
+        "name": "Grabe pri središču"
+    },
+    {
+        "id": 338,
+        "name": "Središče"
+    },
+    {
+        "id": 339,
+        "name": "Novinci"
+    },
+    {
+        "id": 340,
+        "name": "Slavšina"
+    },
+    {
+        "id": 341,
+        "name": "Rjavci"
+    },
+    {
+        "id": 342,
+        "name": "Hvaletinci"
+    },
+    {
+        "id": 343,
+        "name": "Vitomarci"
+    },
+    {
+        "id": 344,
+        "name": "Drbetinci"
+    },
+    {
+        "id": 345,
+        "name": "Trnovska vas"
+    },
+    {
+        "id": 346,
+        "name": "Biš"
+    },
+    {
+        "id": 347,
+        "name": "Bišečki vrh"
+    },
+    {
+        "id": 348,
+        "name": "Trnovski vrh"
+    },
+    {
+        "id": 349,
+        "name": "Ločki vrh"
+    },
+    {
+        "id": 350,
+        "name": "Ločič"
+    },
+    {
+        "id": 351,
+        "name": "Svetinci"
+    },
+    {
+        "id": 352,
+        "name": "Desenci"
+    },
+    {
+        "id": 353,
+        "name": "Grlinci"
+    },
+    {
+        "id": 354,
+        "name": "Zagorci"
+    },
+    {
+        "id": 355,
+        "name": "Senčak"
+    },
+    {
+        "id": 356,
+        "name": "Sakušak"
+    },
+    {
+        "id": 357,
+        "name": "Bodkovci"
+    },
+    {
+        "id": 358,
+        "name": "Juršinci"
+    },
+    {
+        "id": 359,
+        "name": "Dragovič"
+    },
+    {
+        "id": 360,
+        "name": "Gradiščak"
+    },
+    {
+        "id": 361,
+        "name": "Levanjci"
+    },
+    {
+        "id": 362,
+        "name": "Dolič"
+    },
+    {
+        "id": 363,
+        "name": "Destrnik"
+    },
+    {
+        "id": 364,
+        "name": "Vintarovci"
+    },
+    {
+        "id": 365,
+        "name": "Jiršovci"
+    },
+    {
+        "id": 366,
+        "name": "Krčevina pri vurberku"
+    },
+    {
+        "id": 367,
+        "name": "Grajenščak"
+    },
+    {
+        "id": 368,
+        "name": "Drstelja"
+    },
+    {
+        "id": 369,
+        "name": "Janežovci"
+    },
+    {
+        "id": 370,
+        "name": "Janežovski vrh"
+    },
+    {
+        "id": 371,
+        "name": "Zgornji velovlek"
+    },
+    {
+        "id": 372,
+        "name": "Spodnji velovlek"
+    },
+    {
+        "id": 373,
+        "name": "Mostje"
+    },
+    {
+        "id": 374,
+        "name": "Kukava"
+    },
+    {
+        "id": 375,
+        "name": "Rotman"
+    },
+    {
+        "id": 376,
+        "name": "Hlaponci"
+    },
+    {
+        "id": 377,
+        "name": "Polenšak"
+    },
+    {
+        "id": 378,
+        "name": "Bratislavci"
+    },
+    {
+        "id": 379,
+        "name": "Polenci"
+    },
+    {
+        "id": 380,
+        "name": "Prerad"
+    },
+    {
+        "id": 381,
+        "name": "Tibolci"
+    },
+    {
+        "id": 382,
+        "name": "Slomi"
+    },
+    {
+        "id": 383,
+        "name": "Mezgovci"
+    },
+    {
+        "id": 384,
+        "name": "Dornava"
+    },
+    {
+        "id": 385,
+        "name": "Podvinci"
+    },
+    {
+        "id": 386,
+        "name": "Pacinje"
+    },
+    {
+        "id": 387,
+        "name": "Kicar"
+    },
+    {
+        "id": 388,
+        "name": "Rogoznica"
+    },
+    {
+        "id": 389,
+        "name": "Nova vas pri ptuju"
+    },
+    {
+        "id": 390,
+        "name": "Mestni vrh"
+    },
+    {
+        "id": 391,
+        "name": "Grajena"
+    },
+    {
+        "id": 392,
+        "name": "Krčevina pri ptuju"
+    },
+    {
+        "id": 393,
+        "name": "Slovenja vas"
+    },
+    {
+        "id": 394,
+        "name": "Gerečja vas"
+    },
+    {
+        "id": 395,
+        "name": "Hajdoše"
+    },
+    {
+        "id": 396,
+        "name": "Skorba"
+    },
+    {
+        "id": 397,
+        "name": "Hajdina"
+    },
+    {
+        "id": 399,
+        "name": "Draženci"
+    },
+    {
+        "id": 400,
+        "name": "Ptuj"
+    },
+    {
+        "id": 401,
+        "name": "Brstje"
+    },
+    {
+        "id": 402,
+        "name": "Spuhlja"
+    },
+    {
+        "id": 403,
+        "name": "Borovci"
+    },
+    {
+        "id": 404,
+        "name": "Prvenci"
+    },
+    {
+        "id": 405,
+        "name": "Sobetinci"
+    },
+    {
+        "id": 406,
+        "name": "Zagojiči"
+    },
+    {
+        "id": 407,
+        "name": "Moškanjci"
+    },
+    {
+        "id": 408,
+        "name": "Gorišnica"
+    },
+    {
+        "id": 409,
+        "name": "Zamušani"
+    },
+    {
+        "id": 410,
+        "name": "Formin"
+    },
+    {
+        "id": 411,
+        "name": "Gajevci"
+    },
+    {
+        "id": 412,
+        "name": "Mala vas"
+    },
+    {
+        "id": 413,
+        "name": "Muretinci"
+    },
+    {
+        "id": 414,
+        "name": "Stojnci"
+    },
+    {
+        "id": 415,
+        "name": "Bukovci"
+    },
+    {
+        "id": 416,
+        "name": "Nova vas pri markovcih"
+    },
+    {
+        "id": 417,
+        "name": "Markovci"
+    },
+    {
+        "id": 418,
+        "name": "Zabovci"
+    },
+    {
+        "id": 419,
+        "name": "Šturmovci"
+    },
+    {
+        "id": 420,
+        "name": "Pobrežje"
+    },
+    {
+        "id": 421,
+        "name": "Lancova vas"
+    },
+    {
+        "id": 422,
+        "name": "Sela"
+    },
+    {
+        "id": 423,
+        "name": "Trnovec"
+    },
+    {
+        "id": 424,
+        "name": "Apače"
+    },
+    {
+        "id": 425,
+        "name": "Lovrenc na dravskem polju"
+    },
+    {
+        "id": 426,
+        "name": "Župečja vas"
+    },
+    {
+        "id": 427,
+        "name": "Pleterje"
+    },
+    {
+        "id": 428,
+        "name": "Mihovce"
+    },
+    {
+        "id": 429,
+        "name": "Dragonja vas"
+    },
+    {
+        "id": 430,
+        "name": "Cirkovce"
+    },
+    {
+        "id": 431,
+        "name": "Starošince"
+    },
+    {
+        "id": 432,
+        "name": "Spodnje jablane"
+    },
+    {
+        "id": 433,
+        "name": "Zgornje jablane"
+    },
+    {
+        "id": 434,
+        "name": "Pongrce"
+    },
+    {
+        "id": 435,
+        "name": "Šikole"
+    },
+    {
+        "id": 436,
+        "name": "Sestrže"
+    },
+    {
+        "id": 437,
+        "name": "Podlože"
+    },
+    {
+        "id": 438,
+        "name": "Lešje"
+    },
+    {
+        "id": 439,
+        "name": "Ptujska gora"
+    },
+    {
+        "id": 440,
+        "name": "Doklece"
+    },
+    {
+        "id": 441,
+        "name": "Stogovci"
+    },
+    {
+        "id": 442,
+        "name": "Skrblje"
+    },
+    {
+        "id": 443,
+        "name": "Janški vrh"
+    },
+    {
+        "id": 444,
+        "name": "Bolečka vas"
+    },
+    {
+        "id": 445,
+        "name": "Zgornja pristava"
+    },
+    {
+        "id": 446,
+        "name": "Jurovci"
+    },
+    {
+        "id": 447,
+        "name": "Dravinjski vrh"
+    },
+    {
+        "id": 448,
+        "name": "Vareja"
+    },
+    {
+        "id": 449,
+        "name": "Ljubstava"
+    },
+    {
+        "id": 450,
+        "name": "Majski vrh"
+    },
+    {
+        "id": 451,
+        "name": "Gorca"
+    },
+    {
+        "id": 452,
+        "name": "Dolena"
+    },
+    {
+        "id": 453,
+        "name": "Rodni vrh"
+    },
+    {
+        "id": 454,
+        "name": "Jablovec"
+    },
+    {
+        "id": 455,
+        "name": "Zakl"
+    },
+    {
+        "id": 456,
+        "name": "Dežno"
+    },
+    {
+        "id": 457,
+        "name": "Podlehnik"
+    },
+    {
+        "id": 458,
+        "name": "Spodnji leskovec"
+    },
+    {
+        "id": 459,
+        "name": "Repišče"
+    },
+    {
+        "id": 460,
+        "name": "Dravci"
+    },
+    {
+        "id": 461,
+        "name": "Gradišča"
+    },
+    {
+        "id": 462,
+        "name": "Dolane"
+    },
+    {
+        "id": 463,
+        "name": "Veliki vrh"
+    },
+    {
+        "id": 464,
+        "name": "Belski vrh"
+    },
+    {
+        "id": 465,
+        "name": "Hrastovec"
+    },
+    {
+        "id": 466,
+        "name": "Zavrč"
+    },
+    {
+        "id": 467,
+        "name": "Goričak"
+    },
+    {
+        "id": 468,
+        "name": "Drenovec"
+    },
+    {
+        "id": 469,
+        "name": "Turški vrh"
+    },
+    {
+        "id": 470,
+        "name": "Korenjak"
+    },
+    {
+        "id": 471,
+        "name": "Pestike"
+    },
+    {
+        "id": 472,
+        "name": "Gorenjski vrh"
+    },
+    {
+        "id": 473,
+        "name": "Brezovec"
+    },
+    {
+        "id": 474,
+        "name": "Cirkulane"
+    },
+    {
+        "id": 475,
+        "name": "Gruškovec"
+    },
+    {
+        "id": 476,
+        "name": "Meje"
+    },
+    {
+        "id": 477,
+        "name": "Medribnik"
+    },
+    {
+        "id": 478,
+        "name": "Paradiž"
+    },
+    {
+        "id": 479,
+        "name": "Pristava"
+    },
+    {
+        "id": 480,
+        "name": "Pohorje"
+    },
+    {
+        "id": 481,
+        "name": "Slatina"
+    },
+    {
+        "id": 482,
+        "name": "Mali okič"
+    },
+    {
+        "id": 483,
+        "name": "Veliki okič"
+    },
+    {
+        "id": 484,
+        "name": "Gradišče"
+    },
+    {
+        "id": 485,
+        "name": "Skorišnjak"
+    },
+    {
+        "id": 486,
+        "name": "Belavšek"
+    },
+    {
+        "id": 487,
+        "name": "Zgornji leskovec"
+    },
+    {
+        "id": 488,
+        "name": "Trdobojci"
+    },
+    {
+        "id": 489,
+        "name": "Mala varnica"
+    },
+    {
+        "id": 490,
+        "name": "Velika varnica"
+    },
+    {
+        "id": 491,
+        "name": "Ložina"
+    },
+    {
+        "id": 492,
+        "name": "Gruškovje"
+    },
+    {
+        "id": 493,
+        "name": "Sedlašek"
+    },
+    {
+        "id": 494,
+        "name": "Stanošina"
+    },
+    {
+        "id": 495,
+        "name": "Kozminci"
+    },
+    {
+        "id": 496,
+        "name": "Strajna"
+    },
+    {
+        "id": 497,
+        "name": "Dobrina"
+    },
+    {
+        "id": 498,
+        "name": "Kočice"
+    },
+    {
+        "id": 499,
+        "name": "Sitež"
+    },
+    {
+        "id": 500,
+        "name": "Bolfenk"
+    },
+    {
+        "id": 501,
+        "name": "Sveča"
+    },
+    {
+        "id": 502,
+        "name": "Stoperce"
+    },
+    {
+        "id": 503,
+        "name": "Kupčinji vrh"
+    },
+    {
+        "id": 504,
+        "name": "Nadole"
+    },
+    {
+        "id": 505,
+        "name": "Čermožiše"
+    },
+    {
+        "id": 506,
+        "name": "Žetale"
+    },
+    {
+        "id": 507,
+        "name": "Lokavec"
+    },
+    {
+        "id": 508,
+        "name": "Rožengrunt"
+    },
+    {
+        "id": 509,
+        "name": "Zgornja ščavnica"
+    },
+    {
+        "id": 510,
+        "name": "Spodnji dražen vrh"
+    },
+    {
+        "id": 511,
+        "name": "Žitence"
+    },
+    {
+        "id": 512,
+        "name": "Ledinek"
+    },
+    {
+        "id": 513,
+        "name": "Kremberk"
+    },
+    {
+        "id": 514,
+        "name": "Krivi vrh"
+    },
+    {
+        "id": 515,
+        "name": "Zgornja ročica"
+    },
+    {
+        "id": 516,
+        "name": "Drvanja"
+    },
+    {
+        "id": 517,
+        "name": "Ihova"
+    },
+    {
+        "id": 518,
+        "name": "Trije kralji"
+    },
+    {
+        "id": 519,
+        "name": "Trotkova"
+    },
+    {
+        "id": 520,
+        "name": "Benedikt"
+    },
+    {
+        "id": 521,
+        "name": "Spodnja ročica"
+    },
+    {
+        "id": 522,
+        "name": "Spodnji žerjavci"
+    },
+    {
+        "id": 523,
+        "name": "Zgornji žerjavci"
+    },
+    {
+        "id": 524,
+        "name": "Žice"
+    },
+    {
+        "id": 525,
+        "name": "Spodnji gasteraj"
+    },
+    {
+        "id": 526,
+        "name": "Srednji gasteraj"
+    },
+    {
+        "id": 527,
+        "name": "Zgornji gasteraj"
+    },
+    {
+        "id": 528,
+        "name": "Malna"
+    },
+    {
+        "id": 529,
+        "name": "Jurovski dol"
+    },
+    {
+        "id": 530,
+        "name": "Partinje"
+    },
+    {
+        "id": 531,
+        "name": "Varda"
+    },
+    {
+        "id": 532,
+        "name": "Lenart v slovenskih goricah"
+    },
+    {
+        "id": 533,
+        "name": "Spodnji porčič"
+    },
+    {
+        "id": 534,
+        "name": "Zgornji porčič"
+    },
+    {
+        "id": 535,
+        "name": "Stari porčič"
+    },
+    {
+        "id": 536,
+        "name": "Gradišče v slovenskih goricah"
+    },
+    {
+        "id": 537,
+        "name": "Zgornje verjane"
+    },
+    {
+        "id": 538,
+        "name": "Osek"
+    },
+    {
+        "id": 539,
+        "name": "Brengova"
+    },
+    {
+        "id": 540,
+        "name": "Cogetinci"
+    },
+    {
+        "id": 541,
+        "name": "Cerkvenjak"
+    },
+    {
+        "id": 542,
+        "name": "Andrenci"
+    },
+    {
+        "id": 543,
+        "name": "Župetinci"
+    },
+    {
+        "id": 544,
+        "name": "Smolinci"
+    },
+    {
+        "id": 545,
+        "name": "Čagona"
+    },
+    {
+        "id": 546,
+        "name": "Spodnje verjane"
+    },
+    {
+        "id": 547,
+        "name": "Spodnja senarska"
+    },
+    {
+        "id": 548,
+        "name": "Zgornja senarska"
+    },
+    {
+        "id": 549,
+        "name": "Radehova"
+    },
+    {
+        "id": 550,
+        "name": "Zamarkova"
+    },
+    {
+        "id": 551,
+        "name": "Močna"
+    },
+    {
+        "id": 552,
+        "name": "Vinička vas"
+    },
+    {
+        "id": 553,
+        "name": "Zgornja voličina"
+    },
+    {
+        "id": 554,
+        "name": "Spodnja voličina"
+    },
+    {
+        "id": 555,
+        "name": "Šetarova"
+    },
+    {
+        "id": 556,
+        "name": "Gočova"
+    },
+    {
+        "id": 557,
+        "name": "Nadbišec"
+    },
+    {
+        "id": 558,
+        "name": "Zavrh"
+    },
+    {
+        "id": 559,
+        "name": "Črmljenšak"
+    },
+    {
+        "id": 561,
+        "name": "Straže"
+    },
+    {
+        "id": 562,
+        "name": "Rogoznica"
+    },
+    {
+        "id": 563,
+        "name": "Ceršak"
+    },
+    {
+        "id": 564,
+        "name": "Šentilj v slovenskih goricah"
+    },
+    {
+        "id": 565,
+        "name": "Selnica ob muri"
+    },
+    {
+        "id": 566,
+        "name": "Sladki vrh"
+    },
+    {
+        "id": 567,
+        "name": "Zgornja velka"
+    },
+    {
+        "id": 568,
+        "name": "Trate"
+    },
+    {
+        "id": 569,
+        "name": "Spodnja velka"
+    },
+    {
+        "id": 570,
+        "name": "Ploderšnica"
+    },
+    {
+        "id": 571,
+        "name": "Ročica"
+    },
+    {
+        "id": 572,
+        "name": "Spodnje hlapje"
+    },
+    {
+        "id": 573,
+        "name": "Zgornje hlapje"
+    },
+    {
+        "id": 574,
+        "name": "Počenik"
+    },
+    {
+        "id": 575,
+        "name": "Šomat"
+    },
+    {
+        "id": 576,
+        "name": "Srebotje"
+    },
+    {
+        "id": 577,
+        "name": "Zgornji jakobski dol"
+    },
+    {
+        "id": 578,
+        "name": "Polička vas"
+    },
+    {
+        "id": 579,
+        "name": "Polički vrh"
+    },
+    {
+        "id": 580,
+        "name": "Vajgen"
+    },
+    {
+        "id": 581,
+        "name": "Kaniža"
+    },
+    {
+        "id": 582,
+        "name": "Štrihovec"
+    },
+    {
+        "id": 583,
+        "name": "Cirknica"
+    },
+    {
+        "id": 584,
+        "name": "Zgornje dobrenje"
+    },
+    {
+        "id": 585,
+        "name": "Kresnica"
+    },
+    {
+        "id": 586,
+        "name": "Podigrac"
+    },
+    {
+        "id": 587,
+        "name": "Ciringa"
+    },
+    {
+        "id": 588,
+        "name": "Svečina"
+    },
+    {
+        "id": 589,
+        "name": "Slatina"
+    },
+    {
+        "id": 590,
+        "name": "Špičnik"
+    },
+    {
+        "id": 591,
+        "name": "Slatinski dol"
+    },
+    {
+        "id": 592,
+        "name": "Plač"
+    },
+    {
+        "id": 593,
+        "name": "Zgornje vrtiče"
+    },
+    {
+        "id": 594,
+        "name": "Spodnje vrtiče"
+    },
+    {
+        "id": 595,
+        "name": "Plintovec"
+    },
+    {
+        "id": 596,
+        "name": "Zgornja kungota"
+    },
+    {
+        "id": 597,
+        "name": "Jedlovnik"
+    },
+    {
+        "id": 598,
+        "name": "Grušena"
+    },
+    {
+        "id": 599,
+        "name": "Jurski vrh"
+    },
+    {
+        "id": 600,
+        "name": "Pesnica"
+    },
+    {
+        "id": 601,
+        "name": "Vršnik"
+    },
+    {
+        "id": 602,
+        "name": "Gaj nad mariborom"
+    },
+    {
+        "id": 603,
+        "name": "Kozjak"
+    },
+    {
+        "id": 604,
+        "name": "Gradiška"
+    },
+    {
+        "id": 605,
+        "name": "Spodnje dobrenje"
+    },
+    {
+        "id": 606,
+        "name": "Ranca"
+    },
+    {
+        "id": 607,
+        "name": "Jelenče"
+    },
+    {
+        "id": 608,
+        "name": "Gačnik"
+    },
+    {
+        "id": 609,
+        "name": "Jareninski dol"
+    },
+    {
+        "id": 610,
+        "name": "Jareninski vrh"
+    },
+    {
+        "id": 611,
+        "name": "Vukovski vrh"
+    },
+    {
+        "id": 612,
+        "name": "Vukovski dol"
+    },
+    {
+        "id": 613,
+        "name": "Flekušek"
+    },
+    {
+        "id": 614,
+        "name": "Spodnji jakobski dol"
+    },
+    {
+        "id": 615,
+        "name": "Vukovje"
+    },
+    {
+        "id": 616,
+        "name": "Kušernik"
+    },
+    {
+        "id": 617,
+        "name": "Vosek"
+    },
+    {
+        "id": 618,
+        "name": "Pesniški dvor"
+    },
+    {
+        "id": 619,
+        "name": "Dolnja počehova"
+    },
+    {
+        "id": 620,
+        "name": "Mali rošpoh"
+    },
+    {
+        "id": 621,
+        "name": "Morski jarek"
+    },
+    {
+        "id": 622,
+        "name": "Šober"
+    },
+    {
+        "id": 623,
+        "name": "Zgornji slemen"
+    },
+    {
+        "id": 624,
+        "name": "Veliki boč"
+    },
+    {
+        "id": 625,
+        "name": "Gradišče"
+    },
+    {
+        "id": 626,
+        "name": "Zgornji boč"
+    },
+    {
+        "id": 627,
+        "name": "Spodnji boč"
+    },
+    {
+        "id": 628,
+        "name": "Zgornja selnica"
+    },
+    {
+        "id": 629,
+        "name": "Janževa gora"
+    },
+    {
+        "id": 630,
+        "name": "Gerečja vas"
+    },
+    {
+        "id": 631,
+        "name": "Spodnja selnica"
+    },
+    {
+        "id": 632,
+        "name": "Spodnji slemen"
+    },
+    {
+        "id": 633,
+        "name": "Srednje"
+    },
+    {
+        "id": 634,
+        "name": "Jelovec"
+    },
+    {
+        "id": 635,
+        "name": "Brestrnica"
+    },
+    {
+        "id": 636,
+        "name": "Kamnica"
+    },
+    {
+        "id": 637,
+        "name": "Rošpoh"
+    },
+    {
+        "id": 638,
+        "name": "Krčevina"
+    },
+    {
+        "id": 639,
+        "name": "Počehova"
+    },
+    {
+        "id": 640,
+        "name": "Pekel"
+    },
+    {
+        "id": 641,
+        "name": "Dragučova"
+    },
+    {
+        "id": 642,
+        "name": "Pernica"
+    },
+    {
+        "id": 643,
+        "name": "Ložane"
+    },
+    {
+        "id": 644,
+        "name": "Ruperče"
+    },
+    {
+        "id": 645,
+        "name": "Grušova"
+    },
+    {
+        "id": 646,
+        "name": "Metava"
+    },
+    {
+        "id": 647,
+        "name": "Trčova"
+    },
+    {
+        "id": 648,
+        "name": "Nebova"
+    },
+    {
+        "id": 649,
+        "name": "Celestrina"
+    },
+    {
+        "id": 650,
+        "name": "Malečnik"
+    },
+    {
+        "id": 651,
+        "name": "Hrenca"
+    },
+    {
+        "id": 652,
+        "name": "Vodole"
+    },
+    {
+        "id": 653,
+        "name": "Košaki"
+    },
+    {
+        "id": 654,
+        "name": "Orešje"
+    },
+    {
+        "id": 655,
+        "name": "Melje"
+    },
+    {
+        "id": 656,
+        "name": "Brezje"
+    },
+    {
+        "id": 657,
+        "name": "Maribor grad"
+    },
+    {
+        "id": 658,
+        "name": "Koroška vrata"
+    },
+    {
+        "id": 659,
+        "name": "Tabor"
+    },
+    {
+        "id": 660,
+        "name": "Studenci"
+    },
+    {
+        "id": 661,
+        "name": "Limbuš"
+    },
+    {
+        "id": 662,
+        "name": "Laznica"
+    },
+    {
+        "id": 663,
+        "name": "Bistrica pri limbušu"
+    },
+    {
+        "id": 664,
+        "name": "Bistrica pri rušah"
+    },
+    {
+        "id": 665,
+        "name": "Ruše"
+    },
+    {
+        "id": 666,
+        "name": "Činžat"
+    },
+    {
+        "id": 667,
+        "name": "Ruta"
+    },
+    {
+        "id": 668,
+        "name": "Rdeči breg"
+    },
+    {
+        "id": 669,
+        "name": "Lovrenc na pohorju"
+    },
+    {
+        "id": 670,
+        "name": "Recenjak"
+    },
+    {
+        "id": 671,
+        "name": "Kumen"
+    },
+    {
+        "id": 672,
+        "name": "Smolnik"
+    },
+    {
+        "id": 673,
+        "name": "Lobnica"
+    },
+    {
+        "id": 674,
+        "name": "Zgornji vrhov dol"
+    },
+    {
+        "id": 675,
+        "name": "Hrastje"
+    },
+    {
+        "id": 676,
+        "name": "Pekre"
+    },
+    {
+        "id": 677,
+        "name": "Zgornje radvanje"
+    },
+    {
+        "id": 678,
+        "name": "Spodnje radvanje"
+    },
+    {
+        "id": 679,
+        "name": "Razvanje"
+    },
+    {
+        "id": 680,
+        "name": "Tezno"
+    },
+    {
+        "id": 681,
+        "name": "Pobrežje"
+    },
+    {
+        "id": 682,
+        "name": "Zrkovci"
+    },
+    {
+        "id": 683,
+        "name": "Dogoše"
+    },
+    {
+        "id": 684,
+        "name": "Zgornji duplek"
+    },
+    {
+        "id": 685,
+        "name": "Završka vas"
+    },
+    {
+        "id": 686,
+        "name": "Zimica"
+    },
+    {
+        "id": 687,
+        "name": "Jablance"
+    },
+    {
+        "id": 688,
+        "name": "Zgornja korena"
+    },
+    {
+        "id": 689,
+        "name": "Spodnja korena"
+    },
+    {
+        "id": 690,
+        "name": "Žikarce"
+    },
+    {
+        "id": 691,
+        "name": "Ciglence"
+    },
+    {
+        "id": 692,
+        "name": "Spodnji duplek"
+    },
+    {
+        "id": 693,
+        "name": "Miklavž na dravskem polju"
+    },
+    {
+        "id": 694,
+        "name": "Rogoza"
+    },
+    {
+        "id": 695,
+        "name": "Bohova"
+    },
+    {
+        "id": 696,
+        "name": "Spodnje hoče"
+    },
+    {
+        "id": 697,
+        "name": "Zgornje hoče"
+    },
+    {
+        "id": 698,
+        "name": "Pivola"
+    },
+    {
+        "id": 699,
+        "name": "Hočko pohorje"
+    },
+    {
+        "id": 700,
+        "name": "Slivniško pohorje"
+    },
+    {
+        "id": 701,
+        "name": "Polana"
+    },
+    {
+        "id": 702,
+        "name": "Ranče"
+    },
+    {
+        "id": 703,
+        "name": "Radizel"
+    },
+    {
+        "id": 704,
+        "name": "Čreta"
+    },
+    {
+        "id": 705,
+        "name": "Slivnica"
+    },
+    {
+        "id": 706,
+        "name": "Orehova vas"
+    },
+    {
+        "id": 707,
+        "name": "Hotinja vas"
+    },
+    {
+        "id": 708,
+        "name": "Skoke"
+    },
+    {
+        "id": 709,
+        "name": "Loka pri rošnji"
+    },
+    {
+        "id": 710,
+        "name": "Dvorjane"
+    },
+    {
+        "id": 711,
+        "name": "Vurberk"
+    },
+    {
+        "id": 712,
+        "name": "Starše"
+    },
+    {
+        "id": 713,
+        "name": "Zlatoličje"
+    },
+    {
+        "id": 714,
+        "name": "Prepolje"
+    },
+    {
+        "id": 715,
+        "name": "Marjeta na dravskem polju"
+    },
+    {
+        "id": 716,
+        "name": "Rače"
+    },
+    {
+        "id": 717,
+        "name": "Fram"
+    },
+    {
+        "id": 718,
+        "name": "Kopivnik"
+    },
+    {
+        "id": 719,
+        "name": "Planica"
+    },
+    {
+        "id": 720,
+        "name": "Loka pri framu"
+    },
+    {
+        "id": 721,
+        "name": "Morje"
+    },
+    {
+        "id": 722,
+        "name": "Ješenca"
+    },
+    {
+        "id": 723,
+        "name": "Podova"
+    },
+    {
+        "id": 724,
+        "name": "Gorica"
+    },
+    {
+        "id": 725,
+        "name": "Kot"
+    },
+    {
+        "id": 726,
+        "name": "Planina"
+    },
+    {
+        "id": 727,
+        "name": "Smrečno"
+    },
+    {
+        "id": 728,
+        "name": "Bojtina"
+    },
+    {
+        "id": 729,
+        "name": "Frajhajm"
+    },
+    {
+        "id": 730,
+        "name": "Šmartno na pohorju"
+    },
+    {
+        "id": 731,
+        "name": "Ošelj"
+    },
+    {
+        "id": 732,
+        "name": "Urh"
+    },
+    {
+        "id": 733,
+        "name": "Rep"
+    },
+    {
+        "id": 734,
+        "name": "Malo tinje"
+    },
+    {
+        "id": 735,
+        "name": "Tinjska gora"
+    },
+    {
+        "id": 736,
+        "name": "Visole"
+    },
+    {
+        "id": 737,
+        "name": "Jurišna vas"
+    },
+    {
+        "id": 738,
+        "name": "Prebukovje"
+    },
+    {
+        "id": 739,
+        "name": "Kalše"
+    },
+    {
+        "id": 740,
+        "name": "Ogljenšak"
+    },
+    {
+        "id": 741,
+        "name": "Bukovec"
+    },
+    {
+        "id": 742,
+        "name": "Zgornja polskava"
+    },
+    {
+        "id": 743,
+        "name": "Gabernik"
+    },
+    {
+        "id": 744,
+        "name": "Ritoznoj"
+    },
+    {
+        "id": 745,
+        "name": "Kovača vas"
+    },
+    {
+        "id": 746,
+        "name": "Šentovec"
+    },
+    {
+        "id": 747,
+        "name": "Pokoše"
+    },
+    {
+        "id": 748,
+        "name": "Spodnja polskava"
+    },
+    {
+        "id": 749,
+        "name": "Stražgonjca"
+    },
+    {
+        "id": 750,
+        "name": "Vrhloga"
+    },
+    {
+        "id": 751,
+        "name": "Črešnjevec"
+    },
+    {
+        "id": 752,
+        "name": "Spodnja nova vas"
+    },
+    {
+        "id": 753,
+        "name": "Slovenska bistrica"
+    },
+    {
+        "id": 754,
+        "name": "Zgornja bistrica"
+    },
+    {
+        "id": 755,
+        "name": "Spodnja ložnica"
+    },
+    {
+        "id": 756,
+        "name": "Zgornja ložnica"
+    },
+    {
+        "id": 757,
+        "name": "Gladomes"
+    },
+    {
+        "id": 758,
+        "name": "Okoška vas"
+    },
+    {
+        "id": 759,
+        "name": "Zlogona gora"
+    },
+    {
+        "id": 760,
+        "name": "Koritno"
+    },
+    {
+        "id": 761,
+        "name": "Božje"
+    },
+    {
+        "id": 762,
+        "name": "Brezje pri oplotnici"
+    },
+    {
+        "id": 763,
+        "name": "Oplotnica"
+    },
+    {
+        "id": 764,
+        "name": "Zgornje grušovje"
+    },
+    {
+        "id": 765,
+        "name": "Vrhole pri konjicah"
+    },
+    {
+        "id": 766,
+        "name": "Cigonca"
+    },
+    {
+        "id": 767,
+        "name": "Žabljek"
+    },
+    {
+        "id": 768,
+        "name": "Hošnica"
+    },
+    {
+        "id": 769,
+        "name": "Laporje"
+    },
+    {
+        "id": 770,
+        "name": "Vrhole pri laporju"
+    },
+    {
+        "id": 771,
+        "name": "Pretrež"
+    },
+    {
+        "id": 772,
+        "name": "Štatenberg"
+    },
+    {
+        "id": 773,
+        "name": "Pečke"
+    },
+    {
+        "id": 774,
+        "name": "Stopno"
+    },
+    {
+        "id": 775,
+        "name": "Dežno"
+    },
+    {
+        "id": 776,
+        "name": "Jelovec"
+    },
+    {
+        "id": 777,
+        "name": "Modraže"
+    },
+    {
+        "id": 778,
+        "name": "Brezje pri poljčanah"
+    },
+    {
+        "id": 779,
+        "name": "Pekel"
+    },
+    {
+        "id": 780,
+        "name": "Stanovsko"
+    },
+    {
+        "id": 781,
+        "name": "Lušečka vas"
+    },
+    {
+        "id": 782,
+        "name": "Poljčane"
+    },
+    {
+        "id": 783,
+        "name": "Studenice"
+    },
+    {
+        "id": 784,
+        "name": "Hrastovec"
+    },
+    {
+        "id": 785,
+        "name": "Stari grad"
+    },
+    {
+        "id": 786,
+        "name": "Mlake"
+    },
+    {
+        "id": 787,
+        "name": "Pernice"
+    },
+    {
+        "id": 788,
+        "name": "Branik nad muto"
+    },
+    {
+        "id": 789,
+        "name": "Podlipje"
+    },
+    {
+        "id": 790,
+        "name": "Brezovec"
+    },
+    {
+        "id": 791,
+        "name": "Suhi vrh pri radljah"
+    },
+    {
+        "id": 792,
+        "name": "Radelca"
+    },
+    {
+        "id": 793,
+        "name": "Vas"
+    },
+    {
+        "id": 794,
+        "name": "Remšnik"
+    },
+    {
+        "id": 795,
+        "name": "Brezni vrh"
+    },
+    {
+        "id": 796,
+        "name": "Zgornja kapla"
+    },
+    {
+        "id": 797,
+        "name": "Spodnja kapla"
+    },
+    {
+        "id": 798,
+        "name": "Zgornji vurmat"
+    },
+    {
+        "id": 799,
+        "name": "Ožbalt"
+    },
+    {
+        "id": 800,
+        "name": "Javnik"
+    },
+    {
+        "id": 801,
+        "name": "Brezno"
+    },
+    {
+        "id": 802,
+        "name": "Kozji vrh"
+    },
+    {
+        "id": 803,
+        "name": "Spodnja vižinga"
+    },
+    {
+        "id": 804,
+        "name": "Radlje ob dravi"
+    },
+    {
+        "id": 805,
+        "name": "Dobrava"
+    },
+    {
+        "id": 806,
+        "name": "Zgornja vižinga"
+    },
+    {
+        "id": 807,
+        "name": "Spodnja muta"
+    },
+    {
+        "id": 808,
+        "name": "Zgornja muta"
+    },
+    {
+        "id": 809,
+        "name": "Zgornja gortina"
+    },
+    {
+        "id": 810,
+        "name": "Spodnja gortina"
+    },
+    {
+        "id": 811,
+        "name": "Dravče"
+    },
+    {
+        "id": 812,
+        "name": "Šentjanž nad dravčami"
+    },
+    {
+        "id": 813,
+        "name": "Vuzenica"
+    },
+    {
+        "id": 814,
+        "name": "Šentvid"
+    },
+    {
+        "id": 815,
+        "name": "Primož na pohorju"
+    },
+    {
+        "id": 816,
+        "name": "Planina"
+    },
+    {
+        "id": 817,
+        "name": "Vuhred"
+    },
+    {
+        "id": 818,
+        "name": "Orlica"
+    },
+    {
+        "id": 819,
+        "name": "Janževski vrh"
+    },
+    {
+        "id": 820,
+        "name": "Podvelka"
+    },
+    {
+        "id": 821,
+        "name": "Rdeči breg ii"
+    },
+    {
+        "id": 822,
+        "name": "Lehen"
+    },
+    {
+        "id": 823,
+        "name": "Ribnica na pohorju"
+    },
+    {
+        "id": 824,
+        "name": "Hudi kot"
+    },
+    {
+        "id": 825,
+        "name": "Libeliče"
+    },
+    {
+        "id": 826,
+        "name": "Libeliška gora"
+    },
+    {
+        "id": 827,
+        "name": "Črneška gora"
+    },
+    {
+        "id": 828,
+        "name": "Črneče"
+    },
+    {
+        "id": 829,
+        "name": "Dravograd"
+    },
+    {
+        "id": 830,
+        "name": "Grad"
+    },
+    {
+        "id": 831,
+        "name": "Vič"
+    },
+    {
+        "id": 832,
+        "name": "Goriški vrh"
+    },
+    {
+        "id": 833,
+        "name": "Ojstrica"
+    },
+    {
+        "id": 834,
+        "name": "Duh na ojstrici"
+    },
+    {
+        "id": 835,
+        "name": "Velka"
+    },
+    {
+        "id": 836,
+        "name": "Kozji vrh"
+    },
+    {
+        "id": 837,
+        "name": "Vrata"
+    },
+    {
+        "id": 838,
+        "name": "Trbonje"
+    },
+    {
+        "id": 839,
+        "name": "Danijel pri trbonjah"
+    },
+    {
+        "id": 840,
+        "name": "Otiški vrh i"
+    },
+    {
+        "id": 841,
+        "name": "Otiški vrh ii"
+    },
+    {
+        "id": 842,
+        "name": "Dobrova"
+    },
+    {
+        "id": 843,
+        "name": "Selovec"
+    },
+    {
+        "id": 844,
+        "name": "Šentjanž pri dravogradu"
+    },
+    {
+        "id": 845,
+        "name": "Pameče"
+    },
+    {
+        "id": 846,
+        "name": "Gradišče"
+    },
+    {
+        "id": 847,
+        "name": "Vrhe"
+    },
+    {
+        "id": 848,
+        "name": "Sele"
+    },
+    {
+        "id": 849,
+        "name": "Stari trg"
+    },
+    {
+        "id": 850,
+        "name": "Slovenj gradec"
+    },
+    {
+        "id": 851,
+        "name": "Legen"
+    },
+    {
+        "id": 852,
+        "name": "Golavabuka"
+    },
+    {
+        "id": 853,
+        "name": "Šmartno pri slovenj gradcu"
+    },
+    {
+        "id": 854,
+        "name": "Podgorje"
+    },
+    {
+        "id": 855,
+        "name": "Zgornji razbor"
+    },
+    {
+        "id": 856,
+        "name": "Spodnji razbor"
+    },
+    {
+        "id": 857,
+        "name": "Veluna"
+    },
+    {
+        "id": 858,
+        "name": "Graška gora"
+    },
+    {
+        "id": 859,
+        "name": "Vodriž"
+    },
+    {
+        "id": 860,
+        "name": "Šmiklavž"
+    },
+    {
+        "id": 861,
+        "name": "Dobrava"
+    },
+    {
+        "id": 862,
+        "name": "Brda"
+    },
+    {
+        "id": 863,
+        "name": "Šentilj pod turjakom"
+    },
+    {
+        "id": 864,
+        "name": "Mislinja"
+    },
+    {
+        "id": 865,
+        "name": "Gornji dolič"
+    },
+    {
+        "id": 866,
+        "name": "Šentvid nad valdekom"
+    },
+    {
+        "id": 867,
+        "name": "Zavr[e"
+    },
+    {
+        "id": 868,
+        "name": "Kozjak"
+    },
+    {
+        "id": 869,
+        "name": "Belšak"
+    },
+    {
+        "id": 870,
+        "name": "Jamnica"
+    },
+    {
+        "id": 871,
+        "name": "Strojna"
+    },
+    {
+        "id": 872,
+        "name": "Zelen breg"
+    },
+    {
+        "id": 873,
+        "name": "Suhi vrh"
+    },
+    {
+        "id": 874,
+        "name": "Šentanel"
+    },
+    {
+        "id": 875,
+        "name": "Dolga brda"
+    },
+    {
+        "id": 876,
+        "name": "Breznica"
+    },
+    {
+        "id": 877,
+        "name": "Stražišče"
+    },
+    {
+        "id": 878,
+        "name": "Tolsti vrh"
+    },
+    {
+        "id": 879,
+        "name": "Koroški selovec"
+    },
+    {
+        "id": 880,
+        "name": "Brdinje"
+    },
+    {
+        "id": 882,
+        "name": "Ravne"
+    },
+    {
+        "id": 883,
+        "name": "Dobja vas"
+    },
+    {
+        "id": 884,
+        "name": "Farna vas"
+    },
+    {
+        "id": 885,
+        "name": "Poljana"
+    },
+    {
+        "id": 886,
+        "name": "Lokovica"
+    },
+    {
+        "id": 887,
+        "name": "Lom"
+    },
+    {
+        "id": 888,
+        "name": "Meža takraj"
+    },
+    {
+        "id": 889,
+        "name": "Mežica"
+    },
+    {
+        "id": 890,
+        "name": "Meža onkraj"
+    },
+    {
+        "id": 891,
+        "name": "Prevalje"
+    },
+    {
+        "id": 892,
+        "name": "Leše"
+    },
+    {
+        "id": 893,
+        "name": "Zagrad"
+    },
+    {
+        "id": 894,
+        "name": "Navrški vrh"
+    },
+    {
+        "id": 895,
+        "name": "Preški vrh"
+    },
+    {
+        "id": 896,
+        "name": "Kotlje"
+    },
+    {
+        "id": 897,
+        "name": "Podgora"
+    },
+    {
+        "id": 898,
+        "name": "Uršlja gora i"
+    },
+    {
+        "id": 899,
+        "name": "Uršlja gora ii"
+    },
+    {
+        "id": 900,
+        "name": "Žerjav"
+    },
+    {
+        "id": 901,
+        "name": "Plat"
+    },
+    {
+        "id": 902,
+        "name": "Podpeca"
+    },
+    {
+        "id": 903,
+        "name": "Topla"
+    },
+    {
+        "id": 904,
+        "name": "Koprivna"
+    },
+    {
+        "id": 905,
+        "name": "Bistra"
+    },
+    {
+        "id": 906,
+        "name": "Črna"
+    },
+    {
+        "id": 907,
+        "name": "Ludranski vrh"
+    },
+    {
+        "id": 908,
+        "name": "Javorje"
+    },
+    {
+        "id": 909,
+        "name": "Logarska dolina"
+    },
+    {
+        "id": 910,
+        "name": "Solčava"
+    },
+    {
+        "id": 911,
+        "name": "Raduha"
+    },
+    {
+        "id": 912,
+        "name": "Konjski vrh"
+    },
+    {
+        "id": 913,
+        "name": "Primož pri ljubnem"
+    },
+    {
+        "id": 914,
+        "name": "Ter"
+    },
+    {
+        "id": 915,
+        "name": "Radegunda"
+    },
+    {
+        "id": 916,
+        "name": "Šmihel"
+    },
+    {
+        "id": 917,
+        "name": "Lepa njiva"
+    },
+    {
+        "id": 918,
+        "name": "Ljubija"
+    },
+    {
+        "id": 919,
+        "name": "Brezje"
+    },
+    {
+        "id": 920,
+        "name": "Mozirje"
+    },
+    {
+        "id": 921,
+        "name": "Rečica ob savinji"
+    },
+    {
+        "id": 922,
+        "name": "Poljane"
+    },
+    {
+        "id": 923,
+        "name": "Ljubno"
+    },
+    {
+        "id": 924,
+        "name": "Savina"
+    },
+    {
+        "id": 925,
+        "name": "Krnica"
+    },
+    {
+        "id": 926,
+        "name": "Luče"
+    },
+    {
+        "id": 927,
+        "name": "Podveža"
+    },
+    {
+        "id": 928,
+        "name": "Podvolovljek"
+    },
+    {
+        "id": 929,
+        "name": "Lenart pri gornjem gradu"
+    },
+    {
+        "id": 930,
+        "name": "Florjan pri gornjem gradu"
+    },
+    {
+        "id": 931,
+        "name": "Radmirje"
+    },
+    {
+        "id": 932,
+        "name": "Šentjanž"
+    },
+    {
+        "id": 933,
+        "name": "Homec"
+    },
+    {
+        "id": 934,
+        "name": "Zgornje pobrežje"
+    },
+    {
+        "id": 935,
+        "name": "Spodnja rečica"
+    },
+    {
+        "id": 936,
+        "name": "Prihova"
+    },
+    {
+        "id": 937,
+        "name": "Loke"
+    },
+    {
+        "id": 938,
+        "name": "Kokarje"
+    },
+    {
+        "id": 939,
+        "name": "Pusto polje"
+    },
+    {
+        "id": 940,
+        "name": "Šmartno ob dreti"
+    },
+    {
+        "id": 941,
+        "name": "Bočna"
+    },
+    {
+        "id": 942,
+        "name": "Gornji grad"
+    },
+    {
+        "id": 943,
+        "name": "Šmiklavž"
+    },
+    {
+        "id": 944,
+        "name": "Tirosek"
+    },
+    {
+        "id": 945,
+        "name": "Bele vode"
+    },
+    {
+        "id": 946,
+        "name": "Šentvid pri zavodnju"
+    },
+    {
+        "id": 947,
+        "name": "Zavodnje"
+    },
+    {
+        "id": 948,
+        "name": "Topolšica"
+    },
+    {
+        "id": 949,
+        "name": "Ravne"
+    },
+    {
+        "id": 950,
+        "name": "Plešivec"
+    },
+    {
+        "id": 951,
+        "name": "Hrastovec"
+    },
+    {
+        "id": 952,
+        "name": "Cirkovce"
+    },
+    {
+        "id": 953,
+        "name": "Paka"
+    },
+    {
+        "id": 954,
+        "name": "Lipje"
+    },
+    {
+        "id": 955,
+        "name": "Bevče"
+    },
+    {
+        "id": 957,
+        "name": "Škale"
+    },
+    {
+        "id": 958,
+        "name": "Gaberke"
+    },
+    {
+        "id": 959,
+        "name": "Šoštanj"
+    },
+    {
+        "id": 960,
+        "name": "Florjan pri šoštanju"
+    },
+    {
+        "id": 961,
+        "name": "Skorno pri šoštanju"
+    },
+    {
+        "id": 962,
+        "name": "Gorenje"
+    },
+    {
+        "id": 963,
+        "name": "Lokovica"
+    },
+    {
+        "id": 964,
+        "name": "Velenje"
+    },
+    {
+        "id": 965,
+        "name": "Laze"
+    },
+    {
+        "id": 966,
+        "name": "Ložnica"
+    },
+    {
+        "id": 967,
+        "name": "Kavče"
+    },
+    {
+        "id": 968,
+        "name": "Podkraj"
+    },
+    {
+        "id": 969,
+        "name": "Veliki vrh"
+    },
+    {
+        "id": 970,
+        "name": "Gavce"
+    },
+    {
+        "id": 971,
+        "name": "Paška vas"
+    },
+    {
+        "id": 972,
+        "name": "Šmartno ob paki"
+    },
+    {
+        "id": 973,
+        "name": "Rečica ob paki"
+    },
+    {
+        "id": 974,
+        "name": "Prelska"
+    },
+    {
+        "id": 975,
+        "name": "Vinska gora"
+    },
+    {
+        "id": 976,
+        "name": "Črnova"
+    },
+    {
+        "id": 977,
+        "name": "Železno"
+    },
+    {
+        "id": 978,
+        "name": "Studence"
+    },
+    {
+        "id": 979,
+        "name": "Ponikva"
+    },
+    {
+        "id": 980,
+        "name": "Andraž"
+    },
+    {
+        "id": 981,
+        "name": "Dobrič"
+    },
+    {
+        "id": 982,
+        "name": "Podvin"
+    },
+    {
+        "id": 983,
+        "name": "Male braslovče"
+    },
+    {
+        "id": 984,
+        "name": "Letuš"
+    },
+    {
+        "id": 985,
+        "name": "Dobrovlje"
+    },
+    {
+        "id": 986,
+        "name": "Podvrh"
+    },
+    {
+        "id": 987,
+        "name": "Braslovče"
+    },
+    {
+        "id": 988,
+        "name": "Spodnje gorče"
+    },
+    {
+        "id": 989,
+        "name": "Šmatevž"
+    },
+    {
+        "id": 990,
+        "name": "Trnava"
+    },
+    {
+        "id": 991,
+        "name": "Orla vas"
+    },
+    {
+        "id": 992,
+        "name": "Polzela"
+    },
+    {
+        "id": 993,
+        "name": "Založe"
+    },
+    {
+        "id": 994,
+        "name": "Zalog"
+    },
+    {
+        "id": 995,
+        "name": "Šempeter v savinjski dolini"
+    },
+    {
+        "id": 996,
+        "name": "Žalec"
+    },
+    {
+        "id": 997,
+        "name": "Gotovlje"
+    },
+    {
+        "id": 998,
+        "name": "Velika pirešica"
+    },
+    {
+        "id": 999,
+        "name": "Gorica"
+    },
+    {
+        "id": 1000,
+        "name": "Levec"
+    },
+    {
+        "id": 1001,
+        "name": "Petrovče"
+    },
+    {
+        "id": 1002,
+        "name": "Kasaze"
+    },
+    {
+        "id": 1003,
+        "name": "Zabukovica"
+    },
+    {
+        "id": 1004,
+        "name": "Gornja vas"
+    },
+    {
+        "id": 1005,
+        "name": "Prebold"
+    },
+    {
+        "id": 1006,
+        "name": "Latkova vas"
+    },
+    {
+        "id": 1007,
+        "name": "Grajska vas"
+    },
+    {
+        "id": 1008,
+        "name": "Gomilsko"
+    },
+    {
+        "id": 1009,
+        "name": "Ojstriška vas"
+    },
+    {
+        "id": 1010,
+        "name": "Prekopa"
+    },
+    {
+        "id": 1011,
+        "name": "Tešova"
+    },
+    {
+        "id": 1012,
+        "name": "Vransko"
+    },
+    {
+        "id": 1013,
+        "name": "Jeronim"
+    },
+    {
+        "id": 1014,
+        "name": "Ločica"
+    },
+    {
+        "id": 1015,
+        "name": "Zaplanina"
+    },
+    {
+        "id": 1016,
+        "name": "Črni vrh"
+    },
+    {
+        "id": 1017,
+        "name": "Miklavž"
+    },
+    {
+        "id": 1018,
+        "name": "Marija reka"
+    },
+    {
+        "id": 1019,
+        "name": "Matke"
+    },
+    {
+        "id": 1020,
+        "name": "Pongrac"
+    },
+    {
+        "id": 1021,
+        "name": "Liboje"
+    },
+    {
+        "id": 1022,
+        "name": "Rečica"
+    },
+    {
+        "id": 1023,
+        "name": "Slivno"
+    },
+    {
+        "id": 1024,
+        "name": "Rifengozd"
+    },
+    {
+        "id": 1025,
+        "name": "Reka"
+    },
+    {
+        "id": 1026,
+        "name": "Laško"
+    },
+    {
+        "id": 1027,
+        "name": "Šmihel"
+    },
+    {
+        "id": 1028,
+        "name": "Sedraž"
+    },
+    {
+        "id": 1029,
+        "name": "Lahomšek"
+    },
+    {
+        "id": 1030,
+        "name": "Lahomno"
+    },
+    {
+        "id": 1031,
+        "name": "Olešče"
+    },
+    {
+        "id": 1032,
+        "name": "Šentrupert"
+    },
+    {
+        "id": 1033,
+        "name": "Trobni dol"
+    },
+    {
+        "id": 1034,
+        "name": "Mrzlo polje"
+    },
+    {
+        "id": 1035,
+        "name": "Jurklošter"
+    },
+    {
+        "id": 1036,
+        "name": "Vrh nad laškim"
+    },
+    {
+        "id": 1037,
+        "name": "Lažiše"
+    },
+    {
+        "id": 1038,
+        "name": "Plazovje"
+    },
+    {
+        "id": 1039,
+        "name": "Rimske toplice"
+    },
+    {
+        "id": 1040,
+        "name": "Lože"
+    },
+    {
+        "id": 1041,
+        "name": "Lokavec"
+    },
+    {
+        "id": 1042,
+        "name": "Paneče"
+    },
+    {
+        "id": 1043,
+        "name": "Marijina vas"
+    },
+    {
+        "id": 1044,
+        "name": "Brdce nad dobrno"
+    },
+    {
+        "id": 1045,
+        "name": "Klanc"
+    },
+    {
+        "id": 1046,
+        "name": "Zavrh"
+    },
+    {
+        "id": 1047,
+        "name": "Čreškova"
+    },
+    {
+        "id": 1048,
+        "name": "Socka"
+    },
+    {
+        "id": 1049,
+        "name": "Lipa"
+    },
+    {
+        "id": 1050,
+        "name": "Dol"
+    },
+    {
+        "id": 1051,
+        "name": "Verpete"
+    },
+    {
+        "id": 1052,
+        "name": "Podgorje"
+    },
+    {
+        "id": 1053,
+        "name": "Loka"
+    },
+    {
+        "id": 1054,
+        "name": "Novake"
+    },
+    {
+        "id": 1055,
+        "name": "Homec"
+    },
+    {
+        "id": 1056,
+        "name": "Dobrna"
+    },
+    {
+        "id": 1057,
+        "name": "Rupe"
+    },
+    {
+        "id": 1058,
+        "name": "Rožni vrh"
+    },
+    {
+        "id": 1059,
+        "name": "Lemberg"
+    },
+    {
+        "id": 1060,
+        "name": "Strmec pri vojniku"
+    },
+    {
+        "id": 1061,
+        "name": "Višnja vas"
+    },
+    {
+        "id": 1062,
+        "name": "Male dole"
+    },
+    {
+        "id": 1063,
+        "name": "Bezovica"
+    },
+    {
+        "id": 1064,
+        "name": "Tomaž"
+    },
+    {
+        "id": 1065,
+        "name": "Vojnik trg"
+    },
+    {
+        "id": 1066,
+        "name": "Vojnik okolica"
+    },
+    {
+        "id": 1067,
+        "name": "Brezova"
+    },
+    {
+        "id": 1068,
+        "name": "Šmartno"
+    },
+    {
+        "id": 1069,
+        "name": "Šentjungert"
+    },
+    {
+        "id": 1070,
+        "name": "Arclin"
+    },
+    {
+        "id": 1071,
+        "name": "Škofja vas"
+    },
+    {
+        "id": 1072,
+        "name": "Šmiklavž"
+    },
+    {
+        "id": 1073,
+        "name": "Trnovlje"
+    },
+    {
+        "id": 1074,
+        "name": "Spodnja hudinja"
+    },
+    {
+        "id": 1075,
+        "name": "Ostrožno"
+    },
+    {
+        "id": 1076,
+        "name": "Medlog"
+    },
+    {
+        "id": 1077,
+        "name": "Celje"
+    },
+    {
+        "id": 1078,
+        "name": "Lisce"
+    },
+    {
+        "id": 1079,
+        "name": "Košnica"
+    },
+    {
+        "id": 1080,
+        "name": "Tremerje"
+    },
+    {
+        "id": 1081,
+        "name": "Zagrad"
+    },
+    {
+        "id": 1082,
+        "name": "Teharje"
+    },
+    {
+        "id": 1083,
+        "name": "Bukovžlak"
+    },
+    {
+        "id": 1084,
+        "name": "Pečovje"
+    },
+    {
+        "id": 1085,
+        "name": "Kompole"
+    },
+    {
+        "id": 1086,
+        "name": "Prožinska vas"
+    },
+    {
+        "id": 1087,
+        "name": "Svetina"
+    },
+    {
+        "id": 1088,
+        "name": "Padeški vrh"
+    },
+    {
+        "id": 1089,
+        "name": "Resnik"
+    },
+    {
+        "id": 1090,
+        "name": "Skomarje"
+    },
+    {
+        "id": 1091,
+        "name": "Hudinja"
+    },
+    {
+        "id": 1092,
+        "name": "Paka i"
+    },
+    {
+        "id": 1093,
+        "name": "Spodnji dolič"
+    },
+    {
+        "id": 1094,
+        "name": "Brezen"
+    },
+    {
+        "id": 1095,
+        "name": "Vitanje"
+    },
+    {
+        "id": 1096,
+        "name": "Stenica"
+    },
+    {
+        "id": 1097,
+        "name": "Ljubnica"
+    },
+    {
+        "id": 1098,
+        "name": "Loška gora"
+    },
+    {
+        "id": 1099,
+        "name": "Gorenje pri zrečah"
+    },
+    {
+        "id": 1100,
+        "name": "Zreče"
+    },
+    {
+        "id": 1101,
+        "name": "Radana vas"
+    },
+    {
+        "id": 1102,
+        "name": "Križevec"
+    },
+    {
+        "id": 1103,
+        "name": "Stranice"
+    },
+    {
+        "id": 1104,
+        "name": "Preloge"
+    },
+    {
+        "id": 1105,
+        "name": "Škalce"
+    },
+    {
+        "id": 1106,
+        "name": "Bezina"
+    },
+    {
+        "id": 1107,
+        "name": "Tepanje"
+    },
+    {
+        "id": 1108,
+        "name": "Perovec"
+    },
+    {
+        "id": 1109,
+        "name": "Spodnje grušovje"
+    },
+    {
+        "id": 1110,
+        "name": "Ličenca"
+    },
+    {
+        "id": 1111,
+        "name": "Jernej pri ločah"
+    },
+    {
+        "id": 1112,
+        "name": "Koble"
+    },
+    {
+        "id": 1113,
+        "name": "Žiče"
+    },
+    {
+        "id": 1114,
+        "name": "Konjiška vas"
+    },
+    {
+        "id": 1115,
+        "name": "Slovenske konjice"
+    },
+    {
+        "id": 1116,
+        "name": "Slemene"
+    },
+    {
+        "id": 1117,
+        "name": "Tolsti vrh"
+    },
+    {
+        "id": 1118,
+        "name": "Lipoglav"
+    },
+    {
+        "id": 1119,
+        "name": "Loče"
+    },
+    {
+        "id": 1120,
+        "name": "Zgornje laže"
+    },
+    {
+        "id": 1121,
+        "name": "Zbelovska gora"
+    },
+    {
+        "id": 1122,
+        "name": "Dramlje"
+    },
+    {
+        "id": 1123,
+        "name": "Pletovarje"
+    },
+    {
+        "id": 1124,
+        "name": "Slatina"
+    },
+    {
+        "id": 1125,
+        "name": "Ostrožno"
+    },
+    {
+        "id": 1126,
+        "name": "Dolga gora"
+    },
+    {
+        "id": 1127,
+        "name": "Ponkvica"
+    },
+    {
+        "id": 1128,
+        "name": "Ponikva"
+    },
+    {
+        "id": 1129,
+        "name": "Zagaj"
+    },
+    {
+        "id": 1130,
+        "name": "Vodule"
+    },
+    {
+        "id": 1131,
+        "name": "Marija dobje"
+    },
+    {
+        "id": 1132,
+        "name": "Primož"
+    },
+    {
+        "id": 1133,
+        "name": "Goričica"
+    },
+    {
+        "id": 1134,
+        "name": "Zlateče"
+    },
+    {
+        "id": 1135,
+        "name": "Lokarje"
+    },
+    {
+        "id": 1136,
+        "name": "Kameno"
+    },
+    {
+        "id": 1137,
+        "name": "Grobelno"
+    },
+    {
+        "id": 1138,
+        "name": "Šentjur pri celju"
+    },
+    {
+        "id": 1139,
+        "name": "Podgrad"
+    },
+    {
+        "id": 1140,
+        "name": "Krajnčica"
+    },
+    {
+        "id": 1141,
+        "name": "Rifnik"
+    },
+    {
+        "id": 1142,
+        "name": "Tratna"
+    },
+    {
+        "id": 1143,
+        "name": "Gorica pri slivnici"
+    },
+    {
+        "id": 1144,
+        "name": "Vodruž"
+    },
+    {
+        "id": 1145,
+        "name": "Planinca"
+    },
+    {
+        "id": 1146,
+        "name": "Vezovje"
+    },
+    {
+        "id": 1147,
+        "name": "Slivnica pri celju"
+    },
+    {
+        "id": 1148,
+        "name": "Javorje"
+    },
+    {
+        "id": 1149,
+        "name": "Voduce"
+    },
+    {
+        "id": 1150,
+        "name": "Kalobje"
+    },
+    {
+        "id": 1151,
+        "name": "Brezje"
+    },
+    {
+        "id": 1152,
+        "name": "Suho"
+    },
+    {
+        "id": 1153,
+        "name": "Paridol"
+    },
+    {
+        "id": 1154,
+        "name": "Dobrina"
+    },
+    {
+        "id": 1155,
+        "name": "Loka pri žusmu"
+    },
+    {
+        "id": 1156,
+        "name": "Lopaca"
+    },
+    {
+        "id": 1157,
+        "name": "Straška gorca"
+    },
+    {
+        "id": 1158,
+        "name": "Presečno"
+    },
+    {
+        "id": 1159,
+        "name": "Planinska vas"
+    },
+    {
+        "id": 1160,
+        "name": "Loke pri planini"
+    },
+    {
+        "id": 1161,
+        "name": "Planina"
+    },
+    {
+        "id": 1162,
+        "name": "Golobinjek"
+    },
+    {
+        "id": 1163,
+        "name": "Šentvid pri planini"
+    },
+    {
+        "id": 1164,
+        "name": "Zgornji gabrnik"
+    },
+    {
+        "id": 1165,
+        "name": "Drevenik"
+    },
+    {
+        "id": 1166,
+        "name": "Čača vas"
+    },
+    {
+        "id": 1167,
+        "name": "Negonje"
+    },
+    {
+        "id": 1168,
+        "name": "Ratanska vas"
+    },
+    {
+        "id": 1169,
+        "name": "Cerovec"
+    },
+    {
+        "id": 1170,
+        "name": "Spodnje sečovo"
+    },
+    {
+        "id": 1171,
+        "name": "Sv.  florijan"
+    },
+    {
+        "id": 1172,
+        "name": "Strmec"
+    },
+    {
+        "id": 1173,
+        "name": "Tlake"
+    },
+    {
+        "id": 1174,
+        "name": "Trška gorca"
+    },
+    {
+        "id": 1175,
+        "name": "Donačka gora"
+    },
+    {
+        "id": 1176,
+        "name": "Trlično"
+    },
+    {
+        "id": 1177,
+        "name": "Dobovec"
+    },
+    {
+        "id": 1178,
+        "name": "Rogatec"
+    },
+    {
+        "id": 1179,
+        "name": "Tržišče"
+    },
+    {
+        "id": 1180,
+        "name": "Topole"
+    },
+    {
+        "id": 1181,
+        "name": "Tekačevo"
+    },
+    {
+        "id": 1182,
+        "name": "Spodnja kostrivnica"
+    },
+    {
+        "id": 1183,
+        "name": "Lemberg okolica"
+    },
+    {
+        "id": 1184,
+        "name": "Lemberg trg"
+    },
+    {
+        "id": 1185,
+        "name": "Pijovci"
+    },
+    {
+        "id": 1186,
+        "name": "Sladka gora"
+    },
+    {
+        "id": 1187,
+        "name": "Vrh"
+    },
+    {
+        "id": 1188,
+        "name": "Dvor"
+    },
+    {
+        "id": 1189,
+        "name": "Bobovo"
+    },
+    {
+        "id": 1190,
+        "name": "Preloge"
+    },
+    {
+        "id": 1191,
+        "name": "Grliče"
+    },
+    {
+        "id": 1192,
+        "name": "Kačji dol"
+    },
+    {
+        "id": 1193,
+        "name": "Male rodne"
+    },
+    {
+        "id": 1194,
+        "name": "Velike rodne"
+    },
+    {
+        "id": 1195,
+        "name": "Rjavica"
+    },
+    {
+        "id": 1196,
+        "name": "Brestovec"
+    },
+    {
+        "id": 1197,
+        "name": "Ceste"
+    },
+    {
+        "id": 1198,
+        "name": "Plat"
+    },
+    {
+        "id": 1199,
+        "name": "Kristan vrh"
+    },
+    {
+        "id": 1200,
+        "name": "Šmarje pri jelšah"
+    },
+    {
+        "id": 1201,
+        "name": "Zadrže"
+    },
+    {
+        "id": 1202,
+        "name": "Senovica"
+    },
+    {
+        "id": 1203,
+        "name": "Bodrež"
+    },
+    {
+        "id": 1204,
+        "name": "Zgornje selce"
+    },
+    {
+        "id": 1205,
+        "name": "Platinovec"
+    },
+    {
+        "id": 1206,
+        "name": "Ješovec"
+    },
+    {
+        "id": 1207,
+        "name": "Brecljevo"
+    },
+    {
+        "id": 1208,
+        "name": "Dol"
+    },
+    {
+        "id": 1209,
+        "name": "Koretno"
+    },
+    {
+        "id": 1210,
+        "name": "Pristava"
+    },
+    {
+        "id": 1211,
+        "name": "Hajnsko"
+    },
+    {
+        "id": 1212,
+        "name": "Nezbiše"
+    },
+    {
+        "id": 1213,
+        "name": "Kamence"
+    },
+    {
+        "id": 1214,
+        "name": "Rajnkovec"
+    },
+    {
+        "id": 1215,
+        "name": "Nimno"
+    },
+    {
+        "id": 1216,
+        "name": "Vidovica"
+    },
+    {
+        "id": 1217,
+        "name": "Vonarje"
+    },
+    {
+        "id": 1218,
+        "name": "Ema"
+    },
+    {
+        "id": 1219,
+        "name": "Sodna vas"
+    },
+    {
+        "id": 1220,
+        "name": "Roginska gorca"
+    },
+    {
+        "id": 1221,
+        "name": "Zibika"
+    },
+    {
+        "id": 1222,
+        "name": "Vršna vas"
+    },
+    {
+        "id": 1223,
+        "name": "Orehovec"
+    },
+    {
+        "id": 1224,
+        "name": "Babna reka"
+    },
+    {
+        "id": 1225,
+        "name": "Grobelce"
+    },
+    {
+        "id": 1226,
+        "name": "Babna gora"
+    },
+    {
+        "id": 1227,
+        "name": "Tinsko"
+    },
+    {
+        "id": 1228,
+        "name": "Sopote"
+    },
+    {
+        "id": 1229,
+        "name": "Podčetrtek"
+    },
+    {
+        "id": 1230,
+        "name": "Imeno"
+    },
+    {
+        "id": 1231,
+        "name": "Virštanj"
+    },
+    {
+        "id": 1232,
+        "name": "Dobležiče"
+    },
+    {
+        "id": 1233,
+        "name": "Verače"
+    },
+    {
+        "id": 1234,
+        "name": "Buče"
+    },
+    {
+        "id": 1235,
+        "name": "Drensko rebro"
+    },
+    {
+        "id": 1236,
+        "name": "Zagorje"
+    },
+    {
+        "id": 1237,
+        "name": "Pilštanj"
+    },
+    {
+        "id": 1238,
+        "name": "Zdole"
+    },
+    {
+        "id": 1239,
+        "name": "Vrenska gorca"
+    },
+    {
+        "id": 1240,
+        "name": "Sedlarjevo"
+    },
+    {
+        "id": 1241,
+        "name": "Lastnič"
+    },
+    {
+        "id": 1242,
+        "name": "Kozje"
+    },
+    {
+        "id": 1243,
+        "name": "Vetrnik"
+    },
+    {
+        "id": 1244,
+        "name": "Gorjane"
+    },
+    {
+        "id": 1245,
+        "name": "Podsreda"
+    },
+    {
+        "id": 1246,
+        "name": "Dekmanca"
+    },
+    {
+        "id": 1247,
+        "name": "Trebče"
+    },
+    {
+        "id": 1248,
+        "name": "Hrastje"
+    },
+    {
+        "id": 1249,
+        "name": "Ples"
+    },
+    {
+        "id": 1250,
+        "name": "Kunšperk"
+    },
+    {
+        "id": 1251,
+        "name": "Zagaj"
+    },
+    {
+        "id": 1252,
+        "name": "Križe"
+    },
+    {
+        "id": 1253,
+        "name": "Orešje"
+    },
+    {
+        "id": 1254,
+        "name": "Bukovje"
+    },
+    {
+        "id": 1255,
+        "name": "Drenovec"
+    },
+    {
+        "id": 1256,
+        "name": "Brezovica"
+    },
+    {
+        "id": 1257,
+        "name": "Bizeljsko"
+    },
+    {
+        "id": 1258,
+        "name": "Podgorje"
+    },
+    {
+        "id": 1259,
+        "name": "Pavlova vas"
+    },
+    {
+        "id": 1260,
+        "name": "Silovec"
+    },
+    {
+        "id": 1261,
+        "name": "Sromlje"
+    },
+    {
+        "id": 1262,
+        "name": "Zgornja pohanca"
+    },
+    {
+        "id": 1263,
+        "name": "Oklukova gora"
+    },
+    {
+        "id": 1264,
+        "name": "Arnovo selo"
+    },
+    {
+        "id": 1265,
+        "name": "Volčje"
+    },
+    {
+        "id": 1266,
+        "name": "Curnovec"
+    },
+    {
+        "id": 1267,
+        "name": "Blatno"
+    },
+    {
+        "id": 1268,
+        "name": "Dednja vas"
+    },
+    {
+        "id": 1269,
+        "name": "Pišece"
+    },
+    {
+        "id": 1270,
+        "name": "Brezje"
+    },
+    {
+        "id": 1271,
+        "name": "Vitna vas"
+    },
+    {
+        "id": 1272,
+        "name": "Stara vas"
+    },
+    {
+        "id": 1273,
+        "name": "Župelevec"
+    },
+    {
+        "id": 1274,
+        "name": "Bojsno"
+    },
+    {
+        "id": 1275,
+        "name": "Piršenbreg"
+    },
+    {
+        "id": 1276,
+        "name": "Globoko"
+    },
+    {
+        "id": 1277,
+        "name": "Mali vrh"
+    },
+    {
+        "id": 1278,
+        "name": "Dečno selo"
+    },
+    {
+        "id": 1279,
+        "name": "Artiče"
+    },
+    {
+        "id": 1280,
+        "name": "Zgornji obrež"
+    },
+    {
+        "id": 1281,
+        "name": "Šentlenart"
+    },
+    {
+        "id": 1282,
+        "name": "Brezina"
+    },
+    {
+        "id": 1283,
+        "name": "Črnc"
+    },
+    {
+        "id": 1284,
+        "name": "Bukošek"
+    },
+    {
+        "id": 1285,
+        "name": "Sela"
+    },
+    {
+        "id": 1286,
+        "name": "Slogonsko"
+    },
+    {
+        "id": 1287,
+        "name": "Vrhje"
+    },
+    {
+        "id": 1288,
+        "name": "Jereslavec"
+    },
+    {
+        "id": 1289,
+        "name": "Rakovec"
+    },
+    {
+        "id": 1290,
+        "name": "Kapele"
+    },
+    {
+        "id": 1291,
+        "name": "Podvinje"
+    },
+    {
+        "id": 1292,
+        "name": "Gabrje"
+    },
+    {
+        "id": 1293,
+        "name": "Veliki obrež"
+    },
+    {
+        "id": 1294,
+        "name": "Rigonce"
+    },
+    {
+        "id": 1295,
+        "name": "Loče"
+    },
+    {
+        "id": 1296,
+        "name": "Mihalovec"
+    },
+    {
+        "id": 1297,
+        "name": "Mostec"
+    },
+    {
+        "id": 1298,
+        "name": "Trnje"
+    },
+    {
+        "id": 1299,
+        "name": "Zakot"
+    },
+    {
+        "id": 1300,
+        "name": "Brežice"
+    },
+    {
+        "id": 1301,
+        "name": "Krška vas"
+    },
+    {
+        "id": 1302,
+        "name": "Cerklje"
+    },
+    {
+        "id": 1303,
+        "name": "Bušeča vas"
+    },
+    {
+        "id": 1304,
+        "name": "Stojanski vrh"
+    },
+    {
+        "id": 1305,
+        "name": "Globočice"
+    },
+    {
+        "id": 1306,
+        "name": "Čatež"
+    },
+    {
+        "id": 1307,
+        "name": "Cerina"
+    },
+    {
+        "id": 1308,
+        "name": "Velika dolina"
+    },
+    {
+        "id": 1309,
+        "name": "Koritno"
+    },
+    {
+        "id": 1310,
+        "name": "Nova vas"
+    },
+    {
+        "id": 1311,
+        "name": "Kostanjek"
+    },
+    {
+        "id": 1312,
+        "name": "Pleterje"
+    },
+    {
+        "id": 1313,
+        "name": "Anovec"
+    },
+    {
+        "id": 1314,
+        "name": "Sremič"
+    },
+    {
+        "id": 1315,
+        "name": "Videm"
+    },
+    {
+        "id": 1316,
+        "name": "Stara vas"
+    },
+    {
+        "id": 1317,
+        "name": "Stari grad"
+    },
+    {
+        "id": 1318,
+        "name": "Dolenja vas"
+    },
+    {
+        "id": 1319,
+        "name": "Pesje"
+    },
+    {
+        "id": 1320,
+        "name": "Drnovo"
+    },
+    {
+        "id": 1321,
+        "name": "Leskovec"
+    },
+    {
+        "id": 1322,
+        "name": "Krško"
+    },
+    {
+        "id": 1323,
+        "name": "Veliki trn"
+    },
+    {
+        "id": 1324,
+        "name": "Ravno"
+    },
+    {
+        "id": 1325,
+        "name": "Senuše"
+    },
+    {
+        "id": 1326,
+        "name": "Raka"
+    },
+    {
+        "id": 1327,
+        "name": "Površje"
+    },
+    {
+        "id": 1328,
+        "name": "Smednik"
+    },
+    {
+        "id": 1329,
+        "name": "Veliki podlog"
+    },
+    {
+        "id": 1330,
+        "name": "Veliko mraševo"
+    },
+    {
+        "id": 1331,
+        "name": "Kostanjevica"
+    },
+    {
+        "id": 1332,
+        "name": "Podbočje"
+    },
+    {
+        "id": 1333,
+        "name": "Planina"
+    },
+    {
+        "id": 1334,
+        "name": "Črneča vas"
+    },
+    {
+        "id": 1335,
+        "name": "Oštrc"
+    },
+    {
+        "id": 1336,
+        "name": "Orehovec"
+    },
+    {
+        "id": 1337,
+        "name": "Stranje"
+    },
+    {
+        "id": 1338,
+        "name": "Dobrova"
+    },
+    {
+        "id": 1339,
+        "name": "Reštanj"
+    },
+    {
+        "id": 1340,
+        "name": "Mrčna sela"
+    },
+    {
+        "id": 1341,
+        "name": "Koprivnica"
+    },
+    {
+        "id": 1342,
+        "name": "Veliki dol"
+    },
+    {
+        "id": 1343,
+        "name": "Veliki kamen"
+    },
+    {
+        "id": 1344,
+        "name": "Mali kamen"
+    },
+    {
+        "id": 1345,
+        "name": "Šedem"
+    },
+    {
+        "id": 1346,
+        "name": "Gorenji leskovec"
+    },
+    {
+        "id": 1347,
+        "name": "Kališovec"
+    },
+    {
+        "id": 1348,
+        "name": "Brezje"
+    },
+    {
+        "id": 1349,
+        "name": "Dovško"
+    },
+    {
+        "id": 1350,
+        "name": "Senovo"
+    },
+    {
+        "id": 1351,
+        "name": "Armeško"
+    },
+    {
+        "id": 1352,
+        "name": "Lokve"
+    },
+    {
+        "id": 1353,
+        "name": "Raztez"
+    },
+    {
+        "id": 1354,
+        "name": "Gorica"
+    },
+    {
+        "id": 1355,
+        "name": "Anže"
+    },
+    {
+        "id": 1356,
+        "name": "Stolovnik"
+    },
+    {
+        "id": 1357,
+        "name": "Brestanica"
+    },
+    {
+        "id": 1358,
+        "name": "Dolenji leskovec"
+    },
+    {
+        "id": 1359,
+        "name": "Presladol"
+    },
+    {
+        "id": 1360,
+        "name": "Rožno"
+    },
+    {
+        "id": 1361,
+        "name": "Podgorje"
+    },
+    {
+        "id": 1362,
+        "name": "Okroglice"
+    },
+    {
+        "id": 1363,
+        "name": "Radež"
+    },
+    {
+        "id": 1364,
+        "name": "Loka pri zidanem mostu"
+    },
+    {
+        "id": 1365,
+        "name": "Breg"
+    },
+    {
+        "id": 1366,
+        "name": "Ledina"
+    },
+    {
+        "id": 1367,
+        "name": "Zabukovje"
+    },
+    {
+        "id": 1368,
+        "name": "Poklek"
+    },
+    {
+        "id": 1369,
+        "name": "Trnovec"
+    },
+    {
+        "id": 1370,
+        "name": "Podvrh"
+    },
+    {
+        "id": 1371,
+        "name": "Metni vrh"
+    },
+    {
+        "id": 1372,
+        "name": "Žurkov dol"
+    },
+    {
+        "id": 1373,
+        "name": "Žigrski vrh"
+    },
+    {
+        "id": 1374,
+        "name": "Krajna brda"
+    },
+    {
+        "id": 1375,
+        "name": "Selce"
+    },
+    {
+        "id": 1376,
+        "name": "Kladje"
+    },
+    {
+        "id": 1377,
+        "name": "Blanca"
+    },
+    {
+        "id": 1378,
+        "name": "Brezovo"
+    },
+    {
+        "id": 1379,
+        "name": "Sevnica"
+    },
+    {
+        "id": 1380,
+        "name": "Šmarje"
+    },
+    {
+        "id": 1381,
+        "name": "Boštanj"
+    },
+    {
+        "id": 1382,
+        "name": "Kompolje"
+    },
+    {
+        "id": 1383,
+        "name": "Cerovec"
+    },
+    {
+        "id": 1384,
+        "name": "Šentjanž"
+    },
+    {
+        "id": 1385,
+        "name": "Podboršt"
+    },
+    {
+        "id": 1386,
+        "name": "Kal"
+    },
+    {
+        "id": 1387,
+        "name": "Cirnik"
+    },
+    {
+        "id": 1388,
+        "name": "Pijavice"
+    },
+    {
+        "id": 1389,
+        "name": "Goveji dol"
+    },
+    {
+        "id": 1390,
+        "name": "Vrh"
+    },
+    {
+        "id": 1391,
+        "name": "Log"
+    },
+    {
+        "id": 1392,
+        "name": "Hubajnica"
+    },
+    {
+        "id": 1393,
+        "name": "Studenec"
+    },
+    {
+        "id": 1394,
+        "name": "Bučka"
+    },
+    {
+        "id": 1395,
+        "name": "Telče"
+    },
+    {
+        "id": 1396,
+        "name": "Krsinji vrh"
+    },
+    {
+        "id": 1397,
+        "name": "Tržišče"
+    },
+    {
+        "id": 1398,
+        "name": "Bistrica"
+    },
+    {
+        "id": 1399,
+        "name": "Šentrupert"
+    },
+    {
+        "id": 1400,
+        "name": "Straža"
+    },
+    {
+        "id": 1401,
+        "name": "Novo zabukovje"
+    },
+    {
+        "id": 1402,
+        "name": "Selo-mirna"
+    },
+    {
+        "id": 1403,
+        "name": "Čatež"
+    },
+    {
+        "id": 1404,
+        "name": "Dolga njiva"
+    },
+    {
+        "id": 1405,
+        "name": "Mali videm"
+    },
+    {
+        "id": 1406,
+        "name": "Škovec"
+    },
+    {
+        "id": 1407,
+        "name": "Roje"
+    },
+    {
+        "id": 1408,
+        "name": "Ševnica"
+    },
+    {
+        "id": 1409,
+        "name": "Brezovica"
+    },
+    {
+        "id": 1410,
+        "name": "Mirna"
+    },
+    {
+        "id": 1411,
+        "name": "Ostrožnik"
+    },
+    {
+        "id": 1412,
+        "name": "Mokronog"
+    },
+    {
+        "id": 1413,
+        "name": "Laknice"
+    },
+    {
+        "id": 1414,
+        "name": "Jelševec"
+    },
+    {
+        "id": 1415,
+        "name": "Trebelno"
+    },
+    {
+        "id": 1416,
+        "name": "Staro zabukovje"
+    },
+    {
+        "id": 1417,
+        "name": "Ornuška vas"
+    },
+    {
+        "id": 1418,
+        "name": "Lukovek"
+    },
+    {
+        "id": 1419,
+        "name": "Ponikve"
+    },
+    {
+        "id": 1420,
+        "name": "Češnjevek"
+    },
+    {
+        "id": 1421,
+        "name": "Medvedje selo"
+    },
+    {
+        "id": 1422,
+        "name": "Trebnje"
+    },
+    {
+        "id": 1423,
+        "name": "Vrhtrebnje"
+    },
+    {
+        "id": 1424,
+        "name": "Štefan"
+    },
+    {
+        "id": 1425,
+        "name": "Velika loka"
+    },
+    {
+        "id": 1426,
+        "name": "Prapreče"
+    },
+    {
+        "id": 1427,
+        "name": "Veliki gaber"
+    },
+    {
+        "id": 1428,
+        "name": "Zagorica"
+    },
+    {
+        "id": 1429,
+        "name": "Stehanja vas"
+    },
+    {
+        "id": 1430,
+        "name": "Knežja vas"
+    },
+    {
+        "id": 1431,
+        "name": "Dobrnič"
+    },
+    {
+        "id": 1432,
+        "name": "Korita"
+    },
+    {
+        "id": 1433,
+        "name": "Sela pri [umberku"
+    },
+    {
+        "id": 1434,
+        "name": "Gornji križ"
+    },
+    {
+        "id": 1435,
+        "name": "Reber"
+    },
+    {
+        "id": 1436,
+        "name": "Žužemberk"
+    },
+    {
+        "id": 1437,
+        "name": "Šmihel pri žužemberku"
+    },
+    {
+        "id": 1438,
+        "name": "Žvirče"
+    },
+    {
+        "id": 1439,
+        "name": "Hinje"
+    },
+    {
+        "id": 1440,
+        "name": "Sela pri hinjah"
+    },
+    {
+        "id": 1441,
+        "name": "Veliko lipje"
+    },
+    {
+        "id": 1442,
+        "name": "Stavča vas"
+    },
+    {
+        "id": 1443,
+        "name": "Dvor"
+    },
+    {
+        "id": 1444,
+        "name": "Ajdovec"
+    },
+    {
+        "id": 1445,
+        "name": "Brezova reber"
+    },
+    {
+        "id": 1446,
+        "name": "Gorenje polje"
+    },
+    {
+        "id": 1447,
+        "name": "Gorenja straža"
+    },
+    {
+        "id": 1448,
+        "name": "Prečna"
+    },
+    {
+        "id": 1449,
+        "name": "Globodol"
+    },
+    {
+        "id": 1450,
+        "name": "Golobinjek"
+    },
+    {
+        "id": 1451,
+        "name": "Mirna peč"
+    },
+    {
+        "id": 1452,
+        "name": "Hmeljčič"
+    },
+    {
+        "id": 1453,
+        "name": "Zagorica"
+    },
+    {
+        "id": 1454,
+        "name": "Daljni vrh"
+    },
+    {
+        "id": 1455,
+        "name": "Bršljin"
+    },
+    {
+        "id": 1456,
+        "name": "Novo mesto"
+    },
+    {
+        "id": 1457,
+        "name": "Ždinja vas"
+    },
+    {
+        "id": 1458,
+        "name": "Črešnjice"
+    },
+    {
+        "id": 1459,
+        "name": "Herinja vas"
+    },
+    {
+        "id": 1460,
+        "name": "Šentpeter"
+    },
+    {
+        "id": 1461,
+        "name": "Žaloviče"
+    },
+    {
+        "id": 1462,
+        "name": "Zbure"
+    },
+    {
+        "id": 1463,
+        "name": "Zagrad"
+    },
+    {
+        "id": 1464,
+        "name": "Dole"
+    },
+    {
+        "id": 1465,
+        "name": "Stara vas"
+    },
+    {
+        "id": 1466,
+        "name": "Gorenja vas"
+    },
+    {
+        "id": 1467,
+        "name": "Družinska vas"
+    },
+    {
+        "id": 1468,
+        "name": "Bela cerkev"
+    },
+    {
+        "id": 1469,
+        "name": "Tomažja vas"
+    },
+    {
+        "id": 1470,
+        "name": "Dobrava"
+    },
+    {
+        "id": 1471,
+        "name": "Mršeča vas"
+    },
+    {
+        "id": 1472,
+        "name": "Ostrog"
+    },
+    {
+        "id": 1473,
+        "name": "Gradišče"
+    },
+    {
+        "id": 1474,
+        "name": "Polhovica"
+    },
+    {
+        "id": 1475,
+        "name": "Gorenja orehovica"
+    },
+    {
+        "id": 1476,
+        "name": "Šentjernej"
+    },
+    {
+        "id": 1477,
+        "name": "Vrhpolje"
+    },
+    {
+        "id": 1478,
+        "name": "Gabrje"
+    },
+    {
+        "id": 1479,
+        "name": "Brusnice"
+    },
+    {
+        "id": 1480,
+        "name": "Potov vrh"
+    },
+    {
+        "id": 1481,
+        "name": "Smolenja vas"
+    },
+    {
+        "id": 1482,
+        "name": "Ragovo"
+    },
+    {
+        "id": 1483,
+        "name": "Kandija"
+    },
+    {
+        "id": 1484,
+        "name": "Šmihel pri novem mestu"
+    },
+    {
+        "id": 1485,
+        "name": "Gotna vas"
+    },
+    {
+        "id": 1486,
+        "name": "Stopiče"
+    },
+    {
+        "id": 1487,
+        "name": "Zajčji vrh"
+    },
+    {
+        "id": 1488,
+        "name": "Hrušica"
+    },
+    {
+        "id": 1489,
+        "name": "Cerovec"
+    },
+    {
+        "id": 1490,
+        "name": "Težka voda"
+    },
+    {
+        "id": 1491,
+        "name": "Lakovnice"
+    },
+    {
+        "id": 1492,
+        "name": "Stranska vas"
+    },
+    {
+        "id": 1493,
+        "name": "Veliki podljuben"
+    },
+    {
+        "id": 1494,
+        "name": "Jurka vas"
+    },
+    {
+        "id": 1495,
+        "name": "Toplice"
+    },
+    {
+        "id": 1496,
+        "name": "Podturn"
+    },
+    {
+        "id": 1497,
+        "name": "Podstenice"
+    },
+    {
+        "id": 1498,
+        "name": "Poljane"
+    },
+    {
+        "id": 1499,
+        "name": "Stare žage"
+    },
+    {
+        "id": 1500,
+        "name": "Dobindol"
+    },
+    {
+        "id": 1501,
+        "name": "Vinja vas"
+    },
+    {
+        "id": 1502,
+        "name": "Dole"
+    },
+    {
+        "id": 1503,
+        "name": "Sekuliči"
+    },
+    {
+        "id": 1504,
+        "name": "Hrast pri jugorju"
+    },
+    {
+        "id": 1505,
+        "name": "Bušinja vas"
+    },
+    {
+        "id": 1506,
+        "name": "Lokvica"
+    },
+    {
+        "id": 1507,
+        "name": "Grabrovec"
+    },
+    {
+        "id": 1508,
+        "name": "Bojanja vas"
+    },
+    {
+        "id": 1509,
+        "name": "Radovica"
+    },
+    {
+        "id": 1510,
+        "name": "Slamna vas"
+    },
+    {
+        "id": 1511,
+        "name": "Drašiči"
+    },
+    {
+        "id": 1512,
+        "name": "Božakovo"
+    },
+    {
+        "id": 1513,
+        "name": "Radoviči"
+    },
+    {
+        "id": 1514,
+        "name": "Rosalnice"
+    },
+    {
+        "id": 1515,
+        "name": "Metlika"
+    },
+    {
+        "id": 1516,
+        "name": "Primostek"
+    },
+    {
+        "id": 1517,
+        "name": "Dobravice"
+    },
+    {
+        "id": 1518,
+        "name": "Gradac"
+    },
+    {
+        "id": 1519,
+        "name": "Podzemelj"
+    },
+    {
+        "id": 1520,
+        "name": "Štale"
+    },
+    {
+        "id": 1521,
+        "name": "Črmošnjice"
+    },
+    {
+        "id": 1522,
+        "name": "Pribišje"
+    },
+    {
+        "id": 1523,
+        "name": "Štrekljevec"
+    },
+    {
+        "id": 1524,
+        "name": "Sodji vrh"
+    },
+    {
+        "id": 1525,
+        "name": "Črešnjevec"
+    },
+    {
+        "id": 1526,
+        "name": "Vinji vrh"
+    },
+    {
+        "id": 1527,
+        "name": "Semič"
+    },
+    {
+        "id": 1528,
+        "name": "Brezje pri vinjem vrhu"
+    },
+    {
+        "id": 1529,
+        "name": "Kot"
+    },
+    {
+        "id": 1530,
+        "name": "Blatnik"
+    },
+    {
+        "id": 1531,
+        "name": "Golobinjek"
+    },
+    {
+        "id": 1532,
+        "name": "Planina"
+    },
+    {
+        "id": 1533,
+        "name": "Kleč"
+    },
+    {
+        "id": 1534,
+        "name": "Petrova vas"
+    },
+    {
+        "id": 1535,
+        "name": "Črnomelj"
+    },
+    {
+        "id": 1536,
+        "name": "Talčji vrh"
+    },
+    {
+        "id": 1537,
+        "name": "Bukova gora"
+    },
+    {
+        "id": 1538,
+        "name": "Dolenja podgora"
+    },
+    {
+        "id": 1539,
+        "name": "Mavrlen"
+    },
+    {
+        "id": 1540,
+        "name": "Dobliče"
+    },
+    {
+        "id": 1541,
+        "name": "Loka"
+    },
+    {
+        "id": 1542,
+        "name": "Zastava"
+    },
+    {
+        "id": 1543,
+        "name": "Krasinec"
+    },
+    {
+        "id": 1544,
+        "name": "Griblje"
+    },
+    {
+        "id": 1545,
+        "name": "Bedenj"
+    },
+    {
+        "id": 1546,
+        "name": "Tribuče"
+    },
+    {
+        "id": 1547,
+        "name": "Butoraj"
+    },
+    {
+        "id": 1548,
+        "name": "Golek"
+    },
+    {
+        "id": 1549,
+        "name": "Tanča gora"
+    },
+    {
+        "id": 1550,
+        "name": "Dragatuš"
+    },
+    {
+        "id": 1551,
+        "name": "Belčji vrh"
+    },
+    {
+        "id": 1552,
+        "name": "Adlešiči"
+    },
+    {
+        "id": 1553,
+        "name": "Bojanci"
+    },
+    {
+        "id": 1554,
+        "name": "Hrast pri vinici"
+    },
+    {
+        "id": 1555,
+        "name": "Nova lipa"
+    },
+    {
+        "id": 1556,
+        "name": "Stara lipa"
+    },
+    {
+        "id": 1557,
+        "name": "Stari trg ob kolpi"
+    },
+    {
+        "id": 1558,
+        "name": "Sodevci"
+    },
+    {
+        "id": 1559,
+        "name": "Radenci"
+    },
+    {
+        "id": 1560,
+        "name": "Sinji vrh"
+    },
+    {
+        "id": 1561,
+        "name": "Damelj"
+    },
+    {
+        "id": 1562,
+        "name": "Učakovci"
+    },
+    {
+        "id": 1563,
+        "name": "Vinica"
+    },
+    {
+        "id": 1564,
+        "name": "Preloka"
+    },
+    {
+        "id": 1565,
+        "name": "Marindol"
+    },
+    {
+        "id": 1566,
+        "name": "Žuniči"
+    },
+    {
+        "id": 1567,
+        "name": "Potiskavec"
+    },
+    {
+        "id": 1568,
+        "name": "Podtabor"
+    },
+    {
+        "id": 1569,
+        "name": "Polom"
+    },
+    {
+        "id": 1570,
+        "name": "Stari log"
+    },
+    {
+        "id": 1571,
+        "name": "Smuka"
+    },
+    {
+        "id": 1572,
+        "name": "Rog"
+    },
+    {
+        "id": 1573,
+        "name": "Mala gora"
+    },
+    {
+        "id": 1574,
+        "name": "Koblarji"
+    },
+    {
+        "id": 1575,
+        "name": "Stara cerkev"
+    },
+    {
+        "id": 1576,
+        "name": "Mahovnik"
+    },
+    {
+        "id": 1577,
+        "name": "Kočevje"
+    },
+    {
+        "id": 1578,
+        "name": "Željne"
+    },
+    {
+        "id": 1579,
+        "name": "Rajhenav"
+    },
+    {
+        "id": 1580,
+        "name": "Onek"
+    },
+    {
+        "id": 1581,
+        "name": "Livold"
+    },
+    {
+        "id": 1582,
+        "name": "Koče"
+    },
+    {
+        "id": 1583,
+        "name": "Gotenica"
+    },
+    {
+        "id": 1584,
+        "name": "Draga"
+    },
+    {
+        "id": 1585,
+        "name": "Trava"
+    },
+    {
+        "id": 1586,
+        "name": "Žurge"
+    },
+    {
+        "id": 1587,
+        "name": "Osilnica"
+    },
+    {
+        "id": 1588,
+        "name": "Bosljiva loka"
+    },
+    {
+        "id": 1589,
+        "name": "Borovec"
+    },
+    {
+        "id": 1590,
+        "name": "Kočevska reka"
+    },
+    {
+        "id": 1591,
+        "name": "Novi lazi"
+    },
+    {
+        "id": 1592,
+        "name": "Štalcerji"
+    },
+    {
+        "id": 1593,
+        "name": "Črni potok"
+    },
+    {
+        "id": 1594,
+        "name": "Mozelj"
+    },
+    {
+        "id": 1595,
+        "name": "Kumrova vas"
+    },
+    {
+        "id": 1596,
+        "name": "Brezje"
+    },
+    {
+        "id": 1597,
+        "name": "Koprivnik"
+    },
+    {
+        "id": 1598,
+        "name": "Hrib"
+    },
+    {
+        "id": 1599,
+        "name": "Nemška loka"
+    },
+    {
+        "id": 1600,
+        "name": "Knežja lipa"
+    },
+    {
+        "id": 1601,
+        "name": "Čeplje"
+    },
+    {
+        "id": 1602,
+        "name": "Predgrad"
+    },
+    {
+        "id": 1603,
+        "name": "Dol"
+    },
+    {
+        "id": 1604,
+        "name": "Spodnji log"
+    },
+    {
+        "id": 1605,
+        "name": "Rajndol"
+    },
+    {
+        "id": 1606,
+        "name": "Škrilj"
+    },
+    {
+        "id": 1607,
+        "name": "Suhor"
+    },
+    {
+        "id": 1608,
+        "name": "Briga"
+    },
+    {
+        "id": 1609,
+        "name": "Banja loka"
+    },
+    {
+        "id": 1610,
+        "name": "Vrh"
+    },
+    {
+        "id": 1611,
+        "name": "Fara"
+    },
+    {
+        "id": 1612,
+        "name": "Pirče"
+    },
+    {
+        "id": 1613,
+        "name": "Kuželj"
+    },
+    {
+        "id": 1614,
+        "name": "Slemena"
+    },
+    {
+        "id": 1615,
+        "name": "Podpoljane"
+    },
+    {
+        "id": 1616,
+        "name": "Velike poljane"
+    },
+    {
+        "id": 1617,
+        "name": "Sušje"
+    },
+    {
+        "id": 1618,
+        "name": "Vinice"
+    },
+    {
+        "id": 1619,
+        "name": "Sodražica"
+    },
+    {
+        "id": 1620,
+        "name": "Žimarice"
+    },
+    {
+        "id": 1621,
+        "name": "Gora"
+    },
+    {
+        "id": 1622,
+        "name": "Zamostec"
+    },
+    {
+        "id": 1623,
+        "name": "Jurjevica"
+    },
+    {
+        "id": 1624,
+        "name": "Gorenja vas"
+    },
+    {
+        "id": 1625,
+        "name": "Ribnica"
+    },
+    {
+        "id": 1626,
+        "name": "Goriča vas"
+    },
+    {
+        "id": 1627,
+        "name": "Prigorica"
+    },
+    {
+        "id": 1628,
+        "name": "Dane"
+    },
+    {
+        "id": 1629,
+        "name": "Dolenja vas"
+    },
+    {
+        "id": 1630,
+        "name": "Rakitnica"
+    },
+    {
+        "id": 1631,
+        "name": "Grčarice"
+    },
+    {
+        "id": 1632,
+        "name": "Otok i"
+    },
+    {
+        "id": 1633,
+        "name": "Gorenje jezero"
+    },
+    {
+        "id": 1634,
+        "name": "Dane"
+    },
+    {
+        "id": 1635,
+        "name": "Podcerkev"
+    },
+    {
+        "id": 1636,
+        "name": "Lož"
+    },
+    {
+        "id": 1637,
+        "name": "Stari trg pri ložu"
+    },
+    {
+        "id": 1638,
+        "name": "Knežja njiva"
+    },
+    {
+        "id": 1639,
+        "name": "Vrhnika"
+    },
+    {
+        "id": 1640,
+        "name": "Retje"
+    },
+    {
+        "id": 1641,
+        "name": "Hrib"
+    },
+    {
+        "id": 1642,
+        "name": "Travnik"
+    },
+    {
+        "id": 1643,
+        "name": "Poljane"
+    },
+    {
+        "id": 1644,
+        "name": "Iga vas"
+    },
+    {
+        "id": 1645,
+        "name": "Viševek"
+    },
+    {
+        "id": 1646,
+        "name": "Pudob"
+    },
+    {
+        "id": 1647,
+        "name": "Nadlesk"
+    },
+    {
+        "id": 1648,
+        "name": "Kozarišče"
+    },
+    {
+        "id": 1649,
+        "name": "Vrh"
+    },
+    {
+        "id": 1650,
+        "name": "Babna polica"
+    },
+    {
+        "id": 1651,
+        "name": "Babno polje"
+    },
+    {
+        "id": 1652,
+        "name": "Rakitna"
+    },
+    {
+        "id": 1653,
+        "name": "Osredek"
+    },
+    {
+        "id": 1654,
+        "name": "Žilce"
+    },
+    {
+        "id": 1655,
+        "name": "Kranjče"
+    },
+    {
+        "id": 1656,
+        "name": "Otave"
+    },
+    {
+        "id": 1657,
+        "name": "Kožljek"
+    },
+    {
+        "id": 1658,
+        "name": "Bezuljak"
+    },
+    {
+        "id": 1659,
+        "name": "Rakek"
+    },
+    {
+        "id": 1660,
+        "name": "Unec"
+    },
+    {
+        "id": 1661,
+        "name": "Begunje pri cerknici"
+    },
+    {
+        "id": 1662,
+        "name": "Selšček"
+    },
+    {
+        "id": 1663,
+        "name": "Cajnarje"
+    },
+    {
+        "id": 1664,
+        "name": "Štrukljeva vas"
+    },
+    {
+        "id": 1665,
+        "name": "Jeršiče"
+    },
+    {
+        "id": 1666,
+        "name": "Ravne pri žilcah"
+    },
+    {
+        "id": 1667,
+        "name": "Hiteno"
+    },
+    {
+        "id": 1668,
+        "name": "Zales"
+    },
+    {
+        "id": 1669,
+        "name": "Kremenca"
+    },
+    {
+        "id": 1670,
+        "name": "Ulaka"
+    },
+    {
+        "id": 1671,
+        "name": "Gradiško"
+    },
+    {
+        "id": 1672,
+        "name": "Ravnik"
+    },
+    {
+        "id": 1673,
+        "name": "Velike bloke"
+    },
+    {
+        "id": 1674,
+        "name": "Radlek"
+    },
+    {
+        "id": 1675,
+        "name": "Grahovo"
+    },
+    {
+        "id": 1676,
+        "name": "Cerknica"
+    },
+    {
+        "id": 1677,
+        "name": "Dolenja vas"
+    },
+    {
+        "id": 1678,
+        "name": "Otok ii"
+    },
+    {
+        "id": 1679,
+        "name": "Lipsenj"
+    },
+    {
+        "id": 1680,
+        "name": "Žerovnica"
+    },
+    {
+        "id": 1681,
+        "name": "Bločice"
+    },
+    {
+        "id": 1682,
+        "name": "Studeno"
+    },
+    {
+        "id": 1683,
+        "name": "Nova vas"
+    },
+    {
+        "id": 1684,
+        "name": "Volčje"
+    },
+    {
+        "id": 1685,
+        "name": "Krajič"
+    },
+    {
+        "id": 1686,
+        "name": "Strmca"
+    },
+    {
+        "id": 1687,
+        "name": "Veliki vrh"
+    },
+    {
+        "id": 1688,
+        "name": "Runarsko"
+    },
+    {
+        "id": 1689,
+        "name": "Benete"
+    },
+    {
+        "id": 1690,
+        "name": "Studenec"
+    },
+    {
+        "id": 1691,
+        "name": "Hudi vrh"
+    },
+    {
+        "id": 1692,
+        "name": "Metulje"
+    },
+    {
+        "id": 1693,
+        "name": "Topol"
+    },
+    {
+        "id": 1694,
+        "name": "Ravne pri topolu"
+    },
+    {
+        "id": 1695,
+        "name": "Karlovško predmestje"
+    },
+    {
+        "id": 1696,
+        "name": "Rudnik"
+    },
+    {
+        "id": 1697,
+        "name": "Lanišče"
+    },
+    {
+        "id": 1698,
+        "name": "Pijava gorica"
+    },
+    {
+        "id": 1699,
+        "name": "Dobravica"
+    },
+    {
+        "id": 1700,
+        "name": "Ig"
+    },
+    {
+        "id": 1701,
+        "name": "Iška loka"
+    },
+    {
+        "id": 1702,
+        "name": "Tomišelj"
+    },
+    {
+        "id": 1703,
+        "name": "Jezero"
+    },
+    {
+        "id": 1704,
+        "name": "Kamnik"
+    },
+    {
+        "id": 1705,
+        "name": "Preserje"
+    },
+    {
+        "id": 1706,
+        "name": "Vrbljene"
+    },
+    {
+        "id": 1707,
+        "name": "Iška vas"
+    },
+    {
+        "id": 1708,
+        "name": "Golo"
+    },
+    {
+        "id": 1709,
+        "name": "Želimlje"
+    },
+    {
+        "id": 1710,
+        "name": "Gradišče"
+    },
+    {
+        "id": 1711,
+        "name": "Turjak"
+    },
+    {
+        "id": 1712,
+        "name": "Zapotok"
+    },
+    {
+        "id": 1713,
+        "name": "Krvava peč"
+    },
+    {
+        "id": 1714,
+        "name": "Selo pri robu"
+    },
+    {
+        "id": 1715,
+        "name": "Osolnik"
+    },
+    {
+        "id": 1716,
+        "name": "Ulaka"
+    },
+    {
+        "id": 1717,
+        "name": "Velike lašče"
+    },
+    {
+        "id": 1718,
+        "name": "Dvorska vas"
+    },
+    {
+        "id": 1719,
+        "name": "Lužarji"
+    },
+    {
+        "id": 1720,
+        "name": "Krakovsko predmestje"
+    },
+    {
+        "id": 1721,
+        "name": "Gradišče i"
+    },
+    {
+        "id": 1722,
+        "name": "Trnovsko predmestje"
+    },
+    {
+        "id": 1723,
+        "name": "Vič"
+    },
+    {
+        "id": 1724,
+        "name": "Brezovica"
+    },
+    {
+        "id": 1725,
+        "name": "Ajdovščina"
+    },
+    {
+        "id": 1726,
+        "name": "Šentpeter"
+    },
+    {
+        "id": 1727,
+        "name": "Poljansko predmestje"
+    },
+    {
+        "id": 1728,
+        "name": "Ljubljana mesto"
+    },
+    {
+        "id": 1729,
+        "name": "Šmartno ob savi"
+    },
+    {
+        "id": 1730,
+        "name": "Moste"
+    },
+    {
+        "id": 1731,
+        "name": "Udmat"
+    },
+    {
+        "id": 1732,
+        "name": "Štepanja vas"
+    },
+    {
+        "id": 1733,
+        "name": "Bizovik"
+    },
+    {
+        "id": 1734,
+        "name": "Ježica"
+    },
+    {
+        "id": 1735,
+        "name": "Stožice"
+    },
+    {
+        "id": 1736,
+        "name": "Brinje i"
+    },
+    {
+        "id": 1737,
+        "name": "Tabor"
+    },
+    {
+        "id": 1738,
+        "name": "Dravlje"
+    },
+    {
+        "id": 1739,
+        "name": "Zgornja šiška"
+    },
+    {
+        "id": 1740,
+        "name": "Spodnja šiška"
+    },
+    {
+        "id": 1741,
+        "name": "Vodice"
+    },
+    {
+        "id": 1742,
+        "name": "Repnje"
+    },
+    {
+        "id": 1743,
+        "name": "Bukovica"
+    },
+    {
+        "id": 1744,
+        "name": "Šinkov turn"
+    },
+    {
+        "id": 1745,
+        "name": "Vesca"
+    },
+    {
+        "id": 1746,
+        "name": "Rašica"
+    },
+    {
+        "id": 1747,
+        "name": "Polje"
+    },
+    {
+        "id": 1748,
+        "name": "Skaručna"
+    },
+    {
+        "id": 1749,
+        "name": "Gameljne"
+    },
+    {
+        "id": 1750,
+        "name": "Šmartno pod šmarno goro"
+    },
+    {
+        "id": 1751,
+        "name": "Tacen"
+    },
+    {
+        "id": 1752,
+        "name": "Stanežiče"
+    },
+    {
+        "id": 1753,
+        "name": "Vižmarje"
+    },
+    {
+        "id": 1754,
+        "name": "Šentvid nad ljubljano"
+    },
+    {
+        "id": 1755,
+        "name": "Glince"
+    },
+    {
+        "id": 1756,
+        "name": "Črnuče"
+    },
+    {
+        "id": 1757,
+        "name": "Nadgorica"
+    },
+    {
+        "id": 1758,
+        "name": "Dragomelj"
+    },
+    {
+        "id": 1759,
+        "name": "Podgorica"
+    },
+    {
+        "id": 1760,
+        "name": "Beričevo"
+    },
+    {
+        "id": 1761,
+        "name": "Dol pri ljubljani"
+    },
+    {
+        "id": 1762,
+        "name": "Podgora"
+    },
+    {
+        "id": 1763,
+        "name": "Kleče"
+    },
+    {
+        "id": 1764,
+        "name": "Križevska vas"
+    },
+    {
+        "id": 1765,
+        "name": "Vinje"
+    },
+    {
+        "id": 1766,
+        "name": "Petelinje"
+    },
+    {
+        "id": 1767,
+        "name": "Dolsko"
+    },
+    {
+        "id": 1768,
+        "name": "Senožeti"
+    },
+    {
+        "id": 1769,
+        "name": "Laze"
+    },
+    {
+        "id": 1770,
+        "name": "Kašelj"
+    },
+    {
+        "id": 1771,
+        "name": "Zadobrova"
+    },
+    {
+        "id": 1772,
+        "name": "Slape"
+    },
+    {
+        "id": 1773,
+        "name": "Dobrunje"
+    },
+    {
+        "id": 1774,
+        "name": "Podmolnik"
+    },
+    {
+        "id": 1775,
+        "name": "Sostro"
+    },
+    {
+        "id": 1776,
+        "name": "Lipoglav"
+    },
+    {
+        "id": 1777,
+        "name": "Javor"
+    },
+    {
+        "id": 1778,
+        "name": "Volavlje"
+    },
+    {
+        "id": 1779,
+        "name": "Trebeljevo"
+    },
+    {
+        "id": 1780,
+        "name": "Blečji vrh"
+    },
+    {
+        "id": 1781,
+        "name": "Polica"
+    },
+    {
+        "id": 1782,
+        "name": "Stara vas"
+    },
+    {
+        "id": 1783,
+        "name": "Grosuplje naselje"
+    },
+    {
+        "id": 1784,
+        "name": "Stranska vas"
+    },
+    {
+        "id": 1785,
+        "name": "Sela"
+    },
+    {
+        "id": 1786,
+        "name": "Šmarje"
+    },
+    {
+        "id": 1787,
+        "name": "Mali vrh"
+    },
+    {
+        "id": 1788,
+        "name": "Vino"
+    },
+    {
+        "id": 1789,
+        "name": "Ponova vas"
+    },
+    {
+        "id": 1790,
+        "name": "Slivnica"
+    },
+    {
+        "id": 1791,
+        "name": "Žalna"
+    },
+    {
+        "id": 1792,
+        "name": "Luče"
+    },
+    {
+        "id": 1793,
+        "name": "Ilova gora"
+    },
+    {
+        "id": 1794,
+        "name": "Račna"
+    },
+    {
+        "id": 1795,
+        "name": "Velike lipljene"
+    },
+    {
+        "id": 1796,
+        "name": "Cesta"
+    },
+    {
+        "id": 1797,
+        "name": "Zdenska vas"
+    },
+    {
+        "id": 1798,
+        "name": "Zagorica"
+    },
+    {
+        "id": 1799,
+        "name": "Videm dobrepolje"
+    },
+    {
+        "id": 1800,
+        "name": "Podgora"
+    },
+    {
+        "id": 1801,
+        "name": "Kompolje"
+    },
+    {
+        "id": 1802,
+        "name": "Leskovec"
+    },
+    {
+        "id": 1803,
+        "name": "Metnaj"
+    },
+    {
+        "id": 1804,
+        "name": "Češnjice"
+    },
+    {
+        "id": 1805,
+        "name": "Bukovica"
+    },
+    {
+        "id": 1806,
+        "name": "Sobrače"
+    },
+    {
+        "id": 1807,
+        "name": "Temenica"
+    },
+    {
+        "id": 1808,
+        "name": "Male dole"
+    },
+    {
+        "id": 1809,
+        "name": "Šentvid"
+    },
+    {
+        "id": 1810,
+        "name": "Stična"
+    },
+    {
+        "id": 1811,
+        "name": "Dobrava"
+    },
+    {
+        "id": 1812,
+        "name": "Dedni dol"
+    },
+    {
+        "id": 1813,
+        "name": "Višnja gora"
+    },
+    {
+        "id": 1814,
+        "name": "Kriška vas"
+    },
+    {
+        "id": 1815,
+        "name": "Draga"
+    },
+    {
+        "id": 1816,
+        "name": "Hudo"
+    },
+    {
+        "id": 1817,
+        "name": "Radohova vas"
+    },
+    {
+        "id": 1818,
+        "name": "Podboršt"
+    },
+    {
+        "id": 1819,
+        "name": "Velike pece"
+    },
+    {
+        "id": 1820,
+        "name": "Gorenja vas"
+    },
+    {
+        "id": 1821,
+        "name": "Vrhe"
+    },
+    {
+        "id": 1822,
+        "name": "Muljava"
+    },
+    {
+        "id": 1823,
+        "name": "Dob"
+    },
+    {
+        "id": 1824,
+        "name": "Valična vas"
+    },
+    {
+        "id": 1825,
+        "name": "Zagradec"
+    },
+    {
+        "id": 1826,
+        "name": "Sušica"
+    },
+    {
+        "id": 1827,
+        "name": "Krka"
+    },
+    {
+        "id": 1828,
+        "name": "Podbukovje"
+    },
+    {
+        "id": 1829,
+        "name": "Veliko globoko"
+    },
+    {
+        "id": 1830,
+        "name": "Ambrus"
+    },
+    {
+        "id": 1831,
+        "name": "Višnje"
+    },
+    {
+        "id": 1832,
+        "name": "Vače"
+    },
+    {
+        "id": 1833,
+        "name": "Sava pri litiji"
+    },
+    {
+        "id": 1834,
+        "name": "Konj"
+    },
+    {
+        "id": 1835,
+        "name": "Hotič"
+    },
+    {
+        "id": 1836,
+        "name": "Kresnice"
+    },
+    {
+        "id": 1837,
+        "name": "Kresniški vrh"
+    },
+    {
+        "id": 1838,
+        "name": "Litija"
+    },
+    {
+        "id": 1839,
+        "name": "Jablanica"
+    },
+    {
+        "id": 1840,
+        "name": "Polšnik"
+    },
+    {
+        "id": 1841,
+        "name": "Velika goba"
+    },
+    {
+        "id": 1842,
+        "name": "Dole pri litiji"
+    },
+    {
+        "id": 1843,
+        "name": "Prelesje"
+    },
+    {
+        "id": 1844,
+        "name": "Vodice"
+    },
+    {
+        "id": 1845,
+        "name": "Moravče"
+    },
+    {
+        "id": 1846,
+        "name": "Liberga"
+    },
+    {
+        "id": 1847,
+        "name": "Šmartno"
+    },
+    {
+        "id": 1848,
+        "name": "Štanga"
+    },
+    {
+        "id": 1849,
+        "name": "Vintarjevec"
+    },
+    {
+        "id": 1850,
+        "name": "Ježni vrh"
+    },
+    {
+        "id": 1851,
+        "name": "Gradišče"
+    },
+    {
+        "id": 1852,
+        "name": "Poljane"
+    },
+    {
+        "id": 1853,
+        "name": "Okrog"
+    },
+    {
+        "id": 1854,
+        "name": "Tihaboj"
+    },
+    {
+        "id": 1855,
+        "name": "Hrastnik mesto"
+    },
+    {
+        "id": 1856,
+        "name": "Dol pri hrastniku"
+    },
+    {
+        "id": 1857,
+        "name": "Marno"
+    },
+    {
+        "id": 1858,
+        "name": "Turje"
+    },
+    {
+        "id": 1859,
+        "name": "Gore"
+    },
+    {
+        "id": 1860,
+        "name": "Širje"
+    },
+    {
+        "id": 1861,
+        "name": "Obrežje"
+    },
+    {
+        "id": 1862,
+        "name": "Radeče"
+    },
+    {
+        "id": 1863,
+        "name": "Podkraj"
+    },
+    {
+        "id": 1864,
+        "name": "Svibno"
+    },
+    {
+        "id": 1865,
+        "name": "Njivice"
+    },
+    {
+        "id": 1866,
+        "name": "Hotemež"
+    },
+    {
+        "id": 1867,
+        "name": "Vrhovo"
+    },
+    {
+        "id": 1868,
+        "name": "Knezdol"
+    },
+    {
+        "id": 1869,
+        "name": "Čeče"
+    },
+    {
+        "id": 1870,
+        "name": "Ojstro"
+    },
+    {
+        "id": 1871,
+        "name": "Trbovlje"
+    },
+    {
+        "id": 1872,
+        "name": "Dobovec"
+    },
+    {
+        "id": 1873,
+        "name": "Hrastnik pri trojanah"
+    },
+    {
+        "id": 1874,
+        "name": "Brezje"
+    },
+    {
+        "id": 1875,
+        "name": "Čemšenik"
+    },
+    {
+        "id": 1876,
+        "name": "Jesenovo"
+    },
+    {
+        "id": 1877,
+        "name": "Vrhe i"
+    },
+    {
+        "id": 1878,
+        "name": "Kotredež"
+    },
+    {
+        "id": 1879,
+        "name": "Ržiše"
+    },
+    {
+        "id": 1880,
+        "name": "Kolovrat"
+    },
+    {
+        "id": 1881,
+        "name": "Kandrše"
+    },
+    {
+        "id": 1882,
+        "name": "Zabava"
+    },
+    {
+        "id": 1883,
+        "name": "Šemnik"
+    },
+    {
+        "id": 1884,
+        "name": "Loke pri zagorju"
+    },
+    {
+        "id": 1885,
+        "name": "Potoška vas"
+    },
+    {
+        "id": 1886,
+        "name": "Zagorje mesto"
+    },
+    {
+        "id": 1887,
+        "name": "Šentlambert"
+    },
+    {
+        "id": 1888,
+        "name": "Konjšica"
+    },
+    {
+        "id": 1889,
+        "name": "Podkum"
+    },
+    {
+        "id": 1890,
+        "name": "Črna"
+    },
+    {
+        "id": 1891,
+        "name": "Županje njive"
+    },
+    {
+        "id": 1892,
+        "name": "Bistričica"
+    },
+    {
+        "id": 1893,
+        "name": "Stranje"
+    },
+    {
+        "id": 1894,
+        "name": "Godič"
+    },
+    {
+        "id": 1895,
+        "name": "Gozd"
+    },
+    {
+        "id": 1896,
+        "name": "Tučna"
+    },
+    {
+        "id": 1897,
+        "name": "Nevlje"
+    },
+    {
+        "id": 1898,
+        "name": "Mekinje"
+    },
+    {
+        "id": 1899,
+        "name": "Košiše"
+    },
+    {
+        "id": 1900,
+        "name": "Tunjice"
+    },
+    {
+        "id": 1901,
+        "name": "Mlaka"
+    },
+    {
+        "id": 1902,
+        "name": "Klanec"
+    },
+    {
+        "id": 1903,
+        "name": "Nasovče"
+    },
+    {
+        "id": 1904,
+        "name": "Kaplja vas"
+    },
+    {
+        "id": 1905,
+        "name": "Moste"
+    },
+    {
+        "id": 1906,
+        "name": "Suhadole"
+    },
+    {
+        "id": 1907,
+        "name": "Križ"
+    },
+    {
+        "id": 1908,
+        "name": "Podgorje"
+    },
+    {
+        "id": 1909,
+        "name": "Šmarca"
+    },
+    {
+        "id": 1910,
+        "name": "Volčji potok"
+    },
+    {
+        "id": 1911,
+        "name": "Kamnik"
+    },
+    {
+        "id": 1912,
+        "name": "Palovče"
+    },
+    {
+        "id": 1913,
+        "name": "Podhruška"
+    },
+    {
+        "id": 1914,
+        "name": "Znojile"
+    },
+    {
+        "id": 1915,
+        "name": "Hruševka"
+    },
+    {
+        "id": 1916,
+        "name": "Loke"
+    },
+    {
+        "id": 1917,
+        "name": "Šmartno v tuhinju"
+    },
+    {
+        "id": 1918,
+        "name": "Pšajnovica"
+    },
+    {
+        "id": 1919,
+        "name": "Zgornji tuhinj"
+    },
+    {
+        "id": 1920,
+        "name": "Hribi"
+    },
+    {
+        "id": 1921,
+        "name": "Špitalič"
+    },
+    {
+        "id": 1922,
+        "name": "Zgornji motnik"
+    },
+    {
+        "id": 1923,
+        "name": "Motnik"
+    },
+    {
+        "id": 1924,
+        "name": "Trojane"
+    },
+    {
+        "id": 1925,
+        "name": "Učak"
+    },
+    {
+        "id": 1926,
+        "name": "Šentožbolt"
+    },
+    {
+        "id": 1927,
+        "name": "Blagovica"
+    },
+    {
+        "id": 1928,
+        "name": "Češnjice"
+    },
+    {
+        "id": 1929,
+        "name": "Koreno"
+    },
+    {
+        "id": 1930,
+        "name": "Žirovše"
+    },
+    {
+        "id": 1931,
+        "name": "Krašnja"
+    },
+    {
+        "id": 1932,
+        "name": "Zlato polje"
+    },
+    {
+        "id": 1933,
+        "name": "Lukovica"
+    },
+    {
+        "id": 1934,
+        "name": "Rafolče"
+    },
+    {
+        "id": 1935,
+        "name": "Rova"
+    },
+    {
+        "id": 1936,
+        "name": "Radomlje"
+    },
+    {
+        "id": 1937,
+        "name": "Homec"
+    },
+    {
+        "id": 1938,
+        "name": "Mengeš"
+    },
+    {
+        "id": 1939,
+        "name": "Dobeno"
+    },
+    {
+        "id": 1940,
+        "name": "Loka"
+    },
+    {
+        "id": 1943,
+        "name": "Dob"
+    },
+    {
+        "id": 1944,
+        "name": "Prevoje"
+    },
+    {
+        "id": 1945,
+        "name": "Krtina"
+    },
+    {
+        "id": 1946,
+        "name": "Studenec"
+    },
+    {
+        "id": 1947,
+        "name": "Spodnje koseze"
+    },
+    {
+        "id": 1948,
+        "name": "Krašce"
+    },
+    {
+        "id": 1949,
+        "name": "Negastrn"
+    },
+    {
+        "id": 1950,
+        "name": "Limbarska gora"
+    },
+    {
+        "id": 1951,
+        "name": "Zgornje koseze"
+    },
+    {
+        "id": 1952,
+        "name": "Peče"
+    },
+    {
+        "id": 1953,
+        "name": "Drtija"
+    },
+    {
+        "id": 1954,
+        "name": "Velika vas"
+    },
+    {
+        "id": 1955,
+        "name": "Moravče"
+    },
+    {
+        "id": 1956,
+        "name": "Vrhpolje"
+    },
+    {
+        "id": 1957,
+        "name": "Trojica"
+    },
+    {
+        "id": 1958,
+        "name": "Brezovica"
+    },
+    {
+        "id": 1959,
+        "name": "Domžale"
+    },
+    {
+        "id": 1961,
+        "name": "Trzin"
+    },
+    {
+        "id": 1962,
+        "name": "Depala vas"
+    },
+    {
+        "id": 1963,
+        "name": "Študa"
+    },
+    {
+        "id": 1964,
+        "name": "Ihan"
+    },
+    {
+        "id": 1965,
+        "name": "Brdo"
+    },
+    {
+        "id": 1966,
+        "name": "Selo"
+    },
+    {
+        "id": 1967,
+        "name": "Moše"
+    },
+    {
+        "id": 1968,
+        "name": "Hraše"
+    },
+    {
+        "id": 1969,
+        "name": "Zapoge"
+    },
+    {
+        "id": 1970,
+        "name": "Smlednik"
+    },
+    {
+        "id": 1971,
+        "name": "Zbilje"
+    },
+    {
+        "id": 1972,
+        "name": "Senica"
+    },
+    {
+        "id": 1973,
+        "name": "Medvode"
+    },
+    {
+        "id": 1974,
+        "name": "Zgornje pirniče"
+    },
+    {
+        "id": 1975,
+        "name": "Spodnje pirniče"
+    },
+    {
+        "id": 1976,
+        "name": "Preska"
+    },
+    {
+        "id": 1977,
+        "name": "Sora"
+    },
+    {
+        "id": 1978,
+        "name": "Studenčice"
+    },
+    {
+        "id": 1979,
+        "name": "Žlebe"
+    },
+    {
+        "id": 1980,
+        "name": "Topol"
+    },
+    {
+        "id": 1981,
+        "name": "Golo brdo"
+    },
+    {
+        "id": 1982,
+        "name": "Šujica"
+    },
+    {
+        "id": 1983,
+        "name": "Babna gora"
+    },
+    {
+        "id": 1984,
+        "name": "Selo nad polhovim gradcem"
+    },
+    {
+        "id": 1985,
+        "name": "Črni vrh"
+    },
+    {
+        "id": 1986,
+        "name": "Polhov gradec"
+    },
+    {
+        "id": 1987,
+        "name": "Setnik"
+    },
+    {
+        "id": 1988,
+        "name": "Butajnova"
+    },
+    {
+        "id": 1989,
+        "name": "Šentjošt"
+    },
+    {
+        "id": 1990,
+        "name": "Žažar"
+    },
+    {
+        "id": 1991,
+        "name": "Vrzdenec"
+    },
+    {
+        "id": 1992,
+        "name": "Horjul"
+    },
+    {
+        "id": 1993,
+        "name": "Zaklanec"
+    },
+    {
+        "id": 1994,
+        "name": "Dobrova"
+    },
+    {
+        "id": 1995,
+        "name": "Podsmreka"
+    },
+    {
+        "id": 1996,
+        "name": "Log"
+    },
+    {
+        "id": 1997,
+        "name": "Blatna brezovica"
+    },
+    {
+        "id": 1998,
+        "name": "Velika ligojna"
+    },
+    {
+        "id": 1999,
+        "name": "Podlipa"
+    },
+    {
+        "id": 2000,
+        "name": "Zaplana"
+    },
+    {
+        "id": 2001,
+        "name": "Stara vrhnika"
+    },
+    {
+        "id": 2002,
+        "name": "Vrhnika"
+    },
+    {
+        "id": 2003,
+        "name": "Verd"
+    },
+    {
+        "id": 2004,
+        "name": "Borovnica"
+    },
+    {
+        "id": 2005,
+        "name": "Breg"
+    },
+    {
+        "id": 2006,
+        "name": "Zabočevo"
+    },
+    {
+        "id": 2007,
+        "name": "Vrh"
+    },
+    {
+        "id": 2008,
+        "name": "Rovte"
+    },
+    {
+        "id": 2009,
+        "name": "Petkovec"
+    },
+    {
+        "id": 2010,
+        "name": "Žibrše"
+    },
+    {
+        "id": 2011,
+        "name": "Medvedje brdo"
+    },
+    {
+        "id": 2012,
+        "name": "Novi svet"
+    },
+    {
+        "id": 2013,
+        "name": "Hotedršica"
+    },
+    {
+        "id": 2014,
+        "name": "Ravnik"
+    },
+    {
+        "id": 2015,
+        "name": "Gorenji logatec"
+    },
+    {
+        "id": 2016,
+        "name": "Blekova vas"
+    },
+    {
+        "id": 2017,
+        "name": "Dolenji logatec"
+    },
+    {
+        "id": 2018,
+        "name": "Laze"
+    },
+    {
+        "id": 2019,
+        "name": "Grčarevec"
+    },
+    {
+        "id": 2020,
+        "name": "Ledinica"
+    },
+    {
+        "id": 2021,
+        "name": "Dobračeva"
+    },
+    {
+        "id": 2022,
+        "name": "Žirovski vrh"
+    },
+    {
+        "id": 2023,
+        "name": "Žiri"
+    },
+    {
+        "id": 2024,
+        "name": "Vrsnik ii"
+    },
+    {
+        "id": 2025,
+        "name": "Opale"
+    },
+    {
+        "id": 2026,
+        "name": "Pevno"
+    },
+    {
+        "id": 2027,
+        "name": "Stara loka"
+    },
+    {
+        "id": 2028,
+        "name": "Dorfarje"
+    },
+    {
+        "id": 2029,
+        "name": "Stari dvor"
+    },
+    {
+        "id": 2030,
+        "name": "Suha"
+    },
+    {
+        "id": 2031,
+        "name": "Godešič"
+    },
+    {
+        "id": 2032,
+        "name": "Reteče"
+    },
+    {
+        "id": 2033,
+        "name": "Draga"
+    },
+    {
+        "id": 2034,
+        "name": "Puštal"
+    },
+    {
+        "id": 2035,
+        "name": "Škofja loka"
+    },
+    {
+        "id": 2036,
+        "name": "Sopotnica"
+    },
+    {
+        "id": 2037,
+        "name": "Podvrh"
+    },
+    {
+        "id": 2038,
+        "name": "Dolenčice"
+    },
+    {
+        "id": 2039,
+        "name": "Gorenja ravan"
+    },
+    {
+        "id": 2040,
+        "name": "Podobeno"
+    },
+    {
+        "id": 2041,
+        "name": "Visoko"
+    },
+    {
+        "id": 2042,
+        "name": "Zminec"
+    },
+    {
+        "id": 2043,
+        "name": "Barbara"
+    },
+    {
+        "id": 2044,
+        "name": "Ožbolt"
+    },
+    {
+        "id": 2045,
+        "name": "Staniše"
+    },
+    {
+        "id": 2046,
+        "name": "Kovski vrh"
+    },
+    {
+        "id": 2047,
+        "name": "Dobje"
+    },
+    {
+        "id": 2048,
+        "name": "Dolenje brdo"
+    },
+    {
+        "id": 2049,
+        "name": "Hotavlje"
+    },
+    {
+        "id": 2050,
+        "name": "Leskovica"
+    },
+    {
+        "id": 2051,
+        "name": "Podjelovo brdo"
+    },
+    {
+        "id": 2052,
+        "name": "Laniše"
+    },
+    {
+        "id": 2053,
+        "name": "Javorjev dol"
+    },
+    {
+        "id": 2054,
+        "name": "Koprivnik"
+    },
+    {
+        "id": 2055,
+        "name": "Stara oselica"
+    },
+    {
+        "id": 2056,
+        "name": "Trebija"
+    },
+    {
+        "id": 2057,
+        "name": "Gorenja vas"
+    },
+    {
+        "id": 2058,
+        "name": "Dolenja dobrava"
+    },
+    {
+        "id": 2059,
+        "name": "Lučine"
+    },
+    {
+        "id": 2060,
+        "name": "Dražgoše"
+    },
+    {
+        "id": 2061,
+        "name": "Podlonk"
+    },
+    {
+        "id": 2062,
+        "name": "Studeno"
+    },
+    {
+        "id": 2063,
+        "name": "Kališe"
+    },
+    {
+        "id": 2064,
+        "name": "Selca"
+    },
+    {
+        "id": 2065,
+        "name": "Bukovščica"
+    },
+    {
+        "id": 2066,
+        "name": "Dolenja vas"
+    },
+    {
+        "id": 2067,
+        "name": "Bukovica"
+    },
+    {
+        "id": 2068,
+        "name": "Zgornja luša"
+    },
+    {
+        "id": 2069,
+        "name": "Lenart"
+    },
+    {
+        "id": 2070,
+        "name": "Martinj vrh"
+    },
+    {
+        "id": 2071,
+        "name": "Železniki"
+    },
+    {
+        "id": 2072,
+        "name": "Zali log"
+    },
+    {
+        "id": 2073,
+        "name": "Danje"
+    },
+    {
+        "id": 2074,
+        "name": "Sorica"
+    },
+    {
+        "id": 2075,
+        "name": "Davča"
+    },
+    {
+        "id": 2076,
+        "name": "Zgornje jezersko"
+    },
+    {
+        "id": 2077,
+        "name": "Spodnje jezersko"
+    },
+    {
+        "id": 2078,
+        "name": "Kokra"
+    },
+    {
+        "id": 2079,
+        "name": "Šenturška gora"
+    },
+    {
+        "id": 2080,
+        "name": "Štefanja gora"
+    },
+    {
+        "id": 2081,
+        "name": "Olševek"
+    },
+    {
+        "id": 2082,
+        "name": "Tupaliče"
+    },
+    {
+        "id": 2083,
+        "name": "Breg ob kokri"
+    },
+    {
+        "id": 2084,
+        "name": "Bela"
+    },
+    {
+        "id": 2085,
+        "name": "Babni vrt"
+    },
+    {
+        "id": 2086,
+        "name": "Srednja vas"
+    },
+    {
+        "id": 2087,
+        "name": "Golnik"
+    },
+    {
+        "id": 2088,
+        "name": "Goriče"
+    },
+    {
+        "id": 2089,
+        "name": "Tenetiše"
+    },
+    {
+        "id": 2090,
+        "name": "Vojvodin boršt i"
+    },
+    {
+        "id": 2091,
+        "name": "Vojvodin boršt ii"
+    },
+    {
+        "id": 2092,
+        "name": "Duplje"
+    },
+    {
+        "id": 2093,
+        "name": "Podbrezje"
+    },
+    {
+        "id": 2094,
+        "name": "Žeje"
+    },
+    {
+        "id": 2095,
+        "name": "Strahinj"
+    },
+    {
+        "id": 2096,
+        "name": "Naklo"
+    },
+    {
+        "id": 2097,
+        "name": "Okroglo"
+    },
+    {
+        "id": 2098,
+        "name": "Struževo"
+    },
+    {
+        "id": 2099,
+        "name": "Pivka"
+    },
+    {
+        "id": 2100,
+        "name": "Kranj"
+    },
+    {
+        "id": 2101,
+        "name": "Rupa"
+    },
+    {
+        "id": 2102,
+        "name": "Kokrica"
+    },
+    {
+        "id": 2103,
+        "name": "Predoslje"
+    },
+    {
+        "id": 2104,
+        "name": "Suha"
+    },
+    {
+        "id": 2105,
+        "name": "Britof"
+    },
+    {
+        "id": 2106,
+        "name": "Visoko"
+    },
+    {
+        "id": 2107,
+        "name": "Luže"
+    },
+    {
+        "id": 2108,
+        "name": "Velesovo"
+    },
+    {
+        "id": 2109,
+        "name": "Češnjevek"
+    },
+    {
+        "id": 2110,
+        "name": "Grad"
+    },
+    {
+        "id": 2111,
+        "name": "Pšata"
+    },
+    {
+        "id": 2112,
+        "name": "Šmartno"
+    },
+    {
+        "id": 2113,
+        "name": "Zalog"
+    },
+    {
+        "id": 2114,
+        "name": "Dobrava"
+    },
+    {
+        "id": 2115,
+        "name": "Lahovče"
+    },
+    {
+        "id": 2116,
+        "name": "Spodnji brnik"
+    },
+    {
+        "id": 2117,
+        "name": "Zgornji brnik"
+    },
+    {
+        "id": 2118,
+        "name": "Cerklje"
+    },
+    {
+        "id": 2119,
+        "name": "Šenčur"
+    },
+    {
+        "id": 2120,
+        "name": "Primskovo"
+    },
+    {
+        "id": 2121,
+        "name": "Klanec"
+    },
+    {
+        "id": 2122,
+        "name": "Huje"
+    },
+    {
+        "id": 2123,
+        "name": "Čirče"
+    },
+    {
+        "id": 2124,
+        "name": "Hrastje"
+    },
+    {
+        "id": 2125,
+        "name": "Voglje"
+    },
+    {
+        "id": 2126,
+        "name": "Trboje"
+    },
+    {
+        "id": 2127,
+        "name": "Nemilje"
+    },
+    {
+        "id": 2128,
+        "name": "Zgornja besnica"
+    },
+    {
+        "id": 2129,
+        "name": "Spodnja besnica"
+    },
+    {
+        "id": 2130,
+        "name": "Pševo"
+    },
+    {
+        "id": 2131,
+        "name": "Stražišče"
+    },
+    {
+        "id": 2132,
+        "name": "Bitnje"
+    },
+    {
+        "id": 2133,
+        "name": "Križna gora"
+    },
+    {
+        "id": 2134,
+        "name": "Žabnica"
+    },
+    {
+        "id": 2135,
+        "name": "Drulovka"
+    },
+    {
+        "id": 2136,
+        "name": "Breg ob savi"
+    },
+    {
+        "id": 2137,
+        "name": "Jama"
+    },
+    {
+        "id": 2138,
+        "name": "Praše"
+    },
+    {
+        "id": 2139,
+        "name": "Mavčiče"
+    },
+    {
+        "id": 2140,
+        "name": "Podreča"
+    },
+    {
+        "id": 2141,
+        "name": "Podljubelj"
+    },
+    {
+        "id": 2142,
+        "name": "Lom pod storžičem"
+    },
+    {
+        "id": 2143,
+        "name": "Tržič"
+    },
+    {
+        "id": 2144,
+        "name": "Bistrica"
+    },
+    {
+        "id": 2145,
+        "name": "Leše"
+    },
+    {
+        "id": 2146,
+        "name": "Kovor"
+    },
+    {
+        "id": 2147,
+        "name": "Križe"
+    },
+    {
+        "id": 2148,
+        "name": "Senično"
+    },
+    {
+        "id": 2149,
+        "name": "Žiganja vas"
+    },
+    {
+        "id": 2150,
+        "name": "Zvirče"
+    },
+    {
+        "id": 2151,
+        "name": "Begunje"
+    },
+    {
+        "id": 2152,
+        "name": "Srednja vas"
+    },
+    {
+        "id": 2153,
+        "name": "Otok"
+    },
+    {
+        "id": 2154,
+        "name": "Nova vas"
+    },
+    {
+        "id": 2155,
+        "name": "Hraše"
+    },
+    {
+        "id": 2156,
+        "name": "Radovljica"
+    },
+    {
+        "id": 2157,
+        "name": "Predtrg"
+    },
+    {
+        "id": 2158,
+        "name": "Mošnje"
+    },
+    {
+        "id": 2159,
+        "name": "Brezje"
+    },
+    {
+        "id": 2160,
+        "name": "Ljubno"
+    },
+    {
+        "id": 2161,
+        "name": "Zaloše"
+    },
+    {
+        "id": 2162,
+        "name": "Dobrava pri kropi"
+    },
+    {
+        "id": 2163,
+        "name": "Kamna gorica"
+    },
+    {
+        "id": 2164,
+        "name": "Lancovo"
+    },
+    {
+        "id": 2165,
+        "name": "Kropa"
+    },
+    {
+        "id": 2166,
+        "name": "Češnjica pri kropi"
+    },
+    {
+        "id": 2167,
+        "name": "Rateče"
+    },
+    {
+        "id": 2168,
+        "name": "Podkoren"
+    },
+    {
+        "id": 2169,
+        "name": "Kranjska gora"
+    },
+    {
+        "id": 2170,
+        "name": "Gozd"
+    },
+    {
+        "id": 2171,
+        "name": "Dovje"
+    },
+    {
+        "id": 2172,
+        "name": "Hrušica"
+    },
+    {
+        "id": 2173,
+        "name": "Plavški rovt"
+    },
+    {
+        "id": 2174,
+        "name": "Planina"
+    },
+    {
+        "id": 2175,
+        "name": "Jesenice"
+    },
+    {
+        "id": 2176,
+        "name": "Blejska dobrava"
+    },
+    {
+        "id": 2177,
+        "name": "Javorniški rovt"
+    },
+    {
+        "id": 2178,
+        "name": "Koroška bela"
+    },
+    {
+        "id": 2179,
+        "name": "Potoki"
+    },
+    {
+        "id": 2180,
+        "name": "Žirovnica"
+    },
+    {
+        "id": 2181,
+        "name": "Zabreznica"
+    },
+    {
+        "id": 2182,
+        "name": "Doslovče"
+    },
+    {
+        "id": 2183,
+        "name": "Zasip"
+    },
+    {
+        "id": 2184,
+        "name": "Podhom"
+    },
+    {
+        "id": 2185,
+        "name": "Spodnje gorje"
+    },
+    {
+        "id": 2186,
+        "name": "Višelnica i"
+    },
+    {
+        "id": 2187,
+        "name": "Zgornje gorje"
+    },
+    {
+        "id": 2188,
+        "name": "Poljšica"
+    },
+    {
+        "id": 2189,
+        "name": "Rečica"
+    },
+    {
+        "id": 2190,
+        "name": "Bled"
+    },
+    {
+        "id": 2191,
+        "name": "Želeče"
+    },
+    {
+        "id": 2192,
+        "name": "Ribno"
+    },
+    {
+        "id": 2193,
+        "name": "Selo pri bledu"
+    },
+    {
+        "id": 2194,
+        "name": "Bohinjska bela"
+    },
+    {
+        "id": 2195,
+        "name": "Gorjuše"
+    },
+    {
+        "id": 2196,
+        "name": "Bohinjska češnjica"
+    },
+    {
+        "id": 2197,
+        "name": "Bohinjska srednja vas"
+    },
+    {
+        "id": 2198,
+        "name": "Studor"
+    },
+    {
+        "id": 2199,
+        "name": "Savica"
+    },
+    {
+        "id": 2200,
+        "name": "Bohinjska bistrica"
+    },
+    {
+        "id": 2201,
+        "name": "Nomenj"
+    },
+    {
+        "id": 2202,
+        "name": "Nemški rovt"
+    },
+    {
+        "id": 2203,
+        "name": "Trenta leva"
+    },
+    {
+        "id": 2204,
+        "name": "Trenta desna"
+    },
+    {
+        "id": 2205,
+        "name": "Strmec"
+    },
+    {
+        "id": 2206,
+        "name": "Log pod mangartom"
+    },
+    {
+        "id": 2207,
+        "name": "Bovec"
+    },
+    {
+        "id": 2208,
+        "name": "Koritnica"
+    },
+    {
+        "id": 2209,
+        "name": "Soča desna"
+    },
+    {
+        "id": 2210,
+        "name": "Soča leva"
+    },
+    {
+        "id": 2211,
+        "name": "Čezsoča"
+    },
+    {
+        "id": 2212,
+        "name": "Žaga"
+    },
+    {
+        "id": 2213,
+        "name": "Srpenica"
+    },
+    {
+        "id": 2214,
+        "name": "Breginj"
+    },
+    {
+        "id": 2215,
+        "name": "Robidišče"
+    },
+    {
+        "id": 2216,
+        "name": "Logje"
+    },
+    {
+        "id": 2217,
+        "name": "Sedlo"
+    },
+    {
+        "id": 2218,
+        "name": "Borjana"
+    },
+    {
+        "id": 2219,
+        "name": "Kred"
+    },
+    {
+        "id": 2220,
+        "name": "Staro selo"
+    },
+    {
+        "id": 2221,
+        "name": "Sužid"
+    },
+    {
+        "id": 2222,
+        "name": "Svino"
+    },
+    {
+        "id": 2223,
+        "name": "Kobarid"
+    },
+    {
+        "id": 2224,
+        "name": "Trnovo"
+    },
+    {
+        "id": 2225,
+        "name": "Drežnica"
+    },
+    {
+        "id": 2226,
+        "name": "Vrsno"
+    },
+    {
+        "id": 2227,
+        "name": "Smast"
+    },
+    {
+        "id": 2228,
+        "name": "Ladra"
+    },
+    {
+        "id": 2229,
+        "name": "Idrsko"
+    },
+    {
+        "id": 2230,
+        "name": "Livek"
+    },
+    {
+        "id": 2231,
+        "name": "Kamno"
+    },
+    {
+        "id": 2232,
+        "name": "Volarje"
+    },
+    {
+        "id": 2233,
+        "name": "Dolje"
+    },
+    {
+        "id": 2234,
+        "name": "Zatolmin"
+    },
+    {
+        "id": 2235,
+        "name": "Čadrg"
+    },
+    {
+        "id": 2236,
+        "name": "Žabče"
+    },
+    {
+        "id": 2237,
+        "name": "Ljubinj"
+    },
+    {
+        "id": 2238,
+        "name": "Podmelec"
+    },
+    {
+        "id": 2239,
+        "name": "Kneža"
+    },
+    {
+        "id": 2240,
+        "name": "Rut"
+    },
+    {
+        "id": 2241,
+        "name": "Stržišče"
+    },
+    {
+        "id": 2242,
+        "name": "Podbrdo"
+    },
+    {
+        "id": 2243,
+        "name": "Obloke"
+    },
+    {
+        "id": 2244,
+        "name": "Grahovo"
+    },
+    {
+        "id": 2245,
+        "name": "Ponikve"
+    },
+    {
+        "id": 2246,
+        "name": "Most na soči"
+    },
+    {
+        "id": 2247,
+        "name": "Poljubinj"
+    },
+    {
+        "id": 2248,
+        "name": "Tolmin"
+    },
+    {
+        "id": 2249,
+        "name": "Volče"
+    },
+    {
+        "id": 2250,
+        "name": "Modrejce"
+    },
+    {
+        "id": 2251,
+        "name": "Kozaršče"
+    },
+    {
+        "id": 2252,
+        "name": "Čiginj"
+    },
+    {
+        "id": 2253,
+        "name": "Rute"
+    },
+    {
+        "id": 2254,
+        "name": "Sela"
+    },
+    {
+        "id": 2255,
+        "name": "Lom"
+    },
+    {
+        "id": 2256,
+        "name": "Idrija pri bači"
+    },
+    {
+        "id": 2257,
+        "name": "Slap"
+    },
+    {
+        "id": 2258,
+        "name": "Pečine"
+    },
+    {
+        "id": 2259,
+        "name": "Šentviška gora"
+    },
+    {
+        "id": 2260,
+        "name": "Prapetno brdo"
+    },
+    {
+        "id": 2261,
+        "name": "Gorenja trebuša"
+    },
+    {
+        "id": 2262,
+        "name": "Kal nad kanalom"
+    },
+    {
+        "id": 2263,
+        "name": "Avče"
+    },
+    {
+        "id": 2264,
+        "name": "Doblar"
+    },
+    {
+        "id": 2265,
+        "name": "Ročinj"
+    },
+    {
+        "id": 2266,
+        "name": "Ajba"
+    },
+    {
+        "id": 2267,
+        "name": "Bodrež"
+    },
+    {
+        "id": 2268,
+        "name": "Vrh kanalski"
+    },
+    {
+        "id": 2269,
+        "name": "Kanal"
+    },
+    {
+        "id": 2270,
+        "name": "Morsko"
+    },
+    {
+        "id": 2271,
+        "name": "Gorenja vas"
+    },
+    {
+        "id": 2272,
+        "name": "Idrija nad kanalom"
+    },
+    {
+        "id": 2273,
+        "name": "Ukanje"
+    },
+    {
+        "id": 2274,
+        "name": "Anhovo"
+    },
+    {
+        "id": 2275,
+        "name": "Plave"
+    },
+    {
+        "id": 2276,
+        "name": "Deskle"
+    },
+    {
+        "id": 2277,
+        "name": "Mirnik"
+    },
+    {
+        "id": 2278,
+        "name": "Kožbana"
+    },
+    {
+        "id": 2279,
+        "name": "Krasno"
+    },
+    {
+        "id": 2280,
+        "name": "Vrhovlje"
+    },
+    {
+        "id": 2281,
+        "name": "Šmartno"
+    },
+    {
+        "id": 2282,
+        "name": "Vedrijan"
+    },
+    {
+        "id": 2283,
+        "name": "Višnjevik"
+    },
+    {
+        "id": 2284,
+        "name": "Neblo"
+    },
+    {
+        "id": 2285,
+        "name": "Biljana"
+    },
+    {
+        "id": 2286,
+        "name": "Medana"
+    },
+    {
+        "id": 2287,
+        "name": "Vipolže"
+    },
+    {
+        "id": 2288,
+        "name": "Kozana"
+    },
+    {
+        "id": 2289,
+        "name": "Cerovo"
+    },
+    {
+        "id": 2290,
+        "name": "Kojsko"
+    },
+    {
+        "id": 2291,
+        "name": "Podsabotin"
+    },
+    {
+        "id": 2292,
+        "name": "Šmaver"
+    },
+    {
+        "id": 2293,
+        "name": "Grgar"
+    },
+    {
+        "id": 2294,
+        "name": "Bate"
+    },
+    {
+        "id": 2295,
+        "name": "Banjšice"
+    },
+    {
+        "id": 2296,
+        "name": "Lokovec"
+    },
+    {
+        "id": 2297,
+        "name": "Čepovan"
+    },
+    {
+        "id": 2298,
+        "name": "Lazna"
+    },
+    {
+        "id": 2299,
+        "name": "Lokve"
+    },
+    {
+        "id": 2300,
+        "name": "Trnovo"
+    },
+    {
+        "id": 2301,
+        "name": "Ravnica"
+    },
+    {
+        "id": 2302,
+        "name": "Kromberk"
+    },
+    {
+        "id": 2303,
+        "name": "Solkan"
+    },
+    {
+        "id": 2304,
+        "name": "Nova gorica"
+    },
+    {
+        "id": 2306,
+        "name": "Rožna dolina"
+    },
+    {
+        "id": 2307,
+        "name": "Stara gora"
+    },
+    {
+        "id": 2308,
+        "name": "Loke"
+    },
+    {
+        "id": 2309,
+        "name": "Šmihel"
+    },
+    {
+        "id": 2310,
+        "name": "Ozeljan"
+    },
+    {
+        "id": 2311,
+        "name": "Vitovlje"
+    },
+    {
+        "id": 2312,
+        "name": "Osek"
+    },
+    {
+        "id": 2313,
+        "name": "Šempas"
+    },
+    {
+        "id": 2314,
+        "name": "Vogrsko"
+    },
+    {
+        "id": 2315,
+        "name": "Šempeter"
+    },
+    {
+        "id": 2316,
+        "name": "Vrtojba"
+    },
+    {
+        "id": 2318,
+        "name": "Bilje"
+    },
+    {
+        "id": 2319,
+        "name": "Bukovica"
+    },
+    {
+        "id": 2320,
+        "name": "Prvačina"
+    },
+    {
+        "id": 2321,
+        "name": "Gradišče"
+    },
+    {
+        "id": 2322,
+        "name": "Renče"
+    },
+    {
+        "id": 2323,
+        "name": "Vrtoče"
+    },
+    {
+        "id": 2324,
+        "name": "Orehovlje"
+    },
+    {
+        "id": 2325,
+        "name": "Miren"
+    },
+    {
+        "id": 2326,
+        "name": "Rupa"
+    },
+    {
+        "id": 2327,
+        "name": "Gabrje ob vipavi"
+    },
+    {
+        "id": 2328,
+        "name": "Opatje selo"
+    },
+    {
+        "id": 2329,
+        "name": "Nova vas"
+    },
+    {
+        "id": 2330,
+        "name": "Sela na krasu"
+    },
+    {
+        "id": 2331,
+        "name": "Vojščica"
+    },
+    {
+        "id": 2332,
+        "name": "Kostanjevica na krasu"
+    },
+    {
+        "id": 2333,
+        "name": "Temnica"
+    },
+    {
+        "id": 2334,
+        "name": "Lipa"
+    },
+    {
+        "id": 2335,
+        "name": "Dornberk"
+    },
+    {
+        "id": 2336,
+        "name": "Branik"
+    },
+    {
+        "id": 2337,
+        "name": "Bukovo"
+    },
+    {
+        "id": 2338,
+        "name": "Jesenica"
+    },
+    {
+        "id": 2339,
+        "name": "Gorje"
+    },
+    {
+        "id": 2340,
+        "name": "Labinje"
+    },
+    {
+        "id": 2341,
+        "name": "Dolenji novaki"
+    },
+    {
+        "id": 2342,
+        "name": "Gorenji novaki"
+    },
+    {
+        "id": 2343,
+        "name": "Planina"
+    },
+    {
+        "id": 2344,
+        "name": "Cerkno"
+    },
+    {
+        "id": 2345,
+        "name": "Zakriž"
+    },
+    {
+        "id": 2346,
+        "name": "Orehek"
+    },
+    {
+        "id": 2347,
+        "name": "Police"
+    },
+    {
+        "id": 2348,
+        "name": "Reka - ravne"
+    },
+    {
+        "id": 2349,
+        "name": "Šebrelje"
+    },
+    {
+        "id": 2350,
+        "name": "Otalež"
+    },
+    {
+        "id": 2351,
+        "name": "Idrijske krnice"
+    },
+    {
+        "id": 2352,
+        "name": "Spodnja kanomlja"
+    },
+    {
+        "id": 2353,
+        "name": "Srednja kanomlja"
+    },
+    {
+        "id": 2354,
+        "name": "Gorenja kanomlja"
+    },
+    {
+        "id": 2355,
+        "name": "Vojsko"
+    },
+    {
+        "id": 2356,
+        "name": "Čekovnik"
+    },
+    {
+        "id": 2357,
+        "name": "Idrija mesto"
+    },
+    {
+        "id": 2358,
+        "name": "Spodnja idrija"
+    },
+    {
+        "id": 2359,
+        "name": "Ledine"
+    },
+    {
+        "id": 2360,
+        "name": "Vrsnik i"
+    },
+    {
+        "id": 2361,
+        "name": "Dole"
+    },
+    {
+        "id": 2362,
+        "name": "Jelični vrh"
+    },
+    {
+        "id": 2363,
+        "name": "Idrijski log"
+    },
+    {
+        "id": 2364,
+        "name": "Godovič"
+    },
+    {
+        "id": 2365,
+        "name": "Črni vrh"
+    },
+    {
+        "id": 2366,
+        "name": "Zadlog"
+    },
+    {
+        "id": 2367,
+        "name": "Kanji dol"
+    },
+    {
+        "id": 2368,
+        "name": "Lome"
+    },
+    {
+        "id": 2369,
+        "name": "Javornik"
+    },
+    {
+        "id": 2370,
+        "name": "Dol-otlica"
+    },
+    {
+        "id": 2371,
+        "name": "Kovk"
+    },
+    {
+        "id": 2372,
+        "name": "Križna gora"
+    },
+    {
+        "id": 2373,
+        "name": "Col"
+    },
+    {
+        "id": 2374,
+        "name": "Vodice"
+    },
+    {
+        "id": 2375,
+        "name": "Podkraj"
+    },
+    {
+        "id": 2376,
+        "name": "Višnje"
+    },
+    {
+        "id": 2377,
+        "name": "Sanabor"
+    },
+    {
+        "id": 2378,
+        "name": "Vrhpolje"
+    },
+    {
+        "id": 2379,
+        "name": "Budanje"
+    },
+    {
+        "id": 2380,
+        "name": "Šturje"
+    },
+    {
+        "id": 2381,
+        "name": "Lokavec"
+    },
+    {
+        "id": 2382,
+        "name": "Stomaž"
+    },
+    {
+        "id": 2383,
+        "name": "Vrtovin"
+    },
+    {
+        "id": 2384,
+        "name": "Črniče"
+    },
+    {
+        "id": 2385,
+        "name": "Gojače"
+    },
+    {
+        "id": 2386,
+        "name": "Batuje"
+    },
+    {
+        "id": 2387,
+        "name": "Selo"
+    },
+    {
+        "id": 2388,
+        "name": "Kamnje"
+    },
+    {
+        "id": 2389,
+        "name": "Skrilje"
+    },
+    {
+        "id": 2390,
+        "name": "Dobravlje"
+    },
+    {
+        "id": 2391,
+        "name": "Vipavski križ"
+    },
+    {
+        "id": 2392,
+        "name": "Ajdovščina"
+    },
+    {
+        "id": 2393,
+        "name": "Ustje"
+    },
+    {
+        "id": 2394,
+        "name": "Velike žablje"
+    },
+    {
+        "id": 2395,
+        "name": "Brje"
+    },
+    {
+        "id": 2396,
+        "name": "Šmarje"
+    },
+    {
+        "id": 2397,
+        "name": "Gaberje"
+    },
+    {
+        "id": 2398,
+        "name": "Erzelj"
+    },
+    {
+        "id": 2399,
+        "name": "Planina"
+    },
+    {
+        "id": 2400,
+        "name": "Slap"
+    },
+    {
+        "id": 2401,
+        "name": "Vipava"
+    },
+    {
+        "id": 2402,
+        "name": "Lože"
+    },
+    {
+        "id": 2403,
+        "name": "Goče"
+    },
+    {
+        "id": 2404,
+        "name": "Podraga"
+    },
+    {
+        "id": 2405,
+        "name": "Podnanos"
+    },
+    {
+        "id": 2406,
+        "name": "Nanos"
+    },
+    {
+        "id": 2407,
+        "name": "Lozice"
+    },
+    {
+        "id": 2408,
+        "name": "Brestovica"
+    },
+    {
+        "id": 2409,
+        "name": "Ivanji grad"
+    },
+    {
+        "id": 2410,
+        "name": "Sveto"
+    },
+    {
+        "id": 2411,
+        "name": "Škrbina"
+    },
+    {
+        "id": 2412,
+        "name": "Komen"
+    },
+    {
+        "id": 2413,
+        "name": "Mali dol"
+    },
+    {
+        "id": 2414,
+        "name": "Tomačevica"
+    },
+    {
+        "id": 2415,
+        "name": "Kobjeglava"
+    },
+    {
+        "id": 2416,
+        "name": "Štanjel"
+    },
+    {
+        "id": 2417,
+        "name": "Hruševica"
+    },
+    {
+        "id": 2418,
+        "name": "Kobdilj"
+    },
+    {
+        "id": 2419,
+        "name": "Koboli"
+    },
+    {
+        "id": 2420,
+        "name": "Štjak"
+    },
+    {
+        "id": 2421,
+        "name": "Avber"
+    },
+    {
+        "id": 2422,
+        "name": "Kopriva"
+    },
+    {
+        "id": 2423,
+        "name": "Gabrovica"
+    },
+    {
+        "id": 2424,
+        "name": "Volčji grad"
+    },
+    {
+        "id": 2425,
+        "name": "Gorjansko"
+    },
+    {
+        "id": 2426,
+        "name": "Brje"
+    },
+    {
+        "id": 2427,
+        "name": "Veliki dol"
+    },
+    {
+        "id": 2428,
+        "name": "Salež"
+    },
+    {
+        "id": 2429,
+        "name": "Pliskovica"
+    },
+    {
+        "id": 2430,
+        "name": "Krajna vas"
+    },
+    {
+        "id": 2431,
+        "name": "Skopo"
+    },
+    {
+        "id": 2432,
+        "name": "Dutovlje"
+    },
+    {
+        "id": 2433,
+        "name": "Veliki repen"
+    },
+    {
+        "id": 2434,
+        "name": "Voglje"
+    },
+    {
+        "id": 2435,
+        "name": "Križ"
+    },
+    {
+        "id": 2436,
+        "name": "Tomaj"
+    },
+    {
+        "id": 2437,
+        "name": "Utovlje"
+    },
+    {
+        "id": 2438,
+        "name": "Kazlje"
+    },
+    {
+        "id": 2439,
+        "name": "Griže"
+    },
+    {
+        "id": 2440,
+        "name": "Veliko polje"
+    },
+    {
+        "id": 2441,
+        "name": "Dolenja vas"
+    },
+    {
+        "id": 2442,
+        "name": "Štorje"
+    },
+    {
+        "id": 2443,
+        "name": "Senadole"
+    },
+    {
+        "id": 2444,
+        "name": "Gabrče"
+    },
+    {
+        "id": 2445,
+        "name": "Potoče"
+    },
+    {
+        "id": 2446,
+        "name": "Laže"
+    },
+    {
+        "id": 2447,
+        "name": "Senožeče"
+    },
+    {
+        "id": 2448,
+        "name": "Gornje vreme"
+    },
+    {
+        "id": 2449,
+        "name": "Vremski britof"
+    },
+    {
+        "id": 2450,
+        "name": "Famlje"
+    },
+    {
+        "id": 2451,
+        "name": "Dolnje ležeče"
+    },
+    {
+        "id": 2452,
+        "name": "Divača"
+    },
+    {
+        "id": 2453,
+        "name": "Povir"
+    },
+    {
+        "id": 2454,
+        "name": "Merče"
+    },
+    {
+        "id": 2455,
+        "name": "Sežana"
+    },
+    {
+        "id": 2456,
+        "name": "Trebče"
+    },
+    {
+        "id": 2457,
+        "name": "Gropada"
+    },
+    {
+        "id": 2458,
+        "name": "Bazovica"
+    },
+    {
+        "id": 2459,
+        "name": "Lokev"
+    },
+    {
+        "id": 2460,
+        "name": "Naklo"
+    },
+    {
+        "id": 2461,
+        "name": "Dane"
+    },
+    {
+        "id": 2462,
+        "name": "Podgrad"
+    },
+    {
+        "id": 2463,
+        "name": "Škoflje"
+    },
+    {
+        "id": 2464,
+        "name": "Barka"
+    },
+    {
+        "id": 2465,
+        "name": "Vareje"
+    },
+    {
+        "id": 2466,
+        "name": "Misliče"
+    },
+    {
+        "id": 2467,
+        "name": "Vatovlje"
+    },
+    {
+        "id": 2468,
+        "name": "Kozjane"
+    },
+    {
+        "id": 2469,
+        "name": "Dolenja planina"
+    },
+    {
+        "id": 2470,
+        "name": "Gorenja planina"
+    },
+    {
+        "id": 2471,
+        "name": "Kačja vas"
+    },
+    {
+        "id": 2472,
+        "name": "Strmica"
+    },
+    {
+        "id": 2473,
+        "name": "Studeno"
+    },
+    {
+        "id": 2474,
+        "name": "Bukovje"
+    },
+    {
+        "id": 2475,
+        "name": "Šmihel pod nanosom"
+    },
+    {
+        "id": 2476,
+        "name": "Landol"
+    },
+    {
+        "id": 2477,
+        "name": "Zagon"
+    },
+    {
+        "id": 2478,
+        "name": "Hrašče"
+    },
+    {
+        "id": 2479,
+        "name": "Studenec"
+    },
+    {
+        "id": 2480,
+        "name": "Hrenovice"
+    },
+    {
+        "id": 2481,
+        "name": "Velika brda"
+    },
+    {
+        "id": 2482,
+        "name": "Strane"
+    },
+    {
+        "id": 2483,
+        "name": "Razdrto"
+    },
+    {
+        "id": 2484,
+        "name": "Hruševje"
+    },
+    {
+        "id": 2485,
+        "name": "Rakulik"
+    },
+    {
+        "id": 2486,
+        "name": "Orehek"
+    },
+    {
+        "id": 2487,
+        "name": "Rakitnik"
+    },
+    {
+        "id": 2488,
+        "name": "Zalog"
+    },
+    {
+        "id": 2489,
+        "name": "Stara vas"
+    },
+    {
+        "id": 2490,
+        "name": "Postojna"
+    },
+    {
+        "id": 2491,
+        "name": "Matenja vas"
+    },
+    {
+        "id": 2492,
+        "name": "Slavina"
+    },
+    {
+        "id": 2493,
+        "name": "Volče"
+    },
+    {
+        "id": 2494,
+        "name": "Košana"
+    },
+    {
+        "id": 2495,
+        "name": "Suhorje"
+    },
+    {
+        "id": 2496,
+        "name": "Stara sušica"
+    },
+    {
+        "id": 2497,
+        "name": "Nadanje selo"
+    },
+    {
+        "id": 2498,
+        "name": "Narin"
+    },
+    {
+        "id": 2499,
+        "name": "Kal"
+    },
+    {
+        "id": 2500,
+        "name": "Selce"
+    },
+    {
+        "id": 2501,
+        "name": "Petelinje"
+    },
+    {
+        "id": 2502,
+        "name": "Radohova vas"
+    },
+    {
+        "id": 2503,
+        "name": "Parje"
+    },
+    {
+        "id": 2504,
+        "name": "Zagorje"
+    },
+    {
+        "id": 2505,
+        "name": "Jurišče"
+    },
+    {
+        "id": 2506,
+        "name": "Palčje"
+    },
+    {
+        "id": 2507,
+        "name": "Trnje"
+    },
+    {
+        "id": 2508,
+        "name": "Snežnik"
+    },
+    {
+        "id": 2509,
+        "name": "Bač"
+    },
+    {
+        "id": 2510,
+        "name": "Koritnice"
+    },
+    {
+        "id": 2511,
+        "name": "Knežak"
+    },
+    {
+        "id": 2512,
+        "name": "Šembije"
+    },
+    {
+        "id": 2513,
+        "name": "Podstenje"
+    },
+    {
+        "id": 2514,
+        "name": "Mereče"
+    },
+    {
+        "id": 2515,
+        "name": "Ratečevo brdo"
+    },
+    {
+        "id": 2516,
+        "name": "Kilovče"
+    },
+    {
+        "id": 2517,
+        "name": "Prem"
+    },
+    {
+        "id": 2518,
+        "name": "Janeževo brdo"
+    },
+    {
+        "id": 2519,
+        "name": "Ostrožno brdo"
+    },
+    {
+        "id": 2520,
+        "name": "Prelože"
+    },
+    {
+        "id": 2521,
+        "name": "Čelje"
+    },
+    {
+        "id": 2522,
+        "name": "Smrje"
+    },
+    {
+        "id": 2523,
+        "name": "Topolc"
+    },
+    {
+        "id": 2524,
+        "name": "Trnovo"
+    },
+    {
+        "id": 2525,
+        "name": "Ilirska bistrica"
+    },
+    {
+        "id": 2526,
+        "name": "Vrbovo"
+    },
+    {
+        "id": 2527,
+        "name": "Jasen"
+    },
+    {
+        "id": 2528,
+        "name": "Koseze"
+    },
+    {
+        "id": 2529,
+        "name": "Zarečica"
+    },
+    {
+        "id": 2530,
+        "name": "Dobropolje"
+    },
+    {
+        "id": 2531,
+        "name": "Zarečje"
+    },
+    {
+        "id": 2532,
+        "name": "Brce"
+    },
+    {
+        "id": 2533,
+        "name": "Zajelšje"
+    },
+    {
+        "id": 2534,
+        "name": "Tominje"
+    },
+    {
+        "id": 2535,
+        "name": "Harije"
+    },
+    {
+        "id": 2536,
+        "name": "Sabonje"
+    },
+    {
+        "id": 2537,
+        "name": "Pavlica"
+    },
+    {
+        "id": 2538,
+        "name": "Studena gora"
+    },
+    {
+        "id": 2539,
+        "name": "Velika bukovica"
+    },
+    {
+        "id": 2540,
+        "name": "Mala bukovica"
+    },
+    {
+        "id": 2541,
+        "name": "Dolnji zemon"
+    },
+    {
+        "id": 2542,
+        "name": "Gornji zemon"
+    },
+    {
+        "id": 2543,
+        "name": "Jablanica"
+    },
+    {
+        "id": 2544,
+        "name": "Trpčane"
+    },
+    {
+        "id": 2545,
+        "name": "Podgraje"
+    },
+    {
+        "id": 2546,
+        "name": "Zabiče"
+    },
+    {
+        "id": 2547,
+        "name": "Sušak"
+    },
+    {
+        "id": 2548,
+        "name": "Novokračine"
+    },
+    {
+        "id": 2549,
+        "name": "Jel[ane"
+    },
+    {
+        "id": 2550,
+        "name": "Dolenje"
+    },
+    {
+        "id": 2551,
+        "name": "Veliko brdo"
+    },
+    {
+        "id": 2552,
+        "name": "Starod"
+    },
+    {
+        "id": 2553,
+        "name": "Gročana"
+    },
+    {
+        "id": 2554,
+        "name": "Rodik"
+    },
+    {
+        "id": 2555,
+        "name": "Draga"
+    },
+    {
+        "id": 2557,
+        "name": "Ocizla"
+    },
+    {
+        "id": 2558,
+        "name": "Prešnica"
+    },
+    {
+        "id": 2559,
+        "name": "Materija"
+    },
+    {
+        "id": 2560,
+        "name": "Hrpelje"
+    },
+    {
+        "id": 2561,
+        "name": "Brezovica"
+    },
+    {
+        "id": 2562,
+        "name": "Artviže"
+    },
+    {
+        "id": 2563,
+        "name": "Tatre"
+    },
+    {
+        "id": 2564,
+        "name": "Rjavče"
+    },
+    {
+        "id": 2565,
+        "name": "Pregarje"
+    },
+    {
+        "id": 2566,
+        "name": "Gaberk"
+    },
+    {
+        "id": 2567,
+        "name": "Huje"
+    },
+    {
+        "id": 2568,
+        "name": "Male loče"
+    },
+    {
+        "id": 2569,
+        "name": "Javorje"
+    },
+    {
+        "id": 2570,
+        "name": "Ritomeče"
+    },
+    {
+        "id": 2571,
+        "name": "Kovčice"
+    },
+    {
+        "id": 2572,
+        "name": "Hotična"
+    },
+    {
+        "id": 2573,
+        "name": "Slivje"
+    },
+    {
+        "id": 2574,
+        "name": "Markovščina"
+    },
+    {
+        "id": 2575,
+        "name": "Gradišče"
+    },
+    {
+        "id": 2576,
+        "name": "Obrov"
+    },
+    {
+        "id": 2577,
+        "name": "Hrušica"
+    },
+    {
+        "id": 2578,
+        "name": "Podbeže"
+    },
+    {
+        "id": 2579,
+        "name": "Podgrad"
+    },
+    {
+        "id": 2580,
+        "name": "Račice"
+    },
+    {
+        "id": 2581,
+        "name": "Poljane"
+    },
+    {
+        "id": 2582,
+        "name": "Golac"
+    },
+    {
+        "id": 2583,
+        "name": "Podgorje"
+    },
+    {
+        "id": 2584,
+        "name": "Zazid"
+    },
+    {
+        "id": 2585,
+        "name": "Rakitovec"
+    },
+    {
+        "id": 2589,
+        "name": "Plavje"
+    },
+    {
+        "id": 2590,
+        "name": "Hribi"
+    },
+    {
+        "id": 2592,
+        "name": "Jernej"
+    },
+    {
+        "id": 2593,
+        "name": "Oltra"
+    },
+    {
+        "id": 2594,
+        "name": "Ankaran"
+    },
+    {
+        "id": 2595,
+        "name": "Škofije"
+    },
+    {
+        "id": 2596,
+        "name": "Tinjan"
+    },
+    {
+        "id": 2597,
+        "name": "Osp"
+    },
+    {
+        "id": 2598,
+        "name": "Socerb"
+    },
+    {
+        "id": 2599,
+        "name": "Črnotiče"
+    },
+    {
+        "id": 2600,
+        "name": "Črni kal"
+    },
+    {
+        "id": 2601,
+        "name": "Gabrovica"
+    },
+    {
+        "id": 2602,
+        "name": "Rožar"
+    },
+    {
+        "id": 2603,
+        "name": "Dekani"
+    },
+    {
+        "id": 2604,
+        "name": "Bertoki"
+    },
+    {
+        "id": 2605,
+        "name": "Koper"
+    },
+    {
+        "id": 2606,
+        "name": "Semedela"
+    },
+    {
+        "id": 2607,
+        "name": "Gažon"
+    },
+    {
+        "id": 2608,
+        "name": "Šmarje"
+    },
+    {
+        "id": 2609,
+        "name": "Pomjan"
+    },
+    {
+        "id": 2610,
+        "name": "Vanganel"
+    },
+    {
+        "id": 2611,
+        "name": "Marezige"
+    },
+    {
+        "id": 2612,
+        "name": "Sveti anton"
+    },
+    {
+        "id": 2613,
+        "name": "Truške"
+    },
+    {
+        "id": 2614,
+        "name": "Kubed"
+    },
+    {
+        "id": 2615,
+        "name": "Loka"
+    },
+    {
+        "id": 2616,
+        "name": "Podpeč"
+    },
+    {
+        "id": 2617,
+        "name": "Hrastovlje"
+    },
+    {
+        "id": 2618,
+        "name": "Movraž"
+    },
+    {
+        "id": 2619,
+        "name": "Sočerga"
+    },
+    {
+        "id": 2620,
+        "name": "Pregara"
+    },
+    {
+        "id": 2621,
+        "name": "Gradin"
+    },
+    {
+        "id": 2622,
+        "name": "Topolovec"
+    },
+    {
+        "id": 2623,
+        "name": "Boršt"
+    },
+    {
+        "id": 2624,
+        "name": "Koštabona"
+    },
+    {
+        "id": 2625,
+        "name": "Krkavče"
+    },
+    {
+        "id": 2626,
+        "name": "Izola"
+    },
+    {
+        "id": 2628,
+        "name": "Malija"
+    },
+    {
+        "id": 2629,
+        "name": "Dvori nad izolo"
+    },
+    {
+        "id": 2630,
+        "name": "Piran"
+    },
+    {
+        "id": 2631,
+        "name": "Portorož"
+    },
+    {
+        "id": 2632,
+        "name": "Sečovlje"
+    },
+    {
+        "id": 2633,
+        "name": "Raven"
+    },
+    {
+        "id": 2634,
+        "name": "Nova vas"
+    },
+    {
+        "id": 2635,
+        "name": "Rogaška slatina"
+    },
+    {
+        "id": 2636,
+        "name": "Bežigrad"
+    },
+    {
+        "id": 2637,
+        "name": "Prihodi"
+    },
+    {
+        "id": 2638,
+        "name": "Podmežaklja"
+    },
+    {
+        "id": 2639,
+        "name": "Zvodno"
+    },
+    {
+        "id": 2640,
+        "name": "Hrastnik"
+    },
+    {
+        "id": 2641,
+        "name": "Zagorje"
+    },
+    {
+        "id": 2642,
+        "name": "Grosuplje"
+    },
+    {
+        "id": 2643,
+        "name": "Zasadi"
+    },
+    {
+        "id": 2644,
+        "name": "Višelnica ii"
+    },
+    {
+        "id": 2645,
+        "name": "Paka ii"
+    },
+    {
+        "id": 2646,
+        "name": "Srednji dolič"
+    },
+    {
+        "id": 2647,
+        "name": "Bezovje"
+    },
+    {
+        "id": 2648,
+        "name": "Peračica"
+    },
+    {
+        "id": 2649,
+        "name": "Izlake"
+    },
+    {
+        "id": 2650,
+        "name": "Debro"
+    },
+    {
+        "id": 2651,
+        "name": "Požnica"
+    },
+    {
+        "id": 2652,
+        "name": "Ogorevc"
+    },
+    {
+        "id": 2653,
+        "name": "Pšata"
+    },
+    {
+        "id": 2654,
+        "name": "Gozd reka"
+    },
+    {
+        "id": 2655,
+        "name": "Račica"
+    },
+    {
+        "id": 2656,
+        "name": "Ribče"
+    },
+    {
+        "id": 2657,
+        "name": "Pečice"
+    },
+    {
+        "id": 2658,
+        "name": "Osredek"
+    },
+    {
+        "id": 2659,
+        "name": "Spodnje selce"
+    },
+    {
+        "id": 2660,
+        "name": "Spodnja ponkvica"
+    },
+    {
+        "id": 2661,
+        "name": "Gaj"
+    },
+    {
+        "id": 2662,
+        "name": "Malkovec"
+    },
+    {
+        "id": 2663,
+        "name": "Mravljevi"
+    },
+    {
+        "id": 2664,
+        "name": "Spodnja branica"
+    },
+    {
+        "id": 2665,
+        "name": "Zgornji dražen vrh"
+    },
+    {
+        "id": 2666,
+        "name": "Selce"
+    },
+    {
+        "id": 2667,
+        "name": "Spodnji vurmat"
+    },
+    {
+        "id": 2668,
+        "name": "Gojška planina"
+    },
+    {
+        "id": 2669,
+        "name": "Paški kozjak"
+    },
+    {
+        "id": 2670,
+        "name": "Lažiše"
+    },
+    {
+        "id": 2671,
+        "name": "Podpeč"
+    },
+    {
+        "id": 2672,
+        "name": "Prapretno"
+    },
+    {
+        "id": 2673,
+        "name": "Spodnja pohanca"
+    },
+    {
+        "id": 2674,
+        "name": "Žavcerjev vrh"
+    },
+    {
+        "id": 2675,
+        "name": "Vranoviči"
+    },
+    {
+        "id": 2676,
+        "name": "Cerkvišče"
+    },
+    {
+        "id": 2677,
+        "name": "Prule"
+    },
+    {
+        "id": 2678,
+        "name": "Golovec"
+    },
+    {
+        "id": 2679,
+        "name": "Gradišče ii"
+    },
+    {
+        "id": 2680,
+        "name": "Nove jarše"
+    },
+    {
+        "id": 2681,
+        "name": "Brinje ii"
+    },
+    {
+        "id": 2682,
+        "name": "Brdo"
+    },
+    {
+        "id": 2683,
+        "name": "Grič"
+    },
+    {
+        "id": 2684,
+        "name": "Drenik"
+    },
+    {
+        "id": 2685,
+        "name": "Šavna peč"
+    },
+    {
+        "id": 2686,
+        "name": "Zavrate"
+    },
+    {
+        "id": 2687,
+        "name": "Boben"
+    },
+    {
+        "id": 2688,
+        "name": "Studence"
+    },
+    {
+        "id": 2689,
+        "name": "Čebine"
+    },
+    {
+        "id": 2690,
+        "name": "Prapreče"
+    },
+    {
+        "id": 2691,
+        "name": "Rakitovec"
+    },
+    {
+        "id": 2692,
+        "name": "Smrečje"
+    },
+    {
+        "id": 2693,
+        "name": "Log"
+    },
+    {
+        "id": 2695,
+        "name": "Planica"
+    },
+    {
+        "id": 2696,
+        "name": "Vojščica"
+    },
+    {
+        "id": 2697,
+        "name": "Kanalski lom"
+    },
+    {
+        "id": 2698,
+        "name": "Bukovski vrh"
+    },
+    {
+        "id": 2699,
+        "name": "Utre"
+    },
+    {
+        "id": 2700,
+        "name": "Rakov škocjan"
+    },
+    {
+        "id": 2701,
+        "name": "Dolanci"
+    },
+    {
+        "id": 2702,
+        "name": "Kodreti"
+    },
+    {
+        "id": 2703,
+        "name": "Hrušica"
+    },
+    {
+        "id": 2704,
+        "name": "Jurjeva dolina"
+    },
+    {
+        "id": 2705,
+        "name": "Leskova dolina"
+    },
+    {
+        "id": 2706,
+        "name": "Zelena jama"
+    },
+    {
+        "id": 2707,
+        "name": "Bevško"
+    },
+    {
+        "id": 2708,
+        "name": "Rodež"
+    },
+    {
+        "id": 2709,
+        "name": "Javorje"
+    },
+    {
+        "id": 2710,
+        "name": "Glažuta"
+    },
+    {
+        "id": 2711,
+        "name": "Spodnji vrhov dol"
+    },
+    {
+        "id": 2712,
+        "name": "Dobrava"
+    },
+    {
+        "id": 2713,
+        "name": "Ob železnici"
+    },
+    {
+        "id": 2714,
+        "name": "Vrhe ii"
+    },
+    {
+        "id": 2715,
+        "name": "Cetore"
+    },
+    {
+        "id": 2716,
+        "name": "Morje"
+    }
+]

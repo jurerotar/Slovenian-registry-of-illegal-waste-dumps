@@ -1,0 +1,1062 @@
+[
+    {
+        "id": 1,
+        "name": "Apače",
+        "region_id": 1
+    },
+    {
+        "id": 2,
+        "name": "Beltinci",
+        "region_id": 1
+    },
+    {
+        "id": 3,
+        "name": "Cankova",
+        "region_id": 1
+    },
+    {
+        "id": 4,
+        "name": "Črenšovci",
+        "region_id": 1
+    },
+    {
+        "id": 5,
+        "name": "Dobrovnik",
+        "region_id": 1
+    },
+    {
+        "id": 6,
+        "name": "Gornja Radgona",
+        "region_id": 1
+    },
+    {
+        "id": 7,
+        "name": "Gornji Petrovci",
+        "region_id": 1
+    },
+    {
+        "id": 8,
+        "name": "Grad",
+        "region_id": 1
+    },
+    {
+        "id": 9,
+        "name": "Hodoš",
+        "region_id": 1
+    },
+    {
+        "id": 10,
+        "name": "Kobilje",
+        "region_id": 1
+    },
+    {
+        "id": 11,
+        "name": "Križevci",
+        "region_id": 1
+    },
+    {
+        "id": 12,
+        "name": "Kuzma",
+        "region_id": 1
+    },
+    {
+        "id": 13,
+        "name": "Lendava",
+        "region_id": 1
+    },
+    {
+        "id": 14,
+        "name": "Ljutomer",
+        "region_id": 1
+    },
+    {
+        "id": 15,
+        "name": "Moravske Toplice",
+        "region_id": 1
+    },
+    {
+        "id": 16,
+        "name": "Murska Sobota",
+        "region_id": 1
+    },
+    {
+        "id": 17,
+        "name": "Odranci",
+        "region_id": 1
+    },
+    {
+        "id": 18,
+        "name": "Puconci",
+        "region_id": 1
+    },
+    {
+        "id": 19,
+        "name": "Radenci",
+        "region_id": 1
+    },
+    {
+        "id": 20,
+        "name": "Razkrižje",
+        "region_id": 1
+    },
+    {
+        "id": 21,
+        "name": "Rogašovci",
+        "region_id": 1
+    },
+    {
+        "id": 22,
+        "name": "Sveti Jurij ob Ščavnici",
+        "region_id": 1
+    },
+    {
+        "id": 23,
+        "name": "Šalovci",
+        "region_id": 1
+    },
+    {
+        "id": 24,
+        "name": "Tišina",
+        "region_id": 1
+    },
+    {
+        "id": 25,
+        "name": "Turnišče",
+        "region_id": 1
+    },
+    {
+        "id": 26,
+        "name": "Velika Polana",
+        "region_id": 1
+    },
+    {
+        "id": 27,
+        "name": "Veržej",
+        "region_id": 1
+    },
+    {
+        "id": 28,
+        "name": "Benedikt",
+        "region_id": 2
+    },
+    {
+        "id": 29,
+        "name": "Cerkvenjak",
+        "region_id": 2
+    },
+    {
+        "id": 30,
+        "name": "Cirkulane",
+        "region_id": 2
+    },
+    {
+        "id": 31,
+        "name": "Destrnik",
+        "region_id": 2
+    },
+    {
+        "id": 32,
+        "name": "Dornava",
+        "region_id": 2
+    },
+    {
+        "id": 33,
+        "name": "Duplek",
+        "region_id": 2
+    },
+    {
+        "id": 34,
+        "name": "Gorišnica",
+        "region_id": 2
+    },
+    {
+        "id": 35,
+        "name": "Hajdina",
+        "region_id": 2
+    },
+    {
+        "id": 36,
+        "name": "Hoče-Slivnica",
+        "region_id": 2
+    },
+    {
+        "id": 37,
+        "name": "Juršinci",
+        "region_id": 2
+    },
+    {
+        "id": 38,
+        "name": "Kidričevo",
+        "region_id": 2
+    },
+    {
+        "id": 39,
+        "name": "Kungota",
+        "region_id": 2
+    },
+    {
+        "id": 40,
+        "name": "Lenart",
+        "region_id": 2
+    },
+    {
+        "id": 41,
+        "name": "Lovrenc na Pohorju",
+        "region_id": 2
+    },
+    {
+        "id": 42,
+        "name": "Majšperk",
+        "region_id": 2
+    },
+    {
+        "id": 43,
+        "name": "Makole",
+        "region_id": 2
+    },
+    {
+        "id": 44,
+        "name": "Maribor",
+        "region_id": 2
+    },
+    {
+        "id": 45,
+        "name": "Markovci",
+        "region_id": 2
+    },
+    {
+        "id": 46,
+        "name": "Miklavž na Dravskem polju",
+        "region_id": 2
+    },
+    {
+        "id": 47,
+        "name": "Oplotnica",
+        "region_id": 2
+    },
+    {
+        "id": 48,
+        "name": "Ormož",
+        "region_id": 2
+    },
+    {
+        "id": 49,
+        "name": "Pesnica",
+        "region_id": 2
+    },
+    {
+        "id": 50,
+        "name": "Podlehnik",
+        "region_id": 2
+    },
+    {
+        "id": 51,
+        "name": "Poljčane",
+        "region_id": 2
+    },
+    {
+        "id": 52,
+        "name": "Ptuj",
+        "region_id": 2
+    },
+    {
+        "id": 53,
+        "name": "Rače-Fram",
+        "region_id": 2
+    },
+    {
+        "id": 54,
+        "name": "Ruše",
+        "region_id": 2
+    },
+    {
+        "id": 55,
+        "name": "Selnica ob Dravi",
+        "region_id": 2
+    },
+    {
+        "id": 56,
+        "name": "Slovenska Bistrica",
+        "region_id": 2
+    },
+    {
+        "id": 57,
+        "name": "Središče ob Dravi",
+        "region_id": 2
+    },
+    {
+        "id": 58,
+        "name": "Starše",
+        "region_id": 2
+    },
+    {
+        "id": 59,
+        "name": "Sveta Ana",
+        "region_id": 2
+    },
+    {
+        "id": 60,
+        "name": "Sveta Trojica v Slovenskih goricah",
+        "region_id": 2
+    },
+    {
+        "id": 61,
+        "name": "Sveti Andraž v Slovenskih goricah",
+        "region_id": 2
+    },
+    {
+        "id": 62,
+        "name": "Sveti Jurij v Slovenskih goricah",
+        "region_id": 2
+    },
+    {
+        "id": 63,
+        "name": "Sveti Tomaž",
+        "region_id": 2
+    },
+    {
+        "id": 64,
+        "name": "Šentilj",
+        "region_id": 2
+    },
+    {
+        "id": 65,
+        "name": "Trnovska vas",
+        "region_id": 2
+    },
+    {
+        "id": 66,
+        "name": "Videm",
+        "region_id": 2
+    },
+    {
+        "id": 67,
+        "name": "Zavrč",
+        "region_id": 2
+    },
+    {
+        "id": 68,
+        "name": "Žetale",
+        "region_id": 2
+    },
+    {
+        "id": 69,
+        "name": "Črna na Koroškem",
+        "region_id": 3
+    },
+    {
+        "id": 70,
+        "name": "Dravograd",
+        "region_id": 3
+    },
+    {
+        "id": 71,
+        "name": "Mežica",
+        "region_id": 3
+    },
+    {
+        "id": 72,
+        "name": "Mislinja",
+        "region_id": 3
+    },
+    {
+        "id": 73,
+        "name": "Muta",
+        "region_id": 3
+    },
+    {
+        "id": 74,
+        "name": "Podvelka",
+        "region_id": 3
+    },
+    {
+        "id": 75,
+        "name": "Prevalje",
+        "region_id": 3
+    },
+    {
+        "id": 76,
+        "name": "Radlje ob Dravi",
+        "region_id": 3
+    },
+    {
+        "id": 77,
+        "name": "Ravne na Koroškem",
+        "region_id": 3
+    },
+    {
+        "id": 78,
+        "name": "Ribnica na Pohorju",
+        "region_id": 3
+    },
+    {
+        "id": 79,
+        "name": "Slovenj Gradec",
+        "region_id": 3
+    },
+    {
+        "id": 80,
+        "name": "Vuzenica",
+        "region_id": 3
+    },
+    {
+        "id": 81,
+        "name": "Braslovče",
+        "region_id": 4
+    },
+    {
+        "id": 82,
+        "name": "Celje",
+        "region_id": 4
+    },
+    {
+        "id": 83,
+        "name": "Dobje",
+        "region_id": 4
+    },
+    {
+        "id": 84,
+        "name": "Dobrna",
+        "region_id": 4
+    },
+    {
+        "id": 85,
+        "name": "Gornji Grad",
+        "region_id": 4
+    },
+    {
+        "id": 86,
+        "name": "Kozje",
+        "region_id": 4
+    },
+    {
+        "id": 87,
+        "name": "Laško",
+        "region_id": 4
+    },
+    {
+        "id": 88,
+        "name": "Ljubno",
+        "region_id": 4
+    },
+    {
+        "id": 89,
+        "name": "Luče",
+        "region_id": 4
+    },
+    {
+        "id": 90,
+        "name": "Mozirje",
+        "region_id": 4
+    },
+    {
+        "id": 91,
+        "name": "Nazarje",
+        "region_id": 4
+    },
+    {
+        "id": 92,
+        "name": "Podčetrtek",
+        "region_id": 4
+    },
+    {
+        "id": 93,
+        "name": "Polzela",
+        "region_id": 4
+    },
+    {
+        "id": 94,
+        "name": "Prebold",
+        "region_id": 4
+    },
+    {
+        "id": 95,
+        "name": "Rečica ob Savinji",
+        "region_id": 4
+    },
+    {
+        "id": 96,
+        "name": "Rogaška Slatina",
+        "region_id": 4
+    },
+    {
+        "id": 97,
+        "name": "Rogatec",
+        "region_id": 4
+    },
+    {
+        "id": 98,
+        "name": "Slovenske Konjice",
+        "region_id": 4
+    },
+    {
+        "id": 99,
+        "name": "Solčava",
+        "region_id": 4
+    },
+    {
+        "id": 100,
+        "name": "Šentjur",
+        "region_id": 4
+    },
+    {
+        "id": 101,
+        "name": "Šmarje pri Jelšah",
+        "region_id": 4
+    },
+    {
+        "id": 102,
+        "name": "Šmartno ob Paki",
+        "region_id": 4
+    },
+    {
+        "id": 103,
+        "name": "Šoštanj",
+        "region_id": 4
+    },
+    {
+        "id": 104,
+        "name": "Štore",
+        "region_id": 4
+    },
+    {
+        "id": 105,
+        "name": "Tabor",
+        "region_id": 4
+    },
+    {
+        "id": 106,
+        "name": "Velenje",
+        "region_id": 4
+    },
+    {
+        "id": 107,
+        "name": "Vitanje",
+        "region_id": 4
+    },
+    {
+        "id": 108,
+        "name": "Vojnik",
+        "region_id": 4
+    },
+    {
+        "id": 109,
+        "name": "Vransko",
+        "region_id": 4
+    },
+    {
+        "id": 110,
+        "name": "Zreče",
+        "region_id": 4
+    },
+    {
+        "id": 111,
+        "name": "Žalec",
+        "region_id": 4
+    },
+    {
+        "id": 112,
+        "name": "Bistrica ob Sotli",
+        "region_id": 5
+    },
+    {
+        "id": 113,
+        "name": "Brežice",
+        "region_id": 5
+    },
+    {
+        "id": 114,
+        "name": "Kostanjevica na Krki",
+        "region_id": 5
+    },
+    {
+        "id": 115,
+        "name": "Krško",
+        "region_id": 5
+    },
+    {
+        "id": 116,
+        "name": "Radeče",
+        "region_id": 5
+    },
+    {
+        "id": 117,
+        "name": "Sevnica",
+        "region_id": 5
+    },
+    {
+        "id": 118,
+        "name": "Hrastnik",
+        "region_id": 6
+    },
+    {
+        "id": 119,
+        "name": "Litija",
+        "region_id": 6
+    },
+    {
+        "id": 120,
+        "name": "Trbovlje",
+        "region_id": 6
+    },
+    {
+        "id": 121,
+        "name": "Zagorje ob Savi",
+        "region_id": 6
+    },
+    {
+        "id": 122,
+        "name": "Črnomelj",
+        "region_id": 7
+    },
+    {
+        "id": 123,
+        "name": "Dolenjske Toplice",
+        "region_id": 7
+    },
+    {
+        "id": 124,
+        "name": "Kočevje",
+        "region_id": 7
+    },
+    {
+        "id": 125,
+        "name": "Kostel",
+        "region_id": 7
+    },
+    {
+        "id": 126,
+        "name": "Loški Potok",
+        "region_id": 7
+    },
+    {
+        "id": 127,
+        "name": "Metlika",
+        "region_id": 7
+    },
+    {
+        "id": 128,
+        "name": "Mirna",
+        "region_id": 7
+    },
+    {
+        "id": 129,
+        "name": "Mirna Peč",
+        "region_id": 7
+    },
+    {
+        "id": 130,
+        "name": "Mokronog-Trebelno",
+        "region_id": 7
+    },
+    {
+        "id": 131,
+        "name": "Novo mesto",
+        "region_id": 7
+    },
+    {
+        "id": 132,
+        "name": "Osilnica",
+        "region_id": 7
+    },
+    {
+        "id": 133,
+        "name": "Ribnica",
+        "region_id": 7
+    },
+    {
+        "id": 134,
+        "name": "Semič",
+        "region_id": 7
+    },
+    {
+        "id": 135,
+        "name": "Sodražica",
+        "region_id": 7
+    },
+    {
+        "id": 136,
+        "name": "Straža",
+        "region_id": 7
+    },
+    {
+        "id": 137,
+        "name": "Šentjernej",
+        "region_id": 7
+    },
+    {
+        "id": 138,
+        "name": "Šentrupert",
+        "region_id": 7
+    },
+    {
+        "id": 139,
+        "name": "Škocjan",
+        "region_id": 7
+    },
+    {
+        "id": 140,
+        "name": "Šmarješke Toplice",
+        "region_id": 7
+    },
+    {
+        "id": 141,
+        "name": "Trebnje",
+        "region_id": 7
+    },
+    {
+        "id": 142,
+        "name": "Žužemberk",
+        "region_id": 7
+    },
+    {
+        "id": 143,
+        "name": "Borovnica",
+        "region_id": 8
+    },
+    {
+        "id": 144,
+        "name": "Brezovica",
+        "region_id": 8
+    },
+    {
+        "id": 145,
+        "name": "Dobrepolje",
+        "region_id": 8
+    },
+    {
+        "id": 146,
+        "name": "Dobrova-Polhov Gradec",
+        "region_id": 8
+    },
+    {
+        "id": 147,
+        "name": "Dol pri Ljubljani",
+        "region_id": 8
+    },
+    {
+        "id": 148,
+        "name": "Domžale",
+        "region_id": 8
+    },
+    {
+        "id": 149,
+        "name": "Grosuplje",
+        "region_id": 8
+    },
+    {
+        "id": 150,
+        "name": "Horjul",
+        "region_id": 8
+    },
+    {
+        "id": 151,
+        "name": "Ig",
+        "region_id": 8
+    },
+    {
+        "id": 152,
+        "name": "Ivančna Gorica",
+        "region_id": 8
+    },
+    {
+        "id": 153,
+        "name": "Kamnik",
+        "region_id": 8
+    },
+    {
+        "id": 154,
+        "name": "Komenda",
+        "region_id": 8
+    },
+    {
+        "id": 155,
+        "name": "Ljubljana",
+        "region_id": 8
+    },
+    {
+        "id": 156,
+        "name": "Log-Dragomer",
+        "region_id": 8
+    },
+    {
+        "id": 157,
+        "name": "Logatec",
+        "region_id": 8
+    },
+    {
+        "id": 158,
+        "name": "Lukovica",
+        "region_id": 8
+    },
+    {
+        "id": 159,
+        "name": "Medvode",
+        "region_id": 8
+    },
+    {
+        "id": 160,
+        "name": "Mengeš",
+        "region_id": 8
+    },
+    {
+        "id": 161,
+        "name": "Moravče",
+        "region_id": 8
+    },
+    {
+        "id": 162,
+        "name": "Škofljica",
+        "region_id": 8
+    },
+    {
+        "id": 163,
+        "name": "Šmartno pri Litiji",
+        "region_id": 8
+    },
+    {
+        "id": 164,
+        "name": "Trzin",
+        "region_id": 8
+    },
+    {
+        "id": 165,
+        "name": "Velike Lašče",
+        "region_id": 8
+    },
+    {
+        "id": 166,
+        "name": "Vodice",
+        "region_id": 8
+    },
+    {
+        "id": 167,
+        "name": "Vrhnika",
+        "region_id": 8
+    },
+    {
+        "id": 168,
+        "name": "Bled",
+        "region_id": 9
+    },
+    {
+        "id": 169,
+        "name": "Bohinj",
+        "region_id": 9
+    },
+    {
+        "id": 170,
+        "name": "Cerklje na Gorenjskem",
+        "region_id": 9
+    },
+    {
+        "id": 171,
+        "name": "Gorenja vas-Poljane",
+        "region_id": 9
+    },
+    {
+        "id": 172,
+        "name": "Gorje",
+        "region_id": 9
+    },
+    {
+        "id": 173,
+        "name": "Jesenice",
+        "region_id": 9
+    },
+    {
+        "id": 174,
+        "name": "Jezersko",
+        "region_id": 9
+    },
+    {
+        "id": 175,
+        "name": "Kranj",
+        "region_id": 9
+    },
+    {
+        "id": 176,
+        "name": "Kranjska Gora",
+        "region_id": 9
+    },
+    {
+        "id": 177,
+        "name": "Naklo",
+        "region_id": 9
+    },
+    {
+        "id": 178,
+        "name": "Preddvor",
+        "region_id": 9
+    },
+    {
+        "id": 179,
+        "name": "Radovljica",
+        "region_id": 9
+    },
+    {
+        "id": 180,
+        "name": "Šenčur",
+        "region_id": 9
+    },
+    {
+        "id": 181,
+        "name": "Škofja Loka",
+        "region_id": 9
+    },
+    {
+        "id": 182,
+        "name": "Tržič",
+        "region_id": 9
+    },
+    {
+        "id": 183,
+        "name": "Železniki",
+        "region_id": 9
+    },
+    {
+        "id": 184,
+        "name": "Žiri",
+        "region_id": 9
+    },
+    {
+        "id": 185,
+        "name": "Žirovnica",
+        "region_id": 9
+    },
+    {
+        "id": 186,
+        "name": "Ajdovščina",
+        "region_id": 10
+    },
+    {
+        "id": 187,
+        "name": "Bovec",
+        "region_id": 10
+    },
+    {
+        "id": 188,
+        "name": "Brda",
+        "region_id": 10
+    },
+    {
+        "id": 189,
+        "name": "Cerkno",
+        "region_id": 10
+    },
+    {
+        "id": 190,
+        "name": "Idrija",
+        "region_id": 10
+    },
+    {
+        "id": 191,
+        "name": "Kanal",
+        "region_id": 10
+    },
+    {
+        "id": 192,
+        "name": "Kobarid",
+        "region_id": 10
+    },
+    {
+        "id": 193,
+        "name": "Miren-Kostanjevica",
+        "region_id": 10
+    },
+    {
+        "id": 194,
+        "name": "Nova Gorica",
+        "region_id": 10
+    },
+    {
+        "id": 195,
+        "name": "Renče-Vogrsko",
+        "region_id": 10
+    },
+    {
+        "id": 196,
+        "name": "Šempeter-Vrtojba",
+        "region_id": 10
+    },
+    {
+        "id": 197,
+        "name": "Tolmin",
+        "region_id": 10
+    },
+    {
+        "id": 198,
+        "name": "Vipava",
+        "region_id": 10
+    },
+    {
+        "id": 199,
+        "name": "Bloke",
+        "region_id": 11
+    },
+    {
+        "id": 200,
+        "name": "Cerknica",
+        "region_id": 11
+    },
+    {
+        "id": 201,
+        "name": "Ilirska Bistrica",
+        "region_id": 11
+    },
+    {
+        "id": 202,
+        "name": "Loška dolina",
+        "region_id": 11
+    },
+    {
+        "id": 203,
+        "name": "Pivka",
+        "region_id": 11
+    },
+    {
+        "id": 204,
+        "name": "Postojna",
+        "region_id": 11
+    },
+    {
+        "id": 205,
+        "name": "Ankaran",
+        "region_id": 12
+    },
+    {
+        "id": 206,
+        "name": "Divača",
+        "region_id": 12
+    },
+    {
+        "id": 207,
+        "name": "Hrpelje-Kozina",
+        "region_id": 12
+    },
+    {
+        "id": 208,
+        "name": "Izola",
+        "region_id": 12
+    },
+    {
+        "id": 209,
+        "name": "Komen",
+        "region_id": 12
+    },
+    {
+        "id": 210,
+        "name": "Koper",
+        "region_id": 12
+    },
+    {
+        "id": 211,
+        "name": "Piran",
+        "region_id": 12
+    },
+    {
+        "id": 212,
+        "name": "Sežana",
+        "region_id": 12
+    }
+]

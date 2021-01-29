@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "text": "Do 1m3 (en pralni stroj meri pol m3)",
+        "amount": 1
+    },
+    {
+        "id": 2,
+        "text": "1-2m3 (dve avtomobilski prikolici materiala)",
+        "amount": 2
+    },
+    {
+        "id": 3,
+        "text": "3-9m3 (velikost osebnega avtomobila)",
+        "amount": 6
+    },
+    {
+        "id": 4,
+        "text": "10-25m3",
+        "amount": 18
+    },
+    {
+        "id": 5,
+        "text": "25-50m3 (velikost enega do dveh avtobusov)",
+        "amount": 38
+    },
+    {
+        "id": 6,
+        "text": "50-100m3 (10 avtomobilov)",
+        "amount": 75
+    },
+    {
+        "id": 7,
+        "text": "100-250m3",
+        "amount": 175
+    },
+    {
+        "id": 8,
+        "text": "250-500m3",
+        "amount": 375
+    },
+    {
+        "id": 9,
+        "text": "500-1000m3 (100 avtomobilov)",
+        "amount": 750
+    },
+    {
+        "id": 10,
+        "text": "Nad 1000m3",
+        "amount": 1000
+    }
+]

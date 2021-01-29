@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "Pomurska"
+    },
+    {
+        "id": 2,
+        "name": "Podravska"
+    },
+    {
+        "id": 3,
+        "name": "Koroška"
+    },
+    {
+        "id": 4,
+        "name": "Savinjska"
+    },
+    {
+        "id": 5,
+        "name": "Posavska"
+    },
+    {
+        "id": 6,
+        "name": "Zasavska"
+    },
+    {
+        "id": 7,
+        "name": "Jugovzhodna Slovenija"
+    },
+    {
+        "id": 8,
+        "name": "Osrednjeslovenska"
+    },
+    {
+        "id": 9,
+        "name": "Gorenjska"
+    },
+    {
+        "id": 10,
+        "name": "Goriška"
+    },
+    {
+        "id": 11,
+        "name": "Primorsko-notranjska"
+    },
+    {
+        "id": 12,
+        "name": "Obalno-kraška"
+    }
+]
