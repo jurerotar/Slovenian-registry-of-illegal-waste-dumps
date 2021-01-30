@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\TestController;
 use Illuminate\Support\Facades\Route;
 
@@ -16,8 +17,6 @@ Route::prefix('/download')->group(function () {
     Route::get('/dump', [StaticFilesController::class, 'export']);
 });
 */
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [HomepageController::class, 'show'])->name('home');
 
 Route::get('/test', [TestController::class, 'index']);
