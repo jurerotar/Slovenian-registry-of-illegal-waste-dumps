@@ -22,7 +22,6 @@ class CreateDumpsTable extends Migration
             $table->unsignedSmallInteger('distance');
             $table->boolean('urgent')->default(false);
             $table->unsignedInteger('area'); // in m**2
-            $table->foreignId('user_id')->constrained(); // id uporabnika
             $table->foreignId('volume_id')->constrained(); // prostornina
             $table->foreignId('access_id')->constrained(); // Način dostopa
             $table->foreignId('terrain_id')->constrained(); // Vrsta terena
