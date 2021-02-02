@@ -29,19 +29,16 @@ class Dump extends Model
         'urgent' => 'boolean',
     ];
 
+
     protected $appends = [
         'irsop',
         'volume',
         'terrain',
         'access',
         'geodetic',
+        'trash_types'
     ];
 
-    protected $with = [
-        'coordinate',
-        'trashType',
-        'comments'
-    ];
 
     // Relationships
 
@@ -109,7 +106,7 @@ class Dump extends Model
 
     public function getVolumeAttribute(): string
     {
-        return $this->volume()->first()->text;
+        return $this->volume()->value('text');
     }
 
     public function getIrsopAttribute(): array
@@ -119,23 +116,33 @@ class Dump extends Model
 
     public function getTerrainAttribute(): string
     {
-        return $this->terrain()->first()->type;
+        return $this->terrain()->value('type');
     }
 
     public function getAccessAttribute(): string
     {
-        return $this->access()->first()->type;
+        return $this->access()->value('type');
     }
 
     public function getGeodeticAttribute(): array
     {
+        $cadastralMunicipality = $this->cadastralMunicipality()->first();
+        $region = $this->region()->first();
+        $municipality = $this->municipality()->first();
         return [
-            'region' => $this->region()->first()->name,
-            'municipality' => $this->municipality()->first()->name,
-            //'cadastral_municipality' => $this->cadastralMunicipality()->first(),
-            //'cadastral_municipality_id' => $this->cadastralMunicipality()->first(),
-            'portion' => $this->location()->first()->portion
+            'region_id' => $region->id,
+            'region' => $region->name,
+            'municipality_id' => $municipality->id,
+            'municipality' => $municipality->name,
+            'cadastral_municipality_id' => $cadastralMunicipality->id,
+            'cadastral_municipality' => $cadastralMunicipality->name,
+            'portion' => $this->location()->value('portion')
         ];
+    }
+
+    public function getTrashTypesAttribute()
+    {
+        return $this->trashType()->first()->makeHidden(['created_at', 'updated_at']);
     }
 
 }
