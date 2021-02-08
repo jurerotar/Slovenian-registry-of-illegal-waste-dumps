@@ -43,12 +43,17 @@ class CreateExports extends Command
             'municipalities' => range(1, Municipality::all()->count()),
             'regions' => range(1, Region::all()->count())
         ];
+        $exportService = new ExportService();
 
         foreach ($types as $type => $ids) {
             foreach ($ids as $id) {
-                $exportService = new ExportService($type, $id);
-                $exportService->generate();
+                $exportService->generate($type, $id);
             }
         }
+
+        /**
+         * Generate total.json, which combines all others.
+         */
+        $exportService->generate();
     }
 }

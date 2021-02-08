@@ -15,26 +15,25 @@ class ExportService
     use ExportFileNameTrait, RawSqlExportQueriesTrait;
 
     private Filesystem $disk;
-    private string $type;
-    private int $id;
-    private string $path;
 
-    public function __construct(string $type, int $id)
+    public function __construct()
     {
         $this->disk = Storage::disk('local');
-        $this->type = $type;
-        $this->id = $id;
-        $this->path = "public/{$type}/{$id}.json";
     }
 
     /**
      * Make 2 separate queries, since dump->comments is a one to many relationship. Join the results and pass it to
      * transform service, which returns json.
+     * @param null $type
+     * @param null $id
      */
-    public function generate()
+    public function generate($type = null, $id = null)
     {
-        $dumps = $this->dumpsByRegionOrMunicipality($this->type === 'municipalities' ? $this->id : 0, $this->type === 'regions' ? $this->id : 0);
-        $comments = $this->commentsByRegionOrMunicipality($this->type === 'municipalities' ? $this->id : 0, $this->type === 'regions' ? $this->id : 0);
+        $dumps = $this->dumpsByRegionOrMunicipality($type, $id);
+        $comments = $this->commentsByRegionOrMunicipality($type, $id);
+        /**
+         * Add comments to dumps
+         */
         foreach ($dumps as &$dump) {
             $dump['comments'] = [];
             foreach ($comments as $comment) {
@@ -47,18 +46,20 @@ class ExportService
                 }
             }
         }
-        $json = ExportTransformService::toJson($dumps);
-        $this->export($json);
+        $path = ($type && $id) ? "public/{$type}/{$id}.json" : 'public/total.json';
 
+        $json = ExportTransformService::toJson($dumps);
+        $this->export($json, $path);
     }
 
     /**
-     * Dumps the file in specified storage path
-     * @param string $json - data to dump
+     * Writes file to path
+     * @param string $data
+     * @param string $path
      */
-    private function export(string $json): void
+    private function export(string $data, string $path): void
     {
-        $this->disk->put($this->path, $json);
+        $this->disk->put($path, $data);
     }
 
     /**
@@ -67,16 +68,19 @@ class ExportService
      * @param int $id
      * @returns bool
      */
-    public function needsUpdating(): bool
+    public function needsUpdating($type = null, $id = null): bool
     {
-        if (!$this->disk->exists($this->path)) {
+        $path = ($type && $id) ? "public/{$type}/{$id}.json" : 'public/total.json';
+
+        if (!$this->disk->exists($path)) {
             return true;
         }
-        $lastUpdated = Carbon::createFromTimestamp($this->disk->lastModified($this->path));
-        return Dump::whereHas($this->type === 'regions' ? 'region' : 'municipality', function ($e) {
-                $e->where('id', '=', $this->id);
-            })
-                ->whereDate('updated_at', '>', $lastUpdated)
+        $lastUpdated = Carbon::createFromTimestamp($this->disk->lastModified($path));
+        $query = Dump::query();
+        if ($type && $id) {
+            $query->whereHas("{$type}", fn($e) => $e->where('id', '=', $id));
+        }
+        return $query->whereDate('updated_at', '>', $lastUpdated)
                 ->count() !== 0;
     }
 }

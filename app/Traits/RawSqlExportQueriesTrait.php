@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\DB;
 
 trait RawSqlExportQueriesTrait
 {
-    public function dumpsByRegionOrMunicipality(int $municipalityId = 0, int $regionId = 0): array
+    public function dumpsByRegionOrMunicipality($type = null, $id = null): array
     {
         $baseQuery = "SELECT
                         `dumps`.`id` as `id`,
@@ -20,7 +20,7 @@ trait RawSqlExportQueriesTrait
                         `cleared`,
                         `distance`,
                         `urgent`,
-                        `area`,
+                        `dumps`.`area` as `area`,
                         `irsops`.`name` as `irsop_name`,
                         `irsops`.`email` as `irsop_email`,
                         `irsops`.`address` as `irsop_address`,
@@ -61,16 +61,14 @@ trait RawSqlExportQueriesTrait
                          JOIN `cadastral_municipalities` on `locations`.`cadastral_id` = `cadastral_municipalities`.`id`
                          JOIN `trash_types` on `trash_types`.`dump_id` = `dumps`.`id`
                     ";
-        if ($regionId) {
-            $baseQuery .= " WHERE `regions`.`id` = {$regionId};";
-        } else if ($municipalityId) {
-            $baseQuery .= " WHERE `municipalities`.`id` = {$municipalityId};";
+        if ($type && $id) {
+            $baseQuery .= " WHERE `{$type}`.`id` = {$id};";
         }
         $result = DB::select(DB::raw($baseQuery));
         return array_map(fn($e) => (array)$e, $result);
     }
 
-    public function commentsByRegionOrMunicipality(int $municipalityId = 0, int $regionId = 0): array
+    public function commentsByRegionOrMunicipality($type = null, $id = null): array
     {
         $baseQuery = "SELECT
                         `comments`.`dump_id` as `id`,
@@ -83,10 +81,8 @@ trait RawSqlExportQueriesTrait
                          JOIN `municipalities` on `locations`.`municipality_id` = `municipalities`.`id`
                          JOIN `regions` on `locations`.region_id = `regions`.`id`
                     ";
-        if ($regionId) {
-            $baseQuery .= " WHERE `regions`.`id` = {$regionId};";
-        } else if ($municipalityId) {
-            $baseQuery .= " WHERE `municipalities`.`id` = {$municipalityId};";
+        if ($type && $id) {
+            $baseQuery .= " WHERE `{$type}`.`id` = {$id};";
         }
         $result = DB::select(DB::raw($baseQuery));
         return array_map(fn($e) => (array)$e, $result);

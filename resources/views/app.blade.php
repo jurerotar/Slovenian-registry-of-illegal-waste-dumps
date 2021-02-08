@@ -36,7 +36,7 @@
     <meta property="og:image:alt" content="Register divjih odlagališč Slovenije">
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet"/>
     <script src="{{ mix('/js/app.js') }}" defer></script>
-    <script>window.globalData = {!! \App\Http\Controllers\PageDataController::global() !!}</script>
+    <script>window.globalData = {!! (new \App\Http\Controllers\PageDataController)->global() !!}</script>
 </head>
 <body class="dark:bg-dark-main duration-300 transition-colors">
 @inertia

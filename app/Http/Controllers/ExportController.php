@@ -2,30 +2,30 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ExportFormRequest;
+use App\Models\Municipality;
+use App\Models\Region;
 use App\Services\ExportService;
-use Illuminate\Http\Request;
+use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class ExportController extends Controller
 {
-    public function export(Request $request)
+    public function export(ExportFormRequest $request): BinaryFileResponse
     {
-        $request->validate([
-            'rid' => 'required_without:mid|min:1|max:12|integer',
-            'mid' => 'required_without:rid|min:1|max:212|integer'
-        ]);
-
-        if ($request->has('rid')) {
-            $id = $request->input('rid');
-            $type = 'regions';
-        } else if ($request->has('mid')) {
-            $id = $request->input('mid');
-            $type = 'municipalities';
+        if ($request->input('type') === 'all') {
+            return response()->download(storage_path("app/public/total.json"), "Skupno.json");
         }
 
-        $exportService = new ExportService($type, $id);
-        if ($exportService->needsUpdating()) {
-            $exportService->generate();
+        $validated = $request->validated();
+
+        $type = $request->input('type');
+        $id = $request->input('id');
+
+        $data = new ExportService($type, $id);
+        if ($data->needsUpdating()) {
+            $data->generate();
         }
-        return response()->download(storage_path("app/public/{$type}/{$id}.json"), "{$id}.json");
+        $name = $type === 'regions' ? Region::find($id)->name : Municipality::find($id)->name;
+        return response()->download(storage_path("app/public/{$type}/{$id}.json"), "{$name}.json");
     }
 }
