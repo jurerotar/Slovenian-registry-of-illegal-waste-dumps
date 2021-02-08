@@ -7,7 +7,7 @@ namespace App\Services;
 use App\Models\EstimatedTrashVolume;
 use App\Models\TrashType;
 use App\Traits\RetrieveFromCacheTrait;
-use Illuminate\Support\Facades\Cache;
+use RecursiveArrayIterator;
 
 
 class TrashEstimatesService
@@ -35,29 +35,24 @@ class TrashEstimatesService
 
     public function volume(): array
     {
-        return Cache::get($this->volumeKey, function () {
-            $amounts = [];
+        return $this->getOrSet($this->volumeKey, function () {
             $estimatedTrashVolumes = EstimatedTrashVolume::whereHas('dump', fn($e) => $e->where('cleared', false))->get();
-
-            foreach ($this->attributes as $attribute => $translation) {
-                $amounts[$attribute] = $estimatedTrashVolumes->sum($attribute);
+            $amounts = [];
+            foreach ($this->keys as $column) {
+                $amounts[$column] = $estimatedTrashVolumes->sum($column);
             }
-            Cache::put($this->volumeKey, $amounts);
             return $amounts;
         });
     }
 
     public function percentage()
     {
-        return Cache::get($this->percentageKey, function () {
-            $percentages = [];
+        return $this->getOrSet($this->percentageKey, function () {
             $trashTypes = TrashType::whereHas('dump', fn($e) => $e->where('cleared', false))->get();
-
-            $numberOfRows = $trashTypes->count();
-            foreach ($this->attributes as $attribute => $translation) {
-                $percentages[$attribute] = round($trashTypes->sum($attribute) / $numberOfRows, 2);
+            $percentages = [];
+            foreach ($this->keys as $column) {
+                $percentages[$column] = $trashTypes->avg($column);
             }
-            Cache::put($this->percentageKey, $percentages);
             return $percentages;
         });
     }

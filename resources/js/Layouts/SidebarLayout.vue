@@ -1,41 +1,27 @@
 <template>
     <div>
-        <nav
-            class="bg-white p-2 lg:px-4 duration-300 transition-colors dark:bg-dark-nav border-b-default border-gray-300 dark:border-transparent border-solid flex flex-row items-center justify-between relative lg:fixed lg:left-0 lg:top-0 w-full lg:max-w-nav h-16 z-0 lg:ml-60">
+        <!-- Top navigation -->
+        <nav class="bg-white p-2 lg:px-4 duration-300 transition-colors dark:bg-dark-nav border-b-default
+            border-gray-300 dark:border-transparent border-solid flex flex-row items-center justify-center md:justify-end
+            relative lg:fixed lg:left-0 lg:top-0 w-full lg:max-w-nav h-16 z-0 lg:ml-60">
+            <!-- Logo displays only on tablets and mobiles -->
             <div class="flex flex-row items-center justify-between w-full h-full" v-if="width <= breakpoints.md">
                 <Logo :orientation="'row'" :size="'max-h-10 max-w-10'"></Logo>
-                <div class=""></div>
+                <HamburgerMenu class=""></HamburgerMenu>
             </div>
-            <div class="flex flex-row items-center justify-center" v-if="width > breakpoints.md">
-
-            </div>
-            <div class="flex flex-row items-center justify-center" v-if="width > breakpoints.md">
-                <inertia-link href="/" class="mr-4 font-semibold dark:text-white duration-300 transition-colors">
-                    Domov
-                </inertia-link>
-                <inertia-link href="/export" class="mr-4 font-semibold dark:text-white duration-300 transition-colors">
-                    Izvozi podatke
-                </inertia-link>
-                <inertia-link href="/report"
-                              class="mr-4 font-semibold rounded-lg px-6 py-3 bg-green-default text-white text-center duration-300
-                                transition-colors hover:bg-green-default-darker">
-                    Prijavi odlagališče
-                </inertia-link>
-                <DarkmodeToggle class="mr-4"></DarkmodeToggle>
-                <a href="https://github.com/jurerotar/Ocistimo-Slovenijo"
-                   class="h-6 w-6 github-icon duration-300 transition-colors">
-                    <Icon :type="'github'" :color="'black'" :size="6"></Icon>
-                </a>
-            </div>
+            <NavigationLinks v-if="width > breakpoints.md"></NavigationLinks>
         </nav>
-        <nav
-            class="sidebar duration-300 transition-colors hidden z-10 h-full shadow-2xl fixed left-0 top-0 flex-col lg:w-60 lg:flex bg-white dark:bg-dark-nav overflow-y-auto">
-            <Logo class="p-4 pb-0" v-if="width >= breakpoints.lg" :size="'max-h-20 max-w-20 mb-2'"></Logo>
-            <ul class="mt-4">
-                <li class="px-4 py-2">
+        <!-- Sidebar -->
+        <nav class="sidebar transform  lg:translate-x-0 duration-300 transition-all z-10 h-full shadow-2xl dark:shadow-none fixed left-0
+            top-0 flex-col lg:w-60 lg:flex bg-white dark:bg-dark-nav overflow-y-auto p-4"
+             :class="[extended ? 'translate-x-0' : '-translate-x-full']">
+            <Logo></Logo>
+            <NavigationLinks v-if="width <= breakpoints.md"></NavigationLinks>
+            <ul class="">
+                <li class="py-2">
                     <p class="text-gray-400 font-semibold">Regije</p>
                 </li>
-                <li class="px-4 py-2 hover:bg-gray-100 duration-300 transition-colors cursor-pointer"
+                <li class="py-2 hover:bg-gray-100 duration-300 transition-colors cursor-pointer"
                     v-for="region in regions" :key="region.id">
                     <details :open="selectedRegion === region.id">
                         <summary class="outline-none" @click="setSelectedRegion(region.id)">
@@ -53,7 +39,9 @@
                 </li>
             </ul>
         </nav>
-        <main class="p-4 lg:ml-60 lg:mt-16 dark:bg-dark-main duration-300 transition-colors">
+        <!-- Main container -->
+        <main :class="{'pointer-events-none': extended && width < breakpoints.md}"
+              class="p-4 lg:ml-60 lg:mt-16 dark:bg-dark-main duration-300 transition-colors">
             <slot></slot>
         </main>
     </div>
@@ -61,15 +49,17 @@
 
 <script>
 import Logo from "../Components/Logo";
-import DarkmodeToggle from "../Components/DarkmodeToggle";
 import Icon from "../Components/Icon";
+import HamburgerMenu from "../Components/HamburgerMenu";
+import NavigationLinks from "../Components/NavigationLinks";
 
 export default {
     name: "SidebarLayout",
     components: {
         Icon,
-        DarkmodeToggle,
         Logo,
+        HamburgerMenu,
+        NavigationLinks,
     },
     data() {
         return {
@@ -88,6 +78,9 @@ export default {
         },
         selectedRegion() {
             return this.$store.state.selectedRegion;
+        },
+        extended() {
+            return this.$store.state.sidebarExtended;
         }
     },
     methods: {
@@ -100,6 +93,9 @@ export default {
         setSelectedRegion(id) {
             console.log(this.selectedRegion);
             this.$store.commit('setSelectedRegion', (this.selectedRegion === id) ? null : id);
+        },
+        toggleSidebar() {
+            this.$store.commit('setSidebarExtended', !this.extended);
         }
     },
     mounted() {
@@ -109,19 +105,13 @@ export default {
             this.setHeight();
             this.setWidth();
         });
+        this.$store.commit('setCurrentPage', this.currentPage);
     },
+    props: {
+        currentPage: {
+            type: String,
+            required: true
+        }
+    }
 }
 </script>
-
-<style>
-.sidebar::-webkit-scrollbar {
-    width: 5px;
-    border-radius: 5px;
-    background: inherit;
-}
-
-.sidebar::-webkit-scrollbar-thumb {
-    background-color: #9DC02E;
-}
-
-</style>
