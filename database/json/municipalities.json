@@ -2,1061 +2,1909 @@
     {
         "id": 1,
         "name": "Apače",
-        "region_id": 1
+        "region_id": 1,
+        "population": 3533,
+        "area": 53.5,
+        "population_per_area": 66,
+        "villages": 21
     },
     {
         "id": 2,
         "name": "Beltinci",
-        "region_id": 1
+        "region_id": 1,
+        "population": 8059,
+        "area": 62.2,
+        "population_per_area": 130,
+        "villages": 8
     },
     {
         "id": 3,
         "name": "Cankova",
-        "region_id": 1
+        "region_id": 1,
+        "population": 1734,
+        "area": 30.6,
+        "population_per_area": 57,
+        "villages": 8
     },
     {
         "id": 4,
         "name": "Črenšovci",
-        "region_id": 1
+        "region_id": 1,
+        "population": 3968,
+        "area": 33.6,
+        "population_per_area": 118,
+        "villages": 6
     },
     {
         "id": 5,
         "name": "Dobrovnik",
-        "region_id": 1
+        "region_id": 1,
+        "population": 1281,
+        "area": 31.1,
+        "population_per_area": 41,
+        "villages": 3
     },
     {
         "id": 6,
         "name": "Gornja Radgona",
-        "region_id": 1
+        "region_id": 1,
+        "population": 8417,
+        "area": 74.6,
+        "population_per_area": 113,
+        "villages": 30
     },
     {
         "id": 7,
         "name": "Gornji Petrovci",
-        "region_id": 1
+        "region_id": 1,
+        "population": 1995,
+        "area": 66.8,
+        "population_per_area": 30,
+        "villages": 14
     },
     {
         "id": 8,
         "name": "Grad",
-        "region_id": 1
+        "region_id": 1,
+        "population": 16662,
+        "area": 173.7,
+        "population_per_area": 96,
+        "villages": 22
     },
     {
         "id": 9,
         "name": "Hodoš",
-        "region_id": 1
+        "region_id": 1,
+        "population": 353,
+        "area": 18.1,
+        "population_per_area": 19,
+        "villages": 2
     },
     {
         "id": 10,
         "name": "Kobilje",
-        "region_id": 1
+        "region_id": 1,
+        "population": 612,
+        "area": 19.7,
+        "population_per_area": 31,
+        "villages": 1
     },
     {
         "id": 11,
         "name": "Križevci",
-        "region_id": 1
+        "region_id": 1,
+        "population": 3750,
+        "area": 46.2,
+        "population_per_area": 81,
+        "villages": 16
     },
     {
         "id": 12,
         "name": "Kuzma",
-        "region_id": 1
+        "region_id": 1,
+        "population": 1571,
+        "area": 22.9,
+        "population_per_area": 69,
+        "villages": 5
     },
     {
         "id": 13,
         "name": "Lendava",
-        "region_id": 1
+        "region_id": 1,
+        "population": 11157,
+        "area": 123,
+        "population_per_area": 91,
+        "villages": 23
     },
     {
         "id": 14,
         "name": "Ljutomer",
-        "region_id": 1
+        "region_id": 1,
+        "population": 11845,
+        "area": 107.2,
+        "population_per_area": 110,
+        "villages": 44
     },
     {
         "id": 15,
         "name": "Moravske Toplice",
-        "region_id": 1
+        "region_id": 1,
+        "population": 6014,
+        "area": 144.5,
+        "population_per_area": 42,
+        "villages": 28
     },
     {
         "id": 16,
         "name": "Murska Sobota",
-        "region_id": 1
+        "region_id": 1,
+        "population": 19433,
+        "area": 64.4,
+        "population_per_area": 302,
+        "villages": 12
     },
     {
         "id": 17,
         "name": "Odranci",
-        "region_id": 1
+        "region_id": 1,
+        "population": 1674,
+        "area": 6.9,
+        "population_per_area": 243,
+        "villages": 1
     },
     {
         "id": 18,
         "name": "Puconci",
-        "region_id": 1
+        "region_id": 1,
+        "population": 6128,
+        "area": 107.6,
+        "population_per_area": 57,
+        "villages": 23
     },
     {
         "id": 19,
         "name": "Radenci",
-        "region_id": 1
+        "region_id": 1,
+        "population": 5196,
+        "area": 34.1,
+        "population_per_area": 152,
+        "villages": 22
     },
     {
         "id": 20,
         "name": "Razkrižje",
-        "region_id": 1
+        "region_id": 1,
+        "population": 1344,
+        "area": 9.8,
+        "population_per_area": 137,
+        "villages": 6
     },
     {
         "id": 21,
         "name": "Rogašovci",
-        "region_id": 1
+        "region_id": 1,
+        "population": 3240,
+        "area": 40.1,
+        "population_per_area": 81,
+        "villages": 11
     },
     {
         "id": 22,
         "name": "Sveti Jurij ob Ščavnici",
-        "region_id": 1
+        "region_id": 1,
+        "population": 2869,
+        "area": 51.3,
+        "population_per_area": 56,
+        "villages": 27
     },
     {
         "id": 23,
         "name": "Šalovci",
-        "region_id": 1
+        "region_id": 1,
+        "population": 1602,
+        "area": 58.2,
+        "population_per_area": 28,
+        "villages": 6
     },
     {
         "id": 24,
         "name": "Tišina",
-        "region_id": 1
+        "region_id": 1,
+        "population": 4143,
+        "area": 38.8,
+        "population_per_area": 107,
+        "villages": 12
     },
     {
         "id": 25,
         "name": "Turnišče",
-        "region_id": 1
+        "region_id": 1,
+        "population": 3380,
+        "area": 23.8,
+        "population_per_area": 142,
+        "villages": 4
     },
     {
         "id": 26,
         "name": "Velika Polana",
-        "region_id": 1
+        "region_id": 1,
+        "population": 1483,
+        "area": 18.7,
+        "population_per_area": 79,
+        "villages": 3
     },
     {
         "id": 27,
         "name": "Veržej",
-        "region_id": 1
+        "region_id": 1,
+        "population": 1308,
+        "area": 12,
+        "population_per_area": 109,
+        "villages": 3
     },
     {
         "id": 28,
         "name": "Benedikt",
-        "region_id": 2
+        "region_id": 2,
+        "population": 2615,
+        "area": 24.1,
+        "population_per_area": 108,
+        "villages": 14
     },
     {
         "id": 29,
         "name": "Cerkvenjak",
-        "region_id": 2
+        "region_id": 2,
+        "population": 2083,
+        "area": 23,
+        "population_per_area": 91,
+        "villages": 15
     },
     {
         "id": 30,
         "name": "Cirkulane",
-        "region_id": 2
+        "region_id": 2,
+        "population": 2345,
+        "area": 32.1,
+        "population_per_area": 73,
+        "villages": 13
     },
     {
         "id": 31,
         "name": "Destrnik",
-        "region_id": 2
+        "region_id": 2,
+        "population": 2643,
+        "area": 34.3,
+        "population_per_area": 77,
+        "villages": 17
     },
     {
         "id": 32,
         "name": "Dornava",
-        "region_id": 2
+        "region_id": 2,
+        "population": 2902,
+        "area": 28.4,
+        "population_per_area": 102,
+        "villages": 12
     },
     {
         "id": 33,
         "name": "Duplek",
-        "region_id": 2
+        "region_id": 2,
+        "population": 6996,
+        "area": 40,
+        "population_per_area": 175,
+        "villages": 10
     },
     {
         "id": 34,
         "name": "Gorišnica",
-        "region_id": 2
+        "region_id": 2,
+        "population": 4112,
+        "area": 29,
+        "population_per_area": 65,
+        "villages": 11
     },
     {
         "id": 35,
         "name": "Hajdina",
-        "region_id": 2
+        "region_id": 2,
+        "population": 3879,
+        "area": 21.6,
+        "population_per_area": 180,
+        "villages": 7
     },
     {
         "id": 36,
-        "name": "Hoče-Slivnica",
-        "region_id": 2
+        "name": "Hoče - Slivnica",
+        "region_id": 2,
+        "population": 11753,
+        "area": 53.7,
+        "population_per_area": 219,
+        "villages": 13
     },
     {
         "id": 37,
         "name": "Juršinci",
-        "region_id": 2
+        "region_id": 2,
+        "population": 2380,
+        "area": 36.2,
+        "population_per_area": 66,
+        "villages": 13
     },
     {
         "id": 38,
         "name": "Kidričevo",
-        "region_id": 2
+        "region_id": 2,
+        "population": 6619,
+        "area": 71.5,
+        "population_per_area": 93,
+        "villages": 18
     },
     {
         "id": 39,
         "name": "Kungota",
-        "region_id": 2
+        "region_id": 2,
+        "population": 4713,
+        "area": 49,
+        "population_per_area": 96,
+        "villages": 19
     },
     {
         "id": 40,
         "name": "Lenart",
-        "region_id": 2
+        "region_id": 2,
+        "population": 7862,
+        "area": 62,
+        "population_per_area": 127,
+        "villages": 22
     },
     {
         "id": 41,
         "name": "Lovrenc na Pohorju",
-        "region_id": 2
+        "region_id": 2,
+        "population": 3120,
+        "area": 84.4,
+        "population_per_area": 37,
+        "villages": 7
     },
     {
         "id": 42,
         "name": "Majšperk",
-        "region_id": 2
+        "region_id": 2,
+        "population": 4045,
+        "area": 72.8,
+        "population_per_area": 56,
+        "villages": 26
     },
     {
         "id": 43,
         "name": "Makole",
-        "region_id": 2
+        "region_id": 2,
+        "population": 2089,
+        "area": 36.9,
+        "population_per_area": 57,
+        "villages": 13
     },
     {
         "id": 44,
         "name": "Maribor",
-        "region_id": 2
+        "region_id": 2,
+        "population": 113113,
+        "area": 147.5,
+        "population_per_area": 767,
+        "villages": 33
     },
     {
         "id": 45,
         "name": "Markovci",
-        "region_id": 2
+        "region_id": 2,
+        "population": 3973,
+        "area": 29.8,
+        "population_per_area": 133,
+        "villages": 9
     },
     {
         "id": 46,
         "name": "Miklavž na Dravskem polju",
-        "region_id": 2
+        "region_id": 2,
+        "population": 6240,
+        "area": 12.5,
+        "population_per_area": 499,
+        "villages": 4
     },
     {
         "id": 47,
         "name": "Oplotnica",
-        "region_id": 2
+        "region_id": 2,
+        "population": 3918,
+        "area": 33.2,
+        "population_per_area": 118,
+        "villages": 21
     },
     {
         "id": 48,
         "name": "Ormož",
-        "region_id": 2
+        "region_id": 2,
+        "population": 12519,
+        "area": 142,
+        "population_per_area": 89,
+        "villages": 60
     },
     {
         "id": 49,
         "name": "Pesnica",
-        "region_id": 2
+        "region_id": 2,
+        "population": 7549,
+        "area": 75.8,
+        "population_per_area": 100,
+        "villages": 30
     },
     {
         "id": 50,
         "name": "Podlehnik",
-        "region_id": 2
+        "region_id": 2,
+        "population": 1892,
+        "area": 46,
+        "population_per_area": 41,
+        "villages": 13
     },
     {
         "id": 51,
         "name": "Poljčane",
-        "region_id": 2
+        "region_id": 2,
+        "population": 4525,
+        "area": 37.5,
+        "population_per_area": 120,
+        "villages": 18
     },
     {
         "id": 52,
         "name": "Ptuj",
-        "region_id": 2
+        "region_id": 2,
+        "population": 23699,
+        "area": 66.7,
+        "population_per_area": 355,
+        "villages": 10
     },
     {
         "id": 53,
-        "name": "Rače-Fram",
-        "region_id": 2
+        "name": "Rače - Fram",
+        "region_id": 2,
+        "population": 6528,
+        "area": 51.2,
+        "population_per_area": 127,
+        "villages": 13
     },
     {
         "id": 54,
         "name": "Ruše",
-        "region_id": 2
+        "region_id": 2,
+        "population": 7417,
+        "area": 60.8,
+        "population_per_area": 122,
+        "villages": 7
     },
     {
         "id": 55,
         "name": "Selnica ob Dravi",
-        "region_id": 2
+        "region_id": 2,
+        "population": 4563,
+        "area": 64.5,
+        "population_per_area": 71,
+        "villages": 14
     },
     {
         "id": 56,
         "name": "Slovenska Bistrica",
-        "region_id": 2
+        "region_id": 2,
+        "population": 24462,
+        "area": 260,
+        "population_per_area": 94,
+        "villages": 77
     },
     {
         "id": 57,
         "name": "Središče ob Dravi",
-        "region_id": 2
+        "region_id": 2,
+        "population": 2142,
+        "area": 33,
+        "population_per_area": 65,
+        "villages": 5
     },
     {
         "id": 58,
         "name": "Starše",
-        "region_id": 2
+        "region_id": 2,
+        "population": 4093,
+        "area": 34,
+        "population_per_area": 120,
+        "villages": 8
     },
     {
         "id": 59,
         "name": "Sveta Ana",
-        "region_id": 2
+        "region_id": 2,
+        "population": 2368,
+        "area": 37.2,
+        "population_per_area": 64,
+        "villages": 11
     },
     {
         "id": 60,
         "name": "Sveta Trojica v Slovenskih goricah",
-        "region_id": 2
+        "region_id": 2,
+        "population": 2197,
+        "area": 26,
+        "population_per_area": 84,
+        "villages": 8
     },
     {
         "id": 61,
         "name": "Sveti Andraž v Slovenskih goricah",
-        "region_id": 2
+        "region_id": 2,
+        "population": 1207,
+        "area": 17.6,
+        "population_per_area": 69,
+        "villages": 7
     },
     {
         "id": 62,
         "name": "Sveti Jurij v Slovenskih goricah",
-        "region_id": 2
+        "region_id": 2,
+        "population": 2114,
+        "area": 31,
+        "population_per_area": 68,
+        "villages": 8
     },
     {
         "id": 63,
         "name": "Sveti Tomaž",
-        "region_id": 2
+        "region_id": 2,
+        "population": 2073,
+        "area": 38,
+        "population_per_area": 55,
+        "villages": 17
     },
     {
         "id": 64,
         "name": "Šentilj",
-        "region_id": 2
+        "region_id": 2,
+        "population": 8426,
+        "area": 65,
+        "population_per_area": 130,
+        "villages": 22
     },
     {
         "id": 65,
         "name": "Trnovska vas",
-        "region_id": 2
+        "region_id": 2,
+        "population": 1312,
+        "area": 22.9,
+        "population_per_area": 57,
+        "villages": 7
     },
     {
         "id": 66,
         "name": "Videm",
-        "region_id": 2
+        "region_id": 2,
+        "population": 5565,
+        "area": 80.2,
+        "population_per_area": 69,
+        "villages": 31
     },
     {
         "id": 67,
         "name": "Zavrč",
-        "region_id": 2
+        "region_id": 2,
+        "population": 1519,
+        "area": 19.3,
+        "population_per_area": 79,
+        "villages": 9
     },
     {
         "id": 68,
         "name": "Žetale",
-        "region_id": 2
+        "region_id": 2,
+        "population": 1326,
+        "area": 38,
+        "population_per_area": 35,
+        "villages": 5
     },
     {
         "id": 69,
         "name": "Črna na Koroškem",
-        "region_id": 3
+        "region_id": 3,
+        "population": 3285,
+        "area": 155.9,
+        "population_per_area": 21,
+        "villages": 9
     },
     {
         "id": 70,
         "name": "Dravograd",
-        "region_id": 3
+        "region_id": 3,
+        "population": 8884,
+        "area": 105,
+        "population_per_area": 85,
+        "villages": 24
     },
     {
         "id": 71,
         "name": "Mežica",
-        "region_id": 3
+        "region_id": 3,
+        "population": 3704,
+        "area": 26.4,
+        "population_per_area": 140,
+        "villages": 6
     },
     {
         "id": 72,
         "name": "Mislinja",
-        "region_id": 3
+        "region_id": 3,
+        "population": 4703,
+        "area": 112.2,
+        "population_per_area": 42,
+        "villages": 11
     },
     {
         "id": 73,
         "name": "Muta",
-        "region_id": 3
+        "region_id": 3,
+        "population": 3528,
+        "area": 38.8,
+        "population_per_area": 91,
+        "villages": 6
     },
     {
         "id": 74,
         "name": "Podvelka",
-        "region_id": 3
+        "region_id": 3,
+        "population": 2604,
+        "area": 103.9,
+        "population_per_area": 25,
+        "villages": 9
     },
     {
         "id": 75,
         "name": "Prevalje",
-        "region_id": 3
+        "region_id": 3,
+        "population": 6741,
+        "area": 58.1,
+        "population_per_area": 116,
+        "villages": 12
     },
     {
         "id": 76,
         "name": "Radlje ob Dravi",
-        "region_id": 3
+        "region_id": 3,
+        "population": 6162,
+        "area": 93.9,
+        "population_per_area": 66,
+        "villages": 14
     },
     {
         "id": 77,
         "name": "Ravne na Koroškem",
-        "region_id": 3
+        "region_id": 3,
+        "population": 11722,
+        "area": 63.4,
+        "population_per_area": 185,
+        "villages": 16
     },
     {
         "id": 78,
         "name": "Ribnica na Pohorju",
-        "region_id": 3
+        "region_id": 3,
+        "population": 1228,
+        "area": 59.3,
+        "population_per_area": 20,
+        "villages": 6
     },
     {
         "id": 79,
         "name": "Slovenj Gradec",
-        "region_id": 3
+        "region_id": 3,
+        "population": 16662,
+        "area": 173.7,
+        "population_per_area": 96,
+        "villages": 22
     },
     {
         "id": 80,
         "name": "Vuzenica",
-        "region_id": 3
+        "region_id": 3,
+        "population": 2748,
+        "area": 50.1,
+        "population_per_area": 55,
+        "villages": 5
     },
     {
         "id": 81,
         "name": "Braslovče",
-        "region_id": 4
+        "region_id": 4,
+        "population": 5629,
+        "area": 54.8,
+        "population_per_area": 103,
+        "villages": 22
     },
     {
         "id": 82,
         "name": "Celje",
-        "region_id": 4
+        "region_id": 4,
+        "population": 49540,
+        "area": 94.9,
+        "population_per_area": 522,
+        "villages": 39
     },
     {
         "id": 83,
         "name": "Dobje",
-        "region_id": 4
+        "region_id": 4,
+        "population": 949,
+        "area": 17.4,
+        "population_per_area": 55,
+        "villages": 13
     },
     {
         "id": 84,
         "name": "Dobrna",
-        "region_id": 4
+        "region_id": 4,
+        "population": 2234,
+        "area": 31.6,
+        "population_per_area": 71,
+        "villages": 11
     },
     {
         "id": 85,
         "name": "Gornji Grad",
-        "region_id": 4
+        "region_id": 4,
+        "population": 2474,
+        "area": 90.1,
+        "population_per_area": 27,
+        "villages": 7
     },
     {
         "id": 86,
         "name": "Kozje",
-        "region_id": 4
+        "region_id": 4,
+        "population": 3245,
+        "area": 89.7,
+        "population_per_area": 38,
+        "villages": 23
     },
     {
         "id": 87,
         "name": "Laško",
-        "region_id": 4
+        "region_id": 4,
+        "population": 13701,
+        "area": 197.5,
+        "population_per_area": 69,
+        "villages": 85
     },
     {
         "id": 88,
         "name": "Ljubno",
-        "region_id": 4
+        "region_id": 4,
+        "population": 2644,
+        "area": 78.9,
+        "population_per_area": 34,
+        "villages": 9
     },
     {
         "id": 89,
         "name": "Luče",
-        "region_id": 4
+        "region_id": 4,
+        "population": 1535,
+        "area": 109.5,
+        "population_per_area": 14,
+        "villages": 7
     },
     {
         "id": 90,
         "name": "Mozirje",
-        "region_id": 4
+        "region_id": 4,
+        "population": 4063,
+        "area": 54,
+        "population_per_area": 75,
+        "villages": 8
     },
     {
         "id": 91,
         "name": "Nazarje",
-        "region_id": 4
+        "region_id": 4,
+        "population": 2567,
+        "area": 42.3,
+        "population_per_area": 61,
+        "villages": 15
     },
     {
         "id": 92,
         "name": "Podčetrtek",
-        "region_id": 4
+        "region_id": 4,
+        "population": 3276,
+        "area": 60.6,
+        "population_per_area": 54,
+        "villages": 26
     },
     {
         "id": 93,
         "name": "Polzela",
-        "region_id": 4
+        "region_id": 4,
+        "population": 5872,
+        "area": 34,
+        "population_per_area": 173,
+        "villages": 9
     },
     {
         "id": 94,
         "name": "Prebold",
-        "region_id": 4
+        "region_id": 4,
+        "population": 4599,
+        "area": 40.9,
+        "population_per_area": 112,
+        "villages": 8
     },
     {
         "id": 95,
         "name": "Rečica ob Savinji",
-        "region_id": 4
+        "region_id": 4,
+        "population": 2287,
+        "area": 30.1,
+        "population_per_area": 76,
+        "villages": 12
     },
     {
         "id": 96,
         "name": "Rogaška Slatina",
-        "region_id": 4
+        "region_id": 4,
+        "population": 11093,
+        "area": 71.5,
+        "population_per_area": 155,
+        "villages": 41
     },
     {
         "id": 97,
         "name": "Rogatec",
-        "region_id": 4
+        "region_id": 4,
+        "population": 3155,
+        "area": 39.6,
+        "population_per_area": 80,
+        "villages": 9
     },
     {
         "id": 98,
         "name": "Slovenske Konjice",
-        "region_id": 4
+        "region_id": 4,
+        "population": 14346,
+        "area": 97.8,
+        "population_per_area": 147,
+        "villages": 58
     },
     {
         "id": 99,
         "name": "Solčava",
-        "region_id": 4
+        "region_id": 4,
+        "population": 505,
+        "area": 102.8,
+        "population_per_area": 5,
+        "villages": 4
     },
     {
         "id": 100,
         "name": "Šentjur",
-        "region_id": 4
+        "region_id": 4,
+        "population": 18787,
+        "area": 222.3,
+        "population_per_area": 85,
+        "villages": 108
     },
     {
         "id": 101,
         "name": "Šmarje pri Jelšah",
-        "region_id": 4
+        "region_id": 4,
+        "population": 9946,
+        "area": 107.7,
+        "population_per_area": 93,
+        "villages": 77
     },
     {
         "id": 102,
         "name": "Šmartno ob Paki",
-        "region_id": 4
+        "region_id": 4,
+        "population": 3116,
+        "area": 18.2,
+        "population_per_area": 171,
+        "villages": 10
     },
     {
         "id": 103,
         "name": "Šoštanj",
-        "region_id": 4
+        "region_id": 4,
+        "population": 8420,
+        "area": 95.6,
+        "population_per_area": 88,
+        "villages": 11
     },
     {
         "id": 104,
         "name": "Štore",
-        "region_id": 4
+        "region_id": 4,
+        "population": 4060,
+        "area": 28.1,
+        "population_per_area": 144,
+        "villages": 12
     },
     {
         "id": 105,
         "name": "Tabor",
-        "region_id": 4
+        "region_id": 4,
+        "population": 1510,
+        "area": 34.8,
+        "population_per_area": 43,
+        "villages": 7
     },
     {
         "id": 106,
         "name": "Velenje",
-        "region_id": 4
+        "region_id": 4,
+        "population": 33226,
+        "area": 83.5,
+        "population_per_area": 398,
+        "villages": 26
     },
     {
         "id": 107,
         "name": "Vitanje",
-        "region_id": 4
+        "region_id": 4,
+        "population": 2288,
+        "area": 59.4,
+        "population_per_area": 36,
+        "villages": 8
     },
     {
         "id": 108,
         "name": "Vojnik",
-        "region_id": 4
+        "region_id": 4,
+        "population": 8287,
+        "area": 75.3,
+        "population_per_area": 110,
+        "villages": 55
     },
     {
         "id": 109,
         "name": "Vransko",
-        "region_id": 4
+        "region_id": 4,
+        "population": 2546,
+        "area": 53.3,
+        "population_per_area": 48,
+        "villages": 16
     },
     {
         "id": 110,
         "name": "Zreče",
-        "region_id": 4
+        "region_id": 4,
+        "population": 6492,
+        "area": 67,
+        "population_per_area": 94,
+        "villages": 27
     },
     {
         "id": 111,
         "name": "Žalec",
-        "region_id": 4
+        "region_id": 4,
+        "population": 21210,
+        "area": 117.1,
+        "population_per_area": 181,
+        "villages": 38
     },
     {
         "id": 112,
         "name": "Bistrica ob Sotli",
-        "region_id": 5
+        "region_id": 5,
+        "population": 1336,
+        "area": 31.1,
+        "population_per_area": 43,
+        "villages": 11
     },
     {
         "id": 113,
         "name": "Brežice",
-        "region_id": 5
+        "region_id": 5,
+        "population": 24051,
+        "area": 268.1,
+        "population_per_area": 90,
+        "villages": 109
     },
     {
         "id": 114,
         "name": "Kostanjevica na Krki",
-        "region_id": 5
+        "region_id": 5,
+        "population": 2413,
+        "area": 62.3,
+        "population_per_area": 39,
+        "villages": 28
     },
     {
         "id": 115,
         "name": "Krško",
-        "region_id": 5
+        "region_id": 5,
+        "population": 25600,
+        "area": 286.5,
+        "population_per_area": 89,
+        "villages": 157
     },
     {
         "id": 116,
         "name": "Radeče",
-        "region_id": 5
+        "region_id": 5,
+        "population": 4522,
+        "area": 52,
+        "population_per_area": 87,
+        "villages": 23
     },
     {
         "id": 117,
         "name": "Sevnica",
-        "region_id": 5
+        "region_id": 5,
+        "population": 17649,
+        "area": 272.2,
+        "population_per_area": 65,
+        "villages": 114
     },
     {
         "id": 118,
         "name": "Hrastnik",
-        "region_id": 6
+        "region_id": 6,
+        "population": 9113,
+        "area": 58.5,
+        "population_per_area": 156,
+        "villages": 19
     },
     {
         "id": 119,
         "name": "Litija",
-        "region_id": 6
+        "region_id": 6,
+        "population": 14529,
+        "area": 221,
+        "population_per_area": 66,
+        "villages": 108
     },
     {
         "id": 120,
         "name": "Trbovlje",
-        "region_id": 6
+        "region_id": 6,
+        "population": 17545,
+        "area": 57.8,
+        "population_per_area": 304,
+        "villages": 16
     },
     {
         "id": 121,
         "name": "Zagorje ob Savi",
-        "region_id": 6
+        "region_id": 6,
+        "population": 17098,
+        "area": 147.1,
+        "population_per_area": 116,
+        "villages": 74
     },
     {
         "id": 122,
         "name": "Črnomelj",
-        "region_id": 7
+        "region_id": 7,
+        "population": 14241,
+        "area": 339.7,
+        "population_per_area": 42,
+        "villages": 118
     },
     {
         "id": 123,
         "name": "Dolenjske Toplice",
-        "region_id": 7
+        "region_id": 7,
+        "population": 3553,
+        "area": 110.2,
+        "population_per_area": 32,
+        "villages": 29
     },
     {
         "id": 124,
         "name": "Kočevje",
-        "region_id": 7
+        "region_id": 7,
+        "population": 16627,
+        "area": 563.7,
+        "population_per_area": 29,
+        "villages": 68
     },
     {
         "id": 125,
         "name": "Kostel",
-        "region_id": 7
+        "region_id": 7,
+        "population": 647,
+        "area": 56.7,
+        "population_per_area": 11,
+        "villages": 52
     },
     {
         "id": 126,
         "name": "Loški Potok",
-        "region_id": 7
+        "region_id": 7,
+        "population": 1954,
+        "area": 134.5,
+        "population_per_area": 15,
+        "villages": 17
     },
     {
         "id": 127,
         "name": "Metlika",
-        "region_id": 7
+        "region_id": 7,
+        "population": 8379,
+        "area": 108.9,
+        "population_per_area": 77,
+        "villages": 60
     },
     {
         "id": 128,
         "name": "Mirna",
-        "region_id": 7
+        "region_id": 7,
+        "population": 2779,
+        "area": 48,
+        "population_per_area": 58,
+        "villages": 28
     },
     {
         "id": 129,
         "name": "Mirna Peč",
-        "region_id": 7
+        "region_id": 7,
+        "population": 2779,
+        "area": 48,
+        "population_per_area": 58,
+        "villages": 28
     },
     {
         "id": 130,
-        "name": "Mokronog-Trebelno",
-        "region_id": 7
+        "name": "Mokronog - Trebelno",
+        "region_id": 7,
+        "population": 2892,
+        "area": 71,
+        "population_per_area": 41,
+        "villages": 43
     },
     {
         "id": 131,
         "name": "Novo mesto",
-        "region_id": 7
+        "region_id": 7,
+        "population": 35570,
+        "area": 236,
+        "population_per_area": 151,
+        "villages": 99
     },
     {
         "id": 132,
         "name": "Osilnica",
-        "region_id": 7
+        "region_id": 7,
+        "population": 404,
+        "area": 36.2,
+        "population_per_area": 11,
+        "villages": 19
     },
     {
         "id": 133,
         "name": "Ribnica",
-        "region_id": 7
+        "region_id": 7,
+        "population": 1228,
+        "area": 59.3,
+        "population_per_area": 20,
+        "villages": 6
     },
     {
         "id": 134,
         "name": "Semič",
-        "region_id": 7
+        "region_id": 7,
+        "population": 3789,
+        "area": 146.7,
+        "population_per_area": 26,
+        "villages": 46
     },
     {
         "id": 135,
         "name": "Sodražica",
-        "region_id": 7
+        "region_id": 7,
+        "population": 2148,
+        "area": 49.5,
+        "population_per_area": 43,
+        "villages": 22
     },
     {
         "id": 136,
         "name": "Straža",
-        "region_id": 7
+        "region_id": 7,
+        "population": 3861,
+        "area": 28.5,
+        "population_per_area": 135,
+        "villages": 11
     },
     {
         "id": 137,
         "name": "Šentjernej",
-        "region_id": 7
+        "region_id": 7,
+        "population": 6694,
+        "area": 96,
+        "population_per_area": 70,
+        "villages": 58
     },
     {
         "id": 138,
         "name": "Šentrupert",
-        "region_id": 7
+        "region_id": 7,
+        "population": 2807,
+        "area": 49,
+        "population_per_area": 57,
+        "villages": 25
     },
     {
         "id": 139,
         "name": "Škocjan",
-        "region_id": 7
+        "region_id": 7,
+        "population": 3177,
+        "area": 60.4,
+        "population_per_area": 53,
+        "villages": 39
     },
     {
         "id": 140,
         "name": "Šmarješke Toplice",
-        "region_id": 7
+        "region_id": 7,
+        "population": 3164,
+        "area": 34,
+        "population_per_area": 93,
+        "villages": 24
     },
     {
         "id": 141,
         "name": "Trebnje",
-        "region_id": 7
+        "region_id": 7,
+        "population": 14371,
+        "area": 194.6,
+        "population_per_area": 76,
+        "villages": 131
     },
     {
         "id": 142,
         "name": "Žužemberk",
-        "region_id": 7
+        "region_id": 7,
+        "population": 4579,
+        "area": 164.3,
+        "population_per_area": 28,
+        "villages": 18
     },
     {
         "id": 143,
         "name": "Borovnica",
-        "region_id": 8
+        "region_id": 8,
+        "population": 4579,
+        "area": 42.3,
+        "population_per_area": 108,
+        "villages": 12
     },
     {
         "id": 144,
         "name": "Brezovica",
-        "region_id": 8
+        "region_id": 8,
+        "population": 12671,
+        "area": 91.1,
+        "population_per_area": 139,
+        "villages": 16
     },
     {
         "id": 145,
         "name": "Dobrepolje",
-        "region_id": 8
+        "region_id": 8,
+        "population": 3878,
+        "area": 103.1,
+        "population_per_area": 38,
+        "villages": 24
     },
     {
         "id": 146,
-        "name": "Dobrova-Polhov Gradec",
-        "region_id": 8
+        "name": "Dobrova - Polhov Gradec",
+        "region_id": 8,
+        "population": 7800,
+        "area": 117.5,
+        "population_per_area": 66,
+        "villages": 33
     },
     {
         "id": 147,
         "name": "Dol pri Ljubljani",
-        "region_id": 8
+        "region_id": 8,
+        "population": 6310,
+        "area": 33.2,
+        "population_per_area": 190,
+        "villages": 19
     },
     {
         "id": 148,
         "name": "Domžale",
-        "region_id": 8
+        "region_id": 8,
+        "population": 36675,
+        "area": 72.2,
+        "population_per_area": 508,
+        "villages": 51
     },
     {
         "id": 149,
         "name": "Grosuplje",
-        "region_id": 8
+        "region_id": 8,
+        "population": 21314,
+        "area": 133.7,
+        "population_per_area": 159,
+        "villages": 66
     },
     {
         "id": 150,
         "name": "Horjul",
-        "region_id": 8
+        "region_id": 8,
+        "population": 3024,
+        "area": 32.5,
+        "population_per_area": 93,
+        "villages": 9
     },
     {
         "id": 151,
         "name": "Ig",
-        "region_id": 8
+        "region_id": 8,
+        "population": 7617,
+        "area": 98.7,
+        "population_per_area": 77,
+        "villages": 24
     },
     {
         "id": 152,
         "name": "Ivančna Gorica",
-        "region_id": 8
+        "region_id": 8,
+        "population": 17008,
+        "area": 227,
+        "population_per_area": 75,
+        "villages": 137
     },
     {
         "id": 153,
         "name": "Kamnik",
-        "region_id": 8
+        "region_id": 8,
+        "population": 29925,
+        "area": 265.6,
+        "population_per_area": 113,
+        "villages": 102
     },
     {
         "id": 154,
         "name": "Komenda",
-        "region_id": 8
+        "region_id": 8,
+        "population": 5082,
+        "area": 24.1,
+        "population_per_area": 211,
+        "villages": 14
     },
     {
         "id": 155,
         "name": "Ljubljana",
-        "region_id": 8
+        "region_id": 8,
+        "population": 276091,
+        "area": 275,
+        "population_per_area": 1004,
+        "villages": 38
     },
     {
         "id": 156,
-        "name": "Log-Dragomer",
-        "region_id": 8
+        "name": "Log - Dragomer",
+        "region_id": 8,
+        "population": 3538,
+        "area": 11,
+        "population_per_area": 322,
+        "villages": 3
     },
     {
         "id": 157,
         "name": "Logatec",
-        "region_id": 8
+        "region_id": 8,
+        "population": 12757,
+        "area": 173.1,
+        "population_per_area": 74,
+        "villages": 19
     },
     {
         "id": 158,
         "name": "Lukovica",
-        "region_id": 8
+        "region_id": 8,
+        "population": 5365,
+        "area": 74.9,
+        "population_per_area": 72,
+        "villages": 66
     },
     {
         "id": 159,
         "name": "Medvode",
-        "region_id": 8
+        "region_id": 8,
+        "population": 15068,
+        "area": 77.6,
+        "population_per_area": 194,
+        "villages": 32
     },
     {
         "id": 160,
         "name": "Mengeš",
-        "region_id": 8
+        "region_id": 8,
+        "population": 7307,
+        "area": 22.5,
+        "population_per_area": 325,
+        "villages": 4
     },
     {
         "id": 161,
         "name": "Moravče",
-        "region_id": 8
+        "region_id": 8,
+        "population": 4832,
+        "area": 61.4,
+        "population_per_area": 79,
+        "villages": 50
     },
     {
         "id": 162,
         "name": "Škofljica",
-        "region_id": 8
+        "region_id": 8,
+        "population": 8413,
+        "area": 43.3,
+        "population_per_area": 194,
+        "villages": 19
     },
     {
         "id": 163,
         "name": "Šmartno pri Litiji",
-        "region_id": 8
+        "region_id": 8,
+        "population": 5419,
+        "area": 94.9,
+        "population_per_area": 57,
+        "villages": 54
     },
     {
         "id": 164,
         "name": "Trzin",
-        "region_id": 8
+        "region_id": 8,
+        "population": 3682,
+        "area": 8.6,
+        "population_per_area": 428,
+        "villages": 1
     },
     {
         "id": 165,
         "name": "Velike Lašče",
-        "region_id": 8
+        "region_id": 8,
+        "population": 4110,
+        "area": 103.2,
+        "population_per_area": 40,
+        "villages": 88
     },
     {
         "id": 166,
         "name": "Vodice",
-        "region_id": 8
+        "region_id": 8,
+        "population": 4425,
+        "area": 31.4,
+        "population_per_area": 141,
+        "villages": 16
     },
     {
         "id": 167,
         "name": "Vrhnika",
-        "region_id": 8
+        "region_id": 8,
+        "population": 15870,
+        "area": 126.3,
+        "population_per_area": 126,
+        "villages": 25
     },
     {
         "id": 168,
         "name": "Bled",
-        "region_id": 9
+        "region_id": 9,
+        "population": 7868,
+        "area": 72.3,
+        "population_per_area": 109,
+        "villages": 10
     },
     {
         "id": 169,
         "name": "Bohinj",
-        "region_id": 9
+        "region_id": 9,
+        "population": 5145,
+        "area": 333.7,
+        "population_per_area": 15,
+        "villages": 24
     },
     {
         "id": 170,
         "name": "Cerklje na Gorenjskem",
-        "region_id": 9
+        "region_id": 9,
+        "population": 7769,
+        "area": 78,
+        "population_per_area": 100,
+        "villages": 30
     },
     {
         "id": 171,
-        "name": "Gorenja vas-Poljane",
-        "region_id": 9
+        "name": "Gorenja vas - Poljane",
+        "region_id": 9,
+        "population": 7557,
+        "area": 153.2,
+        "population_per_area": 49,
+        "villages": 73
     },
     {
         "id": 172,
         "name": "Gorje",
-        "region_id": 9
+        "region_id": 9,
+        "population": 2738,
+        "area": 119.3,
+        "population_per_area": 23,
+        "villages": 12
     },
     {
         "id": 173,
         "name": "Jesenice",
-        "region_id": 9
+        "region_id": 9,
+        "population": 21340,
+        "area": 75.8,
+        "population_per_area": 282,
+        "villages": 13
     },
     {
         "id": 174,
         "name": "Jezersko",
-        "region_id": 9
+        "region_id": 9,
+        "population": 625,
+        "area": 68.8,
+        "population_per_area": 9,
+        "villages": 2
     },
     {
         "id": 175,
         "name": "Kranj",
-        "region_id": 9
+        "region_id": 9,
+        "population": 5309,
+        "area": 256.3,
+        "population_per_area": 21,
+        "villages": 10
     },
     {
         "id": 176,
         "name": "Kranjska Gora",
-        "region_id": 9
+        "region_id": 9,
+        "population": 5309,
+        "area": 256.3,
+        "population_per_area": 21,
+        "villages": 10
     },
     {
         "id": 177,
         "name": "Naklo",
-        "region_id": 9
+        "region_id": 9,
+        "population": 5164,
+        "area": 28.3,
+        "population_per_area": 182,
+        "villages": 13
     },
     {
         "id": 178,
         "name": "Preddvor",
-        "region_id": 9
+        "region_id": 9,
+        "population": 3477,
+        "area": 87,
+        "population_per_area": 40,
+        "villages": 14
     },
     {
         "id": 179,
         "name": "Radovljica",
-        "region_id": 9
+        "region_id": 9,
+        "population": 18698,
+        "area": 118.7,
+        "population_per_area": 158,
+        "villages": 52
     },
     {
         "id": 180,
         "name": "Šenčur",
-        "region_id": 9
+        "region_id": 9,
+        "population": 8250,
+        "area": 40,
+        "population_per_area": 206,
+        "villages": 12
     },
     {
         "id": 181,
         "name": "Škofja Loka",
-        "region_id": 9
+        "region_id": 9,
+        "population": 22667,
+        "area": 145,
+        "population_per_area": 156,
+        "villages": 62
     },
     {
         "id": 182,
         "name": "Tržič",
-        "region_id": 9
+        "region_id": 9,
+        "population": 15329,
+        "area": 155.4,
+        "population_per_area": 99,
+        "villages": 35
     },
     {
         "id": 183,
         "name": "Železniki",
-        "region_id": 9
+        "region_id": 9,
+        "population": 6773,
+        "area": 164.8,
+        "population_per_area": 41,
+        "villages": 30
     },
     {
         "id": 184,
         "name": "Žiri",
-        "region_id": 9
+        "region_id": 9,
+        "population": 4904,
+        "area": 49.2,
+        "population_per_area": 100,
+        "villages": 18
     },
     {
         "id": 185,
         "name": "Žirovnica",
-        "region_id": 9
+        "region_id": 9,
+        "population": 4071,
+        "area": 46.2,
+        "population_per_area": 88,
+        "villages": 10
     },
     {
         "id": 186,
         "name": "Ajdovščina",
-        "region_id": 10
+        "region_id": 10,
+        "population": 19418,
+        "area": 245.2,
+        "population_per_area": 79,
+        "villages": 45
     },
     {
         "id": 187,
         "name": "Bovec",
-        "region_id": 10
+        "region_id": 10,
+        "population": 3073,
+        "area": 367.3,
+        "population_per_area": 8,
+        "villages": 14
     },
     {
         "id": 188,
         "name": "Brda",
-        "region_id": 10
+        "region_id": 10,
+        "population": 5619,
+        "area": 72,
+        "population_per_area": 78,
+        "villages": 45
     },
     {
         "id": 189,
         "name": "Cerkno",
-        "region_id": 10
+        "region_id": 10,
+        "population": 4547,
+        "area": 131.6,
+        "population_per_area": 35,
+        "villages": 30
     },
     {
         "id": 190,
         "name": "Idrija",
-        "region_id": 10
+        "region_id": 10,
+        "population": 11811,
+        "area": 293.6,
+        "population_per_area": 40,
+        "villages": 36
     },
     {
         "id": 191,
         "name": "Kanal",
-        "region_id": 10
+        "region_id": 10,
+        "population": 5291,
+        "area": 146.5,
+        "population_per_area": 36,
+        "villages": 35
     },
     {
         "id": 192,
         "name": "Kobarid",
-        "region_id": 10
+        "region_id": 10,
+        "population": 4208,
+        "area": 192.7,
+        "population_per_area": 22,
+        "villages": 33
     },
     {
         "id": 193,
-        "name": "Miren-Kostanjevica",
-        "region_id": 10
+        "name": "Miren - Kostanjevica",
+        "region_id": 10,
+        "population": 4843,
+        "area": 62.8,
+        "population_per_area": 77,
+        "villages": 16
     },
     {
         "id": 194,
         "name": "Nova Gorica",
-        "region_id": 10
+        "region_id": 10,
+        "population": 31911,
+        "area": 280,
+        "population_per_area": 114,
+        "villages": 43
     },
     {
         "id": 195,
-        "name": "Renče-Vogrsko",
-        "region_id": 10
+        "name": "Renče - Vogrsko",
+        "region_id": 10,
+        "population": 4229,
+        "area": 30,
+        "population_per_area": 141,
+        "villages": 6
     },
     {
         "id": 196,
-        "name": "Šempeter-Vrtojba",
-        "region_id": 10
+        "name": "Šempeter - Vrtojba",
+        "region_id": 10,
+        "population": 6339,
+        "area": 15,
+        "population_per_area": 423,
+        "villages": 2
     },
     {
         "id": 197,
         "name": "Tolmin",
-        "region_id": 10
+        "region_id": 10,
+        "population": 11730,
+        "area": 381.5,
+        "population_per_area": 31,
+        "villages": 72
     },
     {
         "id": 198,
         "name": "Vipava",
-        "region_id": 10
+        "region_id": 10,
+        "population": 5282,
+        "area": 107.4,
+        "population_per_area": 49,
+        "villages": 20
     },
     {
         "id": 199,
         "name": "Bloke",
-        "region_id": 11
+        "region_id": 11,
+        "population": 1563,
+        "area": 75.1,
+        "population_per_area": 21,
+        "villages": 45
     },
     {
         "id": 200,
         "name": "Cerknica",
-        "region_id": 11
+        "region_id": 11,
+        "population": 11580,
+        "area": 241.3,
+        "population_per_area": 48,
+        "villages": 64
     },
     {
         "id": 201,
         "name": "Ilirska Bistrica",
-        "region_id": 11
+        "region_id": 11,
+        "population": 13297,
+        "area": 480,
+        "population_per_area": 28,
+        "villages": 63
     },
     {
         "id": 202,
         "name": "Loška dolina",
-        "region_id": 11
+        "region_id": 11,
+        "population": 3809,
+        "area": 166.8,
+        "population_per_area": 23,
+        "villages": 21
     },
     {
         "id": 203,
         "name": "Pivka",
-        "region_id": 11
+        "region_id": 11,
+        "population": 5966,
+        "area": 223.6,
+        "population_per_area": 27,
+        "villages": 11
     },
     {
         "id": 204,
         "name": "Postojna",
-        "region_id": 11
+        "region_id": 11,
+        "population": 15455,
+        "area": 269.9,
+        "population_per_area": 57,
+        "villages": 40
     },
     {
         "id": 205,
         "name": "Ankaran",
-        "region_id": 12
+        "region_id": 12,
+        "population": 3224,
+        "area": 8,
+        "population_per_area": 403,
+        "villages": 1
     },
     {
         "id": 206,
         "name": "Divača",
-        "region_id": 12
+        "region_id": 12,
+        "population": 4213,
+        "area": 147.7,
+        "population_per_area": 29,
+        "villages": 31
     },
     {
         "id": 207,
         "name": "Hrpelje-Kozina",
-        "region_id": 12
+        "region_id": 12,
+        "population": 4604,
+        "area": 192.2,
+        "population_per_area": 24,
+        "villages": 38
     },
     {
         "id": 208,
         "name": "Izola",
-        "region_id": 12
+        "region_id": 12,
+        "population": 16487,
+        "area": 28.5,
+        "population_per_area": 578,
+        "villages": 9
     },
     {
         "id": 209,
         "name": "Komen",
-        "region_id": 12
+        "region_id": 12,
+        "population": 5082,
+        "area": 24.1,
+        "population_per_area": 211,
+        "villages": 14
     },
     {
         "id": 210,
         "name": "Koper",
-        "region_id": 12
+        "region_id": 12,
+        "population": 52630,
+        "area": 311,
+        "population_per_area": 162,
+        "villages": 104
     },
     {
         "id": 211,
         "name": "Piran",
-        "region_id": 12
+        "region_id": 12,
+        "population": 17338,
+        "area": 44.6,
+        "population_per_area": 389,
+        "villages": 11
     },
     {
         "id": 212,
         "name": "Sežana",
-        "region_id": 12
+        "region_id": 12,
+        "population": 12682,
+        "area": 217.4,
+        "population_per_area": 58,
+        "villages": 64
     }
 ]
