@@ -9,12 +9,16 @@ module.exports = {
             borderWidth: {
                 'default': '1px'
             },
+            minWidth: {
+                'table': '700px'
+            },
             maxWidth: {
-                'nav': 'calc(100% - 15rem)'
+                'nav': 'calc(100% - 15rem)',
+                'export': '40rem'
             },
             backgroundColor: {
                 'dark-main': '#18191A',
-                'dark-nav': '#242526',
+                'dark-nav': '#14171a',
                 'green-default': '#9DC02E',
                 'green-default-darker': '#8dac29'
             }

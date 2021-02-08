@@ -1,6 +1,6 @@
 <template>
-    <SidebarLayout>
-        <RegionMap></RegionMap>
+    <SidebarLayout :currentPage="currentPage">
+        <RegionMap :dumpsByRegion = "dumpsByRegion"></RegionMap>
         <ul class="">
             <li class="" v-for="type in trash" :key="type.id">
                 <p>{{ type.name }} : {{ type.volume }} m³ ({{ correctPercentage(type.percentage) }}%)</p>
@@ -30,11 +30,22 @@ export default {
 
         }
     },
+    mounted() {
+        console.log(this.dumpsByRegion);
+    },
     props: {
+        currentPage: {
+            type: String,
+            required: true
+        },
         trash: {
             type: Array,
             required: true
         },
+        dumpsByRegion: {
+            type: Array,
+            required: true
+        }
     }
 }
 </script>

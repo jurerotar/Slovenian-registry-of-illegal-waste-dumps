@@ -1,5 +1,5 @@
 <template>
-    <SidebarLayout>
+    <SidebarLayout :currentPage="currentPage">
 
     </SidebarLayout>
 </template>
@@ -11,6 +11,12 @@ export default {
     name: "Report",
     components: {
         SidebarLayout,
+    },
+    props: {
+        currentPage: {
+            type: String,
+            required: true
+        },
     }
 }
 </script>

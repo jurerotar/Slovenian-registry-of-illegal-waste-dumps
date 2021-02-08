@@ -1,5 +1,5 @@
 <template>
-    <SidebarLayout>
+    <SidebarLayout :current-page="currentPage">
 
     </SidebarLayout>
 </template>
