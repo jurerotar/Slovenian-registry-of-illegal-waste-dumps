@@ -4,13 +4,16 @@
 namespace App\Services;
 
 
-use App\Models\Dump;
+use App\Models\EstimatedTrashVolume;
+use App\Models\TrashType;
+use App\Traits\RetrieveFromCacheTrait;
 use Illuminate\Support\Facades\Cache;
 
-// TODO: refactor this, this class does a bit too much
 
 class TrashEstimatesService
 {
+    use RetrieveFromCacheTrait;
+
     private array $keys;
     private string $volumeKey = 'summed_estimated_trash_volume';
     private string $percentageKey = 'trash_type_percentages';
@@ -34,11 +37,8 @@ class TrashEstimatesService
     {
         return Cache::get($this->volumeKey, function () {
             $amounts = [];
-            $estimatedTrashVolumes = Dump::with('estimatedTrashVolume')
-                ->where('cleared', '=', false)
-                ->get()->map(function ($e) {
-                    return $e->estimatedTrashVolume;
-                });
+            $estimatedTrashVolumes = EstimatedTrashVolume::whereHas('dump', fn($e) => $e->where('cleared', false))->get();
+
             foreach ($this->attributes as $attribute => $translation) {
                 $amounts[$attribute] = $estimatedTrashVolumes->sum($attribute);
             }
@@ -51,11 +51,8 @@ class TrashEstimatesService
     {
         return Cache::get($this->percentageKey, function () {
             $percentages = [];
-            $trashTypes = Dump::with('trashType')
-                ->where('cleared', '=', false)
-                ->get()->map(function ($e) {
-                    return $e->trashType;
-                });
+            $trashTypes = TrashType::whereHas('dump', fn($e) => $e->where('cleared', false))->get();
+
             $numberOfRows = $trashTypes->count();
             foreach ($this->attributes as $attribute => $translation) {
                 $percentages[$attribute] = round($trashTypes->sum($attribute) / $numberOfRows, 2);
@@ -63,16 +60,6 @@ class TrashEstimatesService
             Cache::put($this->percentageKey, $percentages);
             return $percentages;
         });
-    }
-
-    public function clear(bool $volume = true, bool $percentage = true): void
-    {
-        if ($volume) {
-            Cache::forget($this->volumeKey);
-        }
-        if ($percentage) {
-            Cache::forget($this->percentageKey);
-        }
     }
 
     public function volumeAndPercentageJson(): array
