@@ -16,6 +16,10 @@ class CreateMunicipalitiesTable extends Migration
         Schema::create('municipalities', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->float('area');
+            $table->unsignedMediumInteger('population');
+            $table->unsignedSmallInteger('population_per_area');
+            $table->unsignedTinyInteger('villages');
             $table->foreignId('region_id')->constrained();
         });
     }

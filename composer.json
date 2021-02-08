@@ -12,11 +12,14 @@
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "inertiajs/inertia-laravel": "^0.3.6",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
-        "timokoerber/laravel-json-seeder": "^1.0"
+        "timokoerber/laravel-json-seeder": "^1.0",
+        "ext-json": "*"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.5",
         "facade/ignition": "^2.5",
         "fakerphp/faker": "^1.9.1",
         "laravel/sail": "^1.0.1",

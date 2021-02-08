@@ -1,23 +1,17 @@
 <?php
 
+use App\Http\Controllers\ExportController;
+use App\Http\Controllers\PageDataController;
 use App\Http\Controllers\TestController;
 use Illuminate\Support\Facades\Route;
 
-/*
-Route::prefix('/download')->group(function () {
-    Route::prefix('/references')->group(function () {
-        Route::get('/regions', [StaticFilesController::class, '']);
-        Route::get('/municipalities', [StaticFilesController::class, '']);
-        Route::get('/accesses', [StaticFilesController::class, '']);
-        Route::get('/terrains', [StaticFilesController::class, '']);
-        Route::get('/volumes', [StaticFilesController::class, '']);
-        Route::get('/irsops', [StaticFilesController::class, '']);
-    });
-    Route::get('/dump', [StaticFilesController::class, 'export']);
-});
-*/
-Route::get('/', function () {
-    return view('welcome');
+Route::group(['middleware' => 'cookies'], function () {
+    Route::get('/', [PageDataController::class, 'home'])->name('home');
+    Route::get('/export', [PageDataController::class, 'export'])->name('export');
+    Route::get('/report', [PageDataController::class, 'report'])->name('report');
+    Route::get('/region/{id}', [PageDataController::class, 'region'])->name('region');
+    Route::get('/municipality/{id}', [PageDataController::class, 'municipality'])->name('municipality');
 });
 
 Route::get('/test', [TestController::class, 'index']);
+Route::get('/download', [ExportController::class, 'export']);

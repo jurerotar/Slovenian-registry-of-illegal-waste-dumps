@@ -1,6 +1,9 @@
 [
     {
         "id": 1,
-        "name": "Pomurska"
+        "name": "Pomurska",
+        "population": 114776,
+        "area": 1337,
+        "population_per_area": 85
     }
 ]

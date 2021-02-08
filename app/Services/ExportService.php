@@ -4,75 +4,83 @@
 namespace App\Services;
 
 use App\Models\Dump;
-use App\Models\Location;
 use App\Traits\ExportFileNameTrait;
+use App\Traits\RawSqlExportQueriesTrait;
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Storage;
 
 class ExportService
 {
-    use ExportFileNameTrait;
+    use ExportFileNameTrait, RawSqlExportQueriesTrait;
 
-    private Carbon $yesterday;
     private Filesystem $disk;
-
 
     public function __construct()
     {
-        $this->yesterday = now()->subDay();
         $this->disk = Storage::disk('local');
     }
 
     /**
-     * Fetch ids of regions and municipalities that were updated in the last $this->updatedSince days
-     * For each region check if file already exists and when it was created. If it doesn't exist or
-     * if it was created before our $this->updatedSince, its not updated with new info and needs to be replaced
+     * Make 2 separate queries, since dump->comments is a one to many relationship. Join the results and pass it to
+     * transform service, which returns json.
+     * @param null $type
+     * @param null $id
      */
-    public function update(): void
+    public function generate($type = null, $id = null)
     {
-        $types = [
-            'region' => 'regions/',
-            'municipality' => 'municipalities/'
-        ];
-
-        foreach ($types as $table => $path) {
-            $lastUpdatedIds = $this->lastUpdated($table);
-            foreach ($lastUpdatedIds as $id) {
-                if (!$this->isFileValid($path . $id . '.json')) {
-                    $this->generate($id, $table, $path);
+        $dumps = $this->dumpsByRegionOrMunicipality($type, $id);
+        $comments = $this->commentsByRegionOrMunicipality($type, $id);
+        /**
+         * Add comments to dumps
+         */
+        foreach ($dumps as &$dump) {
+            $dump['comments'] = [];
+            foreach ($comments as $comment) {
+                if ($dump['id'] === $comment['id']) {
+                    $dump['comments'][] = [
+                        'comment' => $comment['comment'],
+                        'created_at' => $comment['created_at']
+                    ];
+                    continue;
                 }
             }
         }
+        $path = ($type && $id) ? "public/{$type}/{$id}.json" : 'public/total.json';
+
+        $json = ExportTransformService::toJson($dumps);
+        $this->export($json, $path);
     }
 
-    private function generate(int $id, string $table, string $path): void
+    /**
+     * Writes file to path
+     * @param string $data
+     * @param string $path
+     */
+    private function export(string $data, string $path): void
     {
-        $dumps = Location::with('dump', $table)
-            ->where($table . '_id', $id)
-            ->get()->pluck('dump')->toJson();
-
-        $this->export($id, $dumps, $path);
+        $this->disk->put($path, $data);
     }
 
-    private function isFileValid(string $path): bool
+    /**
+     * Method checks if json file already in storage needs to be updated with updated data from database.
+     * @param string $type
+     * @param int $id
+     * @returns bool
+     */
+    public function needsUpdating($type = null, $id = null): bool
     {
-        return $this->disk->exists($path) && $this->disk->lastModified($path) >= $this->yesterday->timestamp;
-    }
+        $path = ($type && $id) ? "public/{$type}/{$id}.json" : 'public/total.json';
 
-    private function export(string $name, string $json, string $path): void
-    {
-        $this->disk->put($path . $this->name($name), $json);
-    }
-
-    private function lastUpdated(string $table): array
-    {
-        return Dump::with($table)
-            ->where('updated_at', '>', $this->yesterday->toDateString())
-            ->get()
-            ->pluck($table)
-            ->pluck('id')
-            ->unique()
-            ->toArray();
+        if (!$this->disk->exists($path)) {
+            return true;
+        }
+        $lastUpdated = Carbon::createFromTimestamp($this->disk->lastModified($path));
+        $query = Dump::query();
+        if ($type && $id) {
+            $query->whereHas("{$type}", fn($e) => $e->where('id', '=', $id));
+        }
+        return $query->whereDate('updated_at', '>', $lastUpdated)
+                ->count() !== 0;
     }
 }

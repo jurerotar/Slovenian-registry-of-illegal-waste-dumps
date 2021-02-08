@@ -2,9 +2,15 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
+/**
+ * Class Comment
+ * @package App\Models
+ * @mixin Builder
+ */
 class Comment extends Model
 {
     public $timestamps = [
@@ -15,11 +21,6 @@ class Comment extends Model
         'dump_id',
         'deleted_at',
         'id',
-        'user_id'
-    ];
-
-    protected $appends = [
-        'username'
     ];
 
     public function dump(): BelongsTo
@@ -27,13 +28,4 @@ class Comment extends Model
         return $this->belongsTo(Dump::class);
     }
 
-    public function user(): BelongsTo
-    {
-        return $this->belongsTo(User::class);
-    }
-
-    public function getUsernameAttribute(): string
-    {
-        return $this->user()->first()->name;
-    }
 }
