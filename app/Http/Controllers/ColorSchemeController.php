@@ -2,11 +2,12 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Http\Requests\ColorSchemeRequest;
+use Illuminate\Http\Response;
 
 class ColorSchemeController extends Controller
 {
-    public function update(Request $request)
+    public function update(ColorSchemeRequest $request): Response
     {
         setcookie('color-scheme', $request->post('scheme'), [
             'expires' => strtotime('+1 year'),
