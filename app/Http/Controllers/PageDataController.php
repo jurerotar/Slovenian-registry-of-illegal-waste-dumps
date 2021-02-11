@@ -26,8 +26,8 @@ class PageDataController extends Controller
              * Retrieves all regions and municipalities in those regions
              */
             'regions' => $this->getOrSet('regions_with_municipalities', function () {
-                return Region::with(['municipalities:region_id,id,name'])
-                    ->get(['id', 'name'])
+                return Region::with(['municipalities:region_id,id,name,slug'])
+                    ->get(['id', 'name', 'slug'])
                     ->each(fn($e) => $e->municipalities->makeHidden('region_id'))
                     ->toArray();
             }),
@@ -49,7 +49,8 @@ class PageDataController extends Controller
                 return Region::all(['id'])->map(function ($collection) {
                     return [
                         'id' => $collection->id,
-                        'amount' => Dump::whereHas('region', fn($e) => $e->where('id', $collection->id))->count()
+                        'amount' => Dump::with(['region'])
+                            ->whereHas('region', fn($e) => $e->where('id', $collection->id))->count()
                     ];
                 });
             }),
@@ -70,6 +71,16 @@ class PageDataController extends Controller
         ]);
     }
 
+    public function map(): Response
+    {
+        return Inertia::render('Map', [
+            /**
+             * Sets current page name to 'map'
+             */
+            'currentPage' => 'map',
+        ]);
+    }
+
     public function report(): Response
     {
         return Inertia::render('Report', [
@@ -81,14 +92,14 @@ class PageDataController extends Controller
         ]);
     }
 
-    public function region(): Response
+    public function region(Region $region): Response
     {
         return Inertia::render('Region', [
             /**
              * Sets current page name to 'region'
              */
             'currentPage' => 'region',
-
+            'data' => $region
         ]);
     }
 

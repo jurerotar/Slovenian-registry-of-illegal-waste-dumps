@@ -6,6 +6,7 @@
         "population": 3533,
         "area": 53.5,
         "population_per_area": 66,
-        "villages": 21
+        "villages": 21,
+        "slug": "apace"
     }
 ]
