@@ -4,83 +4,95 @@
         "name": "Pomurska",
         "population": 114776,
         "area": 1337,
-        "population_per_area": 85
+        "population_per_area": 85,
+        "slug": "pomurska"
     },
     {
         "id": 2,
         "name": "Podravska",
         "population": 322058,
         "area": 2170,
-        "population_per_area": 148
+        "population_per_area": 148,
+        "slug": "podravska"
     },
     {
         "id": 3,
         "name": "Koroška",
         "population": 70550,
         "area": 1041,
-        "population_per_area": 67
+        "population_per_area": 67,
+        "slug": "koroska"
     },
     {
         "id": 4,
         "name": "Savinjska",
         "population": 254760,
         "area": 2301,
-        "population_per_area": 110
+        "population_per_area": 110,
+        "slug": "savinjska"
     },
     {
         "id": 5,
         "name": "Posavska",
         "population": 75359,
         "area": 968,
-        "population_per_area": 77
+        "population_per_area": 77,
+        "slug": "posavska"
     },
     {
         "id": 6,
         "name": "Zasavska",
         "population": 57061,
         "area": 485,
-        "population_per_area": 117
+        "population_per_area": 117,
+        "slug": "zasavska"
     },
     {
         "id": 7,
         "name": "Jugovzhodna Slovenija",
         "population": 142819,
         "area": 2675,
-        "population_per_area": 53
+        "population_per_area": 53,
+        "slug": "jugovzhodna-slovenija"
     },
     {
         "id": 8,
         "name": "Osrednjeslovenska",
         "population": 542306,
         "area": 2334,
-        "population_per_area": 232
+        "population_per_area": 232,
+        "slug": "osrednjeslovenska"
     },
     {
         "id": 9,
         "name": "Gorenjska",
         "population": 203636,
         "area": 2137,
-        "population_per_area": 95
+        "population_per_area": 95,
+        "slug": "gorenjska"
     },
     {
         "id": 10,
         "name": "Goriška",
         "population": 117260,
         "area": 2325,
-        "population_per_area": 50
+        "population_per_area": 50,
+        "slug": "goriska"
     },
     {
         "id": 11,
         "name": "Primorsko-notranjska",
         "population": 52334,
         "area": 1456,
-        "population_per_area": 35
+        "population_per_area": 35,
+        "slug": "primorsko-notranjska"
     },
     {
         "id": 12,
         "name": "Obalno-kraška",
         "population": 113961,
         "area": 1044,
-        "population_per_area": 109
+        "population_per_area": 109,
+        "slug": "obalno-kraska"
     }
 ]

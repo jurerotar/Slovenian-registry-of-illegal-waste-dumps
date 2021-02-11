@@ -4,6 +4,7 @@
         "name": "Pomurska",
         "population": 114776,
         "area": 1337,
-        "population_per_area": 85
+        "population_per_area": 85,
+        "slug": "pomurska"
     }
 ]
