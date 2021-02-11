@@ -4,13 +4,12 @@
         @click="toggle()"
     >
         <div
-            :class="mode == 'dark' ? 'back' : 'front'"
+            :class="mode === 'dark' ? 'back' : 'front'"
             class="flex flex-row justify-center items-center w-full h-full absolute top-0 left-0 transition-transform duration-300"
         >
             <Icon
                 :type="'lightmode'"
-                :size="4"
-                class="mr-1"
+                class="mr-1 w-4 h-4"
                 :color="'black'"
             ></Icon>
             <p
@@ -20,13 +19,12 @@
             </p>
         </div>
         <div
-            :class="mode == 'dark' ? 'front' : 'back'"
+            :class="mode === 'dark' ? 'front' : 'back'"
             class="flex flex-row justify-center items-center w-full h-full dar absolute top-0 left-0 transition-transform duration-300"
         >
             <Icon
                 :type="'darkmode'"
-                :size="4"
-                class="mr-1"
+                class="mr-1 w-4 h-4"
                 :color="'white'"
             ></Icon>
             <p
