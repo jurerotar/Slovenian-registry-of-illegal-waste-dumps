@@ -40,8 +40,8 @@ class CreateExports extends Command
     {
 
         $types = [
-            'municipalities' => range(1, Municipality::all()->count()),
-            'regions' => range(1, Region::all()->count())
+            'municipalities' => range(1, Municipality::count()),
+            'regions' => range(1, Region::count())
         ];
         $exportService = new ExportService();
 
@@ -52,7 +52,7 @@ class CreateExports extends Command
         }
 
         /**
-         * Generate total.json, which combines all others.
+         * Generate total.json, which contains database dump.
          */
         $exportService->generate();
     }
