@@ -14,6 +14,7 @@ export default createStore({
         selectedRegion: null,
         sidebarExtended: false,
         currentPage: '',
+        exportTermsAndConditionsAgreed: false,
     },
     mutations: {
         setWidth(state, width) {
@@ -30,6 +31,9 @@ export default createStore({
         },
         setCurrentPage(state, page) {
             state.currentPage = page;
+        },
+        setExportTermsAndConditionsAgreed(state) {
+            state.exportTermsAndConditionsAgreed = !state.exportTermsAndConditionsAgreed;
         }
     },
     getters: {},
