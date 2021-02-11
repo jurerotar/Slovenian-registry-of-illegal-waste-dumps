@@ -15,9 +15,11 @@
             <td class="text-left w-20 dark:text-white">{{ niceDate(row.last_modified) }}</td>
             <td class="text-left w-20 dark:text-white">{{ row.extension }}</td>
             <td class="text-left dark:text-white">
-                <a class="font-semibold rounded-lg px-4 py-2 bg-green-default text-white text-center duration-300
-                    transition-colors hover:bg-green-default-darker inline-flex" :href="downloadUrl(row.type, row.id)">
-                    <Icon class="mr-2" :type="'download'" :color="'white'" :size="5"></Icon>
+                <a class="font-semibold rounded-lg px-4 py-2 text-white text-center duration-300
+                    transition-colors inline-flex"
+                   :class="agreed ? 'bg-green-default hover:bg-green-default-darker' : 'bg-gray-300 cursor-not-allowed'"
+                   :href="agreed ? downloadUrl(row.type, row.id) : '#'">
+                    <Icon class="mr-2 h-5 w-5" :type="'download'" :color="'white'"></Icon>
                     Prenesi
                 </a>
             </td>
@@ -35,6 +37,11 @@ export default {
         Button,
         Icon
     },
+    computed: {
+        agreed() {
+            return this.$store.state.exportTermsAndConditionsAgreed;
+        }
+    },
     methods: {
         niceBytes: (bytes) => {
             if (bytes <= 1) {
@@ -49,7 +56,7 @@ export default {
             return `${num} ${unit}`;
         },
         downloadUrl(type = null, id = null) {
-            return (type && id) ? `download?type=${type}&id=${id}` : 'download?type=all';
+            return (type && id) ? `prenos?type=${type}&id=${id}` : 'prenos?type=all';
         },
         type: (type) => {
             const types = {
