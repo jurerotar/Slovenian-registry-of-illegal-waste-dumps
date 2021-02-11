@@ -26,7 +26,9 @@
         "@inertiajs/inertia-vue3": "^0.3.5",
         "@inertiajs/progress": "^0.2.4",
         "nprogress": "^0.2.0",
+        "prismjs": "^1.23.0",
         "vue": "^3.0.5",
+        "vue-prism-component": "^2.0.0",
         "vuex": "^4.0.0-rc.2"
     }
 }

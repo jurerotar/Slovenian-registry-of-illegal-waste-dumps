@@ -1,12 +1,14 @@
-require('./bootstrap');
+import NProgress from 'nprogress';
+import {Inertia} from '@inertiajs/inertia';
+import {createApp, h} from 'vue';
+import {App, plugin} from '@inertiajs/inertia-vue3';
+import store from './Stores/store';
 
-import NProgress from 'nprogress'
-import {Inertia} from '@inertiajs/inertia'
-import {createApp, h} from 'vue'
-import {App, plugin} from '@inertiajs/inertia-vue3'
-import store from './store'
+window._ = require('lodash');
+window.axios = require('axios');
+window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
-const el = document.getElementById('app')
+const el = document.getElementById('app');
 
 const app = createApp({
     render: () => h(App, {
