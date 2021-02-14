@@ -5,7 +5,7 @@ namespace App\Traits;
 
 use Illuminate\Support\Facades\Cache;
 
-
+// todo: uncomment caching when on production
 trait RetrieveFromCacheTrait
 {
     /**
