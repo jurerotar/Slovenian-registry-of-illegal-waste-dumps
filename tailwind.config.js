@@ -1,5 +1,9 @@
 module.exports = {
-    purge: [],
+    purge: {
+        content: [
+            'resources/js/**/*.vue',
+        ]
+    },
     darkMode: 'class',
     theme: {
         extend: {
@@ -13,12 +17,18 @@ module.exports = {
                 'table': '700px'
             },
             maxWidth: {
-                'nav': 'calc(100% - 15rem)',
+                'nav': 'calc(100% - 18rem)',
                 'export': '40rem'
+            },
+            color: {
+                'dark-main': '#18191A',
+                'dark-nav': '#14171a',
+                'green-default': '#9DC02E',
+                'green-default-darker': '#8dac29'
             },
             backgroundColor: {
                 'dark-main': '#18191A',
-                'dark-nav': '#14171a',
+                'dark-nav': '#242526',
                 'green-default': '#9DC02E',
                 'green-default-darker': '#8dac29'
             }

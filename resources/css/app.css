@@ -158,4 +158,8 @@ body::-webkit-scrollbar-thumb {
     border-color: transparent;
 }
 
+details[open] > summary .details-icon {
+    transform: rotate(90deg);
+}
+
 
