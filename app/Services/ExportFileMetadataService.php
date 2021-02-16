@@ -3,11 +3,11 @@
 
 namespace App\Services;
 
+use App\Models\Municipality;
+use App\Models\Region;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
 use SplFileInfo;
-use App\Models\Region;
-use App\Models\Municipality;
 
 class ExportFileMetadataService
 {
@@ -26,8 +26,8 @@ class ExportFileMetadataService
 
         return [
             'total' => $total,
-            'regions' => $this->metadata(File::allFiles("{$path}regions/"), Region::all(), 'regions'),
-            'municipalities' => $this->metadata(File::allFiles("{$path}municipalities/"), Municipality::all(), 'municipalities')
+            'regions' => $this->metadata(File::allFiles("{$path}regions/"), Region::all(['id', 'name']), 'regions'),
+            'municipalities' => $this->metadata(File::allFiles("{$path}municipalities/"), Municipality::all(['id', 'name']), 'municipalities')
         ];
     }
 

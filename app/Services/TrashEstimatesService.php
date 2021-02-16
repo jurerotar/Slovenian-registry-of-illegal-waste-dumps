@@ -4,10 +4,9 @@
 namespace App\Services;
 
 
-use App\Models\EstimatedTrashVolume;
-use App\Models\TrashType;
 use App\Traits\RetrieveFromCacheTrait;
-use RecursiveArrayIterator;
+use Illuminate\Support\Collection;
+use Illuminate\Support\Facades\DB;
 
 
 class TrashEstimatesService
@@ -15,8 +14,6 @@ class TrashEstimatesService
     use RetrieveFromCacheTrait;
 
     private array $keys;
-    private string $volumeKey = 'summed_estimated_trash_volume';
-    private string $percentageKey = 'trash_type_percentages';
     private array $attributes = [
         'organic_waste' => 'Organski odpadki',
         'construction_waste' => 'Gradbeni odpadki',
@@ -33,34 +30,45 @@ class TrashEstimatesService
         $this->keys = array_keys($this->attributes);
     }
 
-    public function volume(): array
+    public function get(): array
     {
-        return $this->getOrSet($this->volumeKey, function () {
-            $estimatedTrashVolumes = EstimatedTrashVolume::whereHas('dump', fn($e) => $e->where('cleared', false))->get();
-            $amounts = [];
-            foreach ($this->keys as $column) {
-                $amounts[$column] = $estimatedTrashVolumes->sum($column);
-            }
-            return $amounts;
+        return $this->merge($this->volume(), $this->percentage());
+    }
+
+    /**
+     * Returns calculated sums for columns in estimated_trash_volumes
+     * Rewrote method from Eloquent to raw SQL query, since raw computes 3-4x faster
+     * @return Collection
+     */
+    private function volume(): Collection
+    {
+        return $this->getOrSet('summed_estimated_trash_volume', function () {
+            return DB::table('estimated_trash_volumes')
+                ->selectRaw($this->constructRawQuery('sum'))
+                ->join('dumps', 'estimated_trash_volumes.dump_id', '=', 'dumps.id')
+                ->where('dumps.cleared', false)
+                ->get()->mapWithKeys(fn($e) => $e);
         });
     }
 
-    public function percentage()
+    /**
+     * Returns calculated averages for columns in trash_types
+     * Rewrote method from Eloquent to raw SQL query, since raw computes 3-4x faster
+     * @return Collection
+     */
+    private function percentage(): Collection
     {
-        return $this->getOrSet($this->percentageKey, function () {
-            $trashTypes = TrashType::whereHas('dump', fn($e) => $e->where('cleared', false))->get();
-            $percentages = [];
-            foreach ($this->keys as $column) {
-                $percentages[$column] = $trashTypes->avg($column);
-            }
-            return $percentages;
+        return $this->getOrSet('trash_type_percentages', function () {
+            return DB::table('trash_types')
+                ->selectRaw($this->constructRawQuery('avg'))
+                ->join('dumps', 'trash_types.dump_id', '=', 'dumps.id')
+                ->where('dumps.cleared', false)
+                ->get()->mapWithKeys(fn($e) => $e);
         });
     }
 
-    public function volumeAndPercentageJson(): array
+    private function merge(Collection $volumes, Collection $percentages): array
     {
-        $percentages = $this->percentage();
-        $volumes = $this->volume();
         $combined = [];
         $length = count($this->attributes);
         for ($i = 0; $i < $length; $i++) {
@@ -68,10 +76,22 @@ class TrashEstimatesService
             $combined[] = [
                 'id' => $i + 1,
                 'name' => $this->attributes[$key],
-                'volume' => $volumes[$key],
-                'percentage' => $percentages[$key]
+                'volume' => (int)$volumes[$key],
+                'percentage' => (float)$percentages[$key]
             ];
         }
         return $combined;
+    }
+
+    /**
+     * Returns raw query for set operator on all columns set in $attributes
+     * @param string $operator
+     * @return string
+     */
+    private function constructRawQuery(string $operator): string
+    {
+        return implode(', ', array_map(function (string $column) use ($operator) {
+            return "{$operator}(`{$column}`) as `{$column}`";
+        }, $this->keys));
     }
 }
