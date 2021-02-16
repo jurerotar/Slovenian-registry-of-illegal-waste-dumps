@@ -14,7 +14,7 @@ class CreateEstimatedTrashVolumesTable extends Migration
     public function up()
     {
         Schema::create('estimated_trash_volumes', function (Blueprint $table) {
-            $table->id('dump_id');
+            $table->foreignId('dump_id')->constrained();
             $table->unsignedSmallInteger('organic_waste')->default(0);
             $table->unsignedSmallInteger('construction_waste')->default(0);
             $table->unsignedSmallInteger('municipal_waste')->default(0);
