@@ -16,6 +16,8 @@ class Cookies
      */
     public function handle(Request $request, Closure $next)
     {
+        $response = $next($request);
+
         if (!isset($_COOKIE['color-scheme'])) {
             setcookie('color-scheme', 'light', [
                 'expires' => strtotime('+1 year'),
@@ -26,6 +28,6 @@ class Cookies
                 'samesite' => 'Lax'
             ]);
         }
-        return $next($request);
+        return $response;
     }
 }
