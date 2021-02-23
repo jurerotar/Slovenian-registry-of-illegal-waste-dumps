@@ -1,16 +1,18 @@
 <template>
-    <SidebarLayout :currentPage="currentPage">
-        <RegionMap :dumpsByRegion = "dumpsByRegion"></RegionMap>
-        <ul class="">
-            <li class="" v-for="type in trash" :key="type.id">
-                <p>{{ type.name }} : {{ type.volume }} m³ ({{ correctPercentage(type.percentage) }}%)</p>
-            </li>
-        </ul>
-    </SidebarLayout>
+    <sidebar-layout>
+        <div class="div">
+            <region-map :regionDumpData="regionDumpData"></region-map>
+            <ul class="">
+                <li class="" v-for="type in trash" :key="type.id">
+                    <p>{{ type.name }} : {{ type.volume }} m³ ({{ correctPercentage(type.percentage) }}%)</p>
+                </li>
+            </ul>
+        </div>
+    </sidebar-layout>
 </template>
 
 <script>
-import RegionMap from "../Components/RegionMap";
+import RegionMap from "../Sections/RegionMap";
 import SidebarLayout from "../Layouts/SidebarLayout";
 
 export default {
@@ -26,12 +28,15 @@ export default {
     },
     methods: {
         correctPercentage(percentage) {
+            if (this.sum === 100) {
+                return percentage;
+            }
             return ((this.sum < 100) ? percentage * (100 / this.sum) : percentage / (this.sum / 100)).toFixed(2);
 
         }
     },
     mounted() {
-        console.log(this.dumpsByRegion);
+        this.$store.commit('setCurrentPage', this.currentPage);
     },
     props: {
         currentPage: {
@@ -42,7 +47,7 @@ export default {
             type: Array,
             required: true
         },
-        dumpsByRegion: {
+        regionDumpData: {
             type: Array,
             required: true
         }

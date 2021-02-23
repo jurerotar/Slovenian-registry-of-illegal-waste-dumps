@@ -1,7 +1,6 @@
 <template>
-    <SidebarLayout :currentPage="currentPage">
+    <sidebar-layout :currentPage="currentPage"></sidebar-layout>
 
-    </SidebarLayout>
 </template>
 
 <script>
@@ -10,7 +9,7 @@ import SidebarLayout from "../Layouts/SidebarLayout";
 export default {
     name: "Report",
     components: {
-        SidebarLayout,
+        SidebarLayout
     },
     props: {
         currentPage: {

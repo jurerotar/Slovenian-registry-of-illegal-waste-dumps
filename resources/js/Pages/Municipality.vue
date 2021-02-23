@@ -1,7 +1,6 @@
 <template>
-    <SidebarLayout :current-page="currentPage">
+    <sidebar-layout></sidebar-layout>
 
-    </SidebarLayout>
 </template>
 
 <script>
@@ -10,11 +9,7 @@ import SidebarLayout from "../Layouts/SidebarLayout";
 export default {
     name: "Municipality",
     components: {
-        SidebarLayout,
-    }
+        SidebarLayout
+    },
 }
 </script>
-
-<style scoped>
-
-</style>

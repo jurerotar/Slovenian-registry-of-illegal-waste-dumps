@@ -17,20 +17,24 @@ module.exports = {
                 'table': '700px'
             },
             maxWidth: {
+                'main': '1400px',
                 'nav': 'calc(100% - 18rem)',
                 'export': '40rem'
             },
+            borderColor: {
+                'green-default': 'var(--green-default)',
+            },
             color: {
-                'dark-main': '#18191A',
-                'dark-nav': '#14171a',
-                'green-default': '#9DC02E',
-                'green-default-darker': '#8dac29'
+                'dark-main': 'var(--dark-main)',
+                'dark-nav': 'var(--dark-navigation)',
+                'green-default': 'var(--green-default)',
+                'green-default-darker': 'var(--green-default-darker)'
             },
             backgroundColor: {
-                'dark-main': '#18191A',
-                'dark-nav': '#242526',
-                'green-default': '#9DC02E',
-                'green-default-darker': '#8dac29'
+                'dark-main': 'var(--dark-main)',
+                'dark-nav': 'var(--dark-navigation)',
+                'green-default': 'var(--green-default)',
+                'green-default-darker': 'var(--green-default-darker)'
             }
         },
     },

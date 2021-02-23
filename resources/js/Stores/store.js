@@ -11,10 +11,27 @@ export default createStore({
         },
         width: 0,
         height: 0,
-        selectedRegion: null,
         sidebarExtended: false,
         currentPage: '',
-        exportTermsAndConditionsAgreed: false,
+        termsAndConditionsAgreements: {
+            exportTermsAndConditions: false
+        },
+        /**
+         * Possible values:
+         * total - sorts by total number of dumps
+         * clearedPercentage - sorts by total number of cleared
+         * uncleared - sorts by total number of uncleared
+         * dangerous - sorts by total number of dangerous dumps
+         * totalByArea
+         * unclearedByArea
+         * totalByPopulation
+         * unclearedByPopulation
+         */
+        interactiveMapSelected: 'total',
+        coordinates: {
+            latitude: null,
+            longitude: null
+        }
     },
     mutations: {
         setWidth(state, width) {
@@ -23,17 +40,20 @@ export default createStore({
         setHeight(state, height) {
             state.height = height;
         },
-        setSelectedRegion(state, region) {
-            state.selectedRegion = region;
-        },
         setSidebarExtended(state, currentState) {
             state.sidebarExtended = currentState;
         },
         setCurrentPage(state, page) {
             state.currentPage = page;
         },
-        setExportTermsAndConditionsAgreed(state) {
-            state.exportTermsAndConditionsAgreed = !state.exportTermsAndConditionsAgreed;
+        setTermsAndConditionsAgreements(state, name) {
+            state.termsAndConditionsAgreements[name] = !state.termsAndConditionsAgreements[name];
+        },
+        setCoordinates(state, object) {
+            state.coordinates = object;
+        },
+        setInteractiveMapSelected(state, key) {
+            state.interactiveMapSelected = key;
         }
     },
     getters: {},

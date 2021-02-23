@@ -1,6 +1,6 @@
 <template>
     <table class="min-w-table tbl w-full">
-        <tr class="">
+        <tr>
             <th class="text-left w-32 md:w-44 dark:text-white">Ime</th>
             <th class="text-left w-20 dark:text-white">Vrsta</th>
             <th class="text-left w-20 dark:text-white">Velikost</th>
@@ -8,7 +8,7 @@
             <th class="text-left w-20 dark:text-white">Končnica</th>
             <th class="text-left w-20 dark:text-white">Prenos</th>
         </tr>
-        <tr class="" v-for="row in data" :key="row.id">
+        <tr v-for="row in data" :key="row.id">
             <td class="text-left w-32 md:w-44 dark:text-white">{{ row.name }}</td>
             <td class="text-left w-20 dark:text-white">{{ type(row.type) }}</td>
             <td class="text-left w-20 dark:text-white">{{ niceBytes(row.size) }}</td>
@@ -19,7 +19,7 @@
                     transition-colors inline-flex"
                    :class="agreed ? 'bg-green-default hover:bg-green-default-darker' : 'bg-gray-300 cursor-not-allowed'"
                    :href="agreed ? downloadUrl(row.type, row.id) : '#'">
-                    <Icon class="mr-2 h-5 w-5" :type="'download'" :color="'white'"></Icon>
+                    <icon class="mr-2 h-5 w-5" :type="'download'" :color="'white'"></icon>
                     Prenesi
                 </a>
             </td>
@@ -28,18 +28,16 @@
 </template>
 
 <script>
-import Button from "./Button";
 import Icon from "./Icon";
 
 export default {
-    name: "Table",
+    name: "ExportTable",
     components: {
-        Button,
         Icon
     },
     computed: {
         agreed() {
-            return this.$store.state.exportTermsAndConditionsAgreed;
+            return this.$store.state.termsAndConditionsAgreements.exportTermsAndConditions;
         }
     },
     methods: {
