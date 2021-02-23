@@ -4,7 +4,7 @@ namespace App\Console\Commands;
 
 use App\Models\Municipality;
 use App\Models\Region;
-use App\Services\ExportService;
+use App\Services\ExportDataService;
 use Illuminate\Console\Command;
 
 class CreateExports extends Command
@@ -43,7 +43,7 @@ class CreateExports extends Command
             'municipalities' => range(1, Municipality::count()),
             'regions' => range(1, Region::count())
         ];
-        $exportService = new ExportService();
+        $exportService = new ExportDataService();
 
         foreach ($types as $type => $ids) {
             foreach ($ids as $id) {

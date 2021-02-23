@@ -3,14 +3,20 @@
 
 namespace App\Services;
 
-use App\Models\Municipality;
-use App\Models\Region;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
 use SplFileInfo;
 
 class ExportFileMetadataService
 {
+
+    private CacheService $cache;
+
+    public function __construct()
+    {
+        $this->cache = new CacheService();
+    }
+
     public function get(): array
     {
         $path = storage_path('app/public/');
@@ -26,8 +32,8 @@ class ExportFileMetadataService
 
         return [
             'total' => $total,
-            'regions' => $this->metadata(File::allFiles("{$path}regions/"), Region::all(['id', 'name']), 'regions'),
-            'municipalities' => $this->metadata(File::allFiles("{$path}municipalities/"), Municipality::all(['id', 'name']), 'municipalities')
+            'regions' => $this->metadata(File::allFiles("{$path}regions/"), $this->cache->regions(), 'regions'),
+            'municipalities' => $this->metadata(File::allFiles("{$path}municipalities/"), $this->cache->municipalities(), 'municipalities')
         ];
     }
 
@@ -35,7 +41,7 @@ class ExportFileMetadataService
     {
         $collection = $collection->keyBy('id');
         return [
-            ...array_map(function (SplFileInfo $file) use ($collection, $type) {
+            ...array_map(function (SplFileInfo $file) use ($collection, $type): array {
                 $id = (int)str_replace(".{$file->getExtension()}", '', $file->getFilename());
                 return [
                     'id' => $id,

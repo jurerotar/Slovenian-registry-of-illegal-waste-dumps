@@ -10,7 +10,7 @@ use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Storage;
 
-class ExportService
+class ExportDataService
 {
     use ExportFileNameTrait, RawSqlExportQueriesTrait;
 
@@ -66,7 +66,7 @@ class ExportService
      * Method checks if json file already in storage needs to be updated with updated data from database.
      * @param string $type
      * @param int $id
-     * @returns bool
+     * @return bool
      */
     public function needsUpdating($type = null, $id = null): bool
     {

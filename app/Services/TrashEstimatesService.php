@@ -4,16 +4,15 @@
 namespace App\Services;
 
 
-use App\Traits\RetrieveFromCacheTrait;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
 
 
 class TrashEstimatesService
 {
-    use RetrieveFromCacheTrait;
 
     private array $keys;
+    private CacheService $cache;
     private array $attributes = [
         'organic_waste' => 'Organski odpadki',
         'construction_waste' => 'Gradbeni odpadki',
@@ -28,6 +27,7 @@ class TrashEstimatesService
     public function __construct()
     {
         $this->keys = array_keys($this->attributes);
+        $this->cache = new CacheService();
     }
 
     public function get(): array
@@ -42,7 +42,7 @@ class TrashEstimatesService
      */
     private function volume(): Collection
     {
-        return $this->getOrSet('summed_estimated_trash_volume', function () {
+        return $this->cache->cache('summed_estimated_trash_volume', function (): Collection {
             return DB::table('estimated_trash_volumes')
                 ->selectRaw($this->constructRawQuery('sum'))
                 ->join('dumps', 'estimated_trash_volumes.dump_id', '=', 'dumps.id')
@@ -58,7 +58,7 @@ class TrashEstimatesService
      */
     private function percentage(): Collection
     {
-        return $this->getOrSet('trash_type_percentages', function () {
+        return $this->cache->cache('trash_type_percentages', function (): Collection {
             return DB::table('trash_types')
                 ->selectRaw($this->constructRawQuery('avg'))
                 ->join('dumps', 'trash_types.dump_id', '=', 'dumps.id')
@@ -90,7 +90,7 @@ class TrashEstimatesService
      */
     private function constructRawQuery(string $operator): string
     {
-        return implode(', ', array_map(function (string $column) use ($operator) {
+        return implode(', ', array_map(function (string $column) use ($operator): string {
             return "{$operator}(`{$column}`) as `{$column}`";
         }, $this->keys));
     }
