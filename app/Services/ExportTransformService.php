@@ -19,16 +19,15 @@ class ExportTransformService
                 'cleared' => (bool)$e['cleared'],
                 'urgent' => (bool)$e['urgent'],
                 'area' => $e['area'],
-                'distance' => $e['distance'],
                 'estimated_volume' => $e['estimated_volume'],
                 'volume' => $e['volume'],
                 'access' => $e['access_type'],
                 'terrain' => $e['terrains_type'],
-                'irsop' => [
-                    'name' => $e['irsop_name'],
-                    'address' => $e['irsop_address'],
-                    'email' => $e['irsop_email'],
-                    'tel' => $e['irsops_tel']
+                'state_inspectorate' => [
+                    'name' => $e['state_inspectorate_name'],
+                    'address' => $e['state_inspectorate_address'],
+                    'email' => $e['state_inspectorate_email'],
+                    'tel' => $e['state_inspectorate_tel']
                 ],
                 'geodetic_information' => [
                     'region_id' => $e['region_id'],
@@ -40,8 +39,10 @@ class ExportTransformService
                     'portion' => $e['portion'],
                 ],
                 'coordinates' => [
-                    'wgs84_longitude' => $e['wgs84_longitude'],
-                    'wgs84_latitude' => $e['wgs84_latitude']
+                    'wgs84' => [
+                        'longitude' => $e['wgs84_longitude'],
+                        'latitude' => $e['wgs84_latitude']
+                    ]
                 ],
                 'trash_types' => [
                     'organic_waste' => $e['organic_waste'],

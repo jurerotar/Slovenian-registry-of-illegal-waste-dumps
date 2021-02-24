@@ -18,19 +18,18 @@ trait RawSqlExportQueriesTrait
                         `description`,
                         `dangerous`,
                         `cleared`,
-                        `distance`,
                         `urgent`,
                         `dumps`.`area` as `area`,
-                        `irsops`.`name` as `irsop_name`,
-                        `irsops`.`email` as `irsop_email`,
-                        `irsops`.`address` as `irsop_address`,
-                        `irsops`.`tel` as `irsops_tel`,
+                        `state_inspectorates`.`name` as `state_inspectorate_name`,
+                        `state_inspectorates`.`email` as `state_inspectorate_email`,
+                        `state_inspectorates`.`address` as `state_inspectorate_address`,
+                        `state_inspectorates`.`tel` as `state_inspectorate_tel`,
                         `terrains`.`type` as `terrains_type`,
                         `accesses`.`type` as `access_type`,
                         `volumes`.`amount` as `estimated_volume`,
                         `volumes`.`text` as `volume`,
-                        `coordinates`.`wgs84_longitude`,
-                        `coordinates`.`wgs84_latitude`,
+                        `locations`.`wgs84_longitude`,
+                        `locations`.`wgs84_latitude`,
                         `locations`.`region_id` as `region_id`,
                         `regions`.`name` as `region_name`,
                         `locations`.`municipality_id` as `municipality_id`,
@@ -50,14 +49,13 @@ trait RawSqlExportQueriesTrait
 
                     FROM
                         `dumps`
-                         JOIN `irsops` on `irsops`.`id` = `dumps`.`irsop_id`
                          JOIN `volumes` on `volumes`.`id` = `dumps`.`volume_id`
-                         JOIN `coordinates` on `coordinates`.`dump_id` = `dumps`.`id`
                          JOIN `locations` on `locations`.`dump_id` = `dumps`.`id`
                          JOIN `municipalities` on `locations`.`municipality_id` = `municipalities`.`id`
                          JOIN `regions` on `locations`.region_id = `regions`.`id`
                          JOIN `accesses` on `accesses`.id = `dumps`.`access_id`
                          JOIN `terrains` on `terrains`.id = `dumps`.`terrain_id`
+                         JOIN `state_inspectorates` on `state_inspectorates`.`id` = `municipalities`.`state_inspectorate_id`
                          JOIN `cadastral_municipalities` on `locations`.`cadastral_id` = `cadastral_municipalities`.`id`
                          JOIN `trash_types` on `trash_types`.`dump_id` = `dumps`.`id`
                     ";
