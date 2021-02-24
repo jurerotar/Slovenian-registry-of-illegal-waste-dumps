@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Services\ExportFileMetadataService;
 use Inertia\Inertia;
 use Inertia\Response;
+use JetBrains\PhpStorm\ArrayShape;
 
 class ExportPageController extends Controller
 {
@@ -22,6 +23,11 @@ class ExportPageController extends Controller
     /**
      * Retrieves metadata for files stored in app/public/{municipalities|regions}
      */
+    #[ArrayShape([
+        'total' => "array",
+        'regions' => "array",
+        'municipalities' => "array"
+    ])]
     private function metadata(): array
     {
         return (new ExportFileMetadataService)->get();

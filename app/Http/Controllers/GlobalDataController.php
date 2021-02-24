@@ -4,12 +4,15 @@ namespace App\Http\Controllers;
 
 use App\Models\Region;
 use App\Services\CacheService;
+use Illuminate\Database\Eloquent\Collection;
+use JetBrains\PhpStorm\Pure;
 
 class GlobalDataController extends Controller
 {
 
     private CacheService $cache;
 
+    #[Pure]
     public function __construct()
     {
         $this->cache = new CacheService();
@@ -26,7 +29,7 @@ class GlobalDataController extends Controller
             /**
              * Retrieves all regions and municipalities in those regions
              */
-            'regions' => $this->cache->cache('regions_with_municipalities', function () {
+            'regions' => $this->cache->cache('regions_with_municipalities', function (): Collection {
                 return Region::with(['municipalities:region_id,id,name,slug'])
                     ->get(['id', 'name', 'slug'])
                     ->each(fn($e) => $e->municipalities->makeHidden('region_id'));

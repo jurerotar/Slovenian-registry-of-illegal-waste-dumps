@@ -27,12 +27,17 @@ class HomePageController extends Controller
 
     /**
      * Returns calculated volumes and percentages of each trash type
+     * @return array
      */
     private function trashEstimates(): array
     {
         return (new TrashEstimatesService())->get();
     }
 
+    /**
+     * Returns nested array of data for RegionMap component
+     * @return array
+     */
     private function regionDumpData(): array
     {
         return (new RegionDumpDataService())->dumps();

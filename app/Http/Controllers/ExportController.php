@@ -20,8 +20,8 @@ class ExportController extends Controller
         $type = $request->input('type');
         $id = $request->input('id');
 
-        $data = new ExportDataService($type, $id);
-        if ($data->needsUpdating()) {
+        $data = new ExportDataService();
+        if ($data->needsUpdating($type, $id)) {
             $data->generate();
         }
         $name = $type === 'regions' ? Region::find($id)->name : Municipality::find($id)->name;

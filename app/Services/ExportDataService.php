@@ -64,11 +64,11 @@ class ExportDataService
 
     /**
      * Method checks if json file already in storage needs to be updated with updated data from database.
-     * @param string $type
-     * @param int $id
+     * @param string|null $type
+     * @param int|null $id
      * @return bool
      */
-    public function needsUpdating($type = null, $id = null): bool
+    public function needsUpdating(string|null $type = null, int|null $id = null): bool
     {
         $path = ($type && $id) ? "public/{$type}/{$id}.json" : 'public/total.json';
 

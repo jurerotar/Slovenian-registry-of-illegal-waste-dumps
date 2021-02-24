@@ -5,12 +5,13 @@ namespace App\Services;
 
 
 use App\Models\Dump;
+use JetBrains\PhpStorm\Pure;
 
 class RegionDumpDataService
 {
     private CacheService $cache;
 
-    public function __construct()
+    #[Pure] public function __construct()
     {
         $this->cache = new CacheService();
     }

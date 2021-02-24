@@ -5,6 +5,8 @@ namespace App\Services;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
+use JetBrains\PhpStorm\ArrayShape;
+use JetBrains\PhpStorm\Pure;
 use SplFileInfo;
 
 class ExportFileMetadataService
@@ -12,11 +14,16 @@ class ExportFileMetadataService
 
     private CacheService $cache;
 
-    public function __construct()
+    #[Pure] public function __construct()
     {
         $this->cache = new CacheService();
     }
 
+    #[ArrayShape([
+        'total' => "array",
+        'regions' => "array",
+        'municipalities' => "array"
+    ])]
     public function get(): array
     {
         $path = storage_path('app/public/');
@@ -37,6 +44,16 @@ class ExportFileMetadataService
         ];
     }
 
+    #[ArrayShape([
+        [
+            "id" => "int",
+            "name" => "string",
+            "last_modified" => "string",
+            'size' => "int",
+            'extension' => "string",
+            'type' => "string|null"
+        ]
+    ])]
     private function metadata(array $data, Collection $collection, string $type): array
     {
         $collection = $collection->keyBy('id');

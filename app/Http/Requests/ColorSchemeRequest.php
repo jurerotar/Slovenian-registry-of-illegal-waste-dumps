@@ -3,6 +3,7 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
+use JetBrains\PhpStorm\ArrayShape;
 
 class ColorSchemeRequest extends FormRequest
 {
@@ -21,6 +22,9 @@ class ColorSchemeRequest extends FormRequest
      *
      * @return array
      */
+    #[ArrayShape([
+        'scheme' => "string"
+    ])]
     public function rules(): array
     {
         return [

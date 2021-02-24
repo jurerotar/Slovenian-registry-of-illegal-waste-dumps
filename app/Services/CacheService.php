@@ -5,9 +5,9 @@ namespace App\Services;
 
 use App\Models\Access;
 use App\Models\CadastralMunicipality;
-use App\Models\Irsop;
 use App\Models\Municipality;
 use App\Models\Region;
+use App\Models\StateInspectorate;
 use App\Models\Terrain;
 use App\Models\Volume;
 use Closure;
@@ -25,7 +25,7 @@ class CacheService
      * @param Closure|null $callback
      * @return mixed
      */
-    public function cache(string $name, Closure $callback = null)
+    public function cache(string $name, Closure $callback = null): mixed
     {
         return Cache::get($name, function () use ($name, $callback) {
             $data = $callback();
@@ -96,7 +96,7 @@ class CacheService
     public function irsops(): Collection
     {
         return $this->cache('irsops', function () {
-            return Irsop::all();
+            return StateInspectorate::all();
         });
     }
 
