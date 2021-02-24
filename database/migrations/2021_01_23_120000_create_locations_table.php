@@ -15,9 +15,11 @@ class CreateLocationsTable extends Migration
     {
         Schema::create('locations', function (Blueprint $table) {
             $table->foreignId('dump_id')->constrained();
+            $table->double('wgs84_longitude');
+            $table->double('wgs84_latitude');
             $table->string('portion')->nullable();
             $table->unsignedSmallInteger('cadastral_id')->nullable();
-            $table->foreignId('municipality_id')->constrained('municipalities');
+            $table->foreignId('municipality_id')->constrained();
             $table->foreignId('region_id')->constrained();
         });
     }

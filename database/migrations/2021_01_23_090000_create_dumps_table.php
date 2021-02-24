@@ -19,14 +19,12 @@ class CreateDumpsTable extends Migration
             $table->text('description')->nullable();
             $table->boolean('dangerous')->default(false);
             $table->boolean('cleared')->default(false);
-            $table->unsignedSmallInteger('distance');
             $table->boolean('urgent')->default(false);
             $table->unsignedInteger('area'); // in m**2
-            $table->foreignId('user_id')->constrained();
+            $table->foreignId('user_id')->default(0)->constrained();
             $table->foreignId('volume_id')->constrained(); // prostornina
             $table->foreignId('access_id')->constrained(); // Način dostopa
             $table->foreignId('terrain_id')->constrained(); // Vrsta terena
-            $table->foreignId('irsop_id')->constrained(); // podatki o inšpektoratu
             $table->timestamps();
             $table->softDeletes();
             $table->index(['cleared', 'updated_at']);
