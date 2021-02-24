@@ -6,6 +6,8 @@ namespace App\Services;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\DB;
+use JetBrains\PhpStorm\ArrayShape;
+use JetBrains\PhpStorm\Pure;
 
 
 class TrashEstimatesService
@@ -24,12 +26,20 @@ class TrashEstimatesService
         'asbestos_plates' => 'Salonitne plošče'
     ];
 
-    public function __construct()
+    #[Pure] public function __construct()
     {
         $this->keys = array_keys($this->attributes);
         $this->cache = new CacheService();
     }
 
+    #[ArrayShape([
+        [
+            'id' => "int",
+            'name' => "string",
+            'volume' => "int",
+            'percentage' => "float"
+        ]
+    ])]
     public function get(): array
     {
         return $this->merge($this->volume(), $this->percentage());
@@ -67,6 +77,14 @@ class TrashEstimatesService
         });
     }
 
+    #[ArrayShape([
+        [
+            'id' => "int",
+            'name' => "string",
+            'volume' => "int",
+            'percentage' => "float"
+        ]
+    ])]
     private function merge(Collection $volumes, Collection $percentages): array
     {
         $combined = [];

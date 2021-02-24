@@ -2,7 +2,6 @@
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -10,11 +9,7 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\Relations\HasOneThrough;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-/**
- * Class Dump
- * @package App\Models
- * @mixin Builder
- */
+
 class Dump extends Model
 {
     use SoftDeletes;
@@ -25,7 +20,6 @@ class Dump extends Model
         'volume_id',
         'terrain_id',
         'access_id',
-        'irsop_id'
     ];
 
     protected $casts = [
@@ -36,7 +30,6 @@ class Dump extends Model
 
 
     protected $appends = [
-        'irsop',
         'volume',
         'terrain',
         'access',
@@ -65,16 +58,6 @@ class Dump extends Model
     public function estimatedTrashVolume(): HasOne
     {
         return $this->hasOne(EstimatedTrashVolume::class);
-    }
-
-    public function coordinate(): HasOne
-    {
-        return $this->hasOne(Coordinate::class);
-    }
-
-    public function irsop(): BelongsTo
-    {
-        return $this->belongsTo(Irsop::class);
     }
 
     public function terrain(): BelongsTo
@@ -114,11 +97,6 @@ class Dump extends Model
         return $this->volume()->value('text');
     }
 
-    public function getIrsopAttribute(): array
-    {
-        return $this->irsop()->first()->toArray();
-    }
-
     public function getTerrainAttribute(): string
     {
         return $this->terrain()->value('type');
@@ -134,6 +112,7 @@ class Dump extends Model
         $cadastralMunicipality = $this->cadastralMunicipality()->first();
         $region = $this->region()->first();
         $municipality = $this->municipality()->first();
+        $location = $this->location()->first();
         return [
             'region_id' => $region->id,
             'region' => $region->name,
@@ -141,13 +120,14 @@ class Dump extends Model
             'municipality' => $municipality->name,
             'cadastral_municipality_id' => $cadastralMunicipality->id,
             'cadastral_municipality' => $cadastralMunicipality->name,
-            'portion' => $this->location()->value('portion')
+            'portion' => $location->value('portion'),
+            'coordinates' => [
+                'wgs84' => [
+                    'latitude' => $location->wgs84_latitude,
+                    'longitude' => $location->wgs84_langitude
+                ]
+            ]
         ];
-    }
-
-    public function getTrashTypesAttribute()
-    {
-        return $this->trashType()->first()->makeHidden(['created_at', 'updated_at']);
     }
 
 }
