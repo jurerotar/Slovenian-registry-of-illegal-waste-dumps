@@ -14,7 +14,7 @@
         "autoprefixer": "^10.2.4",
         "axios": "^0.21",
         "laravel-mix": "^6.0.6",
-        "lodash": "^4.17.19",
+        "lodash": "^4.17.21",
         "postcss": "^8.2.6",
         "tailwindcss": "^2.0.3",
         "vue-loader": "^16.1.2"
