@@ -22,47 +22,37 @@ export default {
                     sortBy: 'total'
                 },
                 {
-                    id: 2,
+                    id: 1,
                     text: 'Odstotku že očiščenih odlagališč',
                     sortBy: 'clearedPercentage'
                 },
                 {
-                    id: 3,
+                    id: 2,
                     text: 'Številu še neočiščenih odlagališč',
                     sortBy: 'uncleared'
                 },
                 {
-                    id: 4,
+                    id: 3,
                     text: 'Številu nevarnih odlagališč',
                     sortBy: 'dangerous'
                 },
                 {
-                    id: 5,
+                    id: 4,
                     text: 'Skupnem številu odlagališč na km2',
                     sortBy: 'totalByArea',
                 },
-                // {
-                //     id: 6,
-                //     text: 'Številu očiščenih odlagališč na ',
-                //     sortBy: 'clearedByArea',
-                // },
                 {
-                    id: 6,
+                    id: 5,
                     text: 'Številu še neočiščenih odlagališč na km2',
                     sortBy: 'unclearedByArea',
                 },
                 {
-                    id: 7,
+                    id: 6,
                     text: 'Skupnem številu odlagališč na prebivalca',
                     sortBy: 'totalByPopulation'
                 },
-                // {
-                //     id: 9,
-                //     text: 'Številu očiščenih odlagališč na prebivalca',
-                //     sortBy: 'clearedByPopulation'
-                // },
                 {
-                    id: 8,
+                    id: 7,
                     text: 'Številu še neočiščenih odlagališč na prebivalca',
                     sortBy: 'unclearedByPopulation'
                 },
@@ -70,6 +60,10 @@ export default {
         };
     },
     methods: {
+        /**
+         * Commits currently selected option to store
+         * @param {string} key - selected option
+         */
         select(key) {
             this.$store.commit('setInteractiveMapSelected', key);
         }

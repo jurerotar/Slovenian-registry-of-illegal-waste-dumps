@@ -51,13 +51,16 @@ export default {
         }
     },
     mounted() {
+        /**
+         * Gets current color scheme from the <html> tag and sets it as mode
+         */
         let mode = document.querySelector('html').classList[0];
-        if (!['light', 'dark'].includes(mode)) {
-            mode = 'light';
-        }
-        this.mode = mode;
+        this.mode = (!['light', 'dark'].includes(mode)) ? 'light' : mode;
     },
     methods: {
+        /**
+         * Updates <html> class and creates a post request to api to update cookie
+         */
         toggle() {
             const html = document.querySelector('html');
             html.classList.remove(this.mode);

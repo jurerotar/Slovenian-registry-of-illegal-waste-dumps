@@ -5,7 +5,7 @@
             outline-none cursor-pointer transition-colors duration-300 rounded-md bg-gray-200 py-2 px-4 dark:bg-dark-nav"
             :class="{'md:inline-flex': !fullWidth}">
             <div class="flex md:inline-flex whitespace-nowrap justify-start flex-row items-center">
-                <Icon :type="'angleRight'" class="details-icon inline-flex mb-0 w-8 h-8"></Icon>
+                <icon :type="'angleRight'" class="details-icon inline-flex mb-0 w-8 h-8"></icon>
                 <h3 class="dark:text-white ml-2 font-semibold">{{ summary }}</h3>
             </div>
         </summary>

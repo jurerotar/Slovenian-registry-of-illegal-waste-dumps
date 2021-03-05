@@ -1,8 +1,9 @@
 <template>
-    <sidebar-layout :current-page="currentPage"></sidebar-layout>
+    <sidebar-layout></sidebar-layout>
 </template>
 
 <script>
+import shared from '../Plugins/meta';
 import SidebarLayout from "../Layouts/SidebarLayout";
 
 export default {
@@ -10,15 +11,21 @@ export default {
     components: {
         SidebarLayout
     },
-    mounted() {
-        this.$store.commit('setCurrentPage', this.currentPage);
+    created() {
+        shared.meta(this.meta.title, this.meta.desc);
+        this.$store.commit('setCurrentPage', this.meta.page);
     },
     props: {
-        currentPage: {
-            type: String,
+        meta: {
+            type: Object,
             required: true
+        },
+        errors: {
+            type: Object,
+            required: false,
+            default: {}
         }
-    },
+    }
 }
 </script>
 

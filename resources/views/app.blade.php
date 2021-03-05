@@ -14,18 +14,15 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-config" content="{{ url('/images/favicon/browserconfig.xml') }}">
     <meta name="theme-color" content="#ffffff">
-    <meta name="description"
-          content="{{ $description }}">
+    <meta name="description" content="{{ $description }}">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{{ $title }}">
-    <meta name="twitter:description"
-          content="{{ $description }}">
+    <meta name="twitter:description" content="{{ $description }}">
     <meta name="twitter:image" content="{{ url('/images/logoTwitter1200x600.jpg') }}">
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ $title }}">
     <meta property="og:url" content="{{ url('/') }}">
-    <meta property="og:description"
-          content="{{ $description }}">
+    <meta property="og:description" content="{{ $description }}">
     <meta property="og:image" content="{{ url('/images/logoOpenGraph1200x630.jpg') }}">
     <meta property="og:image:secure_url" content="{{ url('/images/logoOpenGraph1200x630.jpg') }}">
     <meta property="og:image:type" content="jpg">

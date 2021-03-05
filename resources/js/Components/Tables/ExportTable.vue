@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import Icon from "./Icon";
+import Icon from "../Icon";
 
 export default {
     name: "ExportTable",
@@ -41,6 +41,11 @@ export default {
         }
     },
     methods: {
+        /**
+         * Returns a human readable file size
+         * @param {number} bytes
+         * @returns {string} size - human readable file size
+         */
         niceBytes: (bytes) => {
             if (bytes <= 1) {
                 return '1 B';
@@ -53,9 +58,23 @@ export default {
 
             return `${num} ${unit}`;
         },
+
+        /**
+         * Created a download link with type and id as parameters
+         * TODO: rework this as a button, not link
+         * @param {string|null} type
+         * @param {number|null} id
+         * @returns {string} url
+         */
         downloadUrl(type = null, id = null) {
             return (type && id) ? `prenos?type=${type}&id=${id}` : 'prenos?type=all';
         },
+
+        /**
+         * Returns a translated type or '/' if none was set
+         * @param {string} type
+         * @returns {string} type
+         */
         type: (type) => {
             const types = {
                 'regions': 'Regija',
@@ -63,6 +82,12 @@ export default {
             };
             return types[type] ?? '/';
         },
+
+        /**
+         * Formats date from unix timestamp to Slovenian locale
+         * @param {number} date - unix timestamp in seconds
+         * @returns {string} date - formated date
+         */
         niceDate: (date) => {
             return (new Date(date * 1000)).toLocaleDateString('sl-SI');
         },
@@ -70,17 +95,3 @@ export default {
     props: ['data']
 }
 </script>
-
-<style scoped>
-.tbl tr {
-    border-bottom: 1px solid #ccc;
-}
-
-.tbl tr:last-child {
-    border-bottom: none;
-}
-
-.tbl td, th {
-    padding: 10px 5px 10px 0;
-}
-</style>

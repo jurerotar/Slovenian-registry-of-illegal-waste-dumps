@@ -14,7 +14,8 @@ module.exports = {
                 'default': '1px'
             },
             minWidth: {
-                'table': '700px'
+                'table': '700px',
+                'table-dumps': '800px'
             },
             maxWidth: {
                 'main': '1400px',

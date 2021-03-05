@@ -4,6 +4,7 @@
 </template>
 
 <script>
+import shared from '../Plugins/meta';
 import SidebarLayout from "../Layouts/SidebarLayout";
 
 export default {
@@ -11,6 +12,21 @@ export default {
     components: {
         SidebarLayout
     },
+    created() {
+        shared.meta(this.meta.title, this.meta.desc);
+        this.$store.commit('setCurrentPage', this.meta.page);
+    },
+    props: {
+        meta: {
+            type: Object,
+            required: true
+        },
+        errors: {
+            type: Object,
+            required: false,
+            default: {}
+        }
+    }
 }
 </script>
 

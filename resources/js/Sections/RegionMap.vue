@@ -190,11 +190,6 @@ export default {
                     fn: (el) => el.total / el.area,
                     unit: null
                 },
-                // clearedByArea: {
-                //     orderBy: 'asc',
-                //     fn: (el) => el.cleared / el.area,
-                //     best: null
-                // },
                 unclearedByArea: {
                     orderBy: 'desc',
                     fn: (el) => el.uncleared / el.area,
@@ -205,11 +200,6 @@ export default {
                     fn: (el) => el.total / el.population,
                     unit: null
                 },
-                // clearedByPopulation: {
-                //     orderBy: 'asc',
-                //     fn: (el) => el.cleared / el.population,
-                //     best: null
-                // },
                 unclearedByPopulation: {
                     orderBy: 'desc',
                     fn: (el) => el.uncleared / el.population,
@@ -240,6 +230,10 @@ export default {
         unit() {
             return this.methods[this.sortBy].unit;
         },
+
+        /**
+         * Returns highest value of currently used values based on sorting direction
+         */
         highest() {
             const direction = this.methods[this.sortBy].orderBy;
             return (direction === 'asc') ? this.sorted[this.sorted.length - 1].n : this.sorted[0].n
@@ -248,17 +242,18 @@ export default {
     methods: {
         /**
          *
-         * @param regionId - region id
-         * @returns {string} - url
+         * @param {number} regionId
+         * @returns {string} - computed url
          */
         url(regionId) {
             const slug = this.regions.find(el => el.id === regionId).slug;
             return `/regija/${slug}`;
         },
+
         /**
-         * Returns #id that correlates with correct color fill
-         * @param regionId
-         * @returns {string}
+         * Calculates color code by calculating relative value to max value by selected orderBy method
+         * @param {number} regionId
+         * @returns {string} color
          */
         color(regionId) {
             const selected = this.methods[this.sortBy];
@@ -268,6 +263,7 @@ export default {
             const color = this.colors[Math.round(relativeValue * this.colors.length)] ?? this.colors[this.colors.length - 1];
             return color;
         },
+
         /**
          * Returns function that sorts either ascending or descending
          * @param direction
@@ -279,15 +275,13 @@ export default {
         /**
          * Returns calculated amount in sorted data array by region id
          * @param regionId
-         * @returns {int|float}
+         * @returns {number|float}
          */
         amount(regionId) {
             const multiplier = (this.unit === '%') ? 10 : 1000;
             return Math.round(this.sorted.find(el => el.id === regionId).n * multiplier) / multiplier;
         }
 
-    },
-    mounted() {
     },
     props: {
         /**

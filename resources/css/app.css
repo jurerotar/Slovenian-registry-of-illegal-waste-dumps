@@ -170,4 +170,20 @@ details[open] > summary .details-icon {
     transform: rotate(90deg);
 }
 
+.tbl tr:not(.border-b-0) {
+    border-bottom: 1px solid #ccc;
+}
+
+.brd {
+    flex: 1;
+}
+
+.tbl tr:last-child {
+    border-bottom: none;
+}
+
+.tbl td, th {
+    padding: 10px 5px 10px 0;
+}
+
 

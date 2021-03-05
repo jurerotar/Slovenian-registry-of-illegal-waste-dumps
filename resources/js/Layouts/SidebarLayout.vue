@@ -2,7 +2,7 @@
     <!-- Top navigation -->
     <nav class="bg-white p-2 lg:px-4 duration-300 transition-colors dark:bg-dark-nav border-b-default
             border-gray-300 dark:border-transparent border-solid flex flex-row items-center justify-center md:justify-end
-            relative lg:fixed lg:left-0 lg:top-0 w-full lg:max-w-nav h-16 z-0 lg:ml-72">
+            relative lg:fixed lg:left-0 lg:top-0 w-full lg:max-w-nav h-16 z-10 lg:ml-72">
         <!-- Logo displays only on tablets and mobiles -->
         <div class="flex flex-row items-center justify-between w-full h-full" v-if="width <= breakpoints.md">
             <Logo></Logo>

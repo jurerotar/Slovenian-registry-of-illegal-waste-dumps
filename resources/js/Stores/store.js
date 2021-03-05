@@ -12,26 +12,43 @@ export default createStore({
         width: 0,
         height: 0,
         sidebarExtended: false,
+        /**
+         * Used to show current page in navigation bar
+         */
         currentPage: '',
         termsAndConditionsAgreements: {
             exportTermsAndConditions: false
         },
         /**
+         * Used for determining what to show on interactive map
          * Possible values:
-         * total - sorts by total number of dumps
-         * clearedPercentage - sorts by total number of cleared
-         * uncleared - sorts by total number of uncleared
-         * dangerous - sorts by total number of dangerous dumps
-         * totalByArea
-         * unclearedByArea
-         * totalByPopulation
-         * unclearedByPopulation
+         *  total - sorts by total number of dumps
+         *  clearedPercentage - sorts by total number of cleared
+         *  uncleared - sorts by total number of uncleared
+         *  dangerous - sorts by total number of dangerous dumps
+         *  totalByArea
+         *  unclearedByArea
+         *  totalByPopulation
+         *  unclearedByPopulation
          */
         interactiveMapSelected: 'total',
+        /**
+         * User coordinates
+         */
         coordinates: {
-            latitude: null,
-            longitude: null
-        }
+            latitude: 46.717802958,
+            longitude: 15.819759054
+        },
+        /**
+         * This array of ids is used to determine which dump tables have additional information opened
+         */
+        dumpTables: {
+            opened: [],
+            sortBy: 'distance',
+            showCleared: true,
+            showDangerous: true,
+        },
+
     },
     mutations: {
         setWidth(state, width) {
@@ -54,6 +71,20 @@ export default createStore({
         },
         setInteractiveMapSelected(state, key) {
             state.interactiveMapSelected = key;
+        },
+        /**
+         *
+         * @param state
+         * @param id
+         */
+        addOpenDumpTableId(state, id) {
+            state.dumpTables.opened.push(id);
+        },
+        removeOpenDumpTableId(state, id) {
+            state.dumpTables.opened = state.dumpTables.opened.filter(el => el !== id);
+        },
+        clearOpenDumpTableIds(state) {
+            state.dumpTables.opened = [];
         }
     },
     getters: {},
