@@ -29,13 +29,13 @@ class Dump extends Model
     ];
 
 
-    protected $appends = [
-        'volume',
-        'terrain',
-        'access',
-        'geodetic',
-        'trash_types'
-    ];
+//    protected $appends = [
+//        'volume',
+//        'terrain',
+//        'access',
+//        'geodetic',
+//        'trash_types'
+//    ];
 
 
     // Relationships
@@ -92,42 +92,42 @@ class Dump extends Model
 
     // Attributes
 
-    public function getVolumeAttribute(): string
-    {
-        return $this->volume()->value('text');
-    }
-
-    public function getTerrainAttribute(): string
-    {
-        return $this->terrain()->value('type');
-    }
-
-    public function getAccessAttribute(): string
-    {
-        return $this->access()->value('type');
-    }
-
-    public function getGeodeticAttribute(): array
-    {
-        $cadastralMunicipality = $this->cadastralMunicipality()->first();
-        $region = $this->region()->first();
-        $municipality = $this->municipality()->first();
-        $location = $this->location()->first();
-        return [
-            'region_id' => $region->id,
-            'region' => $region->name,
-            'municipality_id' => $municipality->id,
-            'municipality' => $municipality->name,
-            'cadastral_municipality_id' => $cadastralMunicipality->id,
-            'cadastral_municipality' => $cadastralMunicipality->name,
-            'portion' => $location->value('portion'),
-            'coordinates' => [
-                'wgs84' => [
-                    'latitude' => $location->wgs84_latitude,
-                    'longitude' => $location->wgs84_langitude
-                ]
-            ]
-        ];
-    }
+//    public function getVolumeAttribute(): string
+//    {
+//        return $this->volume()->value('text');
+//    }
+//
+//    public function getTerrainAttribute(): string
+//    {
+//        return $this->terrain()->value('type');
+//    }
+//
+//    public function getAccessAttribute(): string
+//    {
+//        return $this->access()->value('type');
+//    }
+//
+//    public function getGeodeticAttribute(): array
+//    {
+//        $cadastralMunicipality = $this->cadastralMunicipality()->first();
+//        $region = $this->region()->first();
+//        $municipality = $this->municipality()->first();
+//        $location = $this->location()->first();
+//        return [
+//            'region_id' => $region->id,
+//            'region' => $region->name,
+//            'municipality_id' => $municipality->id,
+//            'municipality' => $municipality->name,
+//            'cadastral_municipality_id' => $cadastralMunicipality->id,
+//            'cadastral_municipality' => $cadastralMunicipality->name,
+//            'portion' => $location->value('portion'),
+//            'coordinates' => [
+//                'wgs84' => [
+//                    'latitude' => $location->wgs84_latitude,
+//                    'longitude' => $location->wgs84_langitude
+//                ]
+//            ]
+//        ];
+//    }
 
 }

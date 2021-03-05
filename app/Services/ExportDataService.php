@@ -78,7 +78,7 @@ class ExportDataService
         $lastUpdated = Carbon::createFromTimestamp($this->disk->lastModified($path));
         $query = Dump::query();
         if ($type && $id) {
-            $query->whereHas("{$type}", fn($e) => $e->where('id', '=', $id));
+            $query->whereHas("{$type}", fn($e) => $e->whereId($id));
         }
         return $query->whereDate('updated_at', '>', $lastUpdated)
                 ->count() !== 0;

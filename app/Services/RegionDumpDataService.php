@@ -11,7 +11,8 @@ class RegionDumpDataService
 {
     private CacheService $cache;
 
-    #[Pure] public function __construct()
+    #[Pure]
+    public function __construct()
     {
         $this->cache = new CacheService();
     }

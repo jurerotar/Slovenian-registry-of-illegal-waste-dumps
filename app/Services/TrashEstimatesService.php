@@ -23,10 +23,11 @@ class TrashEstimatesService
         'hazardous_waste' => 'Nevarni odpadki',
         'tires' => 'Pnevmatike',
         'vehicles' => 'Vozila',
-        'asbestos_plates' => 'Salonitne plošče'
+        'asbestos_plates' => 'Salonitne plošče',
     ];
 
-    #[Pure] public function __construct()
+    #[Pure]
+    public function __construct()
     {
         $this->keys = array_keys($this->attributes);
         $this->cache = new CacheService();

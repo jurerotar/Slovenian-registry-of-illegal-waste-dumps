@@ -9,7 +9,11 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 class Comment extends Model
 {
     public $timestamps = [
-        'created_at'
+        'created_at',
+    ];
+
+    protected $with = [
+        'user',
     ];
 
     protected $hidden = [
@@ -17,6 +21,11 @@ class Comment extends Model
         'deleted_at',
         'id',
     ];
+
+    public function user(): BelongsTo
+    {
+        return $this->belongsTo(User::class, 'user_id');
+    }
 
     public function dump(): BelongsTo
     {
