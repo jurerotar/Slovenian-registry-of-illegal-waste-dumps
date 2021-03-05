@@ -9,15 +9,18 @@ class ReportPageController extends Controller
 {
     public function index(): Response
     {
+        $meta = collect([
+            'title' => __('meta.report.title'),
+            'desc' => __('meta.report.description'),
+            'page' => 'prijava',
+        ]);
+
         return Inertia::render('Report', [
-            /**
-             * Sets current page name to 'report'
-             */
-            'currentPage' => 'prijava',
+            'meta' => $meta,
 
         ])->withViewData([
-            'title' => __('meta.report.title'),
-            'description' => __('meta.report.description')
+            'title' => $meta->get('title'),
+            'description' => $meta->get('desc'),
         ]);
     }
 }

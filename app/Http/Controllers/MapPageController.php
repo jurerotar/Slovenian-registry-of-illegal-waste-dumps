@@ -9,14 +9,17 @@ class MapPageController extends Controller
 {
     public function index(): Response
     {
-        return Inertia::render('Map', [
-            /**
-             * Sets current page name to 'map'
-             */
-            'currentPage' => 'zemljevid',
-        ])->withViewData([
+        $meta = collect([
             'title' => __('meta.map.title'),
-            'description' => __('meta.map.description')
+            'desc' => __('meta.map.description'),
+            'page' => 'zemljevid',
+        ]);
+        return Inertia::render('Map', [
+            'meta' => $meta,
+
+        ])->withViewData([
+            'title' => $meta->get('title'),
+            'description' => $meta->get('desc'),
         ]);
     }
 }

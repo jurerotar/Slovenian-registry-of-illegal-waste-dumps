@@ -12,16 +12,19 @@ class HomePageController extends Controller
 
     public function index(): Response
     {
-        return Inertia::render('Home', [
-            /**
-             * Sets current page name to 'home'
-             */
-            'currentPage' => 'domov',
-            'trash' => $this->trashEstimates(),
-            'regionDumpData' => $this->regionDumpData()
-        ])->withViewData([
+
+        $meta = collect([
             'title' => __('meta.home.title'),
-            'description' => __('meta.home.description')
+            'desc' => __('meta.home.description'),
+            'page' => 'domov',
+        ]);
+        return Inertia::render('Home', [
+            'meta' => $meta,
+            'trash' => $this->trashEstimates(),
+            'regionDumpData' => $this->regionDumpData(),
+        ])->withViewData([
+            'title' => $meta->get('title'),
+            'description' => $meta->get('desc'),
         ]);
     }
 
