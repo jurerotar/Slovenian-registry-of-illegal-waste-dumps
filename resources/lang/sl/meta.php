@@ -6,23 +6,23 @@ return [
         'description' => 'Register divjih odlagališč Slovenije je okoljevarstveni projekt, namen katerega je boj proti divjim odlagališčem odpadkov v Sloveniji.'
     ],
     'map' => [
-        'title' => '',
-        'description' => ''
+        'title' => 'Zemljevid divjih odlagališč',
+        'description' => 'Zemljevid divjih odlagališč vam enostavno predstavi lokacije in podatke o znanih odlagališčih.',
     ],
     'export' => [
-        'title' => '',
-        'description' => ''
+        'title' => 'Izvoz podatkov o odlagališčih',
+        'description' => 'Izvoz podatkov o divjih odlagališčih po občini ali regiji v json formatu.',
     ],
     'report' => [
-        'title' => '',
-        'description' => ''
+        'title' => 'Prijava divjega odlagališča',
+        'description' => 'Prijavite novo divje odlagališče.',
     ],
     'region' => [
-        'title' => '',
-        'description' => ''
+        'title' => ':name regija - divja odlagališča',
+        'description' => 'Podatki o divjih odlagališčih v :name regiji.',
     ],
     'municipality' => [
-        'title' => '',
-        'description' => ''
+        'title' => ':name - divja odlagališča',
+        'description' => 'Podatki o divjih odlagališčih v občini :name.',
     ],
 ];
