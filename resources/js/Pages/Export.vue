@@ -93,8 +93,7 @@ export default {
     data() {
         return {
             filter: '',
-            regions: this.metadata.regions,
-            municipalities: this.metadata.municipalities,
+            specific: this.metadata.specific,
             total: this.metadata.total
         }
     },
@@ -105,7 +104,7 @@ export default {
          * @returns {Array<Object>}
          */
         filtered() {
-            return [...this.regions, ...this.municipalities]
+            return this.specific
                 .filter(el => el.name.toLowerCase().includes(this.filter.toLowerCase()))
                 .sort((a, b) => a.name.localeCompare(b.name));
         },

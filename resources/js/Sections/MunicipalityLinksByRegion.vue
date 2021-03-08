@@ -12,13 +12,13 @@
                 </summary>
                 <div
                     class="flex flex-col items-start justify-center ml-4 pl-4 border-l-2 border-solid border-gray-300">
-                             <span class="text-xs bg-green-500 rounded-md px-3 py-1 text-white font-semibold mb-2">
-                                 Regija
-                             </span>
-                    <inertia-link :href="`/regija/${region.slug}`" class="dark:text-white font-semibold
-                            inline-flex pl-4 border-l-2 border-solid border-green-500 mb-2">
-                        Podatki o regiji
-                    </inertia-link>
+                    <!--                             <span class="text-xs bg-green-500 rounded-md px-3 py-1 text-white font-semibold mb-2">-->
+                    <!--                                 Regija-->
+                    <!--                             </span>-->
+                    <!--                    <inertia-link :href="`/regija/${region.slug}`" class="dark:text-white font-semibold-->
+                    <!--                            inline-flex pl-4 border-l-2 border-solid border-green-500 mb-2">-->
+                    <!--                        Podatki o regiji-->
+                    <!--                    </inertia-link>-->
                     <span class="text-xs bg-blue-500 rounded-md px-3 py-1 text-white font-semibold mb-2">
                                 Občine
                             </span>

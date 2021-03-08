@@ -15,22 +15,30 @@ class ExportDataService
     use ExportFileNameTrait, RawSqlExportQueriesTrait;
 
     private Filesystem $disk;
+    private CacheService $cache;
+    private string|null $type;
+    private int|null $id;
 
-    public function __construct()
+    public function __construct(
+        private string $slug
+    )
     {
-        $this->disk = Storage::disk('local');
+        $this->disk = Storage::disk('public');
+        $this->cache = new CacheService();
+        $this->type = $this->type($slug);
+        $this->id = $this->id($this->type, $this->slug);
     }
 
     /**
      * Make 2 separate queries, since dump->comments is a one to many relationship. Join the results and pass it to
      * transform service, which returns json.
-     * @param null $type
-     * @param null $id
      */
-    public function generate($type = null, $id = null)
+    public function generate()
     {
-        $dumps = $this->dumpsByRegionOrMunicipality($type, $id);
-        $comments = $this->commentsByRegionOrMunicipality($type, $id);
+        $regions = $this->cache->regions();
+        $municipalities = $this->cache->municipalities();
+        $dumps = $this->dumpsByRegionOrMunicipality($this->type, $this->id);
+        $comments = $this->commentsByRegionOrMunicipality($this->type, $this->id);
         /**
          * Add comments to dumps
          */
@@ -40,47 +48,73 @@ class ExportDataService
                 if ($dump['id'] === $comment['id']) {
                     $dump['comments'][] = [
                         'comment' => $comment['comment'],
-                        'created_at' => $comment['created_at']
+                        'created_at' => $comment['created_at'],
                     ];
                     continue;
                 }
             }
         }
-        $path = ($type && $id) ? "public/{$type}/{$id}.json" : 'public/total.json';
+        $name = 'skupno';
+
+        if ($this->type && $this->id) {
+            $name = ($this->type === 'regions') ? $regions->find($this->id)->slug : $municipalities->find($this->id)->slug;
+        }
 
         $json = ExportTransformService::toJson($dumps);
-        $this->export($json, $path);
+        $this->disk->put("{$name}.json", $json);
     }
 
-    /**
-     * Writes file to path
-     * @param string $data
-     * @param string $path
-     */
-    private function export(string $data, string $path): void
+    private function dumps(string $type, int $id)
     {
-        $this->disk->put($path, $data);
+        // TODO: rewrite dumpsByRegionOrMunicipality in eloquent
+    }
+
+    private function comments(string $type, int $id)
+    {
+        // TODO: rewrite dumpsByRegionOrMunicipality in eloquent
     }
 
     /**
      * Method checks if json file already in storage needs to be updated with updated data from database.
-     * @param string|null $type
-     * @param int|null $id
      * @return bool
      */
-    public function needsUpdating(string|null $type = null, int|null $id = null): bool
+    public function needsUpdating(): bool
     {
-        $path = ($type && $id) ? "public/{$type}/{$id}.json" : 'public/total.json';
-
-        if (!$this->disk->exists($path)) {
+        if (!$this->disk->exists("{$this->slug}.json")) {
             return true;
         }
-        $lastUpdated = Carbon::createFromTimestamp($this->disk->lastModified($path));
+        $lastUpdated = Carbon::createFromTimestamp($this->disk->lastModified("{$this->slug}.json"));
         $query = Dump::query();
-        if ($type && $id) {
-            $query->whereHas("{$type}", fn($e) => $e->whereId($id));
+        if ($this->type && $this->id) {
+            $query->whereHas("{$this->type}", fn($e) => $e->whereId($this->id));
         }
         return $query->whereDate('updated_at', '>', $lastUpdated)
                 ->count() !== 0;
+    }
+
+    private function type(string $slug): string|null
+    {
+        $regions = $this->cache->regions()->pluck('slug')->all();
+        $municipalities = $this->cache->municipalities()->pluck('slug')->all();
+        if (in_array($slug, $regions)) {
+            return 'regions';
+        } else if (in_array($slug, $municipalities)) {
+            return 'municipalities';
+        }
+        return null;
+    }
+
+    private function id(string|null $type, string $slug): int|null
+    {
+        if ($type === null) {
+            return null;
+        }
+
+        if ($type === 'regions') {
+            return $this->cache->regions()->where('slug', $slug)->first()->id;
+        } else if ($type === 'municipalities') {
+            return $this->cache->municipalities()->where('slug', $slug)->first()->id;
+        }
+
     }
 }

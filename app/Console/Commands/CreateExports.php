@@ -39,21 +39,16 @@ class CreateExports extends Command
     public function handle()
     {
 
-        $types = [
-            'municipalities' => range(1, Municipality::count()),
-            'regions' => range(1, Region::count())
+        $slugs = [
+            ...Region::get(['slug'])->pluck('slug')->toArray(),
+            ...Municipality::get(['slug'])->pluck('slug')->toArray(),
         ];
-        $exportService = new ExportDataService();
 
-        foreach ($types as $type => $ids) {
-            foreach ($ids as $id) {
-                $exportService->generate($type, $id);
-            }
+        foreach ($slugs as $slug) {
+            $exportService = new ExportDataService($slug);
+            $exportService->generate();
         }
 
-        /**
-         * Generate total.json, which contains database dump.
-         */
-        $exportService->generate();
+        (new ExportDataService('skupno'))->generate();
     }
 }
