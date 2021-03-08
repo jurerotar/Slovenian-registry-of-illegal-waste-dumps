@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateIrsopTable extends Migration
+class CreateIntermunicipalityInspectoratesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,13 @@ class CreateIrsopTable extends Migration
      */
     public function up()
     {
-        Schema::create('irsops', function (Blueprint $table) {
+        Schema::create('intermunicipality_inspectorates', function (Blueprint $table) {
             $table->id();
             $table->string('name');
             $table->string('address');
-            $table->string('tel');
             $table->string('email');
+            $table->string('url')->nullable();
+            $table->string('tel')->nullable();
         });
     }
 
@@ -29,6 +30,6 @@ class CreateIrsopTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('irsops');
+        Schema::dropIfExists('intermunicipality_inspectorates');
     }
 }

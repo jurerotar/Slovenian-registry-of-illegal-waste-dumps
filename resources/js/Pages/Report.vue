@@ -1,20 +1,24 @@
 <template>
-    <SidebarLayout :currentPage="currentPage">
+    <sidebar-layout></sidebar-layout>
 
-    </SidebarLayout>
 </template>
 
 <script>
 import SidebarLayout from "../Layouts/SidebarLayout";
+import shared from "../Plugins/meta";
 
 export default {
     name: "Report",
     components: {
-        SidebarLayout,
+        SidebarLayout
+    },
+    created() {
+        shared.meta(this.meta.title, this.meta.desc);
+        this.$store.commit('setCurrentPage', this.meta.page);
     },
     props: {
-        currentPage: {
-            type: String,
+        meta: {
+            type: Object,
             required: true
         },
     }

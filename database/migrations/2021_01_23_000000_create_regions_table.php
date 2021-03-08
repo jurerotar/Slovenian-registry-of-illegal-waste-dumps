@@ -16,6 +16,7 @@ class CreateRegionsTable extends Migration
         Schema::create('regions', function (Blueprint $table) {
             $table->id();
             $table->string('name');
+            $table->string('slug')->index();
             $table->float('area');
             $table->unsignedMediumInteger('population');
             $table->unsignedSmallInteger('population_per_area');

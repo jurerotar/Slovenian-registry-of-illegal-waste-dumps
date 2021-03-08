@@ -7,8 +7,11 @@ use Illuminate\Http\Response;
 
 class ColorSchemeController extends Controller
 {
+
     public function update(ColorSchemeRequest $request): Response
     {
+        $request->validated();
+
         setcookie('color-scheme', $request->post('scheme'), [
             'expires' => strtotime('+1 year'),
             'path' => '/',

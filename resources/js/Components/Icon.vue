@@ -1,12 +1,11 @@
 <template>
     <svg
-        :class="`h-${size} w-${size}`"
         aria-hidden="true"
         focusable="false"
         role="img"
         xmlns="http://www.w3.org/2000/svg"
         :viewBox="viewBox"
-        :aria-labelledby="label"
+        :aria-label="label"
     >
         <path
             fill="currentColor"
@@ -164,6 +163,16 @@ export default {
                     path: "M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm76.45 211.36l-96.42 95.7c-6.65 6.61-17.39 6.61-24.04 0l-96.42-95.7C73.42 337.29 80.54 320 94.82 320H160v-80c0-8.84 7.16-16 16-16h32c8.84 0 16 7.16 16 16v80h65.18c14.28 0 21.4 17.29 11.27 27.36zM377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9z",
                     viewbox: "0 0 384 512",
                     label: "Download icon"
+                },
+                caretDown: {
+                    path: "M31.3 192h257.3c17.8 0 26.7 21.5 14.1 34.1L174.1 354.8c-7.8 7.8-20.5 7.8-28.3 0L17.2 226.1C4.6 213.5 13.5 192 31.3 192z",
+                    viewbox: "0 0 320 512",
+                    label: "Caret icon"
+                },
+                angleRight: {
+                    path: "M166.9 264.5l-117.8 116c-4.7 4.7-12.3 4.7-17 0l-7.1-7.1c-4.7-4.7-4.7-12.3 0-17L127.3 256 25.1 155.6c-4.7-4.7-4.7-12.3 0-17l7.1-7.1c4.7-4.7 12.3-4.7 17 0l117.8 116c4.6 4.7 4.6 12.3-.1 17z",
+                    viewbox: "0 0 192 512",
+                    label: "Right angle"
                 }
             },
         };
@@ -187,13 +196,8 @@ export default {
         color: {
             type: String,
             required: false,
-            default: "white",
-        },
-        size: {
-            type: Number,
-            required: false,
-            default: 8,
-        },
+            default: "black",
+        }
     },
 };
 </script>
@@ -204,10 +208,6 @@ export default {
 }
 
 .dark .icon--white {
-    fill: white;
-}
-
-.dark .icon--black2 {
     fill: white;
 }
 
@@ -237,10 +237,6 @@ export default {
 
 .icon--black {
     fill: black;
-}
-
-.icon--black2 {
-    fill: #14171a;
 }
 
 .icon--blue {

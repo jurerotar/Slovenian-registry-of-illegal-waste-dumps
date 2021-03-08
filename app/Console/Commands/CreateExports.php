@@ -4,7 +4,7 @@ namespace App\Console\Commands;
 
 use App\Models\Municipality;
 use App\Models\Region;
-use App\Services\ExportService;
+use App\Services\ExportDataService;
 use Illuminate\Console\Command;
 
 class CreateExports extends Command
@@ -39,21 +39,16 @@ class CreateExports extends Command
     public function handle()
     {
 
-        $types = [
-            'municipalities' => range(1, Municipality::all()->count()),
-            'regions' => range(1, Region::all()->count())
+        $slugs = [
+            ...Region::get(['slug'])->pluck('slug')->toArray(),
+            ...Municipality::get(['slug'])->pluck('slug')->toArray(),
         ];
-        $exportService = new ExportService();
 
-        foreach ($types as $type => $ids) {
-            foreach ($ids as $id) {
-                $exportService->generate($type, $id);
-            }
+        foreach ($slugs as $slug) {
+            $exportService = new ExportDataService($slug);
+            $exportService->generate();
         }
 
-        /**
-         * Generate total.json, which combines all others.
-         */
-        $exportService->generate();
+        (new ExportDataService('skupno'))->generate();
     }
 }

@@ -24,8 +24,7 @@ class ExportFormRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'type' => 'bail|required|string|in:regions,municipalities,all',
-            'id' => 'bail|required_unless:type,all|integer|between:1,212'
+            'slug' => 'bail|required|string',
         ];
     }
 }

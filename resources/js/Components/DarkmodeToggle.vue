@@ -4,15 +4,14 @@
         @click="toggle()"
     >
         <div
-            :class="mode == 'dark' ? 'back' : 'front'"
+            :class="mode === 'dark' ? 'back' : 'front'"
             class="flex flex-row justify-center items-center w-full h-full absolute top-0 left-0 transition-transform duration-300"
         >
-            <Icon
+            <icon
                 :type="'lightmode'"
-                :size="4"
-                class="mr-1"
+                class="mr-1 w-4 h-4"
                 :color="'black'"
-            ></Icon>
+            ></icon>
             <p
                 class="text-sm text-black select-none font-medium transition-colors duration-300"
             >
@@ -20,15 +19,14 @@
             </p>
         </div>
         <div
-            :class="mode == 'dark' ? 'front' : 'back'"
+            :class="mode === 'dark' ? 'front' : 'back'"
             class="flex flex-row justify-center items-center w-full h-full dar absolute top-0 left-0 transition-transform duration-300"
         >
-            <Icon
+            <icon
                 :type="'darkmode'"
-                :size="4"
-                class="mr-1"
+                class="mr-1 w-4 h-4"
                 :color="'white'"
-            ></Icon>
+            ></icon>
             <p
                 class="text-sm text-white select-none font-medium transition-colors duration-300"
             >
@@ -53,13 +51,16 @@ export default {
         }
     },
     mounted() {
+        /**
+         * Gets current color scheme from the <html> tag and sets it as mode
+         */
         let mode = document.querySelector('html').classList[0];
-        if (!['light', 'dark'].includes(mode)) {
-            mode = 'light';
-        }
-        this.mode = mode;
+        this.mode = (!['light', 'dark'].includes(mode)) ? 'light' : mode;
     },
     methods: {
+        /**
+         * Updates <html> class and creates a post request to api to update cookie
+         */
         toggle() {
             const html = document.querySelector('html');
             html.classList.remove(this.mode);

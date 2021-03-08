@@ -6,46 +6,66 @@ namespace App\Services;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\File;
 use SplFileInfo;
-use App\Models\Region;
-use App\Models\Municipality;
 
 class ExportFileMetadataService
 {
+
+    private CacheService $cache;
+
+    public function __construct()
+    {
+        $this->cache = new CacheService();
+    }
+
     public function get(): array
     {
-        $path = storage_path('app/public/');
+        $path = public_path('download');
 
         $total = [
             'id' => 0,
             'name' => 'Skupno',
             'extension' => 'json',
-            'last_modified' => File::lastModified("{$path}total.json"),
-            'size' => File::size("{$path}total.json"),
-            'type' => null
-        ];
+            'last_modified' => File::lastModified('download/skupno.json'),
+            'size' => File::size('download/skupno.json'),
+            'type' => '/',
+            'slug' => 'skupno',
+            'url' => asset('download/skupno.json'),
 
+        ];
+        $regions = $this->cache->regions()->keyBy('slug');
+        $municipalities = $this->cache->municipalities()->keyBy('slug');
+        $data = $regions->toBase()->merge($municipalities);
         return [
             'total' => $total,
-            'regions' => $this->metadata(File::allFiles("{$path}regions/"), Region::all(), 'regions'),
-            'municipalities' => $this->metadata(File::allFiles("{$path}municipalities/"), Municipality::all(), 'municipalities')
+            'specific' => $this->metadata($this->removeTotal(File::files($path)), $data),
         ];
     }
 
-    private function metadata(array $data, Collection $collection, string $type): array
+    private function metadata(array $data, Collection $collection): array
     {
-        $collection = $collection->keyBy('id');
         return [
-            ...array_map(function (SplFileInfo $file) use ($collection, $type) {
-                $id = (int)str_replace(".{$file->getExtension()}", '', $file->getFilename());
+            ...array_map(function (SplFileInfo $file) use ($collection): array {
+                $slug = str_replace(".{$file->getExtension()}", '', $file->getFilename());
                 return [
-                    'id' => $id,
-                    'name' => $collection->get($id)->name,
+                    'id' => $collection->get($slug)->id,
+                    'name' => $collection->get($slug)->name,
                     'last_modified' => $file->getMTime(),
                     'size' => $file->getSize(),
                     'extension' => $file->getExtension(),
-                    'type' => $type
+                    'slug' => $slug,
+                    'url' => asset("download/{$slug}.json"),
                 ];
-            }, $data)
+            }, $data),
         ];
+    }
+
+    private function removeTotal($array): array
+    {
+        foreach ($array as $key => $object) {
+            if ($object->getFilename() === 'skupno.json') {
+                unset($array[$key]);
+            }
+        }
+        return $array;
     }
 }

@@ -17,9 +17,12 @@ class CreateMunicipalitiesTable extends Migration
             $table->id();
             $table->string('name');
             $table->float('area');
+            $table->string('slug')->index();
             $table->unsignedMediumInteger('population');
             $table->unsignedSmallInteger('population_per_area');
             $table->unsignedTinyInteger('villages');
+            $table->foreignId('state_inspectorate_id')->constrained();
+            $table->foreignId('intermunicipality_inspectorate_id')->nullable()->constrained();
             $table->foreignId('region_id')->constrained();
         });
     }

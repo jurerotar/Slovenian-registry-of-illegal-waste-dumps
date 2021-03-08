@@ -14,8 +14,10 @@ class Cookies
      * @param Closure $next
      * @return mixed
      */
-    public function handle(Request $request, Closure $next)
+    public function handle(Request $request, Closure $next): mixed
     {
+        $response = $next($request);
+
         if (!isset($_COOKIE['color-scheme'])) {
             setcookie('color-scheme', 'light', [
                 'expires' => strtotime('+1 year'),
@@ -26,6 +28,6 @@ class Cookies
                 'samesite' => 'Lax'
             ]);
         }
-        return $next($request);
+        return $response;
     }
 }

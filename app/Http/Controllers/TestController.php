@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Region;
+use App\Http\Resources\MunicipalityResource;
+use App\Models\Dump;
+use App\Services\CacheService;
+use Illuminate\Database\Eloquent\Builder;
 
 /**
  * Class TestController
@@ -11,11 +14,26 @@ use App\Models\Region;
  */
 class TestController extends Controller
 {
+    private CacheService $cache;
+
+    public function __construct()
+    {
+        $this->cache = new CacheService();
+    }
+
+    private function query()
+    {
+        $id = 180;
+        return MunicipalityResource::collection(Dump::with(['access:id,type', 'trashType', 'terrain:id,type', 'volume:id', 'location', 'comments' => function ($q) {
+            $q->with('user:id,name')->select(['user_id', 'dump_id', 'comment', 'updated_at']);
+        }])
+            ->whereHas('municipality', function (Builder $municipality) use ($id) {
+                $municipality->whereId($id);
+            })->get());
+    }
+
     public function index()
     {
-        $amountByRegion = Region::with(['municipalities:region_id,id,name'])->select(['id', 'name'])
-            ->get()->each(fn($e) => $e->municipalities->makeHidden('region_id'))
-            ->toArray();
-        dump($amountByRegion);
+        return $this->query();
     }
 }

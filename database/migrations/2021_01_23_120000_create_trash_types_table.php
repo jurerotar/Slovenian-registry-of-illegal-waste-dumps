@@ -14,7 +14,7 @@ class CreateTrashTypesTable extends Migration
     public function up()
     {
         Schema::create('trash_types', function (Blueprint $table) {
-            $table->foreignId('dump_id')->constrained();
+            $table->foreignId('dump_id')->unique()->constrained();
             // Percentage values
             $table->unsignedTinyInteger('organic_waste')->default(0);
             $table->unsignedTinyInteger('construction_waste')->default(0);

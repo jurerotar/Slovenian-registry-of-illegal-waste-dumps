@@ -3,29 +3,19 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\ExportFormRequest;
-use App\Models\Municipality;
-use App\Models\Region;
-use App\Services\ExportService;
+use App\Services\ExportDataService;
 use Symfony\Component\HttpFoundation\BinaryFileResponse;
 
 class ExportController extends Controller
 {
     public function export(ExportFormRequest $request): BinaryFileResponse
     {
-        if ($request->input('type') === 'all') {
-            return response()->download(storage_path("app/public/total.json"), "Skupno.json");
-        }
-
-        $validated = $request->validated();
-
-        $type = $request->input('type');
-        $id = $request->input('id');
-
-        $data = new ExportService($type, $id);
+        $slug = $request->input('slug');
+        $data = new ExportDataService($slug);
         if ($data->needsUpdating()) {
             $data->generate();
         }
-        $name = $type === 'regions' ? Region::find($id)->name : Municipality::find($id)->name;
-        return response()->download(storage_path("app/public/{$type}/{$id}.json"), "{$name}.json");
+
+        return response()->download(public_path("download/{$slug}.json"));
     }
 }
