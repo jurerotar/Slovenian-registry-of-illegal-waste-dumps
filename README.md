@@ -1,15 +1,23 @@
-# Register of illegal dumping sites of Slovenia
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-Register of illegal dumping sites of Slovenia is an environmental project which is intended to fight against illegal
+# Registry of illegal dumping sites of Slovenia
+
+Registry of illegal dumping sites of Slovenia is an environmental project which is intended to fight against illegal
 waste dumps in Slovenia. It's providing users with a modern, effective and accessible system of reporting new illegal
 dumping sites and updating previously recorded ones.
 
 ## Table of contents
 
+* [Features](#features)
 * [Built with](#built-with)
-* [How to contribute](#installation-guide)
+* [Installation guide](#installation-guide)
+* [Views](#views)
 
 ## Features
+
+* Mobile first and fully responsive
+* Simple to use statistics
+* Export data for your own use
 
 ## Built with
 
@@ -24,10 +32,10 @@ dumping sites and updating previously recorded ones.
 
 ```sh
 # clone the project
-git clone https://github.com/jurerotar/Ocistimo-Slovenijo.git  
+git clone https://github.com/jurerotar/Clean-Slovenia.git  
 
 # change directory to newly created one
-cd Ocistimo-Slovenijo  
+cd Clean-Slovenia  
 
 # install composer dependencies
 composer install  
@@ -47,5 +55,17 @@ php artisan serve
 # compile vue components and watch for changes
 npm run dev && npm run watch
 ```
+
+## Views
+
+Homepage in light color scheme
+
+![Homepage light mode](.github/homepage_white.png)
+
+Data export page in dark color scheme
+
+![Data export page in dark mode](.github/export_dark.png)
+
+
 
 
