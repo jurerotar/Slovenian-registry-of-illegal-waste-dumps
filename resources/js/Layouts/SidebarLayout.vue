@@ -5,31 +5,31 @@
             relative lg:fixed lg:left-0 lg:top-0 w-full lg:max-w-nav h-16 z-10 lg:ml-72">
         <!-- Logo displays only on tablets and mobiles -->
         <div class="flex flex-row items-center justify-between w-full h-full" v-if="width <= breakpoints.md">
-            <Logo></Logo>
-            <HamburgerMenu></HamburgerMenu>
+            <logo></logo>
+            <hamburger-menu></hamburger-menu>
         </div>
-        <NavigationLinks v-if="width > breakpoints.md"></NavigationLinks>
+        <navigation-links v-if="width > breakpoints.md"></navigation-links>
     </nav>
     <!-- Sidebar -->
     <nav class="sidebar transform  lg:translate-x-0 duration-300 transition-all z-10 h-full shadow-2xl dark:shadow-none fixed left-0
             top-0 flex-col lg:w-72 lg:flex bg-white dark:bg-dark-nav overflow-y-auto p-2 md:p-4"
          :class="[extended ? 'translate-x-0' : '-translate-x-full']">
-        <Logo></Logo>
+        <logo></logo>
         <!-- NavigationLinks displays only on tablets and mobiles -->
-        <NavigationLinks v-if="width <= breakpoints.md" class="mb-4"></NavigationLinks>
-        <MunicipalityLinksByRegion></MunicipalityLinksByRegion>
+        <navigation-links v-if="width <= breakpoints.md" class="mb-4"></navigation-links>
+        <municipality-links-by-region></municipality-links-by-region>
     </nav>
     <!-- Main container -->
-    <Main>
+    <main-container>
         <slot></slot>
-    </Main>
+    </main-container>
 </template>
 
 <script>
 import Logo from "../Components/Logo";
 import HamburgerMenu from "../Components/HamburgerMenu";
 import NavigationLinks from "../Sections/NavigationLinks";
-import Main from "../Sections/Main.vue";
+import MainContainer from "../Sections/MainContainer.vue";
 import MunicipalityLinksByRegion from "../Sections/MunicipalityLinksByRegion";
 
 export default {
@@ -39,7 +39,7 @@ export default {
         Logo,
         HamburgerMenu,
         NavigationLinks,
-        Main
+        MainContainer
     },
     data() {
         return {

@@ -3,7 +3,7 @@
         class="flex flex-col lg:flex-row items-start justify-start lg:justify-end lg:items-center pt-4 lg:pt-0">
         <inertia-link v-for="link in links" :key="link.id" @click.native="toggleSidebar()" :href="link.href"
                       class="mb-4 lg:mb-0 md:mr-4 font-semibold dark:text-white"
-                      :class="[{'underline': currentPage === link.slug}, link.classes]"
+                      :class="[{'underline': currentPage === link.name}, link.classes]"
         >
             {{ link.text }}
         </inertia-link>
@@ -30,28 +30,28 @@ export default {
                 {
                     id: 0,
                     href: '/',
-                    slug: 'domov',
+                    name: 'home',
                     text: 'Domov',
                     classes: ''
                 },
                 {
                     id: 1,
                     href: '/zemljevid',
-                    slug: 'zemljevid',
+                    name: 'map',
                     text: 'Zemljevid',
                     classes: ''
                 },
                 {
                     id: 2,
                     href: '/izvoz',
-                    slug: 'izvoz',
+                    name: 'export',
                     text: 'Izvoz podatkov',
                     classes: ''
                 },
                 {
                     id: 3,
                     href: '/prijava',
-                    slug: 'prijava',
+                    name: 'report',
                     text: 'Prijavi odlagališče',
                     classes: 'rounded-lg px-4 py-2 bg-green-default text-white text-center hover:bg-green-default-darker'
                 }
