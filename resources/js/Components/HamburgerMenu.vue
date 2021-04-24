@@ -13,7 +13,7 @@
 
 <script>
 export default {
-    name: "HamburgerMenu.vue",
+    name: "HamburgerMenu",
 
     computed: {
         extended() {
