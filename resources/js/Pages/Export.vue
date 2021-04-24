@@ -88,7 +88,7 @@ export default {
     },
     created() {
         shared.meta(this.meta.title, this.meta.desc);
-        this.$store.commit('setCurrentPage', this.meta.page);
+        this.$store.commit('setCurrentPage', this.meta.page_name);
     },
     data() {
         return {

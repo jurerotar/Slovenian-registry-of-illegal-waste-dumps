@@ -2,25 +2,15 @@
 
 namespace App\Http\Controllers;
 
-use Inertia\Inertia;
+use App\Helpers\InertiaHelper;
 use Inertia\Response;
 
 class ReportPageController extends Controller
 {
-    public function index(): Response
+    public function show(): Response
     {
-        $meta = collect([
-            'title' => __('meta.report.title'),
-            'desc' => __('meta.report.description'),
-            'page' => 'prijava',
-        ]);
+        return InertiaHelper::serverRender('Report', [
 
-        return Inertia::render('Report', [
-            'meta' => $meta,
-
-        ])->withViewData([
-            'title' => $meta->get('title'),
-            'description' => $meta->get('desc'),
         ]);
     }
 }

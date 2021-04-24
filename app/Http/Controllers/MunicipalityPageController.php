@@ -2,13 +2,13 @@
 
 namespace App\Http\Controllers;
 
+use App\Helpers\InertiaHelper;
 use App\Http\Resources\MunicipalityResource;
 use App\Models\Dump;
 use App\Models\Municipality;
 use App\Services\CacheService;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Http\Resources\Json\AnonymousResourceCollection;
-use Inertia\Inertia;
 use Inertia\Response;
 use JetBrains\PhpStorm\Pure;
 
@@ -22,25 +22,13 @@ class MunicipalityPageController extends Controller
         $this->cache = new CacheService();
     }
 
-    public function index(Municipality $municipality): Response
+    public function show(Municipality $municipality): Response
     {
-        // Push title and description to info for vue to use
-        $meta = collect([
-            'title' => __('meta.municipality.title', ['name' => $municipality->name]),
-            'desc' => __('meta.municipality.description', ['name' => $municipality->name]),
-            'page' => 'obcina',
-        ]);
-
-        return Inertia::render('Municipality', [
-            'meta' => $meta,
+        return InertiaHelper::serverRender('Map', [
             'dumps' => $this->dumps($municipality->id),
             'additional' => [
                 'volumes' => $this->cache->volumes(),
             ],
-
-        ])->withViewData([
-            'title' => $meta->get('title'),
-            'description' => $meta->get('desc'),
         ]);
     }
 

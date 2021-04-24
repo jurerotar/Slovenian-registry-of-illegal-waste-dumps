@@ -2,29 +2,19 @@
 
 namespace App\Http\Controllers;
 
+use App\Helpers\InertiaHelper;
 use App\Services\RegionDumpDataService;
 use App\Services\TrashEstimatesService;
-use Inertia\Inertia;
 use Inertia\Response;
 
 class HomePageController extends Controller
 {
 
-    public function index(): Response
+    public function show(): Response
     {
-
-        $meta = collect([
-            'title' => __('meta.home.title'),
-            'desc' => __('meta.home.description'),
-            'page' => 'domov',
-        ]);
-        return Inertia::render('Home', [
-            'meta' => $meta,
+        return InertiaHelper::serverRender('Home', [
             'trash' => $this->trashEstimates(),
             'regionDumpData' => $this->regionDumpData(),
-        ])->withViewData([
-            'title' => $meta->get('title'),
-            'description' => $meta->get('desc'),
         ]);
     }
 

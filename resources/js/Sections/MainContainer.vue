@@ -9,7 +9,7 @@
 
 <script>
 export default {
-    name: "Main",
+    name: "MainContainer",
     computed: {
         width() {
             return this.$store.state.width;

@@ -10,11 +10,11 @@ use App\Http\Controllers\TestController;
 use Illuminate\Support\Facades\Route;
 
 Route::group(['middleware' => 'cookies'], function () {
-    Route::get('/', [HomePageController::class, 'index'])->name('home');
-    Route::get('/zemljevid', [MapPageController::class, 'index'])->name('map');
-    Route::get('/izvoz', [ExportPageController::class, 'index'])->name('export');
-    Route::get('/prijava', [ReportPageController::class, 'index'])->name('report');
-    Route::get('/obcina/{municipality:slug}', [MunicipalityPageController::class, 'index'])->name('municipality');
+    Route::get('/', [HomePageController::class, 'show'])->name('home');
+    Route::get('/zemljevid', [MapPageController::class, 'show'])->name('map');
+    Route::get('/izvoz', [ExportPageController::class, 'show'])->name('export');
+    Route::get('/prijava', [ReportPageController::class, 'show'])->name('report');
+    Route::get('/obcina/{municipality:slug}', [MunicipalityPageController::class, 'show'])->name('municipality');
 
 });
 
