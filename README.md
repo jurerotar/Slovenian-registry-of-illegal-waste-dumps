@@ -32,7 +32,7 @@ dumping sites and updating previously recorded ones.
 
 ```sh
 # clone the project
-git clone https://github.com/jurerotar/Clean-Slovenia.git  
+git clone https://github.com/jurerotar/Slovenian-register-of-illegal-waste-dumps.git Clean-Slovenia
 
 # change directory to newly created one
 cd Clean-Slovenia  
