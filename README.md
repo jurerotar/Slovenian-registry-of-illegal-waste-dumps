@@ -43,6 +43,8 @@ composer install
 # install node dependencies
 npm install  
 
+# set up .env; create a db & user if needed
+
 # migrate the database
 php artisan migrate --seed
 
