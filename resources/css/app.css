@@ -186,4 +186,16 @@ details[open] > summary .details-icon {
     padding: 10px 5px 10px 0;
 }
 
+.iframe-wrapper {
+    position: relative;
+    overflow: hidden;
+    /*padding-bottom: 35%;*/
+}
 
+.iframe-wrapper frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
