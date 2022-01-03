@@ -57,6 +57,7 @@
                 </extendable>
             </li>
         </ul>
+        <!-- Render skeletons if navigation data is not available -->
         <ul
             v-else
             class="flex flex-col gap-1 md:gap-2"
@@ -81,7 +82,7 @@ import NavigationTag from "@/js/components/common/navigation/components/Navigati
 import AppExtendableSkeleton from "@/js/components/skeletons/AppExtendableSkeleton.vue";
 
 interface SideNavigationProps {
-    navigation: Region[];
+    navigation: Region[] | null;
 }
 
 const props = defineProps<SideNavigationProps>();
