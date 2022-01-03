@@ -14,7 +14,6 @@ class TrashEstimatesService
 {
 
     private array $keys;
-    private CacheService $cache;
     private array $attributes = [
         'organic_waste' => 'Organski odpadki',
         'construction_waste' => 'Gradbeni odpadki',
@@ -30,7 +29,6 @@ class TrashEstimatesService
     public function __construct()
     {
         $this->keys = array_keys($this->attributes);
-        $this->cache = new CacheService();
     }
 
     #[ArrayShape([
@@ -43,6 +41,8 @@ class TrashEstimatesService
     ])]
     public function get(): array
     {
+        $percentages = $this->percentage();
+        $volumes = $this->volume($percentages);
         return $this->merge($this->volume(), $this->percentage());
     }
 
@@ -51,14 +51,10 @@ class TrashEstimatesService
      * Rewrote method from Eloquent to raw SQL query, since raw computes 3-4x faster
      * @return Collection
      */
-    private function volume(): Collection
+    private function volume(Collection $percentages): Collection
     {
-        return $this->cache->cache('summed_estimated_trash_volume', function (): Collection {
-            return DB::table('estimated_trash_volumes')
-                ->selectRaw($this->constructRawQuery('sum'))
-                ->join('dumps', 'estimated_trash_volumes.dump_id', '=', 'dumps.id')
-                ->where('dumps.cleared', false)
-                ->get()->mapWithKeys(fn($e) => $e);
+        return AppCache::get('summed_estimated_waste_volumes', function (): Collection {
+            return;
         });
     }
 
@@ -69,11 +65,11 @@ class TrashEstimatesService
      */
     private function percentage(): Collection
     {
-        return $this->cache->cache('trash_type_percentages', function (): Collection {
-            return DB::table('trash_types')
+        return AppCache::get('waste_percentages', function (): Collection {
+            return DB::table('waste_percentages')
                 ->selectRaw($this->constructRawQuery('avg'))
-                ->join('dumps', 'trash_types.dump_id', '=', 'dumps.id')
-                ->where('dumps.cleared', false)
+                ->join('waste_dumps', 'waste_percentages.dump_id', '=', 'waste_dumps.id')
+                ->where('waste_dumps.cleared', false)
                 ->get()->mapWithKeys(fn($e) => $e);
         });
     }

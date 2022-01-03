@@ -2,6 +2,10 @@
 
 namespace App\Models;
 
+use App\Models\ReferenceModels\AccessType;
+use App\Models\ReferenceModels\AreaEstimate;
+use App\Models\ReferenceModels\TerrainType;
+use App\Models\ReferenceModels\VolumeEstimate;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
@@ -14,35 +18,40 @@ class Dump extends Model
 {
     use SoftDeletes;
 
-    protected $hidden = [
+    protected $fillable = [
+        'id',
+        'title',
+        'description',
+        'cleared',
+        'distance',
+        'has_hazardous_liquids',
+        'wgs_84_latitude',
+        'wgs_84_longitude',
         'user_id',
-        'deleted_at',
-        'volume_id',
-        'terrain_id',
-        'access_id',
+        'volume_estimate_id',
+        'area_estimate_id',
+        'access_type_id',
+        'terrain_type_id',
+        'municipality_id',
+    ];
+
+    protected $hidden = [
+//        'user_id',
+//        'deleted_at',
+//        'volume_estimate_id',
+//        'terrain_type_id',
+//        'access_type_id',
     ];
 
     protected $casts = [
-        'dangerous' => 'boolean',
-        'cleared' => 'boolean',
-        'urgent' => 'boolean',
+//        'dangerous' => 'boolean',
+//        'cleared' => 'boolean',
+//        'urgent' => 'boolean',
     ];
 
-
-//    protected $appends = [
-//        'volume',
-//        'terrain',
-//        'access',
-//        'geodetic',
-//        'trash_types'
-//    ];
-
-
-    // Relationships
-
-    public function location(): HasOne
+    public function geodeticInformation(): HasOne
     {
-        return $this->hasOne(Location::class);
+        return $this->hasOne(GeodeticInformation::class);
     }
 
     public function comments(): HasMany
@@ -50,84 +59,43 @@ class Dump extends Model
         return $this->hasMany(Comment::class);
     }
 
-    public function trashType(): HasOne
+    public function dumpSplit(): HasOne
     {
-        return $this->HasOne(TrashType::class);
-    }
-
-    public function estimatedTrashVolume(): HasOne
-    {
-        return $this->hasOne(EstimatedTrashVolume::class);
-    }
-
-    public function terrain(): BelongsTo
-    {
-        return $this->belongsTo(Terrain::class);
-    }
-
-    public function access(): BelongsTo
-    {
-        return $this->belongsTo(Access::class);
-    }
-
-    public function volume(): BelongsTo
-    {
-        return $this->belongsTo(Volume::class);
+        return $this->hasOne(DumpSplit::class);
     }
 
     public function region(): HasOneThrough
     {
-        return $this->hasOneThrough(Region::class, Location::class, 'dump_id', 'id', null, 'region_id');
+        return $this->hasOneThrough(Region::class, Municipality::class);
     }
 
-    public function municipality(): HasOneThrough
+    public function municipality(): BelongsTo
     {
-        return $this->hasOneThrough(Municipality::class, Location::class, 'dump_id', 'id', null, 'municipality_id');
+        return $this->belongsTo(Municipality::class);
     }
 
-    public function cadastralMunicipality(): HasOneThrough
+    public function terrainType(): BelongsTo
     {
-        return $this->hasOneThrough(CadastralMunicipality::class, Location::class, 'dump_id', 'id', null, 'cadastral_id');
+        return $this->belongsTo(TerrainType::class);
     }
 
-    // Attributes
+    public function accessType(): BelongsTo
+    {
+        return $this->belongsTo(AccessType::class);
+    }
 
-//    public function getVolumeAttribute(): string
-//    {
-//        return $this->volume()->value('text');
-//    }
-//
-//    public function getTerrainAttribute(): string
-//    {
-//        return $this->terrain()->value('type');
-//    }
-//
-//    public function getAccessAttribute(): string
-//    {
-//        return $this->access()->value('type');
-//    }
-//
-//    public function getGeodeticAttribute(): array
-//    {
-//        $cadastralMunicipality = $this->cadastralMunicipality()->first();
-//        $region = $this->region()->first();
-//        $municipality = $this->municipality()->first();
-//        $location = $this->location()->first();
-//        return [
-//            'region_id' => $region->id,
-//            'region' => $region->name,
-//            'municipality_id' => $municipality->id,
-//            'municipality' => $municipality->name,
-//            'cadastral_municipality_id' => $cadastralMunicipality->id,
-//            'cadastral_municipality' => $cadastralMunicipality->name,
-//            'portion' => $location->value('portion'),
-//            'coordinates' => [
-//                'wgs84' => [
-//                    'latitude' => $location->wgs84_latitude,
-//                    'longitude' => $location->wgs84_langitude
-//                ]
-//            ]
-//        ];
-//    }
+    public function volumeEstimate(): BelongsTo
+    {
+        return $this->belongsTo(VolumeEstimate::class);
+    }
 
+    public function areaEstimate(): BelongsTo
+    {
+        return $this->belongsTo(AreaEstimate::class);
+    }
+
+    public function lastUpdated()
+    {
+
+    }
 }

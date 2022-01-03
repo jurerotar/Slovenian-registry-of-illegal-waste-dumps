@@ -9,14 +9,6 @@ use SplFileInfo;
 
 class ExportFileMetadataService
 {
-
-    private CacheService $cache;
-
-    public function __construct()
-    {
-        $this->cache = new CacheService();
-    }
-
     public function get(): array
     {
         $path = public_path('download');
@@ -32,8 +24,8 @@ class ExportFileMetadataService
             'url' => asset('download/skupno.json'),
 
         ];
-        $regions = $this->cache->regions()->keyBy('slug');
-        $municipalities = $this->cache->municipalities()->keyBy('slug');
+        $regions = AppCache::regions()->keyBy('slug');
+        $municipalities = AppCache::municipalities()->keyBy('slug');
         $data = $regions->toBase()->merge($municipalities);
         return [
             'total' => $total,

@@ -50,7 +50,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session File Location
+    | Session File WasteDumpGeodeticInformation
     |--------------------------------------------------------------------------
     |
     | When using the native session driver, we need a location where session
@@ -172,7 +172,7 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | HTTP Access Only
+    | HTTP AccessType Only
     |--------------------------------------------------------------------------
     |
     | Setting this value to true will prevent JavaScript from accessing the

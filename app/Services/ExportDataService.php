@@ -4,7 +4,6 @@
 namespace App\Services;
 
 use App\Models\Dump;
-use App\Traits\ExportFileNameTrait;
 use App\Traits\RawSqlExportQueriesTrait;
 use Illuminate\Contracts\Filesystem\Filesystem;
 use Illuminate\Support\Carbon;
@@ -12,10 +11,9 @@ use Illuminate\Support\Facades\Storage;
 
 class ExportDataService
 {
-    use ExportFileNameTrait, RawSqlExportQueriesTrait;
+    use RawSqlExportQueriesTrait;
 
     private Filesystem $disk;
-    private CacheService $cache;
     private string|null $type;
     private int|null $id;
 
@@ -24,7 +22,6 @@ class ExportDataService
     )
     {
         $this->disk = Storage::disk('public');
-        $this->cache = new CacheService();
         $this->type = $this->type($slug);
         $this->id = $this->id($this->type, $this->slug);
     }
@@ -35,10 +32,10 @@ class ExportDataService
      */
     public function generate()
     {
-        $regions = $this->cache->regions();
-        $municipalities = $this->cache->municipalities();
-        $dumps = $this->dumpsByRegionOrMunicipality($this->type, $this->id);
-        $comments = $this->commentsByRegionOrMunicipality($this->type, $this->id);
+        $regions = AppCache::regions();
+        $municipalities = AppCache::municipalities();
+        $dumps = $this->dumpsByRegionOrMunicipality(type: $this->type, id: $this->id);
+        $comments = $this->commentsByRegionOrMunicipality(type: $this->type, id: $this->id);
         /**
          * Add comments to dumps
          */
@@ -50,18 +47,17 @@ class ExportDataService
                         'comment' => $comment['comment'],
                         'created_at' => $comment['created_at'],
                     ];
-                    continue;
                 }
             }
         }
         $name = 'skupno';
 
         if ($this->type && $this->id) {
-            $name = ($this->type === 'regions') ? $regions->find($this->id)->slug : $municipalities->find($this->id)->slug;
+            $name = ($this->type === 'regions') ? $regions->find(key: $this->id)->slug : $municipalities->find(key: $this->id)->slug;
         }
 
-        $json = ExportTransformService::toJson($dumps);
-        $this->disk->put("{$name}.json", $json);
+        $json = ExportTransformService::toJson(result: $dumps);
+        $this->disk->put(path: "{$name}.json", contents: $json);
     }
 
     private function dumps(string $type, int $id)
@@ -80,22 +76,22 @@ class ExportDataService
      */
     public function needsUpdating(): bool
     {
-        if (!$this->disk->exists("{$this->slug}.json")) {
+        if (!$this->disk->exists(path: "{$this->slug}.json")) {
             return true;
         }
-        $lastUpdated = Carbon::createFromTimestamp($this->disk->lastModified("{$this->slug}.json"));
+        $lastUpdated = Carbon::createFromTimestamp(timestamp: $this->disk->lastModified(path: "{$this->slug}.json"));
         $query = Dump::query();
         if ($this->type && $this->id) {
-            $query->whereHas("{$this->type}", fn($e) => $e->whereId($this->id));
+            $query->whereHas(relation: "{$this->type}", callback: fn($e) => $e->whereId($this->id));
         }
-        return $query->whereDate('updated_at', '>', $lastUpdated)
+        return $query->whereDate(column: 'updated_at', operator:'>', value: $lastUpdated)
                 ->count() !== 0;
     }
 
     private function type(string $slug): string|null
     {
-        $regions = $this->cache->regions()->pluck('slug')->all();
-        $municipalities = $this->cache->municipalities()->pluck('slug')->all();
+        $regions = AppCache::regions()->pluck('slug')->all();
+        $municipalities = AppCache::municipalities()->pluck('slug')->all();
         if (in_array($slug, $regions)) {
             return 'regions';
         } else if (in_array($slug, $municipalities)) {
@@ -111,9 +107,9 @@ class ExportDataService
         }
 
         if ($type === 'regions') {
-            return $this->cache->regions()->where('slug', $slug)->first()->id;
+            return AppCache::regions()->where(key: 'slug', operator: '=', value: $slug)->first()->id;
         } else if ($type === 'municipalities') {
-            return $this->cache->municipalities()->where('slug', $slug)->first()->id;
+            return AppCache::municipalities()->where(key: 'slug', operator: '=', value: $slug)->first()->id;
         }
 
     }

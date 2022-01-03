@@ -19,6 +19,7 @@ return new class extends Migration {
             $table->float('area');
             $table->unsignedMediumInteger('population');
             $table->unsignedSmallInteger('population_per_area');
+            $table->timestamps();
         });
     }
 
@@ -29,6 +30,7 @@ return new class extends Migration {
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
         Schema::dropIfExists('regions');
     }
 };

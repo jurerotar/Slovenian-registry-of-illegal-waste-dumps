@@ -2,29 +2,25 @@
 
 namespace App\Models;
 
+use App\Models\User\User;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 
 class Comment extends Model
 {
-    public $timestamps = [
-        'created_at',
-    ];
 
-    protected $with = [
-        'user',
-    ];
-
-    protected $hidden = [
+    protected $fillable = [
         'dump_id',
-        'deleted_at',
-        'id',
+        'user_id',
+        'content',
+        'created_at',
+        'updated_at',
     ];
 
     public function user(): BelongsTo
     {
-        return $this->belongsTo(User::class, 'user_id');
+        return $this->belongsTo(User::class);
     }
 
     public function dump(): BelongsTo

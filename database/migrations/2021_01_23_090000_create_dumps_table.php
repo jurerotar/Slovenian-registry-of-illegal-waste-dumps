@@ -16,17 +16,20 @@ return new class extends Migration {
             $table->id();
             $table->string('title');
             $table->text('description')->nullable();
-            $table->boolean('dangerous')->default(false);
-            $table->boolean('cleared')->default(false);
-            $table->boolean('urgent')->default(false);
-            $table->unsignedInteger('area'); // in m**2
-            $table->foreignId('user_id')->default(0)->constrained();
-            $table->foreignId('volume_id')->constrained(); // prostornina
-            $table->foreignId('access_id')->constrained(); // Način dostopa
-            $table->foreignId('terrain_id')->constrained(); // Vrsta terena
-            $table->timestamps();
+            $table->boolean('cleared')->index();
+            $table->smallInteger('distance');
+            $table->boolean('has_hazardous_liquids');
+            $table->point('coordinates')->spatialIndex();
+            $table->foreignId('user_id')->default(1)->constrained('users');
+            $table->foreignId('volume_estimate_id')->constrained('volume_estimates');
+            $table->foreignId('area_estimate_id')->constrained('area_estimates');
+            $table->foreignId('access_type_id')->constrained('access_types');
+            $table->foreignId('terrain_type_id')->constrained('terrain_types');
+            // TODO: Remove nullable once Geopedia fixes their data
+            $table->foreignId('municipality_id')->nullable()->constrained('municipalities');
             $table->softDeletes();
-            $table->index(['cleared', 'updated_at']);
+            $table->timestamps();
+            $table->index(['updated_at']);
         });
     }
 
@@ -37,6 +40,7 @@ return new class extends Migration {
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
         Schema::dropIfExists('dumps');
     }
 };

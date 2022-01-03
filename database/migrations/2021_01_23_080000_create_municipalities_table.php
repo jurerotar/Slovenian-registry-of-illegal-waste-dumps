@@ -15,14 +15,13 @@ return new class extends Migration {
         Schema::create('municipalities', function (Blueprint $table) {
             $table->id();
             $table->string('name');
-            $table->float('area');
             $table->string('slug')->index();
+            $table->float('area');
             $table->unsignedMediumInteger('population');
             $table->unsignedSmallInteger('population_per_area');
             $table->unsignedTinyInteger('villages');
-            $table->foreignId('state_inspectorate_id')->constrained();
-            $table->foreignId('intermunicipality_inspectorate_id')->nullable()->constrained();
             $table->foreignId('region_id')->constrained();
+            $table->timestamps();
         });
     }
 
@@ -33,6 +32,7 @@ return new class extends Migration {
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
         Schema::dropIfExists('municipalities');
     }
 };

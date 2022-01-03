@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
+    "name": "jurerotar/slovenian-register-of-illegal-waste-dumps",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Registry of illegal dumping sites of Slovenia is an environmental project which is intended to fight against illegal waste dumps in Slovenia.",
     "keywords": [
         "framework",
         "laravel"
@@ -9,28 +9,24 @@
     "license": "MIT",
     "require": {
         "php": "^8.0",
-        "fideloper/proxy": "^4.4",
-        "fruitcake/laravel-cors": "^2.0",
-        "guzzlehttp/guzzle": "^7.0.1",
-        "inertiajs/inertia-laravel": "^0.3.6",
-        "laravel/framework": "^8.12",
-        "laravel/tinker": "^2.5",
-        "timokoerber/laravel-json-seeder": "^1.0",
-        "ext-json": "*"
+        "ext-json": "*",
+        "fideloper/proxy": "^4.4.1",
+        "fruitcake/laravel-cors": "^2.0.4",
+        "guzzlehttp/guzzle": "^7.4.1",
+        "inertiajs/inertia-laravel": "^0.4.5",
+        "laravel/framework": "^8.77.1",
+        "laravel/tinker": "^2.6.3",
+        "ohseesoftware/laravel-vite-manifest": "^1.2",
+        "timokoerber/laravel-json-seeder": "^1.0.1"
     },
     "require-dev": {
-        "barryvdh/laravel-debugbar": "^3.5",
-        "facade/ignition": "^2.5",
-        "fakerphp/faker": "^1.9.1",
-        "laravel/sail": "^1.0.1",
-        "mockery/mockery": "^1.4.2",
-        "nunomaduro/collision": "^5.0",
-        "phpunit/phpunit": "^9.3.3"
-    },
-    "config": {
-        "optimize-autoloader": true,
-        "preferred-install": "dist",
-        "sort-packages": true
+        "barryvdh/laravel-debugbar": "^3.6.5",
+        "facade/ignition": "^2.17.4",
+        "fakerphp/faker": "^1.17.0",
+        "laravel/sail": "^1.12.12",
+        "mockery/mockery": "^1.4.4",
+        "nunomaduro/collision": "^5.10.0",
+        "phpunit/phpunit": "^9.5.11"
     },
     "extra": {
         "laravel": {
@@ -49,19 +45,23 @@
             "Tests\\": "tests/"
         }
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "scripts": {
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
         ],
         "post-root-package-install": [
-            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
-            "@php -r \"file_exists('.env.testing') || copy('.env.testing.example', '.env.testing');\""
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ]
-    }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

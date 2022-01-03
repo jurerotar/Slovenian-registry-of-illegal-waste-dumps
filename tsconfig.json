@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "strictFunctionTypes": true,
+        "strictPropertyInitialization": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "useDefineForClassFields": true,
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["resources/*"],
+        }
+    },
+    "include": [
+        "resources/js"
+    ],
+    "exclude": [
+        "vendor",
+        "node_modules",
+        "resources/assets"
+    ]
+}

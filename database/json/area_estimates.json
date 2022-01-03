@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "area": "Ni podatka",
+        "average": 0,
+        "description": "Ni podatka"
+    },
+    {
+        "id": 2,
+        "area": "Do 1m2",
+        "average": 1,
+        "description": "Velikost"
+    },
+    {
+        "id": 3,
+        "area": "1-2m2",
+        "average": 2,
+        "description": "Velikost"
+    },
+    {
+        "id": 4,
+        "area": "3-9m2",
+        "average": 6,
+        "description": "Velikost"
+    },
+    {
+        "id": 5,
+        "area": "10-24m2",
+        "average": 18,
+        "description": "Velikost"
+    },
+    {
+        "id": 6,
+        "area": "25-49m2",
+        "average": 38,
+        "description": "Velikost"
+    },
+    {
+        "id": 7,
+        "area": "50-99m2",
+        "average": 75,
+        "description": "Velikost"
+    },
+    {
+        "id": 8,
+        "area": "100-249m2",
+        "average": 175,
+        "description": "Velikost"
+    },
+    {
+        "id": 9,
+        "area": "250-499m2",
+        "average": 375,
+        "description": "Velikost"
+    },
+    {
+        "id": 10,
+        "area": "500-999m2",
+        "average": 750,
+        "description": "Velikost"
+    },
+    {
+        "id": 11,
+        "area": "1000-2499m2",
+        "average": 1750,
+        "description": "Velikost"
+    },
+    {
+        "id": 12,
+        "area": "2500-4999m2",
+        "average": 2750,
+        "description": "Velikost"
+    },
+    {
+        "id": 13,
+        "area": "5000-10000m2",
+        "average": 7500,
+        "description": "Velikost"
+    },
+    {
+        "id": 14,
+        "area": "Nad 10000m2",
+        "average": 10000,
+        "description": "Velikost"
+    }
+]
