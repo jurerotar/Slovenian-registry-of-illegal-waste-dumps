@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "type": "Ni podatka",
+        "description": ""
+    },
+    {
+        "id": 2,
+        "type": "Gorovje",
+        "description": ""
+    },
+    {
+        "id": 3,
+        "type": "Hribovje",
+        "description": ""
+    },
+    {
+        "id": 4,
+        "type": "Pobočje",
+        "description": ""
+    },
+    {
+        "id": 5,
+        "type": "Gričevje",
+        "description": ""
+    },
+    {
+        "id": 6,
+        "type": "Ravnina",
+        "description": ""
+    },
+    {
+        "id": 7,
+        "type": "Kotanja",
+        "description": ""
+    },
+    {
+        "id": 8,
+        "type": "Obalni ali priobalni pas",
+        "description": ""
+    },
+    {
+        "id": 9,
+        "type": "Podzemlje",
+        "description": ""
+    }
+]

@@ -5,7 +5,9 @@
         "population": 114776,
         "area": 1337,
         "population_per_area": 85,
-        "slug": "pomurska"
+        "slug": "pomurska",
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 2,
@@ -13,7 +15,9 @@
         "population": 322058,
         "area": 2170,
         "population_per_area": 148,
-        "slug": "podravska"
+        "slug": "podravska",
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 3,
@@ -21,7 +25,9 @@
         "population": 70550,
         "area": 1041,
         "population_per_area": 67,
-        "slug": "koroska"
+        "slug": "koroska",
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 4,
@@ -29,7 +35,9 @@
         "population": 254760,
         "area": 2301,
         "population_per_area": 110,
-        "slug": "savinjska"
+        "slug": "savinjska",
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 5,
@@ -37,7 +45,9 @@
         "population": 75359,
         "area": 968,
         "population_per_area": 77,
-        "slug": "posavska"
+        "slug": "posavska",
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 6,
@@ -45,7 +55,9 @@
         "population": 57061,
         "area": 485,
         "population_per_area": 117,
-        "slug": "zasavska"
+        "slug": "zasavska",
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 7,
@@ -53,7 +65,9 @@
         "population": 142819,
         "area": 2675,
         "population_per_area": 53,
-        "slug": "jugovzhodna-slovenija"
+        "slug": "jugovzhodna-slovenija",
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 8,
@@ -61,7 +75,9 @@
         "population": 542306,
         "area": 2334,
         "population_per_area": 232,
-        "slug": "osrednjeslovenska"
+        "slug": "osrednjeslovenska",
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 9,
@@ -69,7 +85,9 @@
         "population": 203636,
         "area": 2137,
         "population_per_area": 95,
-        "slug": "gorenjska"
+        "slug": "gorenjska",
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 10,
@@ -77,7 +95,9 @@
         "population": 117260,
         "area": 2325,
         "population_per_area": 50,
-        "slug": "goriska"
+        "slug": "goriska",
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 11,
@@ -85,7 +105,9 @@
         "population": 52334,
         "area": 1456,
         "population_per_area": 35,
-        "slug": "primorsko-notranjska"
+        "slug": "primorsko-notranjska",
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 12,
@@ -93,6 +115,8 @@
         "population": 113961,
         "area": 1044,
         "population_per_area": 109,
-        "slug": "obalno-kraska"
+        "slug": "obalno-kraska",
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     }
 ]

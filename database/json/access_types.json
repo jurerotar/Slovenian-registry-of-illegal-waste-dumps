@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "type": "Ni podatka",
+        "description": ""
+    },
+    {
+        "id": 2,
+        "type": "Peš",
+        "description": ""
+    },
+    {
+        "id": 3,
+        "type": "Osebno vozilo",
+        "description": ""
+    },
+    {
+        "id": 4,
+        "type": "Terensko vozilo",
+        "description": ""
+    },
+    {
+        "id": 5,
+        "type": "Nevaren dostop",
+        "description": ""
+    },
+    {
+        "id": 6,
+        "type": "Nedostopno",
+        "description": ""
+    }
+]

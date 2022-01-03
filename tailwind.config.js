@@ -1,39 +1,32 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
-    purge: {
-        content: [
-            'resources/js/**/*.vue',
-        ]
-    },
     darkMode: 'class',
+    mode: 'jit',
+    content: [
+        './resources/views/**/*.blade.php',
+        './resources/js/**/*.vue',
+    ],
     theme: {
+        screens: {
+            'sm': '640px',
+            'md': '768px',
+            'lg': '1024px',
+            'xl': '1440px',
+            '2xl': '1920px',
+        },
         extend: {
             fontFamily: {
-                'sans': ['Montserrat', 'sans-serif']
-            },
-            borderWidth: {
-                'default': '1px'
-            },
-            minWidth: {
-                'table': '700px',
-                'table-dumps': '800px'
-            },
-            maxWidth: {
-                'main': '1400px',
-                'nav': 'calc(100% - 18rem)',
-                'export': '40rem'
+                sans: ['Montserrat', ...defaultTheme.fontFamily.sans],
             },
             borderColor: {
                 'green-default': 'var(--green-default)',
             },
             color: {
-                'dark-main': 'var(--dark-main)',
-                'dark-nav': 'var(--dark-navigation)',
                 'green-default': 'var(--green-default)',
                 'green-default-darker': 'var(--green-default-darker)'
             },
             backgroundColor: {
-                'dark-main': 'var(--dark-main)',
-                'dark-nav': 'var(--dark-navigation)',
                 'green-default': 'var(--green-default)',
                 'green-default-darker': 'var(--green-default-darker)'
             }

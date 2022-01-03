@@ -1,18 +1,35 @@
+# vendors
 /node_modules
-/public/hot
-/public/download/
-/public/storage
-/public/css/
-/public/js/
-/storage/*.key
 /vendor
+
+# env files
 .env
 .env.backup
-.env.testing
+/storage/*.key
+
+# compiled ts->js files
+/resources/js/**/*.js
+
+# build directories
+/public/build
+
+# Eclipse
+/.project
+/.classpath
+/.settings
+/.factorypath
+
+# intelliJ
+/.idea
+
+# vscode
+/.vscode
+
+# other
+/storage/analyzer
 .phpunit.result.cache
 docker-compose.override.yml
 Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-.idea

@@ -14,11 +14,11 @@ return new class extends Migration {
     {
         Schema::create('comments', function (Blueprint $table) {
             $table->id();
-            $table->text('comment');
             $table->foreignId('dump_id')->constrained();
             $table->foreignId('user_id')->constrained('users');
-            $table->timestamps();
+            $table->text('content');
             $table->softDeletes();
+            $table->timestamps();
         });
     }
 
@@ -29,6 +29,7 @@ return new class extends Migration {
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
         Schema::dropIfExists('comments');
     }
 };

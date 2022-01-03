@@ -11,24 +11,39 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 class Municipality extends Model
 {
 
+    protected $fillable = [
+        'name',
+        'slug',
+        'area',
+        'population',
+        'population_per_area',
+        'villages',
+        'region_id',
+    ];
+
     public function region(): BelongsTo
     {
         return $this->belongsTo(Region::class);
     }
 
-    public function stateInspectorate(): HasOne
+    public function dumps(): HasMany
     {
-        return $this->hasOne(StateInspectorate::class);
+        return $this->hasMany(Dump::class);
     }
 
-    public function intermunicipalityInspectorate(): HasOne
+    public function clearedDumps(): HasMany
     {
-        return $this->hasOne(IntermunicipalityInspectorate::class);
+        return $this->hasMany(Dump::class)->whereCleared(true);
     }
 
-    public function location(): HasMany
+    public function dangerousDumps(): HasMany
     {
-        return $this->HasMany(Location::class);
+        return $this->hasMany(Dump::class)->whereDangerous(true);
+    }
+
+    public function lastUpdated(): HasOne
+    {
+        return $this->hasOne(Dump::class)->orderByDesc('updated_at')->select(['municipality_id', 'updated_at']);
     }
 
 }

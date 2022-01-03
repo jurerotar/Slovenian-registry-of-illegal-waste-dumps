@@ -3,14 +3,14 @@
 namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
-use JetBrains\PhpStorm\ArrayShape;
+use Illuminate\Validation\Rule;
 
 class ColorSchemeRequest extends FormRequest
 {
+    protected $stopOnFirstFailure = true;
+
     /**
      * Determine if the user is authorized to make this request.
-     *
-     * @return bool
      */
     public function authorize(): bool
     {
@@ -19,16 +19,20 @@ class ColorSchemeRequest extends FormRequest
 
     /**
      * Get the validation rules that apply to the request.
-     *
-     * @return array
      */
-    #[ArrayShape([
-        'scheme' => "string"
-    ])]
     public function rules(): array
     {
         return [
-            'scheme' => 'bail|required|string|in:dark,light'
+            'scheme' => [
+                Rule::in(['dark', 'light'])],
+                'string'
+        ];
+    }
+
+    public function messages(): array
+    {
+        return [
+            'scheme.required' => 'Setting is required'
         ];
     }
 }

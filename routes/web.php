@@ -1,21 +1,33 @@
 <?php
 
-use App\Http\Controllers\ExportPageController;
-use App\Http\Controllers\HomePageController;
-use App\Http\Controllers\MapPageController;
-use App\Http\Controllers\MunicipalityPageController;
-use App\Http\Controllers\RegionPageController;
-use App\Http\Controllers\ReportPageController;
-use App\Http\Controllers\TestController;
+use App\Http\Controllers\Views\PublicPagesController;
+use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Route;
 
-Route::group(['middleware' => 'cookies'], function () {
-    Route::get('/', [HomePageController::class, 'show'])->name('home');
-    Route::get('/zemljevid', [MapPageController::class, 'show'])->name('map');
-    Route::get('/izvoz', [ExportPageController::class, 'show'])->name('export');
-    Route::get('/prijava', [ReportPageController::class, 'show'])->name('report');
-    Route::get('/obcina/{municipality:slug}', [MunicipalityPageController::class, 'show'])->name('municipality');
+// Use this only for testing purposes
+if(App::environment('local')) {
+    Route::get('/test', [PublicPagesController::class, 'test']);
+}
 
+// Public pages
+Route::group(['middleware' => 'cookies'], function () {
+    Route::get('/', [PublicPagesController::class, 'home'])
+        ->name('views.public.home');
+
+    Route::get('/map', [PublicPagesController::class, 'map'])
+        ->name('views.public.map');
+
+    Route::get('/export', [PublicPagesController::class, 'export'])
+        ->name('views.public.export');
+
+    Route::get('/report-dump', [PublicPagesController::class, 'reportDump'])
+        ->name('views.public.report_dump');
+
+    Route::get('/regions/{region:slug}', [PublicPagesController::class, 'region'])
+        ->name('views.public.region');
+
+    Route::get('/municipalities/{municipality:slug}', [PublicPagesController::class, 'municipality'])
+        ->name('views.public.municipality');
 });
 
-Route::get('/test', [TestController::class, 'index']);
+

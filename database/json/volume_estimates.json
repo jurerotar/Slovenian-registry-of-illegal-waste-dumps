@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "volume": "Ni podatka",
+        "average": 0,
+        "description": "Ni podatka"
+    },
+    {
+        "id": 2,
+        "volume": "Do 1m3",
+        "average": 1,
+        "description": "Velikost enega do dveh pralnih strojev"
+    },
+    {
+        "id": 3,
+        "volume": "1-2m3",
+        "average": 2,
+        "description": "Velikost dveh avtomobilskih prikolic materiala"
+    },
+    {
+        "id": 4,
+        "volume": "3-9m3",
+        "average": 6,
+        "description": "Velikost osebnega avtomobila"
+    },
+    {
+        "id": 5,
+        "volume": "10-25m3",
+        "average": 18,
+        "description": "Velikost gospodarskega vozila"
+    },
+    {
+        "id": 6,
+        "volume": "25-50m3",
+        "average": 38,
+        "description": "Velikost enega do dveh avtobusov"
+    },
+    {
+        "id": 7,
+        "volume": "50-100m3",
+        "average": 75,
+        "description": "Velikost dveh do štirih tovornjakov"
+    },
+    {
+        "id": 8,
+        "volume": "100-250m3",
+        "average": 175,
+        "description": "Velikost dveh do petih domačih bazenov"
+    },
+    {
+        "id": 9,
+        "volume": "250-500m3",
+        "average": 375,
+        "description": ""
+    },
+    {
+        "id": 10,
+        "volume": "500-1000m3",
+        "average": 750,
+        "description": ""
+    },
+    {
+        "id": 11,
+        "volume": "Nad 1000m3",
+        "average": 1000,
+        "description": "Velikost olimpijskega bazena"
+    }
+]

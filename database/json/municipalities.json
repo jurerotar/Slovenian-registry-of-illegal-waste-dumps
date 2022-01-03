@@ -8,8 +8,8 @@
         "population_per_area": 66,
         "villages": 21,
         "slug": "apace",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 35
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 2,
@@ -20,8 +20,8 @@
         "population_per_area": 130,
         "villages": 8,
         "slug": "beltinci",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 1
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 3,
@@ -32,8 +32,8 @@
         "population_per_area": 57,
         "villages": 8,
         "slug": "cankova",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 18
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 4,
@@ -44,8 +44,8 @@
         "population_per_area": 118,
         "villages": 6,
         "slug": "crensovci",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 1
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 5,
@@ -56,8 +56,8 @@
         "population_per_area": 41,
         "villages": 3,
         "slug": "dobrovnik",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 4
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 6,
@@ -68,8 +68,8 @@
         "population_per_area": 113,
         "villages": 30,
         "slug": "gornja-radgona",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 35
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 7,
@@ -80,8 +80,8 @@
         "population_per_area": 30,
         "villages": 14,
         "slug": "gornji-petrovci",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 18
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 8,
@@ -92,8 +92,8 @@
         "population_per_area": 96,
         "villages": 22,
         "slug": "grad",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 18
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 9,
@@ -104,8 +104,8 @@
         "population_per_area": 19,
         "villages": 2,
         "slug": "hodos",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 18
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 10,
@@ -116,8 +116,8 @@
         "population_per_area": 31,
         "villages": 1,
         "slug": "kobilje",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 4
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 11,
@@ -128,8 +128,8 @@
         "population_per_area": 81,
         "villages": 16,
         "slug": "krizevci",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 22
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 12,
@@ -140,8 +140,8 @@
         "population_per_area": 69,
         "villages": 5,
         "slug": "kuzma",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 18
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 13,
@@ -152,8 +152,8 @@
         "population_per_area": 91,
         "villages": 23,
         "slug": "lendava",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 4
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 14,
@@ -164,8 +164,8 @@
         "population_per_area": 110,
         "villages": 44,
         "slug": "ljutomer",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 22
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 15,
@@ -176,8 +176,8 @@
         "population_per_area": 42,
         "villages": 28,
         "slug": "moravske-toplice",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 18
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 16,
@@ -188,8 +188,8 @@
         "population_per_area": 302,
         "villages": 12,
         "slug": "murska-sobota",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": null
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 17,
@@ -200,8 +200,8 @@
         "population_per_area": 243,
         "villages": 1,
         "slug": "odranci",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 1
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 18,
@@ -212,8 +212,8 @@
         "population_per_area": 57,
         "villages": 23,
         "slug": "puconci",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 18
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 19,
@@ -224,8 +224,8 @@
         "population_per_area": 152,
         "villages": 22,
         "slug": "radenci",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": null
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 20,
@@ -236,8 +236,8 @@
         "population_per_area": 137,
         "villages": 6,
         "slug": "razkrizje",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 22
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 21,
@@ -248,8 +248,8 @@
         "population_per_area": 81,
         "villages": 11,
         "slug": "rogasovci",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 18
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 22,
@@ -260,8 +260,8 @@
         "population_per_area": 56,
         "villages": 27,
         "slug": "sveti-jurij-ob-scavnici",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 5
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 23,
@@ -272,8 +272,8 @@
         "population_per_area": 28,
         "villages": 6,
         "slug": "salovci",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 18
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 24,
@@ -284,8 +284,8 @@
         "population_per_area": 107,
         "villages": 12,
         "slug": "tisina",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 18
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 25,
@@ -296,8 +296,8 @@
         "population_per_area": 142,
         "villages": 4,
         "slug": "turnisce",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 1
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 26,
@@ -308,8 +308,8 @@
         "population_per_area": 79,
         "villages": 3,
         "slug": "velika-polana",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 1
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 27,
@@ -320,8 +320,8 @@
         "population_per_area": 109,
         "villages": 3,
         "slug": "verzej",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": null
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 28,
@@ -332,8 +332,8 @@
         "population_per_area": 108,
         "villages": 14,
         "slug": "benedikt",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 13
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 29,
@@ -344,8 +344,8 @@
         "population_per_area": 91,
         "villages": 15,
         "slug": "cerkvenjak",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 13
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 30,
@@ -356,8 +356,8 @@
         "population_per_area": 73,
         "villages": 13,
         "slug": "cirkulane",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 5
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 31,
@@ -368,8 +368,8 @@
         "population_per_area": 77,
         "villages": 17,
         "slug": "destrnik",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 5
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 32,
@@ -380,8 +380,8 @@
         "population_per_area": 102,
         "villages": 12,
         "slug": "dornava",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 5
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 33,
@@ -392,8 +392,8 @@
         "population_per_area": 175,
         "villages": 10,
         "slug": "duplek",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 37
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 34,
@@ -404,8 +404,8 @@
         "population_per_area": 65,
         "villages": 11,
         "slug": "gorisnica",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 5
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 35,
@@ -416,8 +416,8 @@
         "population_per_area": 180,
         "villages": 7,
         "slug": "hajdina",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 5
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 36,
@@ -428,8 +428,8 @@
         "population_per_area": 219,
         "villages": 13,
         "slug": "hoce-slivnica",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 13
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 37,
@@ -440,8 +440,8 @@
         "population_per_area": 66,
         "villages": 13,
         "slug": "jursinci",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 5
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 38,
@@ -452,8 +452,8 @@
         "population_per_area": 93,
         "villages": 18,
         "slug": "kidricevo",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 5
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 39,
@@ -464,8 +464,8 @@
         "population_per_area": 96,
         "villages": 19,
         "slug": "kungota",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 13
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 40,
@@ -476,8 +476,8 @@
         "population_per_area": 127,
         "villages": 22,
         "slug": "lenart",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 13
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 41,
@@ -488,8 +488,8 @@
         "population_per_area": 37,
         "villages": 7,
         "slug": "lovrenc-na-pohorju",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 13
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 42,
@@ -500,8 +500,8 @@
         "population_per_area": 56,
         "villages": 26,
         "slug": "majsperk",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 5
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 43,
@@ -512,8 +512,8 @@
         "population_per_area": 57,
         "villages": 13,
         "slug": "makole",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 33
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 44,
@@ -524,8 +524,8 @@
         "population_per_area": 767,
         "villages": 33,
         "slug": "maribor",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 37
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 45,
@@ -536,8 +536,8 @@
         "population_per_area": 133,
         "villages": 9,
         "slug": "markovci",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 5
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 46,
@@ -548,8 +548,8 @@
         "population_per_area": 499,
         "villages": 4,
         "slug": "miklavz-na-dravskem-polju",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 37
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 47,
@@ -560,8 +560,8 @@
         "population_per_area": 118,
         "villages": 21,
         "slug": "oplotnica",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 31
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 48,
@@ -572,8 +572,8 @@
         "population_per_area": 89,
         "villages": 60,
         "slug": "ormoz",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 19
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 49,
@@ -584,8 +584,8 @@
         "population_per_area": 100,
         "villages": 30,
         "slug": "pesnica",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": null
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 50,
@@ -596,8 +596,8 @@
         "population_per_area": 41,
         "villages": 13,
         "slug": "podlehnik",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 5
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 51,
@@ -608,8 +608,8 @@
         "population_per_area": 120,
         "villages": 18,
         "slug": "poljcane",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 33
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 52,
@@ -620,8 +620,8 @@
         "population_per_area": 355,
         "villages": 10,
         "slug": "ptuj",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 5
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 53,
@@ -632,8 +632,8 @@
         "population_per_area": 127,
         "villages": 13,
         "slug": "race-fram",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 13
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 54,
@@ -644,8 +644,8 @@
         "population_per_area": 122,
         "villages": 7,
         "slug": "ruse",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 37
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 55,
@@ -656,8 +656,8 @@
         "population_per_area": 71,
         "villages": 14,
         "slug": "selnica-ob-dravi",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 13
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 56,
@@ -668,8 +668,8 @@
         "population_per_area": 94,
         "villages": 77,
         "slug": "slovenska-bistrica",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 33
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 57,
@@ -680,8 +680,8 @@
         "population_per_area": 65,
         "villages": 5,
         "slug": "sredisce-ob-dravi",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 19
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 58,
@@ -692,8 +692,8 @@
         "population_per_area": 120,
         "villages": 8,
         "slug": "starse",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 5
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 59,
@@ -704,8 +704,8 @@
         "population_per_area": 64,
         "villages": 11,
         "slug": "sveta-ana",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 13
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 60,
@@ -716,8 +716,8 @@
         "population_per_area": 84,
         "villages": 8,
         "slug": "sveta-trojica-v-slovenskih-goricah",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 13
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 61,
@@ -728,8 +728,8 @@
         "population_per_area": 69,
         "villages": 7,
         "slug": "sveti-andraz-v-slovenskih-goricah",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 5
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 62,
@@ -740,8 +740,8 @@
         "population_per_area": 68,
         "villages": 8,
         "slug": "sveti-jurij-v-slovenskih-goricah",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 5
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 63,
@@ -752,8 +752,8 @@
         "population_per_area": 55,
         "villages": 17,
         "slug": "sveti-tomaz",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 19
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 64,
@@ -764,8 +764,8 @@
         "population_per_area": 130,
         "villages": 22,
         "slug": "sentilj",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 13
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 65,
@@ -776,8 +776,8 @@
         "population_per_area": 57,
         "villages": 7,
         "slug": "trnovska-vas",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 5
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 66,
@@ -788,8 +788,8 @@
         "population_per_area": 69,
         "villages": 31,
         "slug": "videm",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 5
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 67,
@@ -800,8 +800,8 @@
         "population_per_area": 79,
         "villages": 9,
         "slug": "zavrc",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 5
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 68,
@@ -812,8 +812,8 @@
         "population_per_area": 35,
         "villages": 5,
         "slug": "zetale",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 5
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 69,
@@ -824,8 +824,8 @@
         "population_per_area": 21,
         "villages": 9,
         "slug": "crna-na-koroskem",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 40
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 70,
@@ -836,8 +836,8 @@
         "population_per_area": 85,
         "villages": 24,
         "slug": "dravograd",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 20
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 71,
@@ -848,8 +848,8 @@
         "population_per_area": 140,
         "villages": 6,
         "slug": "mezica",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 40
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 72,
@@ -860,8 +860,8 @@
         "population_per_area": 42,
         "villages": 11,
         "slug": "mislinja",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 16
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 73,
@@ -872,8 +872,8 @@
         "population_per_area": 91,
         "villages": 6,
         "slug": "muta",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 16
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 74,
@@ -884,8 +884,8 @@
         "population_per_area": 25,
         "villages": 9,
         "slug": "podvelka",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 20
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 75,
@@ -896,8 +896,8 @@
         "population_per_area": 116,
         "villages": 12,
         "slug": "prevalje",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 40
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 76,
@@ -908,8 +908,8 @@
         "population_per_area": 66,
         "villages": 14,
         "slug": "radlje-ob-dravi",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 16
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 77,
@@ -920,8 +920,8 @@
         "population_per_area": 185,
         "villages": 16,
         "slug": "ravne-na-koroskem",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 40
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 78,
@@ -932,8 +932,8 @@
         "population_per_area": 20,
         "villages": 6,
         "slug": "ribnica-na-pohorju",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 20
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 79,
@@ -944,8 +944,8 @@
         "population_per_area": 96,
         "villages": 22,
         "slug": "slovenj-gradec",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 16
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 80,
@@ -956,8 +956,8 @@
         "population_per_area": 55,
         "villages": 5,
         "slug": "vuzenica",
-        "state_inspectorate_id": 5,
-        "intermunicipality_inspectorate_id": 16
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 81,
@@ -968,8 +968,8 @@
         "population_per_area": 103,
         "villages": 22,
         "slug": "braslovce",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 10
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 82,
@@ -980,8 +980,8 @@
         "population_per_area": 522,
         "villages": 39,
         "slug": "celje",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 29
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 83,
@@ -992,8 +992,8 @@
         "population_per_area": 55,
         "villages": 13,
         "slug": "dobje",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 11
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 84,
@@ -1004,8 +1004,8 @@
         "population_per_area": 71,
         "villages": 11,
         "slug": "dobrna",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 11
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 85,
@@ -1016,8 +1016,8 @@
         "population_per_area": 27,
         "villages": 7,
         "slug": "gornji-grad",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 10
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 86,
@@ -1028,8 +1028,8 @@
         "population_per_area": 38,
         "villages": 23,
         "slug": "kozje",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 6
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 87,
@@ -1040,8 +1040,8 @@
         "population_per_area": 69,
         "villages": 85,
         "slug": "lasko",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 29
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 88,
@@ -1052,8 +1052,8 @@
         "population_per_area": 34,
         "villages": 9,
         "slug": "ljubno",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 10
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 89,
@@ -1064,8 +1064,8 @@
         "population_per_area": 14,
         "villages": 7,
         "slug": "luce",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 10
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 90,
@@ -1076,8 +1076,8 @@
         "population_per_area": 75,
         "villages": 8,
         "slug": "mozirje",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 10
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 91,
@@ -1088,8 +1088,8 @@
         "population_per_area": 61,
         "villages": 15,
         "slug": "nazarje",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 10
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 92,
@@ -1100,8 +1100,8 @@
         "population_per_area": 54,
         "villages": 26,
         "slug": "podcetrtek",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 6
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 93,
@@ -1112,8 +1112,8 @@
         "population_per_area": 173,
         "villages": 9,
         "slug": "polzela",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 10
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 94,
@@ -1124,8 +1124,8 @@
         "population_per_area": 112,
         "villages": 8,
         "slug": "prebold",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 10
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 95,
@@ -1136,8 +1136,8 @@
         "population_per_area": 76,
         "villages": 12,
         "slug": "recica-ob-savinji",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 10
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 96,
@@ -1148,8 +1148,8 @@
         "population_per_area": 155,
         "villages": 41,
         "slug": "rogaska-slatina",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 6
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 97,
@@ -1160,8 +1160,8 @@
         "population_per_area": 80,
         "villages": 9,
         "slug": "rogatec",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 6
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 98,
@@ -1172,8 +1172,8 @@
         "population_per_area": 147,
         "villages": 58,
         "slug": "slovenske-konjice",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 11
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 99,
@@ -1184,8 +1184,8 @@
         "population_per_area": 5,
         "villages": 4,
         "slug": "solcava",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 10
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 100,
@@ -1196,8 +1196,8 @@
         "population_per_area": 85,
         "villages": 108,
         "slug": "sentjur",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 11
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 101,
@@ -1208,8 +1208,8 @@
         "population_per_area": 93,
         "villages": 77,
         "slug": "smarje-pri-jelsah",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 6
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 102,
@@ -1220,8 +1220,8 @@
         "population_per_area": 171,
         "villages": 10,
         "slug": "smartno-ob-paki",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 10
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 103,
@@ -1232,8 +1232,8 @@
         "population_per_area": 88,
         "villages": 11,
         "slug": "sostanj",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 10
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 104,
@@ -1244,8 +1244,8 @@
         "population_per_area": 144,
         "villages": 12,
         "slug": "store",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 29
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 105,
@@ -1256,8 +1256,8 @@
         "population_per_area": 43,
         "villages": 7,
         "slug": "tabor",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 8
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 106,
@@ -1268,8 +1268,8 @@
         "population_per_area": 398,
         "villages": 26,
         "slug": "velenje",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 10
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 107,
@@ -1280,8 +1280,8 @@
         "population_per_area": 36,
         "villages": 8,
         "slug": "vitanje",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 11
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 108,
@@ -1292,8 +1292,8 @@
         "population_per_area": 110,
         "villages": 55,
         "slug": "vojnik",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 11
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 109,
@@ -1304,8 +1304,8 @@
         "population_per_area": 48,
         "villages": 16,
         "slug": "vransko",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 8
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 110,
@@ -1316,8 +1316,8 @@
         "population_per_area": 94,
         "villages": 27,
         "slug": "zrece",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 11
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 111,
@@ -1328,8 +1328,8 @@
         "population_per_area": 181,
         "villages": 38,
         "slug": "zalec",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 29
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 112,
@@ -1340,8 +1340,8 @@
         "population_per_area": 43,
         "villages": 11,
         "slug": "bistrica-ob-sotli",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 28
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 113,
@@ -1352,8 +1352,8 @@
         "population_per_area": 90,
         "villages": 109,
         "slug": "brezice",
-        "state_inspectorate_id": 8,
-        "intermunicipality_inspectorate_id": 28
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 114,
@@ -1364,8 +1364,8 @@
         "population_per_area": 39,
         "villages": 28,
         "slug": "kostanjevica-na-krki",
-        "state_inspectorate_id": 8,
-        "intermunicipality_inspectorate_id": null
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 115,
@@ -1376,8 +1376,8 @@
         "population_per_area": 89,
         "villages": 157,
         "slug": "krsko",
-        "state_inspectorate_id": 8,
-        "intermunicipality_inspectorate_id": 28
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 116,
@@ -1388,8 +1388,8 @@
         "population_per_area": 87,
         "villages": 23,
         "slug": "radece",
-        "state_inspectorate_id": 3,
-        "intermunicipality_inspectorate_id": 28
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 117,
@@ -1400,8 +1400,8 @@
         "population_per_area": 65,
         "villages": 114,
         "slug": "sevnica",
-        "state_inspectorate_id": 8,
-        "intermunicipality_inspectorate_id": 28
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 118,
@@ -1412,8 +1412,8 @@
         "population_per_area": 156,
         "villages": 19,
         "slug": "hrastnik",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 32
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 119,
@@ -1424,8 +1424,8 @@
         "population_per_area": 66,
         "villages": 108,
         "slug": "litija",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 23
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 120,
@@ -1436,8 +1436,8 @@
         "population_per_area": 304,
         "villages": 16,
         "slug": "trbovlje",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 32
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 121,
@@ -1448,8 +1448,8 @@
         "population_per_area": 116,
         "villages": 74,
         "slug": "zagorje-ob-savi",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 32
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 122,
@@ -1460,8 +1460,8 @@
         "population_per_area": 42,
         "villages": 118,
         "slug": "crnomelj",
-        "state_inspectorate_id": 8,
-        "intermunicipality_inspectorate_id": 27
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 123,
@@ -1472,8 +1472,8 @@
         "population_per_area": 32,
         "villages": 29,
         "slug": "dolenjske-toplice",
-        "state_inspectorate_id": 8,
-        "intermunicipality_inspectorate_id": 2
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 124,
@@ -1484,8 +1484,8 @@
         "population_per_area": 29,
         "villages": 68,
         "slug": "kocevje",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 41
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 125,
@@ -1496,8 +1496,8 @@
         "population_per_area": 11,
         "villages": 52,
         "slug": "kostel",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 41
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 126,
@@ -1508,8 +1508,8 @@
         "population_per_area": 15,
         "villages": 17,
         "slug": "loski-potok",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 14
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 127,
@@ -1520,8 +1520,8 @@
         "population_per_area": 77,
         "villages": 60,
         "slug": "metlika",
-        "state_inspectorate_id": 8,
-        "intermunicipality_inspectorate_id": 27
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 128,
@@ -1532,8 +1532,8 @@
         "population_per_area": 58,
         "villages": 28,
         "slug": "mirna",
-        "state_inspectorate_id": 9,
-        "intermunicipality_inspectorate_id": null
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 129,
@@ -1544,8 +1544,8 @@
         "population_per_area": 58,
         "villages": 28,
         "slug": "mirna-pec",
-        "state_inspectorate_id": 8,
-        "intermunicipality_inspectorate_id": 2
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 130,
@@ -1556,8 +1556,8 @@
         "population_per_area": 41,
         "villages": 43,
         "slug": "mokronog-trebelno",
-        "state_inspectorate_id": 8,
-        "intermunicipality_inspectorate_id": 36
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 131,
@@ -1568,8 +1568,8 @@
         "population_per_area": 151,
         "villages": 99,
         "slug": "novo-mesto",
-        "state_inspectorate_id": 8,
-        "intermunicipality_inspectorate_id": 44
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 132,
@@ -1580,8 +1580,8 @@
         "population_per_area": 11,
         "villages": 19,
         "slug": "osilnica",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 41
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 133,
@@ -1592,8 +1592,8 @@
         "population_per_area": 20,
         "villages": 6,
         "slug": "ribnica",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 14
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 134,
@@ -1604,8 +1604,8 @@
         "population_per_area": 26,
         "villages": 46,
         "slug": "semic",
-        "state_inspectorate_id": 8,
-        "intermunicipality_inspectorate_id": 27
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 135,
@@ -1616,8 +1616,8 @@
         "population_per_area": 43,
         "villages": 22,
         "slug": "sodrazica",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 14
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 136,
@@ -1628,8 +1628,8 @@
         "population_per_area": 135,
         "villages": 11,
         "slug": "straza",
-        "state_inspectorate_id": 6,
-        "intermunicipality_inspectorate_id": 44
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 137,
@@ -1640,8 +1640,8 @@
         "population_per_area": 70,
         "villages": 58,
         "slug": "sentjernej",
-        "state_inspectorate_id": 8,
-        "intermunicipality_inspectorate_id": 21
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 138,
@@ -1652,8 +1652,8 @@
         "population_per_area": 57,
         "villages": 25,
         "slug": "sentrupert",
-        "state_inspectorate_id": 8,
-        "intermunicipality_inspectorate_id": 36
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 139,
@@ -1664,8 +1664,8 @@
         "population_per_area": 53,
         "villages": 39,
         "slug": "skocjan",
-        "state_inspectorate_id": 8,
-        "intermunicipality_inspectorate_id": 21
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 140,
@@ -1676,8 +1676,8 @@
         "population_per_area": 93,
         "villages": 24,
         "slug": "smarjeske-toplice",
-        "state_inspectorate_id": 8,
-        "intermunicipality_inspectorate_id": 21
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 141,
@@ -1688,8 +1688,8 @@
         "population_per_area": 76,
         "villages": 131,
         "slug": "trebnje",
-        "state_inspectorate_id": 8,
-        "intermunicipality_inspectorate_id": 43
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 142,
@@ -1700,8 +1700,8 @@
         "population_per_area": 28,
         "villages": 18,
         "slug": "zuzemberk",
-        "state_inspectorate_id": 8,
-        "intermunicipality_inspectorate_id": 2
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 143,
@@ -1712,8 +1712,8 @@
         "population_per_area": 108,
         "villages": 12,
         "slug": "borovnica",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 12
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 144,
@@ -1724,8 +1724,8 @@
         "population_per_area": 139,
         "villages": 16,
         "slug": "brezovica",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 12
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 145,
@@ -1736,8 +1736,8 @@
         "population_per_area": 38,
         "villages": 24,
         "slug": "dobrepolje",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 14
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 146,
@@ -1748,8 +1748,8 @@
         "population_per_area": 66,
         "villages": 33,
         "slug": "dobrova-polhov-gradec",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 12
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 147,
@@ -1760,8 +1760,8 @@
         "population_per_area": 190,
         "villages": 19,
         "slug": "dol-pri-ljubljani",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 23
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 148,
@@ -1772,8 +1772,8 @@
         "population_per_area": 508,
         "villages": 51,
         "slug": "domzale",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": null
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 149,
@@ -1784,8 +1784,8 @@
         "population_per_area": 159,
         "villages": 66,
         "slug": "grosuplje",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 43
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 150,
@@ -1796,8 +1796,8 @@
         "population_per_area": 93,
         "villages": 9,
         "slug": "horjul",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 12
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 151,
@@ -1808,8 +1808,8 @@
         "population_per_area": 77,
         "villages": 24,
         "slug": "ig",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 7
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 152,
@@ -1820,8 +1820,8 @@
         "population_per_area": 75,
         "villages": 137,
         "slug": "ivancna-gorica",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 43
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 153,
@@ -1832,8 +1832,8 @@
         "population_per_area": 113,
         "villages": 102,
         "slug": "kamnik",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": null
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 154,
@@ -1844,8 +1844,8 @@
         "population_per_area": 211,
         "villages": 14,
         "slug": "komenda",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 9
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 155,
@@ -1856,20 +1856,20 @@
         "population_per_area": 1004,
         "villages": 38,
         "slug": "ljubljana",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": null
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 156,
-        "name": "Log - Dragomer",
+        "name": "Log-Dragomer",
         "region_id": 8,
         "population": 3538,
         "area": 11,
         "population_per_area": 322,
         "villages": 3,
         "slug": "log-dragomer",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 12
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 157,
@@ -1880,8 +1880,8 @@
         "population_per_area": 74,
         "villages": 19,
         "slug": "logatec",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": null
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 158,
@@ -1892,8 +1892,8 @@
         "population_per_area": 72,
         "villages": 66,
         "slug": "lukovica",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 9
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 159,
@@ -1904,8 +1904,8 @@
         "population_per_area": 194,
         "villages": 32,
         "slug": "medvode",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": null
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 160,
@@ -1916,8 +1916,8 @@
         "population_per_area": 325,
         "villages": 4,
         "slug": "menges",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 9
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 161,
@@ -1928,8 +1928,8 @@
         "population_per_area": 79,
         "villages": 50,
         "slug": "moravce",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 9
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 162,
@@ -1940,8 +1940,8 @@
         "population_per_area": 194,
         "villages": 19,
         "slug": "skofljica",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 7
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 163,
@@ -1952,8 +1952,8 @@
         "population_per_area": 57,
         "villages": 54,
         "slug": "smartno-pri-litiji",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 23
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 164,
@@ -1964,8 +1964,8 @@
         "population_per_area": 428,
         "villages": 1,
         "slug": "trzin",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 9
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 165,
@@ -1976,8 +1976,8 @@
         "population_per_area": 40,
         "villages": 88,
         "slug": "velike-lasce",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 14
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 166,
@@ -1988,8 +1988,8 @@
         "population_per_area": 141,
         "villages": 16,
         "slug": "vodice",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 9
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 167,
@@ -2000,8 +2000,8 @@
         "population_per_area": 126,
         "villages": 25,
         "slug": "vrhnika",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 12
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 168,
@@ -2012,8 +2012,8 @@
         "population_per_area": 109,
         "villages": 10,
         "slug": "bled",
-        "state_inspectorate_id": 9,
-        "intermunicipality_inspectorate_id": 34
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 169,
@@ -2024,8 +2024,8 @@
         "population_per_area": 15,
         "villages": 24,
         "slug": "bohinj",
-        "state_inspectorate_id": 9,
-        "intermunicipality_inspectorate_id": 34
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 170,
@@ -2036,8 +2036,8 @@
         "population_per_area": 100,
         "villages": 30,
         "slug": "cerklje-na-gorenjskem",
-        "state_inspectorate_id": 9,
-        "intermunicipality_inspectorate_id": 26
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 171,
@@ -2048,8 +2048,8 @@
         "population_per_area": 49,
         "villages": 73,
         "slug": "gorenja-vas-poljane",
-        "state_inspectorate_id": 9,
-        "intermunicipality_inspectorate_id": 12
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 172,
@@ -2060,8 +2060,8 @@
         "population_per_area": 23,
         "villages": 12,
         "slug": "gorje",
-        "state_inspectorate_id": 9,
-        "intermunicipality_inspectorate_id": 3
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 173,
@@ -2072,8 +2072,8 @@
         "population_per_area": 282,
         "villages": 13,
         "slug": "jesenice",
-        "state_inspectorate_id": 9,
-        "intermunicipality_inspectorate_id": 3
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 174,
@@ -2084,8 +2084,8 @@
         "population_per_area": 9,
         "villages": 2,
         "slug": "jezersko",
-        "state_inspectorate_id": 9,
-        "intermunicipality_inspectorate_id": 26
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 175,
@@ -2096,8 +2096,8 @@
         "population_per_area": 21,
         "villages": 10,
         "slug": "kranj",
-        "state_inspectorate_id": 9,
-        "intermunicipality_inspectorate_id": 26
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 176,
@@ -2108,8 +2108,8 @@
         "population_per_area": 21,
         "villages": 10,
         "slug": "kranjska-gora",
-        "state_inspectorate_id": 9,
-        "intermunicipality_inspectorate_id": 3
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 177,
@@ -2120,8 +2120,8 @@
         "population_per_area": 182,
         "villages": 13,
         "slug": "naklo",
-        "state_inspectorate_id": 9,
-        "intermunicipality_inspectorate_id": 26
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 178,
@@ -2132,8 +2132,8 @@
         "population_per_area": 40,
         "villages": 14,
         "slug": "preddvor",
-        "state_inspectorate_id": 9,
-        "intermunicipality_inspectorate_id": 26
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 179,
@@ -2144,8 +2144,8 @@
         "population_per_area": 158,
         "villages": 52,
         "slug": "radovljica",
-        "state_inspectorate_id": 9,
-        "intermunicipality_inspectorate_id": 45
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 180,
@@ -2156,8 +2156,8 @@
         "population_per_area": 206,
         "villages": 12,
         "slug": "sencur",
-        "state_inspectorate_id": 9,
-        "intermunicipality_inspectorate_id": 26
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 181,
@@ -2168,8 +2168,8 @@
         "population_per_area": 156,
         "villages": 62,
         "slug": "skofja-loka",
-        "state_inspectorate_id": 9,
-        "intermunicipality_inspectorate_id": null
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 182,
@@ -2180,8 +2180,8 @@
         "population_per_area": 99,
         "villages": 35,
         "slug": "trzic",
-        "state_inspectorate_id": 9,
-        "intermunicipality_inspectorate_id": 26
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 183,
@@ -2192,8 +2192,8 @@
         "population_per_area": 41,
         "villages": 30,
         "slug": "zelezniki",
-        "state_inspectorate_id": 9,
-        "intermunicipality_inspectorate_id": 34
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 184,
@@ -2204,8 +2204,8 @@
         "population_per_area": 100,
         "villages": 18,
         "slug": "ziri",
-        "state_inspectorate_id": 9,
-        "intermunicipality_inspectorate_id": 12
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 185,
@@ -2216,8 +2216,8 @@
         "population_per_area": 88,
         "villages": 10,
         "slug": "zirovnica",
-        "state_inspectorate_id": 9,
-        "intermunicipality_inspectorate_id": 3
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 186,
@@ -2228,8 +2228,8 @@
         "population_per_area": 79,
         "villages": 45,
         "slug": "ajdovscina",
-        "state_inspectorate_id": 7,
-        "intermunicipality_inspectorate_id": null
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 187,
@@ -2240,8 +2240,8 @@
         "population_per_area": 8,
         "villages": 14,
         "slug": "bovec",
-        "state_inspectorate_id": 7,
-        "intermunicipality_inspectorate_id": 15
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 188,
@@ -2252,8 +2252,8 @@
         "population_per_area": 78,
         "villages": 45,
         "slug": "brda",
-        "state_inspectorate_id": 7,
-        "intermunicipality_inspectorate_id": 38
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 189,
@@ -2264,8 +2264,8 @@
         "population_per_area": 35,
         "villages": 30,
         "slug": "cerkno",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 39
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 190,
@@ -2276,8 +2276,8 @@
         "population_per_area": 40,
         "villages": 36,
         "slug": "idrija",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 39
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 191,
@@ -2288,8 +2288,8 @@
         "population_per_area": 36,
         "villages": 35,
         "slug": "kanal",
-        "state_inspectorate_id": 7,
-        "intermunicipality_inspectorate_id": 15
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 192,
@@ -2300,8 +2300,8 @@
         "population_per_area": 22,
         "villages": 33,
         "slug": "kobarid",
-        "state_inspectorate_id": 7,
-        "intermunicipality_inspectorate_id": null
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 193,
@@ -2312,8 +2312,8 @@
         "population_per_area": 77,
         "villages": 16,
         "slug": "miren-kostanjevica",
-        "state_inspectorate_id": 7,
-        "intermunicipality_inspectorate_id": 15
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 194,
@@ -2324,8 +2324,8 @@
         "population_per_area": 114,
         "villages": 43,
         "slug": "nova-gorica",
-        "state_inspectorate_id": 7,
-        "intermunicipality_inspectorate_id": 38
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 195,
@@ -2336,8 +2336,8 @@
         "population_per_area": 141,
         "villages": 6,
         "slug": "rence-vogrsko",
-        "state_inspectorate_id": 7,
-        "intermunicipality_inspectorate_id": 30
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 196,
@@ -2348,8 +2348,8 @@
         "population_per_area": 423,
         "villages": 2,
         "slug": "sempeter-vrtojba",
-        "state_inspectorate_id": 7,
-        "intermunicipality_inspectorate_id": 30
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 197,
@@ -2360,8 +2360,8 @@
         "population_per_area": 31,
         "villages": 72,
         "slug": "tolmin",
-        "state_inspectorate_id": 7,
-        "intermunicipality_inspectorate_id": 15
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 198,
@@ -2372,8 +2372,8 @@
         "population_per_area": 49,
         "villages": 20,
         "slug": "vipava",
-        "state_inspectorate_id": 7,
-        "intermunicipality_inspectorate_id": null
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 199,
@@ -2384,8 +2384,8 @@
         "population_per_area": 21,
         "villages": 45,
         "slug": "bloke",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 24
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 200,
@@ -2396,8 +2396,8 @@
         "population_per_area": 48,
         "villages": 64,
         "slug": "cerknica",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 24
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 201,
@@ -2408,8 +2408,8 @@
         "population_per_area": 28,
         "villages": 63,
         "slug": "ilirska-bistrica",
-        "state_inspectorate_id": 2,
-        "intermunicipality_inspectorate_id": null
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 202,
@@ -2420,8 +2420,8 @@
         "population_per_area": 23,
         "villages": 21,
         "slug": "loska-dolina",
-        "state_inspectorate_id": 4,
-        "intermunicipality_inspectorate_id": 24
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 203,
@@ -2432,8 +2432,8 @@
         "population_per_area": 27,
         "villages": 11,
         "slug": "pivka",
-        "state_inspectorate_id": 2,
-        "intermunicipality_inspectorate_id": 24
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 204,
@@ -2444,8 +2444,8 @@
         "population_per_area": 57,
         "villages": 40,
         "slug": "postojna",
-        "state_inspectorate_id": 2,
-        "intermunicipality_inspectorate_id": 24
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 205,
@@ -2456,8 +2456,8 @@
         "population_per_area": 403,
         "villages": 1,
         "slug": "ankaran",
-        "state_inspectorate_id": 2,
-        "intermunicipality_inspectorate_id": 42
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 206,
@@ -2468,20 +2468,20 @@
         "population_per_area": 29,
         "villages": 31,
         "slug": "divaca",
-        "state_inspectorate_id": 2,
-        "intermunicipality_inspectorate_id": 25
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 207,
-        "name": "Hrpelje-Kozina",
+        "name": "Hrpelje - Kozina",
         "region_id": 12,
         "population": 4604,
         "area": 192.2,
         "population_per_area": 24,
         "villages": 38,
         "slug": "hrpelje-kozina",
-        "state_inspectorate_id": 2,
-        "intermunicipality_inspectorate_id": 25
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 208,
@@ -2492,8 +2492,8 @@
         "population_per_area": 578,
         "villages": 9,
         "slug": "izola",
-        "state_inspectorate_id": 2,
-        "intermunicipality_inspectorate_id": null
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 209,
@@ -2504,8 +2504,8 @@
         "population_per_area": 211,
         "villages": 14,
         "slug": "komen",
-        "state_inspectorate_id": 2,
-        "intermunicipality_inspectorate_id": 25
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 210,
@@ -2516,8 +2516,8 @@
         "population_per_area": 162,
         "villages": 104,
         "slug": "koper",
-        "state_inspectorate_id": 2,
-        "intermunicipality_inspectorate_id": null
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 211,
@@ -2528,8 +2528,8 @@
         "population_per_area": 389,
         "villages": 11,
         "slug": "piran",
-        "state_inspectorate_id": 2,
-        "intermunicipality_inspectorate_id": 42
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     },
     {
         "id": 212,
@@ -2540,7 +2540,7 @@
         "population_per_area": 58,
         "villages": 64,
         "slug": "sezana",
-        "state_inspectorate_id": 2,
-        "intermunicipality_inspectorate_id": 25
+        "updated_at": "2021-07-27",
+        "created_at": "2021-07-27"
     }
 ]
