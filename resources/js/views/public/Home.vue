@@ -2,17 +2,6 @@
     <div class="flex flex-col">
         <app-head />
         <interactive-map />
-        <!--        <ul class="">-->
-        <!--            <li-->
-        <!--                v-for="type in props.trash"-->
-        <!--                :key="type.id"-->
-        <!--                class=""-->
-        <!--            >-->
-        <!--                <p>-->
-        <!--                    {{ type.name }} : {{ type.volume }} m³ ({{ correctPercentage(type.percentage) }}%)-->
-        <!--                </p>-->
-        <!--            </li>-->
-        <!--        </ul>-->
     </div>
 </template>
 
@@ -26,7 +15,6 @@ import {usePage} from "@inertiajs/inertia-vue3";
 import {InertiaPageProps} from "@/js/types/inertia";
 
 const {statisticsData} = usePage<InertiaPageProps>().props.value;
-console.log(statisticsData)
 // const statisticsData = computed<StatisticsData[]>(() => page.props.value.statisticsData);
 
 // const sum = computed(() => props.trash.reduce((sum: number, el: any) => sum + el.percentage, 0));
