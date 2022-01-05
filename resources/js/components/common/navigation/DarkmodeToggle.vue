@@ -1,39 +1,39 @@
 <template>
-    <div
-        class="tab cursor-pointer flex flex-row relative bg-gray-100 dark:bg-zinc-900 p-1 rounded-3xl items-center
+  <div
+    class="tab cursor-pointer flex flex-row relative bg-gray-100 dark:bg-zinc-900 p-1 rounded-3xl items-center
         transition-transform duration-300 justify-center w-[5.5rem] h-8"
-        tabindex="0"
-        role="button"
-        @click="toggle()"
-        @keyup.enter="toggle()"
+    tabindex="0"
+    role="button"
+    @click="toggle()"
+    @keyup.enter="toggle()"
+  >
+    <div
+      :class="mode === 'dark' ? 'back' : 'front'"
+      class="flex flex-row justify-center items-center w-full h-full absolute top-0 left-0
+            transition-transform duration-300"
     >
-        <div
-            :class="mode === 'dark' ? 'back' : 'front'"
-            class="flex flex-row justify-center items-center w-full h-full absolute top-0 left-0
-            transition-transform duration-300"
-        >
-            <font-awesome-icon
-                :icon="['fa', 'sun']"
-                class="mr-1 w-4 h-4 colors-transition text-gray-600"
-            />
-            <p class="text-sm text-black select-none font-medium colors-transition">
-                Svetlo
-            </p>
-        </div>
-        <div
-            :class="mode === 'dark' ? 'front' : 'back'"
-            class="flex flex-row justify-center items-center w-full h-full absolute top-0 left-0
-            transition-transform duration-300"
-        >
-            <font-awesome-icon
-                :icon="['fa', 'moon']"
-                class="colors-transition dark:text-white mr-1 w-4 h-4"
-            />
-            <p class="text-sm text-white select-none font-medium colors-transition">
-                Temno
-            </p>
-        </div>
+      <font-awesome-icon
+        :icon="['fa', 'sun']"
+        class="mr-1 w-4 h-4 colors-transition text-gray-600"
+      />
+      <p class="text-sm text-black select-none font-medium colors-transition">
+        Svetlo
+      </p>
     </div>
+    <div
+      :class="mode === 'dark' ? 'front' : 'back'"
+      class="flex flex-row justify-center items-center w-full h-full absolute top-0 left-0
+            transition-transform duration-300"
+    >
+      <font-awesome-icon
+        :icon="['fa', 'moon']"
+        class="colors-transition dark:text-white mr-1 w-4 h-4"
+      />
+      <p class="text-sm text-white select-none font-medium colors-transition">
+        Temno
+      </p>
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts">

@@ -1,10 +1,10 @@
 <template>
-    <main
-        :class="{'pointer-events-none': sidebarExtended && !isLgUp}"
-        class="flex p-4 lg:ml-72 lg:mt-16"
-    >
-        <slot />
-    </main>
+  <main
+    :class="{'pointer-events-none': sidebarExtended && !isLgUp}"
+    class="flex p-4 lg:ml-72 lg:mt-16"
+  >
+    <slot />
+  </main>
 </template>
 
 <script setup lang = "ts">

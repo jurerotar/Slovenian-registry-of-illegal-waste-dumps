@@ -1,10 +1,10 @@
 <template>
-    <input
-        ref="input"
-        class="h-10"
-        :value="props.modelValue"
-        @input="updateValue($event.target.value)"
-    >
+  <input
+    ref="input"
+    class="h-10"
+    :value="props.modelValue"
+    @input="updateValue($event.target.value)"
+  >
 </template>
 
 <script setup lang = "ts">

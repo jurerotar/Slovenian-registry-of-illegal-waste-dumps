@@ -1,9 +1,9 @@
 export interface Constants {
-    breakpoints: Breakpoints,
+  breakpoints: Breakpoints,
 }
 
 export interface Breakpoints {
-    [breakpoint: string]: number,
+  [breakpoint: string]: number,
 }
 
 

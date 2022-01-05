@@ -1,12 +1,12 @@
 <template>
-    <input
-        type="checkbox"
-        :checked="props.checked"
-        class="rounded border-gray-300 text-blue-500 shadow-sm
+  <input
+    type="checkbox"
+    :checked="props.checked"
+    class="rounded border-gray-300 text-blue-500 shadow-sm
            accessible:border-box-highlight-gray
            focus:border-box-highlight-blue"
-        @change="updateValue"
-    >
+    @change="updateValue"
+  >
 </template>
 
 <script setup lang="ts">

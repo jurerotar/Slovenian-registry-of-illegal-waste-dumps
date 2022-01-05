@@ -1,11 +1,11 @@
 <template>
-    <div class="">
-        <app-head />
-        <app-section-heading>
-            Regija
-        </app-section-heading>
-        <!--        <dump-table :additional="additional" :data="dumps"></dump-table>-->
-    </div>
+  <div class="">
+    <app-head />
+    <app-section-heading>
+      Regija
+    </app-section-heading>
+    <!--        <dump-table :additional="additional" :data="dumps"></dump-table>-->
+  </div>
 </template>
 
 <script setup>

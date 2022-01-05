@@ -1,24 +1,24 @@
 <template>
-    <div class="w-full overflow-x-scroll lg:overflow-x-auto">
-        <div class="min-w-[800px] flex flex-col w-full">
-            <dump-table-head />
-        </div>
+  <div class="w-full overflow-x-scroll lg:overflow-x-auto">
+    <div class="min-w-[800px] flex flex-col w-full">
+      <dump-table-head />
     </div>
-    <div
-        v-for="dump in filtered"
-        :key="dump.id"
-        class=""
-    >
-        <div class="flex flex-col w-full overflow-x-scroll lg:overflow-x-auto">
-            <dump-table-row :data="dump" />
-        </div>
-        <div class="w-full">
-            <dump-table-information
-                :data="dump"
-                :volumes="additional.volumes"
-            />
-        </div>
+  </div>
+  <div
+    v-for="dump in filtered"
+    :key="dump.id"
+    class=""
+  >
+    <div class="flex flex-col w-full overflow-x-scroll lg:overflow-x-auto">
+      <dump-table-row :data="dump" />
     </div>
+    <div class="w-full">
+      <dump-table-information
+        :data="dump"
+        :volumes="additional.volumes"
+      />
+    </div>
+  </div>
 </template>
 
 <script>

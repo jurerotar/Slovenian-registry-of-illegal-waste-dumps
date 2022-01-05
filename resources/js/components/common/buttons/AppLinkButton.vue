@@ -1,11 +1,11 @@
 <template>
-    <inertialink
-        :href="props.href"
-    >
-        <app-button>
-            <slot />
-        </app-button>
-    </inertialink>
+  <inertialink
+    :href="props.href"
+  >
+    <app-button>
+      <slot />
+    </app-button>
+  </inertialink>
 </template>
 
 <script setup lang = "ts">

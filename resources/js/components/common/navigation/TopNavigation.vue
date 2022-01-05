@@ -1,21 +1,21 @@
 <template>
-    <div class="flex flex-col lg:flex-row items-start justify-start lg:justify-end lg:items-center gap-4">
-        <inertia-link
-            v-for="link in links"
-            :key="link.name"
-            :href="link.href"
-            class="font-semibold dark:text-white flex py-1 md:py-0 w-full md:w-auto colors-transition"
-            :class="[{'underline': link.href === currentUrl}]"
-            tabindex="0"
-            @click="toggleSidebar()"
-        >
-            {{ link.label }}
-        </inertia-link>
-        <app-link-button :href="'/report-dump'">
-            Prijavi odlagališče
-        </app-link-button>
-        <darkmode-toggle />
-    </div>
+  <div class="flex flex-col lg:flex-row items-start justify-start lg:justify-end lg:items-center gap-4">
+    <inertia-link
+      v-for="link in links"
+      :key="link.name"
+      :href="link.href"
+      class="font-semibold dark:text-white flex py-1 md:py-0 w-full md:w-auto colors-transition"
+      :class="[{'underline': link.href === currentUrl}]"
+      tabindex="0"
+      @click="toggleSidebar()"
+    >
+      {{ link.label }}
+    </inertia-link>
+    <app-link-button :href="'/report-dump'">
+      Prijavi odlagališče
+    </app-link-button>
+    <darkmode-toggle />
+  </div>
 </template>
 
 <script

@@ -1,9 +1,9 @@
 <template>
-    <span
-        class="hidden"
-        hidden
-        aria-hidden="true"
-    >
-        <slot />
-    </span>
+  <span
+    class="hidden"
+    hidden
+    aria-hidden="true"
+  >
+    <slot />
+  </span>
 </template>

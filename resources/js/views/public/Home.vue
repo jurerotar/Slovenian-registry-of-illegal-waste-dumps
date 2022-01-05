@@ -1,8 +1,8 @@
 <template>
-    <div class="flex flex-col">
-        <app-head />
-        <interactive-map />
-    </div>
+  <div class="flex flex-col">
+    <app-head />
+    <interactive-map />
+  </div>
 </template>
 
 <script

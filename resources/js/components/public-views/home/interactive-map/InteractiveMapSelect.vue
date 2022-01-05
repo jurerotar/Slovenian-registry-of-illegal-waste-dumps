@@ -1,19 +1,19 @@
 <template>
-    <select
-        v-model="selectInput"
-        class="font-semibold h-10 duration-300 mb-4 lg:mb-0 transition-colors w-full md:w-96 outline-none
+  <select
+    v-model="selectInput"
+    class="font-semibold h-10 duration-300 mb-4 lg:mb-0 transition-colors w-full md:w-96 outline-none
         select-none p-2 rounded-md bg-gray-300 dark:bg-zinc-800 dark:text-white"
-        @change="updateStore"
+    @change="updateStore"
+  >
+    <option
+      v-for="option in options"
+      :key="option.id"
+      :value="option.sortBy"
+      :selected="option.sortBy === selected"
     >
-        <option
-            v-for="option in options"
-            :key="option.id"
-            :value="option.sortBy"
-            :selected="option.sortBy === selected"
-        >
-            {{ option.text }}
-        </option>
-    </select>
+      {{ option.text }}
+    </option>
+  </select>
 </template>
 
 <script setup lang="ts">

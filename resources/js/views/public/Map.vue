@@ -1,8 +1,8 @@
 <template>
-    <div class="">
-        <app-head />
-        Map
-    </div>
+  <div class="">
+    <app-head />
+    Map
+  </div>
 </template>
 
 <script setup>

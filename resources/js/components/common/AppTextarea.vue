@@ -1,9 +1,9 @@
 <template>
-    <textarea
-        ref="input"
-        :value="props.modelValue"
-        @input="updateValue($event.target.value)"
-    />
+  <textarea
+    ref="input"
+    :value="props.modelValue"
+    @input="updateValue($event.target.value)"
+  />
 </template>
 
 <script setup lang = "ts">

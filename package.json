@@ -1,42 +1,42 @@
 {
-    "private": true,
-    "scripts": {
-        "dev": "vite serve",
-        "start": "vite serve",
-        "build": "vite build",
-        "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix resources"
-    },
-    "devDependencies": {
-        "@inertiajs/inertia": "^0.10.1",
-        "@inertiajs/inertia-vue3": "^0.5.2",
-        "@inertiajs/progress": "^0.2.6",
-        "lodash": "^4.17.21",
-        "rollup-plugin-analyzer": "^4.0.0",
-        "vue-loader": "^16.8.1",
-        "@types/node": "^16.11.14",
-        "@vitejs/plugin-vue": "^1.10.2",
-        "autoprefixer": "^10.4.0",
-        "axios": "^0.21.4",
-        "dotenv": "^10.0.0",
-        "eslint": "^8.5.0",
-        "eslint-plugin-vue": "^8.2.0",
-        "eslint-plugin-vuejs-accessibility": "^1.1.0",
-        "laravel-vite": "^0.0.22",
-        "postcss": "^8.4.5",
-        "postcss-import": "^14.0.2",
-        "rollup-plugin-visualizer": "^5.5.2",
-        "sass": "^1.45.0",
-        "tailwindcss": "^3.0.7",
-        "vite": "^2.7.3",
-        "vue": "^3.2.26",
-        "@vue/eslint-config-typescript": "^9.1.0"
-    },
-    "dependencies": {
-        "@fortawesome/fontawesome-svg-core": "^1.2.35",
-        "@fortawesome/free-brands-svg-icons": "^5.15.3",
-        "@fortawesome/free-regular-svg-icons": "^5.15.3",
-        "@fortawesome/free-solid-svg-icons": "^5.15.3",
-        "@fortawesome/vue-fontawesome": "^3.0.0-4",
-        "vuex": "^4.0.2"
-    }
+  "private": true,
+  "scripts": {
+    "dev": "vite serve",
+    "start": "vite serve",
+    "build": "vite build",
+    "lint": "eslint --ext .vue,ts --fix resources/js"
+  },
+  "devDependencies": {
+    "@inertiajs/inertia": "^0.10.1",
+    "@inertiajs/inertia-vue3": "^0.5.2",
+    "@inertiajs/progress": "^0.2.6",
+    "lodash": "^4.17.21",
+    "rollup-plugin-analyzer": "^4.0.0",
+    "vue-loader": "^16.8.1",
+    "@types/node": "^16.11.14",
+    "@vitejs/plugin-vue": "^1.10.2",
+    "autoprefixer": "^10.4.0",
+    "axios": "^0.21.4",
+    "dotenv": "^10.0.0",
+    "eslint": "^8.5.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "eslint-plugin-vuejs-accessibility": "^1.1.0",
+    "laravel-vite": "^0.0.22",
+    "postcss": "^8.4.5",
+    "postcss-import": "^14.0.2",
+    "rollup-plugin-visualizer": "^5.5.2",
+    "sass": "^1.45.0",
+    "tailwindcss": "^3.0.7",
+    "vite": "^2.7.3",
+    "vue": "^3.2.26",
+    "@vue/eslint-config-typescript": "^9.1.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-brands-svg-icons": "^5.15.3",
+    "@fortawesome/free-regular-svg-icons": "^5.15.3",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/vue-fontawesome": "^3.0.0-4",
+    "vuex": "^4.0.2"
+  }
 }

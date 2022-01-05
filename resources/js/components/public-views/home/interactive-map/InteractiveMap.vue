@@ -1,80 +1,80 @@
 <template>
-    <div class="flex flex-col max-w-[1400px] gap-4">
-        <div class="flex flex-col gap-4">
-            <app-section-heading>
-                Interaktivni zemljevid odlagališč
-            </app-section-heading>
-            <p class="dark:text-white">
-                Regije so obarvane z različnimi barvami, ki korelirajo z izračunano vrednostjo pri izbranem kriteriju,
-                kjer so regije z boljšimi rezultati obarvane bolj
-                <span
-                    class="font-semibold"
-                    style="color:#02cf45"
-                >
-                    zeleno
-                </span>,
-                regije z slabšim rezultatom pa bolj
-                <span
-                    class="font-semibold"
-                    style="color:#ff0000"
-                >
-                    rdeče
-                </span>.
-            </p>
-            <p class="dark:text-white text-lg font-semibold">
-                Prikaži stanje v regijah po:
-            </p>
-        </div>
-        <region-map-select />
-
-        <svg viewBox="28 192 900 600">
-            <g
-                v-for="region in regionShapes"
-                :key="region.id"
-                stroke="#FFF"
-                stroke-width=".4"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-            >
-                <!-- Link around each region -->
-                <inertia-link
-                    :href="url(region.id)"
-                    :title="`${region.name} regija`"
-                    :aria-label="`${region.name} regija`"
-                >
-                    <path
-                        :fill="color(region.id)"
-                        class="colors-transition"
-                        :d="region.path"
-                    />
-                    <svg
-                        :x="region.flagCoordinates.x"
-                        :y="region.flagCoordinates.y"
-                        width="70"
-                        height="65"
-                        text-anchor="middle"
-                    >
-                        <svg viewBox="0 0 34.21 29.62">
-                            <polygon
-                                class="svg-poly"
-                                points="0 0 0 20.84 27.35 20.84 34.21 29.62 34.21 20.84 34.21 0 0 0"
-                            />
-                        </svg>
-                        <text
-                            x="50%"
-                            y="47%"
-                            class="svg-text"
-                        >
-                            {{ amount(region.id) }}
-                            <tspan v-if="unit">
-                                {{ unit }}
-                            </tspan>
-                        </text>
-                    </svg>
-                </inertia-link>
-            </g>
-        </svg>
+  <div class="flex flex-col max-w-[1400px] gap-4">
+    <div class="flex flex-col gap-4">
+      <app-section-heading>
+        Interaktivni zemljevid odlagališč
+      </app-section-heading>
+      <p class="dark:text-white">
+        Regije so obarvane z različnimi barvami, ki korelirajo z izračunano vrednostjo pri izbranem kriteriju,
+        kjer so regije z boljšimi rezultati obarvane bolj
+        <span
+          class="font-semibold"
+          style="color:#02cf45"
+        >
+          zeleno
+        </span>,
+        regije z slabšim rezultatom pa bolj
+        <span
+          class="font-semibold"
+          style="color:#ff0000"
+        >
+          rdeče
+        </span>.
+      </p>
+      <p class="dark:text-white text-lg font-semibold">
+        Prikaži stanje v regijah po:
+      </p>
     </div>
+    <region-map-select />
+
+    <svg viewBox="28 192 900 600">
+      <g
+        v-for="region in regionShapes"
+        :key="region.id"
+        stroke="#FFF"
+        stroke-width=".4"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <!-- Link around each region -->
+        <inertia-link
+          :href="url(region.id)"
+          :title="`${region.name} regija`"
+          :aria-label="`${region.name} regija`"
+        >
+          <path
+            :fill="color(region.id)"
+            class="colors-transition"
+            :d="region.path"
+          />
+          <svg
+            :x="region.flagCoordinates.x"
+            :y="region.flagCoordinates.y"
+            width="70"
+            height="65"
+            text-anchor="middle"
+          >
+            <svg viewBox="0 0 34.21 29.62">
+              <polygon
+                class="svg-poly"
+                points="0 0 0 20.84 27.35 20.84 34.21 29.62 34.21 20.84 34.21 0 0 0"
+              />
+            </svg>
+            <text
+              x="50%"
+              y="47%"
+              class="svg-text"
+            >
+              {{ amount(region.id) }}
+              <tspan v-if="unit">
+                {{ unit }}
+              </tspan>
+            </text>
+          </svg>
+        </inertia-link>
+      </g>
+    </svg>
+  </div>
 </template>
 
 

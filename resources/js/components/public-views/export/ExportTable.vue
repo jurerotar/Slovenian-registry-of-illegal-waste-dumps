@@ -1,58 +1,58 @@
 <template>
-    <table class="min-w-table tbl w-full colors-transition dark:text-white">
-        <tr>
-            <th class="text-left w-32 md:w-44 ">
-                Ime
-            </th>
-            <th class="text-left w-20">
-                Vrsta
-            </th>
-            <th class="text-left w-20">
-                Število vnosov
-            </th>
-            <th class="text-left w-20">
-                Posodobljeno
-            </th>
-            <th class="text-left w-20">
-                Končnica
-            </th>
-            <th class="text-left w-20">
-                Prenos
-            </th>
-        </tr>
-        <tr
-            v-for="row in props.data"
-            :key="row.id"
+  <table class="min-w-table tbl w-full colors-transition dark:text-white">
+    <tr>
+      <th class="text-left w-32 md:w-44 ">
+        Ime
+      </th>
+      <th class="text-left w-20">
+        Vrsta
+      </th>
+      <th class="text-left w-20">
+        Število vnosov
+      </th>
+      <th class="text-left w-20">
+        Posodobljeno
+      </th>
+      <th class="text-left w-20">
+        Končnica
+      </th>
+      <th class="text-left w-20">
+        Prenos
+      </th>
+    </tr>
+    <tr
+      v-for="row in props.data"
+      :key="row.id"
+    >
+      <td class="text-left w-32 md:w-44">
+        {{ row.name }}
+      </td>
+      <td class="text-left w-20">
+        {{ type(row.type) }}
+      </td>
+      <td class="text-left w-20">
+        {{ row.dump_count }}
+      </td>
+      <td class="text-left w-20">
+        {{ niceDate(row.updated_at) }}
+      </td>
+      <td class="text-left w-20">
+        json
+      </td>
+      <td class="text-left">
+        <app-button
+          class="font-semibold rounded-lg px-4 py-2 text-white text-center colors-transition inline-flex"
+          :disabled="!hasAgreed"
         >
-            <td class="text-left w-32 md:w-44">
-                {{ row.name }}
-            </td>
-            <td class="text-left w-20">
-                {{ type(row.type) }}
-            </td>
-            <td class="text-left w-20">
-                {{ row.dump_count }}
-            </td>
-            <td class="text-left w-20">
-                {{ niceDate(row.updated_at) }}
-            </td>
-            <td class="text-left w-20">
-                json
-            </td>
-            <td class="text-left">
-                <app-button
-                    class="font-semibold rounded-lg px-4 py-2 text-white text-center colors-transition inline-flex"
-                    :disabled="!hasAgreed"
-                >
-                    <font-awesome-icon
-                        :icon="['fas', 'download']"
-                        class="mr-2 h-5 w-5"
-                    />
-                    Prenesi
-                </app-button>
-            </td>
-        </tr>
-    </table>
+          <font-awesome-icon
+            :icon="['fas', 'download']"
+            class="mr-2 h-5 w-5"
+          />
+          Prenesi
+        </app-button>
+      </td>
+    </tr>
+  </table>
 </template>
 
 <script setup lang = "ts">
