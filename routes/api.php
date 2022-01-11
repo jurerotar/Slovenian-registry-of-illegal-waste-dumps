@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\API\DownloadsController;
 use App\Http\Controllers\API\PublicPagesController;
 use App\Http\Controllers\API\UserPreferencesController;
 use Illuminate\Support\Facades\Route;
@@ -21,7 +20,25 @@ Route::group(['prefix' => 'preferences'], function () {
 
 
 // Downloads
-Route::group(['prefix' => 'downloads'], function () {
-    Route::get('/{slug}', [DownloadsController::class, 'export'])
-        ->name('downloads.export');
+Route::group(['prefix' => 'exports'], function () {
+    Route::get('/', [])
+        ->name('api.exports.list');
+
+    Route::get('/all', [])
+        ->name('api.exports.all');
+
+    Route::group(['prefix' => 'regions'], function () {
+        Route::get('/', [])
+            ->name('api.exports.list.regions');
+        Route::get('/{region:slug}', [])
+            ->name('api.exports.region');
+    });
+
+    Route::group(['prefix' => 'municipalities'], function () {
+        Route::get('/', [])
+            ->name('api.exports.list.municipalities');
+        Route::get('/{municipality:slug}', [])
+            ->name('api.exports.municipality');
+    });
+
 });

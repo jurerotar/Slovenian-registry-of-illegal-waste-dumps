@@ -11,7 +11,7 @@ class ExportDataService
 {
     public function __invoke(): Collection
     {
-        return AppCache::get('export_page_data', function (): Collection {
+        return AppCache::get('export_view_data', function (): Collection {
             return Region::with([
                 'municipalities:id,slug,name,region_id',
                 'municipalities.dumps' => fn(HasMany $dumps): HasMany => $dumps->orderByDesc('updated_at'),
